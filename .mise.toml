@@ -1,0 +1,3 @@
+# 網站本身是純靜態、不需 build;node 只用於本地跑解析測試 (scripts/../tests)。
+[tools]
+node = "22"

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>災防告警地圖 — CBS 訊息逐筆檢視</title>
+<meta name="description" content="以 OpenStreetMap 呈現台灣災防告警細胞廣播（CBS）訊息的發布範圍，可回顧 2017 年以來的歷史月彙整。">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📡</text></svg>">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">📡</span>
+    <div>
+      <h1>災防告警地圖</h1>
+      <p class="brand-sub">CBS 細胞廣播訊息・逐筆發布範圍</p>
+    </div>
+  </div>
+
+  <div class="mode" role="tablist" aria-label="資料範圍">
+    <button role="tab" id="tab-latest" class="mode-btn is-on" data-mode="latest">最新告警</button>
+    <button role="tab" id="tab-archive" class="mode-btn" data-mode="archive">歷史回顧</button>
+  </div>
+
+  <label class="month-pick" hidden>
+    <span class="sr-only">選擇月份</span>
+    <select id="month-select"></select>
+  </label>
+
+  <div class="topbar-meta">
+    <span id="mirror-time" class="meta-time"></span>
+    <a class="src-link" href="https://cbs.tw/" target="_blank" rel="noopener">資料來源 NCDR / cbs.tw</a>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="panel" aria-label="告警清單">
+    <div class="filters">
+      <div class="search-row">
+        <input id="search" type="search" placeholder="搜尋標題、發布單位、內文…" autocomplete="off">
+        <button id="reset" class="ghost-btn" title="清除所有篩選">清除</button>
+      </div>
+      <div id="event-chips" class="chips" role="group" aria-label="事件類型篩選"></div>
+      <div id="daybar-wrap" class="daybar-wrap" hidden>
+        <div class="daybar-head"><span>依日期</span><button id="day-all" class="link-btn">整月</button></div>
+        <div id="daybar" class="daybar"></div>
+      </div>
+      <p id="summary" class="summary"></p>
+    </div>
+    <div id="list" class="list" tabindex="0"></div>
+  </section>
+
+  <section class="map-wrap" aria-label="地圖">
+    <div id="map"></div>
+    <div class="map-tools">
+      <button id="fit-all" class="map-btn" title="縮放到目前所有結果">全覽</button>
+    </div>
+    <div id="legend" class="legend"></div>
+  </section>
+</main>
+
+<div id="status" class="status" role="status" aria-live="polite"></div>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>
