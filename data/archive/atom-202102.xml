@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202102</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:21:07+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2021年2月 月彙整]]></description>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102281200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-28T12:02:00+08:00</sent>
+    <expires>2021-02-28T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cd05</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102271200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-27T12:02:00+08:00</sent>
+    <expires>2021-02-27T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cd04</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102261200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-26T12:02:00+08:00</sent>
+    <expires>2021-02-26T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cd03</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102251200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-25T12:02:00+08:00</sent>
+    <expires>2021-02-25T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cd02</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102241200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-24T12:02:00+08:00</sent>
+    <expires>2021-02-24T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cd01</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102231200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-23T12:02:00+08:00</sent>
+    <expires>2021-02-23T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cd00</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102221200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-22T12:02:00+08:00</sent>
+    <expires>2021-02-22T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccff</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102211200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-21T12:02:00+08:00</sent>
+    <expires>2021-02-21T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccfe</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102201200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-20T12:02:00+08:00</sent>
+    <expires>2021-02-20T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccfd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102191200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-19T12:02:00+08:00</sent>
+    <expires>2021-02-19T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccfc</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102181200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-18T12:01:00+08:00</sent>
+    <expires>2021-02-18T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccfb</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102171200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-17T12:02:00+08:00</sent>
+    <expires>2021-02-17T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccfa</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102161200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-16T12:01:00+08:00</sent>
+    <expires>2021-02-16T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccf9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102151200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-15T12:01:00+08:00</sent>
+    <expires>2021-02-15T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccf8</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102141200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-14T12:01:00+08:00</sent>
+    <expires>2021-02-14T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccf7</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102131200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-13T12:01:00+08:00</sent>
+    <expires>2021-02-13T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccf6</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102121900_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-12T19:02:00+08:00</sent>
+    <expires>2021-02-12T19:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccf5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102121200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-12T12:01:00+08:00</sent>
+    <expires>2021-02-12T12:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccf4</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102120700_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-12T07:02:00+08:00</sent>
+    <expires>2021-02-12T07:15:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccf3</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102101200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-10T12:01:00+08:00</sent>
+    <expires>2021-02-11T11:55:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccf2</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_202102091200_F00001</id>
+    <title>土石流</title>
+    <sent>2021-02-09T12:02:00+08:00</sent>
+    <expires>2021-02-10T11:55:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區華陵里</areaDesc>
+      <circle>24.658429,121.392609 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccf1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246</text>
+    <description type="html"><![CDATA[[土石流警戒]桃園市復興區華陵里光華道路5K崩塌風險高，可能造成坡地土砂災害，請提高警覺。農委會0800-246246]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010210-1</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:47+08:00</sent>
+    <expires>2021-02-07T01:39:45+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccf0</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010210</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:47+08:00</sent>
+    <expires>2021-02-07T01:39:45+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccef</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010209-1</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:40+08:00</sent>
+    <expires>2021-02-07T01:39:38+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccee</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010209</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:40+08:00</sent>
+    <expires>2021-02-07T01:39:38+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cced</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010206</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:38+08:00</sent>
+    <expires>2021-02-07T01:39:34+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccec</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010208-1</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:37+08:00</sent>
+    <expires>2021-02-07T01:39:35+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4ccea</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010208</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:37+08:00</sent>
+    <expires>2021-02-07T01:39:35+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cce9</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010205</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:37+08:00</sent>
+    <expires>2021-02-07T01:39:34+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cceb</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東北地區發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010207-1</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:37+08:00</sent>
+    <expires>2021-02-07T01:39:34+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cce8</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010207</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:37+08:00</sent>
+    <expires>2021-02-07T01:39:34+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cce7</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010204</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:36+08:00</sent>
+    <expires>2021-02-07T01:39:34+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cce6</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010203</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:35+08:00</sent>
+    <expires>2021-02-07T01:39:32+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cce5</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東北地區發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010202</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:33+08:00</sent>
+    <expires>2021-02-07T01:39:31+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cce4</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東北地區發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_110010201</id>
+    <title>強震</title>
+    <sent>2021-02-07T01:36:31+08:00</sent>
+    <expires>2021-02-07T01:39:27+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21021ea4cce3</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]02/07 01:36左右東北地區發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+</feed>

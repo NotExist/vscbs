@@ -1,0 +1,2876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202511</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-12-01T00:00:04+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2025年11月 月彙整]]></description>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114094001</id>
+    <title>強震</title>
+    <sent>2025-11-19T20:25:39+08:00</sent>
+    <expires>2025-11-19T20:28:38+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3d69</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]11/19 20:25左右花蓮地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A2025111315505331041514500</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-13T15:52:01+08:00</sent>
+    <expires>2025-11-13T17:50:08+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.740944294977215,121.50152838088177 23.746599069448962,121.49363410577512 23.749112223742124,121.48127784908641 23.73874514972068,121.4775023262093 23.713295198124133,121.47853201426673 23.713295198124133,121.45553564765164 23.715808994689343,121.42739084074964 23.719265385856836,121.4170939601757 23.713609425344224,121.41091583183137 23.705753517770795,121.40954291442152 23.699468451155965,121.40542416219192 23.695697265910944,121.39993249255254 23.6931830818907,121.39100852938846 23.6931830818907,121.38071164881455 23.69506872444493,121.37144445629808 23.68532594480003,121.36663924536356 23.68186865472916,121.37796581399483 23.681554351094462,121.39066530003602 23.682811561096038,121.39787311643772 23.680925741556536,121.40919968506908 23.67401083702214,121.41778041888064 23.669295919588027,121.42601792333976 23.66646688748951,121.43734449197106 23.664580832078048,121.45347627153683 23.66583820537556,121.46754867498787 23.676839705835434,121.47887524361917 23.68375446065691,121.48985858289801 23.695697265910944,121.49466379383249 23.70826745966097,121.50015546347191 23.7195795986932,121.50290129829163 23.740944294977215,121.50152838088177</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3d45</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖下方今日新形成堰塞湖，已蓄滿向下溢流中，馬太鞍溪水位將有顯著抬升，持續發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府的管制、疏散、撤離及收容等避難作業，民眾與河道搶險作業人員應遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖下方今日新形成堰塞湖，已蓄滿向下溢流中，馬太鞍溪水位將有顯著抬升，持續發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府的管制、疏散、撤離及收容等避難作業，民眾與河道搶險作業人員應遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111313292053341513860</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-13T13:31:01+08:00</sent>
+    <expires>2025-11-13T15:30:36+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.747200434139703,121.50115077979842 23.752854936980974,121.48810806440483 23.752854936980974,121.48261639476543 23.70824052318201,121.47678149577352 23.713582489968257,121.4325049093057 23.71609628099662,121.4125976068628 23.70572658077287,121.41156791880542 23.696298865407055,121.40195749693643 23.69378469297221,121.38582571737064 23.695041785241774,121.36660487363268 23.686870469147124,121.36076997464079 23.68089879943586,121.37243977262459 23.68027018674355,121.38616894672313 23.678384330519084,121.40813562528079 23.674298215321567,121.41843250585471 23.661096046956704,121.41877573520716 23.65858119706454,121.44623408340425 23.662353453766386,121.46133617491263 23.671783619386034,121.47643826642107 23.685927592079874,121.48913775246218 23.712011345973806,121.4994346330361 23.747200434139703,121.50115077979842</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3d41</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖下方今日新形成堰塞湖，若潰決馬太鞍溪水位抬升將顯著，持續發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府的管制、疏散、撤離及收容等避難作業，民眾與河道搶險作業人員應遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖下方今日新形成堰塞湖，若潰決馬太鞍溪水位抬升將顯著，持續發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府的管制、疏散、撤離及收容等避難作業，民眾與河道搶險作業人員應遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111313050492541513790</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-13T13:06:02+08:00</sent>
+    <expires>2025-11-13T15:05:41+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.69820631672599,121.36561310656099 23.689406629955055,121.36012143692153 23.683435076197284,121.3683589413807 23.67997773608147,121.3786558219546 23.679663427897534,121.40130895921719 23.677463249438166,121.4201865736027 23.662689663289093,121.42224594971749 23.66206096301221,121.44524231633255 23.66331836054303,121.46858191230008 23.68186356930578,121.48642983862818 23.703548694307045,121.50015901272673 23.72334500986535,121.50668037042355 23.73277087877133,121.5073669225299 23.750992083047834,121.50359139965282 23.7550757963682,121.48608670267716 23.708576722786937,121.47784919821807 23.705120048393912,121.46755231764416 23.706377031495684,121.42911063016818 23.708576722786937,121.40851686902037 23.695692289215067,121.40302519938096 23.69380665566701,121.39616061233171 23.694435203209043,121.38517727305286 23.69820631672599,121.36561310656099</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3d3d</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖下方新形成一較小型堰塞湖，持續發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府疏散、撤離及收容等避難作業，民眾與河道搶險作業人員應遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖下方新形成一較小型堰塞湖，持續發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府疏散、撤離及收容等避難作業，民眾與河道搶險作業人員應遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111308170874441513070</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-13T08:18:02+08:00</sent>
+    <expires>2025-11-13T10:16:40+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3d19</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[Barrier Lake Warning]Mataian River Red Alert in this area Small barrier lake has newly formed! Follow government instructions immediatelyhttps://gov.tw/Vef .林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[Barrier Lake Warning]Mataian River Red Alert in this area Small barrier lake has newly formed! Follow government instructions immediatelyhttps://gov.tw/Vef .林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111307591809541513010</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-13T08:06:02+08:00</sent>
+    <expires>2025-11-13T10:05:41+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3d15</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖下方新形成一較小型堰塞湖，持續發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府疏散、撤離及收容等避難作業，民眾與河道搶險作業人員應遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖下方新形成一較小型堰塞湖，持續發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府疏散、撤離及收容等避難作業，民眾與河道搶險作業人員應遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111216214307041510570</id>
+    <title>翡翠水庫(水庫放水)</title>
+    <sent>2025-11-12T17:00:03+08:00</sent>
+    <expires>2025-11-12T17:10:00+08:00</expires>
+    <sender>
+      <value>臺北翡翠水庫管理局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.91383,121.57749 24.90773,121.56066 24.92345,121.54858 24.92482,121.53895 24.93546,121.54661 24.94942,121.54992 24.95708,121.54168 24.97051,121.53696 24.98097,121.52614 24.99216,121.53657 25.00383,121.53915 25.01301,121.53529 25.02468,121.52078 25.02639,121.50705 25.02063,121.49658 25.03638,121.49151 25.03729,121.47645 25.00913,121.48503 25.00353,121.49567 25.01318,121.5149 24.99926,121.52426 24.97797,121.51298 24.96635,121.52451 24.95133,121.53018 24.94558,121.51815 24.91373,121.52805 24.90826,121.53661 24.91191,121.54229 24.90057,121.55111 24.90188,121.58049 24.91383,121.57749</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3d11</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]翡翠水庫自11月12日19時00分進行放水，請水庫下游北勢溪、新店溪民眾加強注意並遠離河床，以策安全。Feitsui Reservoir will discharge at 19:00 on 11/12. Please keep away from Beishi and Xindian Creek.TFRA26667811</text>
+    <description type="html"><![CDATA[[水庫放水警戒]翡翠水庫自11月12日19時00分進行放水，請水庫下游北勢溪、新店溪民眾加強注意並遠離河床，以策安全。Feitsui Reservoir will discharge at 19:00 on 11/12. Please keep away from Beishi and Xindian Creek.TFRA26667811]]></description>
+  </entry>
+  <entry>
+    <id>MOENV_airQuality_202511121534</id>
+    <title>空品警報</title>
+    <sent>2025-11-12T15:34:41+08:00</sent>
+    <expires>2025-11-12T15:44:00+08:00</expires>
+    <sender>
+      <value>環境部</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airQuality</value>
+    </eventCode>
+    <area>
+      <areaDesc>大寮測站</areaDesc>
+      <circle>22.56413611,120.425311 20.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3d05</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[空氣品質不良通報]11/12 15:00您所在地區因地表揚塵空品不良，請避免外出及注意防護。環境部及環保局關心您。This area currently has unhealthy air condition.Please reduce outdoor activities.MOENV。07-3228612</text>
+    <description type="html"><![CDATA[AQI大於200]]></description>
+  </entry>
+  <entry>
+    <id>A2025111208360927941505820</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-11-12T09:00:01+08:00</sent>
+    <expires>2025-11-12T11:00:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.0381839097611,121.40107709485729 24.03584749235387,121.41177501722812 24.034279715223015,121.41469326063631 24.0231479475425,121.42911281630036 24.001195158787564,121.45812358900541 23.983630230722117,121.48593273207177 23.97139609754356,121.5051588062905 23.96739622510276,121.50108184858823 23.95939610782638,121.51017990156697 23.95076797402327,121.5218528752001 23.9478264328396,121.53116550490003 23.943649329113544,121.54348220869673 23.944747547891794,121.54713001295707 23.94333555060286,121.55017700239807 23.939687819423742,121.54507007643359 23.937574122397514,121.54870587903676 23.92329575580554,121.5740259321373 23.921961981594496,121.58621388990093 23.918509796151163,121.59574109632182 23.9054848114701,121.58844548780134 23.905955616916213,121.58398229200056 23.910506647816018,121.56801778394394 23.919372851161416,121.547847572152 23.926355538714375,121.53308469373404 23.931219659738243,121.52544576245964 23.94479115732129,121.50896627027217 23.953262813666683,121.49969655591673 23.961028009840806,121.49343091565792 23.9647143534053,121.4873369367761 23.953498129511793,121.46665174085328 23.9508311914603,121.43128949720098 23.97263571373256,121.42837125379279 23.987692798509517,121.41807157117562 24.006511678654967,121.38202268201552 24.0381839097611,121.40107709485729</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3d01</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電龍溪壩，將於11月12日10時00分起，排放水至木瓜溪，請下游民眾遠離河床，以策安全。[Reservoir discharge]10:00 Mugua River level rise. Plz stay away.1911,TAIPOWER(台電公司1911)。Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電龍溪壩，將於11月12日10時00分起，排放水至木瓜溪，請下游民眾遠離河床，以策安全。[Reservoir discharge]10:00 Mugua River level rise. Plz stay away.1911,TAIPOWER(台電公司1911)。Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511112130_F05007</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T21:34:40+08:00</sent>
+    <expires>2025-11-12T03:34:40+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市雙溪區三貂里</areaDesc>
+      <circle>25.07464,121.85191 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cf5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]新北市雙溪區三貂里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=F05007</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：雙溪區三貂里計6條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511112130_F02007</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T21:34:40+08:00</sent>
+    <expires>2025-11-12T03:34:40+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市萬里區溪底里</areaDesc>
+      <circle>25.14912,121.63571 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cf1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]新北市萬里區溪底里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=F02007</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：萬里區溪底里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511112130_G01020</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T21:34:40+08:00</sent>
+    <expires>2025-11-12T03:34:40+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉得安村</areaDesc>
+      <circle>24.64724,121.73897 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ced</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣冬山鄉得安村，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G01020</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉得安村計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511112130_G01014</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T21:34:40+08:00</sent>
+    <expires>2025-11-12T03:34:40+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉中山村</areaDesc>
+      <circle>24.62926,121.73645 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ce5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣冬山鄉中山村，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G01014</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉中山村計6條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511112130_G05004</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T21:34:40+08:00</sent>
+    <expires>2025-11-12T03:34:40+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉復興村</areaDesc>
+      <polygon>24.63625,121.65598 24.63277,121.65691 24.63006,121.6671 24.62139,121.67303 24.60314,121.66715 24.59478,121.65487 24.59627,121.65019 24.59197,121.6444 24.58984,121.62611 24.58592,121.61889 24.5886,121.61374 24.60405,121.60951 24.59992,121.5992 24.59814,121.5749 24.59963,121.57128 24.60697,121.5706 24.61588,121.56301 24.60934,121.56256 24.60902,121.55508 24.61792,121.54472 24.62389,121.54899 24.62248,121.55269 24.62675,121.55947 24.63641,121.55557 24.64157,121.56485 24.6371,121.578 24.63957,121.58927 24.6315,121.59825 24.63655,121.60819 24.62497,121.6249 24.63352,121.6247 24.63929,121.62924 24.63625,121.65598</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cfd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣大同鄉復興村，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G05004</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉復興村計3條土石流潛勢溪流達紅色警戒，2條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511112130_G05001</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T21:34:40+08:00</sent>
+    <expires>2025-11-12T03:34:39+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉寒溪村</areaDesc>
+      <polygon>24.63758,121.67986 24.62629,121.69211 24.6239,121.70706 24.6169,121.71539 24.61927,121.71814 24.6183,121.72435 24.60788,121.72386 24.5995,121.73181 24.59217,121.7341 24.58229,121.75212 24.58168,121.75893 24.57587,121.76579 24.57697,121.76164 24.57352,121.75969 24.57227,121.75192 24.56549,121.74792 24.56777,121.74361 24.56609,121.73622 24.57736,121.7236 24.57215,121.71752 24.58099,121.70468 24.57321,121.68867 24.56132,121.68049 24.56244,121.66551 24.55645,121.66865 24.51118,121.65676 24.50326,121.6475 24.50217,121.63653 24.49766,121.6305 24.49268,121.62923 24.51172,121.61816 24.52285,121.58066 24.53859,121.59889 24.55127,121.60684 24.55477,121.61541 24.57186,121.61226 24.5861,121.6169 24.59197,121.6444 24.59635,121.65052 24.59478,121.65487 24.60329,121.66725 24.62139,121.67303 24.63006,121.6671 24.63277,121.65691 24.63625,121.65598 24.63758,121.67986</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ce9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣大同鄉寒溪村，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G05001</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉寒溪村計3條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>A2025111117524668741498910</id>
+    <title>颱風強風</title>
+    <sent>2025-11-11T19:00:03+08:00</sent>
+    <expires>2025-11-11T20:00:00+08:00</expires>
+    <sender>
+      <value>交通部中央氣象署氣象預報中心</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>HurricFrcWnd</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001322</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ce1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[颱風強風告警]因受颱風強風影響，您所在地之沿岸將出現6米以上颱風巨浪，請遠離沿岸地區。High waves over 6 meters from typhoon are expected near your location. Avoid coastal areas.氣象署02_2349_1234</text>
+    <description type="html"><![CDATA[[颱風強風告警]因受颱風強風影響，您所在地之沿岸將出現6米以上颱風巨浪，請遠離沿岸地區。High waves over 6 meters from typhoon are expected near your location. Avoid coastal areas.氣象署02_2349_1234]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20251111185441_000</id>
+    <title>雷雨</title>
+    <sent>2025-11-11T18:55:08+08:00</sent>
+    <expires>2025-11-11T22:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣(宜蘭市 礁溪鄉 壯圍鄉等共9鄉鎮區)</areaDesc>
+      <polygon>24.78,121.8 24.74,121.81 24.7,121.8 24.63,121.83 24.61,121.85 24.54,121.85 24.54,121.78 24.79,121.73 24.79,121.81 24.78,121.8</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cdd</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至11/11 22:00，氣象署Watch out for extremely heavy rain in area(s) nearby until Nov. 11, 22:00.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 11 月 11 日 18 時 54 分 氣象署發布大雷雨即時訊息，持續時間至 22 時 0 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_F05007</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:40+08:00</sent>
+    <expires>2025-11-12T00:20:39+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市雙溪區三貂里</areaDesc>
+      <circle>25.07464,121.85191 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ccd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]新北市雙溪區三貂里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=F05007</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：雙溪區三貂里計6條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_F18030</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:40+08:00</sent>
+    <expires>2025-11-12T00:20:39+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區瑞濱里</areaDesc>
+      <circle>25.11808,121.81676 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cd1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]新北市瑞芳區瑞濱里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=F18030</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區瑞濱里計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_F18034</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:40+08:00</sent>
+    <expires>2025-11-12T00:20:39+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區新峰里</areaDesc>
+      <circle>25.10294,121.81656 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cd9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]新北市瑞芳區新峰里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=F18034</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區新峰里計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_F18014</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:39+08:00</sent>
+    <expires>2025-11-12T00:20:39+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區猴硐里</areaDesc>
+      <circle>25.08443,121.82997 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cd5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]新北市瑞芳區猴硐里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=F18014</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區猴硐里計5條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_F18013</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:39+08:00</sent>
+    <expires>2025-11-12T00:20:39+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區傑魚里</areaDesc>
+      <circle>25.09683,121.78997 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ca1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]新北市瑞芳區傑魚里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=F18013</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區傑魚里計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_F18009</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:39+08:00</sent>
+    <expires>2025-11-12T00:20:39+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區東和里</areaDesc>
+      <circle>25.10269,121.80324 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cbd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]新北市瑞芳區東和里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=F18009</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區東和里計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_F18015</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:39+08:00</sent>
+    <expires>2025-11-12T00:20:39+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區光復里</areaDesc>
+      <circle>25.08807,121.82642 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ca9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]新北市瑞芳區光復里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=F18015</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區光復里計3條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_F18016</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:39+08:00</sent>
+    <expires>2025-11-12T00:20:38+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區弓橋里</areaDesc>
+      <circle>25.09242,121.83557 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cc9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]新北市瑞芳區弓橋里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=F18016</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區弓橋里計3條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_G09011</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:38+08:00</sent>
+    <expires>2025-11-12T00:20:38+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮蘇北里</areaDesc>
+      <circle>24.60142,121.84939 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cb9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣蘇澳鎮蘇北里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G09011</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮蘇北里計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_G09027</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:38+08:00</sent>
+    <expires>2025-11-12T00:20:38+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖愛里</areaDesc>
+      <circle>24.58842,121.83334 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cc1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣蘇澳鎮聖愛里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G09027</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖愛里計3條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_G09009</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:38+08:00</sent>
+    <expires>2025-11-12T00:20:38+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖湖里</areaDesc>
+      <circle>24.58842,121.83334 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cb5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣蘇澳鎮聖湖里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G09009</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖湖里計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_G09023</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:38+08:00</sent>
+    <expires>2025-11-12T00:20:38+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮南建里</areaDesc>
+      <circle>24.57443,121.86768 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cc5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣蘇澳鎮南建里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G09023</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮南建里計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_G09014</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:38+08:00</sent>
+    <expires>2025-11-12T00:20:38+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮長安里</areaDesc>
+      <circle>24.58643,121.85586 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c9d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣蘇澳鎮長安里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G09014</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮長安里計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_G01006</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:38+08:00</sent>
+    <expires>2025-11-12T00:20:38+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉東城村</areaDesc>
+      <circle>24.61541,121.80363 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c99</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣冬山鄉東城村，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G01006</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉東城村計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_G01010</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:38+08:00</sent>
+    <expires>2025-11-12T00:20:38+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉安平村</areaDesc>
+      <circle>24.6088,121.79638 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ca5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣冬山鄉安平村，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G01010</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉安平村計2條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111830_G01011</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T18:20:38+08:00</sent>
+    <expires>2025-11-12T00:20:38+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉太和村</areaDesc>
+      <circle>24.6216,121.7626 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3cb1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣冬山鄉太和村，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G01011</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉太和村計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20251111174546_000</id>
+    <title>雷雨</title>
+    <sent>2025-11-11T17:46:07+08:00</sent>
+    <expires>2025-11-11T19:45:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣(宜蘭市 壯圍鄉 羅東鎮等共7鄉鎮區)</areaDesc>
+      <polygon>24.7,121.8 24.69,121.81 24.66,121.81 24.64,121.83 24.64,121.74 24.68,121.72 24.72,121.75 24.72,121.8 24.7,121.8</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c95</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至11/11 19:45，氣象署Watch out for extremely heavy rain in area(s) nearby until Nov. 11, 19:45.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 11 月 11 日 17 時 45 分 氣象署發布大雷雨即時訊息，持續時間至 19 時 45 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20251111172101_000</id>
+    <title>雷雨</title>
+    <sent>2025-11-11T17:21:24+08:00</sent>
+    <expires>2025-11-11T19:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區 新北市雙溪區</areaDesc>
+      <polygon>25.08,121.86 25.09,121.79 25.12,121.8 25.12,121.88 25.08,121.86</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c91</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至11/11 19:15，氣象署Watch out for extremely heavy rain in area(s) nearby until Nov. 11, 19:15.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 11 月 11 日 17 時 20 分 氣象署發布大雷雨即時訊息，持續時間至 19 時 15 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20251111170621_000</id>
+    <title>雷雨</title>
+    <sent>2025-11-11T17:07:02+08:00</sent>
+    <expires>2025-11-11T19:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉 宜蘭縣蘇澳鎮 宜蘭縣南澳鄉</areaDesc>
+      <polygon>24.6,121.86 24.52,121.85 24.52,121.83 24.61,121.79 24.6,121.86</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c8d</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至11/11 19:00，氣象署Watch out for extremely heavy rain in area(s) nearby until Nov. 11, 19:00.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 11 月 11 日 17 時 6 分 氣象署發布大雷雨即時訊息，持續時間至 19 時 0 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111530_F18030</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T15:22:37+08:00</sent>
+    <expires>2025-11-11T21:22:37+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區瑞濱里</areaDesc>
+      <circle>25.11808,121.81676 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c71</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]新北市瑞芳區瑞濱里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=F18030</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區瑞濱里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111530_F18034</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T15:22:37+08:00</sent>
+    <expires>2025-11-11T21:22:37+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區新峰里</areaDesc>
+      <circle>25.10294,121.81656 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c75</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]新北市瑞芳區新峰里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=F18034</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區新峰里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111530_F18014</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T15:22:37+08:00</sent>
+    <expires>2025-11-11T21:22:37+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區猴硐里</areaDesc>
+      <circle>25.08443,121.82997 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c7d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]新北市瑞芳區猴硐里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=F18014</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區猴硐里計5條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111530_F18013</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T15:22:37+08:00</sent>
+    <expires>2025-11-11T21:22:37+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區傑魚里</areaDesc>
+      <circle>25.09683,121.78997 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c85</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]新北市瑞芳區傑魚里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=F18013</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區傑魚里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111530_F18009</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T15:22:37+08:00</sent>
+    <expires>2025-11-11T21:22:36+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區東和里</areaDesc>
+      <circle>25.10269,121.80324 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c69</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]新北市瑞芳區東和里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=F18009</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區東和里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111530_F18015</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T15:22:36+08:00</sent>
+    <expires>2025-11-11T21:22:36+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區光復里</areaDesc>
+      <circle>25.08807,121.82642 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c89</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]新北市瑞芳區光復里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=F18015</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區光復里計3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111530_F18016</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T15:22:36+08:00</sent>
+    <expires>2025-11-11T21:22:36+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區弓橋里</areaDesc>
+      <circle>25.09242,121.83557 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c79</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]新北市瑞芳區弓橋里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=F18016</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：瑞芳區弓橋里計3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111530_G09024</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T15:22:36+08:00</sent>
+    <expires>2025-11-11T21:22:36+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮東澳里</areaDesc>
+      <circle>24.49403,121.83874 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c6d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣蘇澳鎮東澳里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G09024</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮東澳里計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20251111145300_34</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T15:01:05+08:00</sent>
+    <expires>2025-11-11T20:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣頭城鎮</areaDesc>
+      <circle>24.978784,121.945586 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c65</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]宜蘭縣頭城鎮石城里石城火車站之1小時累積雨量23mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3ck</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]宜蘭縣頭城鎮石城里石城火車站之1小時累積雨量23mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3ck]]></description>
+  </entry>
+  <entry>
+    <id>A2025111111204182641492860</id>
+    <title>北水直潭壩(水庫放水)</title>
+    <sent>2025-11-11T11:30:02+08:00</sent>
+    <expires>2025-11-11T11:40:00+08:00</expires>
+    <sender>
+      <value>臺北自來水事業處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.91373,121.52805 24.93546,121.54661 24.94942,121.54992 24.95708,121.54168 24.97051,121.53696 24.98097,121.52614 24.99216,121.53657 25.00383,121.53915 25.01301,121.53529 25.02468,121.52078 25.02639,121.50705 25.02063,121.49658 25.03638,121.49151 25.03729,121.47645 25.00913,121.48503 25.00353,121.49567 25.01318,121.5149 24.99926,121.52426 24.97797,121.51298 24.96635,121.52451 24.95133,121.53018 24.94558,121.51815 24.91373,121.52805</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c61</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]北水處直潭壩因上游河川流量增加，自11月11日12時30分增加調節性放流，請直潭壩下游及新店溪沿岸民眾注意並遠離河床，以策安全。Zhitan Dam will discharge at 12:30 on 11/11. Please keep away from Xindian River.臺北自來水事業處02-87335678</text>
+    <description type="html"><![CDATA[[水庫放水警戒]北水處直潭壩因上游河川流量增加，自11月11日12時30分增加調節性放流，請直潭壩下游及新店溪沿岸民眾注意並遠離河床，以策安全。Zhitan Dam will discharge at 12:30 on 11/11. Please keep away from Xindian River.臺北自來水事業處02-87335678]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20251111111300_20</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T11:20:06+08:00</sent>
+    <expires>2025-11-11T17:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.068258,121.602592 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c5d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村加灣橋之1小時累積雨量26mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/BFc</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村加灣橋之1小時累積雨量26mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/BFc]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111100_G09017</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T11:14:35+08:00</sent>
+    <expires>2025-11-11T17:14:35+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮永樂里</areaDesc>
+      <circle>24.57365,121.83969 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c31</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣蘇澳鎮永樂里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G09017</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮永樂里計7條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111100_G09016</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T11:14:35+08:00</sent>
+    <expires>2025-11-11T17:14:35+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮永春里</areaDesc>
+      <circle>24.57815,121.8492 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c35</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣蘇澳鎮永春里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G09016</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮永春里計2條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111100_G04003</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T11:14:35+08:00</sent>
+    <expires>2025-11-11T17:14:35+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣南澳鄉東岳村</areaDesc>
+      <circle>24.52389,121.81564 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c39</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]宜蘭縣南澳鄉東岳村，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=G04003</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：南澳鄉東岳村計1條土石流潛勢溪流達紅色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111100_G01020</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T11:14:35+08:00</sent>
+    <expires>2025-11-11T17:14:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉得安村</areaDesc>
+      <circle>24.64724,121.73897 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c41</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣冬山鄉得安村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G01020</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉得安村計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111100_G01006</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T11:14:34+08:00</sent>
+    <expires>2025-11-11T17:14:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉東城村</areaDesc>
+      <circle>24.61541,121.80363 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c4d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣冬山鄉東城村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G01006</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉東城村計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111100_G01010</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T11:14:34+08:00</sent>
+    <expires>2025-11-11T17:14:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉安平村</areaDesc>
+      <circle>24.6088,121.79638 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c49</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣冬山鄉安平村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G01010</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉安平村計2條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111100_G01011</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T11:14:34+08:00</sent>
+    <expires>2025-11-11T17:14:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉太和村</areaDesc>
+      <circle>24.6216,121.7626 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c3d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣冬山鄉太和村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G01011</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉太和村計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111100_G01014</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T11:14:34+08:00</sent>
+    <expires>2025-11-11T17:14:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉中山村</areaDesc>
+      <circle>24.62926,121.73645 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c51</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣冬山鄉中山村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G01014</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉中山村計6條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511111100_G01024</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T11:14:34+08:00</sent>
+    <expires>2025-11-11T17:14:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣冬山鄉大進村</areaDesc>
+      <polygon>24.65217,121.72316 24.64399,121.72493 24.63709,121.7315 24.63064,121.72828 24.62506,121.72001 24.61708,121.72297 24.61927,121.71814 24.6169,121.71539 24.6239,121.70706 24.62629,121.69211 24.6359,121.68011 24.64233,121.69281 24.6414,121.70135 24.64988,121.70601 24.6484,121.69949 24.65131,121.70316 24.65432,121.69587 24.65847,121.69529 24.6577,121.70665 24.65086,121.71062 24.65398,121.71576 24.65217,121.72316</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c45</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣冬山鄉大進村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G01024</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：冬山鄉大進村計2條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>A2025111109543755841491090</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-11T10:00:03+08:00</sent>
+    <expires>2025-11-11T12:00:00+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c2d</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[Barrier Lake Warning]Mataian River Red Alert in this area. Please follow government instructions immediately，https://gov.tw/Vef .林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[Barrier Lake Warning]Mataian River Red Alert in this area. Please follow government instructions immediately，https://gov.tw/Vef .林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111109531129041491080</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-11T10:00:03+08:00</sent>
+    <expires>2025-11-11T12:00:00+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c29</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖持續發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府疏散、撤離及收容等避難作業，並遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖持續發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府疏散、撤離及收容等避難作業，並遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111109451209841490990</id>
+    <title>水庫放水</title>
+    <sent>2025-11-11T09:46:02+08:00</sent>
+    <expires>2025-11-11T09:53:31+08:00</expires>
+    <sender>
+      <value>經濟部水利署南區水資源分署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>22.05553387,120.7047306 22.05506718,120.7144077 22.05428827,120.7193893 22.05121159,120.7281043 22.05113872,120.7350077 22.06630033,120.7414307 22.07532633,120.7440826 22.07835553,120.7478337 22.08205424,120.7518785 22.08532907,120.755292 22.08738169,120.7575383 22.08900735,120.7605516 22.08895306,120.7646327 22.0896468,120.7674052 22.09378798,120.7704285 22.09975592,120.7699027 22.10775096,120.7677655 22.11072668,120.7697762 22.11565512,120.7723923 22.11561463,120.7835737 22.11762413,120.7915211 22.12623651,120.7930612 22.13234439,120.7894915 22.13883948,120.7880702 22.13655277,120.7770591 22.13226783,120.7759921 22.13140395,120.7742315 22.12989177,120.7725475 22.12944596,120.7683187 22.12080519,120.7619634 22.11611899,120.7611066 22.11307493,120.7595723 22.10947805,120.7592525 22.10712797,120.7583958 22.10549453,120.75685 22.10496487,120.7540639 22.10530084,120.7505186 22.10288039,120.7442152 22.09566553,120.7424292 22.09121312,120.7412897 22.08747036,120.7378398 22.08577991,120.7336401 22.08317884,120.7267346 22.09251875,120.715683 22.08909958,120.7057562 22.08601953,120.6996563 22.05553387,120.7047306</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c25</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒] 四重溪牡丹水庫自11月11日10時進行放水， 請下游沿岸民眾注意並遠離河床，以策安全。Mudan Reservoir will releasing water at 10:00, please keep away from the Sizhong river for safety.經濟部水利署南區水資源分署(牡管中心)08-8831352</text>
+    <description type="html"><![CDATA[[水庫放水警戒] 四重溪牡丹水庫自11月11日10時進行放水， 請下游沿岸民眾注意並遠離河床，以策安全。Mudan Reservoir will releasing water at 10:00, please keep away from the Sizhong river for safety.經濟部水利署南區水資源分署(牡管中心)08-8831352]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20251111093300_39</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T09:41:20+08:00</sent>
+    <expires>2025-11-11T15:33:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣玉里鎮</areaDesc>
+      <circle>23.36407,121.35022 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c1d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣玉里鎮東豐里坪頂部落之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/NTJ</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣玉里鎮東豐里坪頂部落之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/NTJ]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20251111093300_35</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T09:40:05+08:00</sent>
+    <expires>2025-11-11T15:33:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣卓溪鄉</areaDesc>
+      <circle>23.348367,121.303055 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c19</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣卓溪鄉卓溪村卓溪教會、卓溪8鄰部落之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/NTJ</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣卓溪鄉卓溪村卓溪教會、卓溪8鄰部落之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/NTJ]]></description>
+  </entry>
+  <entry>
+    <id>A2025111015065680441484010</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-11-11T08:00:03+08:00</sent>
+    <expires>2025-11-11T08:10:00+08:00</expires>
+    <sender>
+      <value>農業部農田水利署苗栗管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.6309880436986,120.893342857429 24.630319465303,120.896054188108 24.6273186809595,120.898671696985 24.628137484201,120.902561712275 24.628227625589,120.906803119814 24.6301247168885,120.910532994049 24.6283195541005,120.914329288584 24.6218488376165,120.915832490895 24.6219648680321,120.914811958012 24.6217312048838,120.914014887221 24.6222263357779,120.913249205593 24.622897033381,120.913631416277 24.6235672905446,120.913248280206 24.6235952697316,120.911239213779 24.6230692918169,120.90913487802 24.6233307201573,120.907603989815 24.6244076648104,120.904956341544 24.6251937306682,120.903361245299 24.6248135448443,120.901480031131 24.6234397474043,120.895996098503 24.6235555985907,120.894911755702 24.6230300936598,120.893796063124 24.6232335869438,120.89299865287 24.6228242357763,120.891276972161 24.6239322104249,120.891594910961 24.6269637010352,120.891273391635 24.6309880436986,120.893342857429</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c15</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]劍潭水庫自11月11日09時00分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 09:00 on11/11. Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735</text>
+    <description type="html"><![CDATA[[水庫放水警戒]劍潭水庫自11月11日09時00分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 09:00 on11/11. Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_U09005</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉銅門村</areaDesc>
+      <circle>23.96001,121.4986 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bc1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]花蓮縣秀林鄉銅門村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=U09005</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：秀林鄉銅門村計4條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_U09007</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉景美村</areaDesc>
+      <circle>24.09231,121.60431 4.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bf1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]花蓮縣秀林鄉景美村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=U09007</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：秀林鄉景美村計4條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_U09009</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉和平村</areaDesc>
+      <circle>24.2623,121.73042 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bf9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]花蓮縣秀林鄉和平村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=U09009</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：秀林鄉和平村計4條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_U09008</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉佳民村</areaDesc>
+      <circle>24.05052,121.5915 4.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bdd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]花蓮縣秀林鄉佳民村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=U09008</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：秀林鄉佳民村計4條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_U09002</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉富世村</areaDesc>
+      <polygon>24.30786,121.42269 24.29815,121.44297 24.28359,121.45168 24.26166,121.48149 24.25001,121.50577 24.24246,121.53538 24.2563,121.56954 24.24362,121.57622 24.23876,121.57584 24.23294,121.57087 24.22716,121.55918 24.22578,121.58003 24.22382,121.5839 24.20921,121.59196 24.20133,121.61771 24.20389,121.6255 24.20226,121.62761 24.18864,121.63143 24.15917,121.6274 24.14171,121.64193 24.13379,121.64113 24.14128,121.63325 24.13204,121.63604 24.13351,121.63072 24.12929,121.62166 24.12937,121.6145 24.13142,121.59639 24.13781,121.5826 24.13704,121.56401 24.14257,121.55206 24.13599,121.54159 24.11867,121.53722 24.11547,121.52676 24.12019,121.5059 24.12881,121.49688 24.12828,121.48597 24.1221,121.47965 24.12157,121.46998 24.11624,121.46228 24.09833,121.46652 24.08066,121.41687 24.07644,121.41256 24.06644,121.41146 24.05942,121.40315 24.06568,121.37846 24.08014,121.34473 24.08443,121.32268 24.09501,121.31895 24.10246,121.32565 24.11463,121.3284 24.11649,121.31566 24.13244,121.29586 24.13587,121.28137 24.15229,121.28468 24.15786,121.28033 24.15809,121.28839 24.17736,121.2862 24.18033,121.30708 24.18517,121.31578 24.19613,121.32561 24.19973,121.34939 24.21044,121.34937 24.22355,121.34301 24.23463,121.35233 24.24376,121.35252 24.24394,121.36066 24.25217,121.36702 24.25499,121.38505 24.26402,121.38568 24.28009,121.38075 24.28974,121.39083 24.28874,121.39658 24.29688,121.40345 24.30825,121.4051 24.30786,121.42269</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bc9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]花蓮縣秀林鄉富世村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=U09002</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：秀林鄉富世村計4條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_U09001</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:34+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉崇德村</areaDesc>
+      <polygon>24.21815,121.6929 24.20756,121.67394 24.19414,121.66331 24.17188,121.65847 24.15544,121.66421 24.14052,121.66513 24.12406,121.65647 24.12864,121.65288 24.13379,121.64113 24.14171,121.64193 24.15917,121.6274 24.18864,121.63143 24.20226,121.62761 24.20389,121.6255 24.20133,121.61771 24.20921,121.59196 24.22382,121.5839 24.22578,121.58003 24.22716,121.55918 24.23294,121.57087 24.23876,121.57584 24.24362,121.57622 24.2563,121.56954 24.25701,121.57807 24.27455,121.61552 24.26704,121.63091 24.25138,121.63774 24.24539,121.6442 24.23883,121.65554 24.23968,121.67483 24.22698,121.68288 24.21815,121.6929</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3be9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]花蓮縣秀林鄉崇德村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=U09001</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：秀林鄉崇德村計3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_U09006</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉文蘭村</areaDesc>
+      <polygon>23.94797,121.51185 23.94476,121.50702 23.93057,121.50624 23.92043,121.50125 23.90539,121.50488 23.89249,121.50232 23.88966,121.49832 23.88596,121.49847 23.87728,121.4819 23.86755,121.47514 23.86322,121.46589 23.85355,121.45969 23.84786,121.44786 23.84473,121.45059 23.84194,121.44721 23.83128,121.45321 23.82587,121.45304 23.82133,121.44932 23.82118,121.44212 23.81831,121.44086 23.82897,121.42862 23.84207,121.42218 23.84416,121.41825 23.84307,121.41122 23.84602,121.40606 23.83745,121.40057 23.84347,121.3787 23.84987,121.37637 23.86565,121.35965 23.87722,121.36038 23.88587,121.35014 23.88843,121.35413 23.89233,121.34749 23.89682,121.34587 23.89839,121.33673 23.90292,121.33725 23.90672,121.33035 23.91576,121.32976 23.91581,121.32086 23.9204,121.31443 23.92561,121.29557 23.92334,121.28427 23.92652,121.27456 23.93834,121.27206 23.94564,121.27433 23.9485,121.27175 23.96602,121.27775 23.96112,121.29497 23.96268,121.30574 23.97074,121.32437 23.97004,121.33392 23.9761,121.34152 23.9772,121.35426 23.9666,121.36329 23.96568,121.37357 23.97145,121.40517 23.97906,121.41768 23.96731,121.43699 23.95897,121.44332 23.94613,121.44671 23.91396,121.44587 23.91839,121.46937 23.93366,121.47824 23.94468,121.47999 23.96375,121.49573 23.94797,121.51185</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3be1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]花蓮縣秀林鄉文蘭村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=U09006</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：秀林鄉文蘭村計3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_U09003</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉秀林村</areaDesc>
+      <circle>24.12268,121.62442 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bad</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]花蓮縣秀林鄉秀林村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=U09003</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：秀林鄉秀林村計4條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_U09004</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉水源村</areaDesc>
+      <circle>24.01087,121.55619 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bd5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]花蓮縣秀林鄉水源村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=U09004</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：秀林鄉水源村計2條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G04002</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣南澳鄉碧候村</areaDesc>
+      <circle>24.48015,121.78833 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bd1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣南澳鄉碧候村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G04002</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：南澳鄉碧候村計4條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G04007</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:34+08:00</sent>
+    <expires>2025-11-11T12:13:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣南澳鄉澳花村</areaDesc>
+      <circle>24.3414,121.73732 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bbd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣南澳鄉澳花村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G04007</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：南澳鄉澳花村計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G04006</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:33+08:00</sent>
+    <expires>2025-11-11T12:13:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣南澳鄉金洋村</areaDesc>
+      <circle>24.42337,121.7518 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bb9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣南澳鄉金洋村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G04006</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：南澳鄉金洋村計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G04001</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:33+08:00</sent>
+    <expires>2025-11-11T12:13:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣南澳鄉南澳村</areaDesc>
+      <circle>24.47889,121.81238 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bb5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣南澳鄉南澳村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G04001</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：南澳鄉南澳村計3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G04004</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:33+08:00</sent>
+    <expires>2025-11-11T12:13:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣南澳鄉金岳村</areaDesc>
+      <circle>24.46538,121.76426 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ba9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣南澳鄉金岳村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G04004</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：南澳鄉金岳村計2條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G04005</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:33+08:00</sent>
+    <expires>2025-11-11T12:13:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣南澳鄉武塔村</areaDesc>
+      <circle>24.43579,121.78774 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3be5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣南澳鄉武塔村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G04005</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：南澳鄉武塔村計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G04003</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:32+08:00</sent>
+    <expires>2025-11-11T12:13:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣南澳鄉東岳村</areaDesc>
+      <circle>24.52389,121.81564 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bf5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣南澳鄉東岳村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G04003</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：南澳鄉東岳村計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G05006</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:32+08:00</sent>
+    <expires>2025-11-11T12:13:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉樂水村</areaDesc>
+      <circle>24.59088,121.52609 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bcd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣大同鄉樂水村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G05006</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉樂水村計3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G05004</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:32+08:00</sent>
+    <expires>2025-11-11T12:13:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉復興村</areaDesc>
+      <polygon>24.63625,121.65598 24.63277,121.65691 24.63006,121.6671 24.62139,121.67303 24.60314,121.66715 24.59478,121.65487 24.59627,121.65019 24.59197,121.6444 24.58984,121.62611 24.58592,121.61889 24.5886,121.61374 24.60405,121.60951 24.59992,121.5992 24.59814,121.5749 24.59963,121.57128 24.60697,121.5706 24.61588,121.56301 24.60934,121.56256 24.60902,121.55508 24.61792,121.54472 24.62389,121.54899 24.62248,121.55269 24.62675,121.55947 24.63641,121.55557 24.64157,121.56485 24.6371,121.578 24.63957,121.58927 24.6315,121.59825 24.63655,121.60819 24.62497,121.6249 24.63352,121.6247 24.63929,121.62924 24.63625,121.65598</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c05</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣大同鄉復興村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G05004</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉復興村計5條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G05001</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:32+08:00</sent>
+    <expires>2025-11-11T12:13:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉寒溪村</areaDesc>
+      <polygon>24.63758,121.67986 24.62629,121.69211 24.6239,121.70706 24.6169,121.71539 24.61927,121.71814 24.6183,121.72435 24.60788,121.72386 24.5995,121.73181 24.59217,121.7341 24.58229,121.75212 24.58168,121.75893 24.57587,121.76579 24.57697,121.76164 24.57352,121.75969 24.57227,121.75192 24.56549,121.74792 24.56777,121.74361 24.56609,121.73622 24.57736,121.7236 24.57215,121.71752 24.58099,121.70468 24.57321,121.68867 24.56132,121.68049 24.56244,121.66551 24.55645,121.66865 24.51118,121.65676 24.50326,121.6475 24.50217,121.63653 24.49766,121.6305 24.49268,121.62923 24.51172,121.61816 24.52285,121.58066 24.53859,121.59889 24.55127,121.60684 24.55477,121.61541 24.57186,121.61226 24.5861,121.6169 24.59197,121.6444 24.59635,121.65052 24.59478,121.65487 24.60329,121.66725 24.62139,121.67303 24.63006,121.6671 24.63277,121.65691 24.63625,121.65598 24.63758,121.67986</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c11</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣大同鄉寒溪村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G05001</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉寒溪村計3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G05002</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:32+08:00</sent>
+    <expires>2025-11-11T12:13:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉崙埤村</areaDesc>
+      <circle>24.6835,121.60498 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c0d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣大同鄉崙埤村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G05002</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉崙埤村計3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G05005</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:32+08:00</sent>
+    <expires>2025-11-11T12:13:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉英士村</areaDesc>
+      <circle>24.62089,121.533 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bfd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣大同鄉英士村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G05005</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉英士村計2條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G05010</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:32+08:00</sent>
+    <expires>2025-11-11T12:13:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉茂安村</areaDesc>
+      <polygon>24.60226,121.41621 24.57488,121.45483 24.57854,121.47425 24.57088,121.47506 24.56278,121.48364 24.55452,121.48709 24.53155,121.4847 24.51705,121.47213 24.50164,121.46637 24.51114,121.45986 24.52909,121.43743 24.52692,121.43505 24.5307,121.42436 24.52943,121.42031 24.5153,121.4063 24.51707,121.38615 24.52391,121.3916 24.52481,121.39771 24.52924,121.40163 24.53982,121.39674 24.5482,121.39876 24.55558,121.39467 24.56871,121.40358 24.57336,121.41232 24.59159,121.40301 24.60358,121.41266 24.60226,121.41621</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bd9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣大同鄉茂安村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G05010</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉茂安村計8條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G05009</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:32+08:00</sent>
+    <expires>2025-11-11T12:13:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉南山村</areaDesc>
+      <polygon>24.40061,121.44178 24.39747,121.44354 24.39208,121.43877 24.38295,121.43694 24.37755,121.4079 24.37968,121.40088 24.37515,121.38996 24.36969,121.38762 24.36701,121.38183 24.36805,121.37373 24.37246,121.36929 24.37897,121.3671 24.38259,121.3698 24.38908,121.36488 24.39327,121.35469 24.39284,121.34296 24.3896,121.33913 24.39794,121.33233 24.39987,121.32649 24.43304,121.32834 24.44149,121.31766 24.45672,121.32379 24.46108,121.32725 24.45808,121.35351 24.46156,121.36149 24.4669,121.36306 24.46869,121.36687 24.46569,121.37166 24.46891,121.3783 24.46777,121.39715 24.46289,121.40313 24.45116,121.40827 24.42051,121.40599 24.41107,121.40963 24.41012,121.42326 24.40503,121.42845 24.40061,121.44178</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c01</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣大同鄉南山村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G05009</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉南山村計7條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G05003</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:32+08:00</sent>
+    <expires>2025-11-11T12:13:31+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉松羅村</areaDesc>
+      <circle>24.66424,121.58108 4.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3c09</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣大同鄉松羅村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G05003</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉松羅村計4條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G05008</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:31+08:00</sent>
+    <expires>2025-11-11T12:13:31+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉四季村</areaDesc>
+      <polygon>24.50164,121.46637 24.48372,121.46632 24.47307,121.47733 24.45529,121.47819 24.45184,121.47366 24.43658,121.4685 24.4293,121.45891 24.41413,121.45798 24.40879,121.44715 24.40061,121.44178 24.40503,121.42845 24.41012,121.42326 24.41107,121.40963 24.42051,121.40599 24.45116,121.40827 24.46289,121.40313 24.46777,121.39715 24.46891,121.3783 24.46569,121.37166 24.46865,121.36661 24.4615,121.36141 24.45775,121.35154 24.46053,121.34702 24.46108,121.32725 24.46737,121.33599 24.47204,121.33563 24.47485,121.34007 24.48243,121.34301 24.48632,121.35731 24.49496,121.36384 24.49824,121.37115 24.51002,121.37351 24.51022,121.38356 24.51709,121.38547 24.5153,121.4063 24.5307,121.42436 24.52774,121.42771 24.52692,121.43505 24.52909,121.43743 24.52348,121.44644 24.50164,121.46637</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bc5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣大同鄉四季村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G05008</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉四季村計6條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511110630_G05007</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-11T06:13:31+08:00</sent>
+    <expires>2025-11-11T12:13:31+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣大同鄉太平村</areaDesc>
+      <polygon>24.5981,121.51657 24.58448,121.51761 24.57831,121.52353 24.57119,121.52469 24.56499,121.53353 24.55506,121.53941 24.55038,121.55288 24.55157,121.56329 24.54859,121.57539 24.53947,121.57217 24.524,121.57353 24.52467,121.57674 24.51316,121.61506 24.50866,121.62153 24.49522,121.62653 24.49268,121.62924 24.48803,121.62458 24.48196,121.62488 24.47285,121.61968 24.46755,121.62146 24.46626,121.61831 24.46273,121.61776 24.46163,121.61559 24.46427,121.60952 24.46531,121.59687 24.47068,121.58782 24.46701,121.58512 24.46133,121.58741 24.45767,121.58626 24.45348,121.58153 24.45498,121.57706 24.45955,121.57407 24.45908,121.55926 24.46347,121.54545 24.45741,121.5198 24.45843,121.49641 24.45293,121.48398 24.44285,121.47638 24.4423,121.47121 24.45184,121.47366 24.45529,121.4782 24.46571,121.47653 24.4693,121.47807 24.47572,121.47564 24.48229,121.4667 24.50883,121.46723 24.53155,121.48471 24.55452,121.4871 24.564,121.48275 24.57088,121.47507 24.57854,121.47426 24.57488,121.45483 24.57964,121.44888 24.58009,121.44457 24.59111,121.43484 24.59632,121.42264 24.60226,121.41622 24.60137,121.42012 24.6057,121.42759 24.62222,121.4353 24.61323,121.45695 24.59962,121.46346 24.60441,121.47721 24.60361,121.48225 24.60558,121.48849 24.60109,121.49799 24.60324,121.50675 24.59833,121.51202 24.5981,121.51657</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3bed</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣大同鄉太平村，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G05007</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：大同鄉太平村計2條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>A2025111102050054241488310</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-11T02:06:02+08:00</sent>
+    <expires>2025-11-11T04:05:25+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ba5</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖下游臨時堤防水位抬升已達0.5公尺，發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府疏散、撤離及收容等避難作業，並遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖下游臨時堤防水位抬升已達0.5公尺，發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，持續配合政府疏散、撤離及收容等避難作業，並遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111017570136441486310</id>
+    <title>颱風強風</title>
+    <sent>2025-11-10T19:00:02+08:00</sent>
+    <expires>2025-11-10T19:30:00+08:00</expires>
+    <sender>
+      <value>交通部中央氣象署氣象預報中心</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>HurricFrcWnd</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001416</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3ba1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[沿海巨浪告警]您所在地之沿岸將出現6米以上颱風巨浪，請遠離沿岸地區。High waves over 6 meters from typhoon are expected near your location. Avoid coastal areas.氣象署02_2349_1234</text>
+    <description type="html"><![CDATA[[沿海巨浪告警]您所在地之沿岸將出現6米以上颱風巨浪，請遠離沿岸地區。High waves over 6 meters from typhoon are expected near your location. Avoid coastal areas.氣象署02_2349_1234]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511101830_G09011</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-10T18:32:28+08:00</sent>
+    <expires>2025-11-11T00:32:27+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮蘇北里</areaDesc>
+      <circle>24.60142,121.84939 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b9d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣蘇澳鎮蘇北里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G09011</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮蘇北里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511101830_G09027</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-10T18:32:27+08:00</sent>
+    <expires>2025-11-11T00:32:27+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖愛里</areaDesc>
+      <circle>24.58842,121.83334 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b99</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣蘇澳鎮聖愛里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G09027</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖愛里計3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511101830_G09009</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-10T18:32:27+08:00</sent>
+    <expires>2025-11-11T00:32:27+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖湖里</areaDesc>
+      <circle>24.58842,121.83334 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b91</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣蘇澳鎮聖湖里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G09009</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖湖里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511101830_G09026</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-10T18:32:27+08:00</sent>
+    <expires>2025-11-11T00:32:27+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮朝陽里</areaDesc>
+      <polygon>24.47668,121.84353 24.46743,121.83265 24.4621,121.82085 24.45565,121.8218 24.44675,121.81654 24.43137,121.80047 24.43694,121.7915 24.45516,121.77918 24.46007,121.78844 24.44871,121.80195 24.45489,121.80675 24.46584,121.80881 24.47746,121.81927 24.49176,121.81919 24.49338,121.82353 24.47668,121.84353</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b79</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣蘇澳鎮朝陽里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G09026</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮朝陽里計4條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511101830_G09023</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-10T18:32:27+08:00</sent>
+    <expires>2025-11-11T00:32:27+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮南建里</areaDesc>
+      <circle>24.57443,121.86768 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b81</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣蘇澳鎮南建里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G09023</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮南建里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511101830_G09014</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-10T18:32:27+08:00</sent>
+    <expires>2025-11-11T00:32:26+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮長安里</areaDesc>
+      <circle>24.58643,121.85586 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b75</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣蘇澳鎮長安里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G09014</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮長安里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511101830_G09024</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-10T18:32:27+08:00</sent>
+    <expires>2025-11-11T00:32:26+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮東澳里</areaDesc>
+      <circle>24.49403,121.83874 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b85</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣蘇澳鎮東澳里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G09024</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮東澳里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511101830_G09017</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-10T18:32:27+08:00</sent>
+    <expires>2025-11-11T00:32:26+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮永樂里</areaDesc>
+      <circle>24.57365,121.83969 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b95</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣蘇澳鎮永樂里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G09017</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮永樂里計7條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202511101830_G09016</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-11-10T18:32:27+08:00</sent>
+    <expires>2025-11-11T00:32:26+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮永春里</areaDesc>
+      <circle>24.57815,121.8492 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b7d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]宜蘭縣蘇澳鎮永春里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=G09016</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮永春里計2條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>A2025111015264219841484260</id>
+    <title>水庫放水</title>
+    <sent>2025-11-10T16:30:01+08:00</sent>
+    <expires>2025-11-10T17:30:00+08:00</expires>
+    <sender>
+      <value>經濟部水利署南區水資源分署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>22.811173313236814,120.34420052229706 22.810658972559615,120.34343900705687 22.80914561276617,120.34394310869475 22.8089477867142,120.3436320672586 22.809175286649197,120.34303143551986 22.810658972559615,120.34107938236899 22.810668863744787,120.34043584836323 22.810292998202982,120.33979231435742 22.809679741671687,120.33927748715278 22.81004572487848,120.33787103537863 22.809689640130735,120.33708806900493 22.80894779391701,120.33590825666099 22.8087400762533,120.33496440678586 22.806307272647793,120.33274262558778 22.80491256380226,120.33171297117853 22.805585191126966,120.33020066626496 22.805614865785397,120.32938552319095 22.80516974523022,120.32828078981433 22.80456439412991,120.32770427112719 22.80341696045229,120.32768281999368 22.802665188321594,120.32770427112719 22.802091464694996,120.32746830865844 22.80179471014733,120.32723234618962 22.803595011138963,120.32609543611274 22.80405002850365,120.32547335324048 22.804168728435872,120.32463675903294 22.80389176176652,120.32373581142485 22.80310042532376,120.3231137285526 22.80167600814734,120.32240584114624 22.800983577753584,120.32227713434509 22.801399036411986,120.32165505147279 22.80177492648784,120.32071120159766 22.801695791821192,120.31987460739016 22.80114184786802,120.31929542678496 22.800231792200197,120.31925252451789 22.799166723804763,120.3191601872187 22.798365467849816,120.31839867197851 22.796812402772375,120.31833431857794 22.79598307680995,120.31813799035902 22.795379648176883,120.31734429841852 22.795379648176883,120.3167490294632 22.795912579274667,120.31560833112452 22.795714734013174,120.31493262041845 22.795111304192396,120.31441779321383 22.79395389853732,120.31373135694098 22.792777162007514,120.31325905276502 22.79160984397046,120.31290510906186 22.790600798292648,120.31302309029624 22.789779706593936,120.31333413173238 22.789532388848382,120.31369880100232 22.789067616132048,120.31299062262856 22.788830189865184,120.31128525751325 22.78833574930917,120.30701515787644 22.78803896481831,120.3042157849513 22.78629825989675,120.29719740651836 22.786060828808736,120.29550276696978 22.786031149893677,120.29421569895821 22.786634619897224,120.29262831507727 22.787623909208538,120.29204913447208 22.790262847802055,120.291787416912 22.795045426559767,120.29147836889386 22.79702387596719,120.29014839861524 22.80203265551592,120.2871309582131 22.803021833101585,120.28560792773278 22.803991220169763,120.28374167911596 22.805292025725983,120.27843305888001 22.804856795723357,120.27405702764068 22.803511524800616,120.26838852751199 22.801731006374855,120.26714436176749 22.799633921508157,120.26096643531193 22.79765576354114,120.25615775902156 22.798724109330067,120.25092368244117 22.800029853923217,120.24526058319027 22.79908052239091,120.24070932050222 22.80149415536656,120.23534653712065 22.80493647598415,120.23320142376807 22.809129516772796,120.23079418902617 22.80928777742625,120.22714749632675 22.808140383523604,120.22281436735443 22.806320359582735,120.22264275828624 22.8073095060448,120.22058344946772 22.80758646576739,120.21719417037059 22.8069929223349,120.21208464204622 22.805252015714444,120.21148401030749 22.80295715027754,120.21238495791562 22.801453596796343,120.21586004154682 22.80228450998116,120.21912061384282 22.799989594573823,120.2242688858891 22.801137057107724,120.22718624004865 22.80335281948927,120.22825879672499 22.797971619789067,120.23070422594694 22.795439217008,120.23375028690768 22.793579453757776,120.24130108590889 22.794726970250004,120.24735030556323 22.793382458020634,120.25242038399766 22.792551490572436,120.25941345352719 22.794727823151643,120.26396109383471 22.797181101859763,120.26996741122204 22.799792319967782,120.27451970700783 22.80086064901092,120.27769447476966 22.79963404828626,120.2827998445489 22.797299519637242,120.28610331911194 22.792234642064766,120.28889196647032 22.7870520373022,120.28902581260557 22.78353011988963,120.29074190328767 22.782936529348596,120.29511793452698 22.78353011988963,120.3012958609825 22.785033871033203,120.30502835821609 22.787195769946564,120.31454906385416 22.78875883733919,120.31611499660154 22.79006467737495,120.31624370340272 22.791350719733902,120.31482792858996 22.79340836227982,120.31575032733161 22.793467716892486,120.31693013967553 22.793351014162106,120.31908407515364 22.79429079289026,120.319974297195 22.797574335592543,120.32111207363548 22.799087823893018,120.32120860373628 22.799540642420617,120.32336957289259 22.802072240044815,120.32476528275352 22.799797105012722,120.32680314043849 22.80029170281554,120.32903405832522 22.803991237457133,120.32963469006393 22.80319990159201,120.33233753288825 22.80569217911474,120.33499884001145 22.807235251572973,120.335878336486 22.808263956836743,120.3379376453045 22.807847988976423,120.34014973403349 22.8088766896139,120.34081471917277 22.807650161040314,120.3433674040624 22.807847988976423,120.34536235948033 22.809193211324345,120.3450834947445 22.81047907321113,120.34489043454279 22.811173313236814,120.34420052229706</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b71</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]阿公店溪阿公店水庫11月10日17時進行放水，請下游民眾注意並遠離河床，以策安全。Agongdian Reservoir will release water at 17:00, please keep away from the Agongdian Riverway for safety.經濟部水利署南區水資源分署07-6165641</text>
+    <description type="html"><![CDATA[[水庫放水警戒]阿公店溪阿公店水庫11月10日17時進行放水，請下游民眾注意並遠離河床，以策安全。Agongdian Reservoir will release water at 17:00, please keep away from the Agongdian Riverway for safety.經濟部水利署南區水資源分署07-6165641]]></description>
+  </entry>
+  <entry>
+    <id>A2025111015495228041484540</id>
+    <title>台電桂山電廠(水庫放水)</title>
+    <sent>2025-11-10T15:52:01+08:00</sent>
+    <expires>2025-11-10T15:59:24+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司桂山發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.86123820484995,121.55620596283552 24.86097522210474,121.55526165691107 24.862747909787696,121.55457488896604 24.863887481306246,121.55402762075985 24.863868001539473,121.55272920011373 24.864384214322172,121.55284723835429 24.86445239320783,121.55424223574268 24.8637219031908,121.55503631117914 24.86123820484995,121.55620596283552</polygon>
+    </area>
+    <area>
+      <areaDesc>發布區域2</areaDesc>
+      <polygon>24.883417801828248,121.54230478319639 24.8831938197247,121.540984901052 24.886134769783197,121.53734717709305 24.88731307780702,121.5385275594986 24.886417175209846,121.53998694138183 24.883417801828248,121.54230478319639</polygon>
+    </area>
+    <area>
+      <areaDesc>發布區域3</areaDesc>
+      <polygon>24.899223986289712,121.54893452282406 24.897909471191014,121.5494388680337 24.8995063617807,121.55147771037058 24.899389516828283,121.55236836254932 24.897860785177773,121.55284051551152 24.89734471225714,121.55331266847377 24.89732523776505,121.55657481621273 24.897841310767127,121.55822735158048 24.898815027536834,121.55740108389662 24.89860081050649,121.55406382091364 24.900674805221456,121.55343070671431 24.900859807751978,121.55192840183452 24.899223986289712,121.54893452282406</polygon>
+    </area>
+    <area>
+      <areaDesc>發布區域4</areaDesc>
+      <polygon>24.90408953549092,121.55455765155239 24.904693210232256,121.55611361017789 24.906922886502617,121.55514784275518 24.908948059727372,121.5513706190574 24.907828376716335,121.55028681339411 24.905764238796348,121.5534738458891 24.90408953549092,121.55455765155239</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b6d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]阿玉壩將於16時00分排放水，請南勢溪下游沿岸附近民眾加強注意並立刻遠離河床，以策安全。[Reservoir discharge] Nanshi River level rise at 16:00. Plz stay away right now. 1911, TAIPOWER.
+台電公司 1911.台電公司1911</text>
+    <description type="html"><![CDATA[[水庫放水警戒]阿玉壩將於16時00分排放水，請南勢溪下游沿岸附近民眾加強注意並立刻遠離河床，以策安全。[Reservoir discharge] Nanshi River level rise at 16:00. Plz stay away right now. 1911, TAIPOWER.
+台電公司 1911.台電公司1911]]></description>
+  </entry>
+  <entry>
+    <id>A2025111013265687141482790</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-10T15:06:01+08:00</sent>
+    <expires>2025-11-10T17:05:27+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b69</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[Barrier Lake Warning]Mataian River Red Alert in this area. Please follow government instructions immediately，https://gov.tw/Vef .林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[Barrier Lake Warning]Mataian River Red Alert in this area. Please follow government instructions immediately，https://gov.tw/Vef .林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111013254989041482750</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-10T15:01:02+08:00</sent>
+    <expires>2025-11-10T17:00:52+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b65</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖未來24小時累積降雨量預估值已達200毫米以上，發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，立即配合政府疏散、撤離及收容等避難作業，並遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖未來24小時累積降雨量預估值已達200毫米以上，發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，立即配合政府疏散、撤離及收容等避難作業，並遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111014214410441483470</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-11-10T14:31:01+08:00</sent>
+    <expires>2025-11-10T14:40:12+08:00</expires>
+    <sender>
+      <value>農業部農田水利署屏東管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>22.0316,120.6969 22.0117,120.7082 22.0056,120.7097 22.0002,120.7096 21.9877,120.7175 21.9766,120.7169 21.9707,120.7277 21.9835,120.7406 22.0077,120.7621 22.0123,120.7588 22.0235,120.7582 22.039,120.7466 22.0479,120.7289 22.0316,120.6969</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b5d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text> [水庫放水警戒]龍鑾潭水庫自11月10日16時00分進行放水，請東門溪排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。農田水利署屏東管理處電話:08-8821087</text>
+    <description type="html"><![CDATA[ [水庫放水警戒]龍鑾潭水庫自11月10日16時00分進行放水，請東門溪排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。農田水利署屏東管理處電話:08-8821087]]></description>
+  </entry>
+  <entry>
+    <id>A2025111014225173141483490</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-11-10T14:31:01+08:00</sent>
+    <expires>2025-11-10T14:40:34+08:00</expires>
+    <sender>
+      <value>農業部農田水利署屏東管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>22.0316,120.6969 22.0117,120.7082 22.0056,120.7097 22.0002,120.7096 21.9877,120.7175 21.9766,120.7169 21.9707,120.7277 21.9835,120.7406 22.0077,120.7621 22.0123,120.7588 22.0235,120.7582 22.039,120.7466 22.0479,120.7289 22.0316,120.6969</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b61</link>
+    <channel>
+      <value>919</value>
+    </channel>
+    <text>[Reservoir discharge] Longluantan Reservoir will discharge at 16:00 on 11/10. Please keep away from Dongmenxi Drainage.PMO, IA, MOATEL:08-8821087</text>
+    <description type="html"><![CDATA[[Reservoir discharge] Longluantan Reservoir will discharge at 16:00 on 11/10. Please keep away from Dongmenxi Drainage.PMO, IA, MOATEL:08-8821087]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114093603</id>
+    <title>強震</title>
+    <sent>2025-11-10T13:01:00+08:00</sent>
+    <expires>2025-11-10T13:03:59+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10009</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b59</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]11/10 13:00左右南部地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114093601</id>
+    <title>強震</title>
+    <sent>2025-11-10T13:00:57+08:00</sent>
+    <expires>2025-11-10T13:03:56+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>67</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b55</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]11/10 13:00左右南部地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A2025111012001158441482110</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-10T12:03:01+08:00</sent>
+    <expires>2025-11-10T14:02:37+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b51</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[Barrier Lake Warning]Mataian River Red Alert in this area. Please follow government instructions immediately，https://gov.tw/Vef .林業署(FANCA)03-8325141</text>
+    <description type="html"><![CDATA[[Barrier Lake Warning]Mataian River Red Alert in this area. Please follow government instructions immediately，https://gov.tw/Vef .林業署(FANCA)03-8325141]]></description>
+  </entry>
+  <entry>
+    <id>A2025111011575435941482080</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-10T12:01:14+08:00</sent>
+    <expires>2025-11-10T14:00:11+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b4d</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖未來24小時累積降雨量預估值已達200毫米以上，發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，立即配合政府疏散、撤離及收容等避難作業，並遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖未來24小時累積降雨量預估值已達200毫米以上，發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，立即配合政府疏散、撤離及收容等避難作業，並遠離河道，https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025111010020966941480210</id>
+    <title>台電大觀電廠(水庫放水)</title>
+    <sent>2025-11-10T10:15:05+08:00</sent>
+    <expires>2025-11-10T10:45:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司大觀發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.920264446183378,121.0604238217733 23.920107528602582,121.0604238217733 23.920107528602582,121.06025216039635 23.88181394349247,121.07741829809163 23.88212787143101,121.02694985326748 23.91963677471643,121.02454659399015 23.920264446183378,121.0604238217733</polygon>
+    </area>
+    <area>
+      <areaDesc>發布區域2</areaDesc>
+      <circle>23.91752270802204,121.05501439170195 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b49</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]栗栖壩自2025年11月10日10時30分進行放水，請栗栖溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2025/11/10 10:30 Zhuoshui River level rises. Plz stay away.。(Takuan plant care about you).Taipower049-2774016</text>
+    <description type="html"><![CDATA[[水庫放水警戒]栗栖壩自2025年11月10日10時30分進行放水，請栗栖溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2025/11/10 10:30 Zhuoshui River level rises. Plz stay away.。(Takuan plant care about you).Taipower049-2774016]]></description>
+  </entry>
+  <entry>
+    <id>A2025111006512245941477690</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-10T07:03:01+08:00</sent>
+    <expires>2025-11-10T09:02:37+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b45</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[Barrier Lake Warning]Mataian River Red Alert in this area. Please follow government instructions immediately，https://gov.tw/Vef .林業署(FANCA)03-8325141</text>
+    <description type="html"><![CDATA[[Barrier Lake Warning]Mataian River Red Alert in this area. Please follow government instructions immediately，https://gov.tw/Vef .林業署(FANCA)03-8325141]]></description>
+  </entry>
+  <entry>
+    <id>A2025111006461305941477680</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-10T07:02:03+08:00</sent>
+    <expires>2025-11-10T09:01:08+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b41</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖未來24小時累積降雨量預估值已達200毫米以上，發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，立即配合政府疏散、撤離及收容等避難作業，並遠離河道，https://gov.tw/Vef 。林業署(FANCA)03-8325141</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [紅色警戒]花蓮縣馬太鞍溪堰塞湖未來24小時累積降雨量預估值已達200毫米以上，發布紅色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，立即配合政府疏散、撤離及收容等避難作業，並遠離河道，https://gov.tw/Vef 。林業署(FANCA)03-8325141]]></description>
+  </entry>
+  <entry>
+    <id>A2025110913140580441476680</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-09T13:18:00+08:00</sent>
+    <expires>2025-11-09T15:17:32+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b3d</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[Barrier Lake Warning]Mataian River Yellow Alert in this area. Please follow  government instructions，https://gov.tw/Vef .林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[Barrier Lake Warning]Mataian River Yellow Alert in this area. Please follow  government instructions，https://gov.tw/Vef .林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025110913123281041476670</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-09T13:16:01+08:00</sent>
+    <expires>2025-11-09T15:15:53+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b39</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [黃色警戒]花蓮縣馬太鞍溪堰塞湖未來48小時累積降雨量預估值已達200毫米以上，發布黃色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，確實配合政府指令疏散撤離，並遠離河道， https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [黃色警戒]花蓮縣馬太鞍溪堰塞湖未來48小時累積降雨量預估值已達200毫米以上，發布黃色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，確實配合政府指令疏散撤離，並遠離河道， https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025110909224940941476390</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-09T09:24:00+08:00</sent>
+    <expires>2025-11-09T11:21:55+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b35</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[Barrier Lake Warning]Mataian River Yellow Alert in this area. Please follow  government instructions，https://gov.tw/Vef .林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[Barrier Lake Warning]Mataian River Yellow Alert in this area. Please follow  government instructions，https://gov.tw/Vef .林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025110909101172441476350</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-09T09:13:01+08:00</sent>
+    <expires>2025-11-09T11:12:40+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b31</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [黃色警戒]花蓮縣馬太鞍溪堰塞湖未來48小時累積降雨量預估值已達200毫米以上，發布黃色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，確實配合政府指令疏散撤離，並遠離河道， https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [黃色警戒]花蓮縣馬太鞍溪堰塞湖未來48小時累積降雨量預估值已達200毫米以上，發布黃色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，確實配合政府指令疏散撤離，並遠離河道， https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025110909031751141476340</id>
+    <title>堰塞湖警報</title>
+    <sent>2025-11-09T09:05:03+08:00</sent>
+    <expires>2025-11-09T09:15:00+08:00</expires>
+    <sender>
+      <value>農業部林業及自然保育署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>barrierLake</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.68801867510949,121.3776306800508 23.69147838706678,121.37848847834599 23.693120967646994,121.39184102945737 23.69296371197938,121.40316396695384 23.70011865309727,121.40736717860027 23.692721199897925,121.46659406518957 23.694883452741436,121.47251287342631 23.7184693388356,121.47980415893541 23.745434311510074,121.48070359497498 23.751879044558667,121.48190451258822 23.74877839861457,121.4926275918983 23.733218947761532,121.4967031001206 23.7237431917257,121.49400195095203 23.721974469706687,121.49490263916195 23.721443232066406,121.49469648748719 23.720951914134616,121.49471793244456 23.720323024480557,121.49502888432657 23.71918315425185,121.49590812757913 23.71618603412895,121.49217670499509 23.71168531126801,121.49156552370974 23.70823596222184,121.49052544327685 23.70090623239089,121.48663991385381 23.69970722464843,121.48509587692246 23.695972539788986,121.48438819332893 23.69223774808587,121.48314438580091 23.692965058004763,121.48698303317188 23.691824948762097,121.48711170291614 23.690566885631036,121.48743337727684 23.68942675544905,121.48668280376855 23.688679768208363,121.48492431726342 23.684709730744405,121.4798905808302 23.667429019003155,121.4654795694711 23.664125960758263,121.45771649489964 23.662668588242106,121.45180867721338 23.660289458247146,121.44663999746896 23.660810806288705,121.44505493333222 23.661174549227855,121.43961863663651 23.66176440049197,121.43649839533776 23.662609849330412,121.4337105508784 23.662177294793693,121.43262758053072 23.66209864836054,121.43114787847152 23.662521372382507,121.42962528649757 23.66299324874628,121.4288639905106 23.663543769018293,121.427813187599 23.663632245274417,121.42700900169727 23.663258678452515,121.42590458639222 23.661695584648264,121.4229451822738 23.6606240189808,121.42103658106703 23.660633849898396,121.42063984935552 23.661154887473227,121.41952471157177 23.661213872728244,121.41931026199795 23.661807314500713,121.41939164185673 23.662392247518053,121.41932730698457 23.663080400659,121.41941308681409 23.663522782908522,121.41924688839438 23.66394550232628,121.41883407296486 23.664151946196373,121.41870004198124 23.66450584921532,121.41857673347631 23.664535341090314,121.41824969787628 23.664097877595246,121.41735973214497 23.663758719496254,121.41705950274171 23.663331084117484,121.41596044867597 23.662697001498696,121.41531173871523 23.662613439994033,121.41420732341018 23.66293293957652,121.41303321199365 23.663055823823456,121.41269009267558 23.66302141624596,121.41243811442638 23.662657678444322,121.41203066023616 23.66190217472855,121.41153381632874 23.66008346003478,121.41055807076795 23.66086993435785,121.4095716027285 23.66391732297343,121.4097504409537 23.668282067753466,121.412538285413 23.671309778071333,121.42030135998448 23.67386558283884,121.41841420373503 23.677325669651424,121.41622681808232 23.680077946006197,121.41601236850852 23.680510441304936,121.41240961566876 23.685936169757387,121.40636213768768 23.686329329728526,121.40473232092681 23.685700273206642,121.40267360501839 23.68353786830566,121.40280227476264 23.682122456622743,121.40198736638223 23.680824982441106,121.40048621936565 23.680785664840496,121.39632589763401 23.68247631098125,121.39345227334515 23.682712213354435,121.38538896937038 23.68436351803814,121.38015639976977 23.686329329728526,121.37792612420226 23.68801867510949,121.3776306800508</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3b2d</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[堰塞湖警報] [黃色警戒]花蓮縣馬太鞍溪堰塞湖未來48小時累積降雨量預估值已達200毫米以上，發布黃色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，確實配合政府指令疏散撤離，並遠離河道， https://gov.tw/Vef 。林業署(FANCA)0800-000930</text>
+    <description type="html"><![CDATA[[堰塞湖警報] [黃色警戒]花蓮縣馬太鞍溪堰塞湖未來48小時累積降雨量預估值已達200毫米以上，發布黃色警戒，請下游包括萬榮鄉、鳳林鎮及光復鄉等警戒範圍民眾，確實配合政府指令疏散撤離，並遠離河道， https://gov.tw/Vef 。林業署(FANCA)0800-000930]]></description>
+  </entry>
+  <entry>
+    <id>A2025110222082791241249710</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-11-03T07:30:04+08:00</sent>
+    <expires>2025-11-03T10:00:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.327266499086534,121.69016358312786 9.096552874942823</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25113cdd3aa5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]因機組檢修，台電南溪壩，自11月3日8時00分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]08:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒]因機組檢修，台電南溪壩，自11月3日8時00分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]08:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+</feed>

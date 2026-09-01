@@ -1,10 +1,9 @@
-name: 鏡像 CBS 資料並部署到 GitHub Pages
+name: 部署到 GitHub Pages
 
-# cbs.tw 不回 CORS 標頭,瀏覽器無法直連。因此在 CI 把來源檔鏡像下來,
-# 連同前端一起發布成同源的靜態站台。
+# 這裡刻意不抓 cbs.tw:它掛在 Cloudflare 後面,對 GitHub Actions 的 Azure 出口 IP
+# 一律回 Managed Challenge(403 + cf-mitigated: challenge),換任何 User-Agent 都無效。
+# 資料改由能連通的機器跑 scripts/mirror.sh 後 commit 進版本庫,CI 只負責發布。
 on:
-  schedule:
-    - cron: '*/10 * * * *'   # GitHub 的排程有數分鐘誤差,實際更新間隔約 10–20 分鐘
   push:
     branches: [main]
   workflow_dispatch:
@@ -19,32 +18,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # 告警不是每 10 分鐘都有。先用兩個 HEAD 請求問來源的 Last-Modified,
-  # 沒變就整個流程早退,免得白搬 62MB 的月彙整、白部署一次。
-  probe:
+  deploy:
     runs-on: ubuntu-latest
-    outputs:
-      stamp: ${{ steps.head.outputs.stamp }}
-      fresh: ${{ steps.seen.outputs.cache-hit != 'true' }}
-    steps:
-      - id: head
-        run: |
-          lm() { curl -sSI --retry 2 --max-time 30 "$1" | tr -d '\r' | awk 'tolower($1)=="last-modified:"{$1="";print}'; }
-          stamp="$(lm https://cbs.tw/files/rssatomfeed.xml)|$(lm https://cbs.tw/files/list.xml)"
-          echo "來源時間戳:$stamp"
-          echo "stamp=$(printf '%s' "$stamp" | tr -c 'A-Za-z0-9' '-')" >> "$GITHUB_OUTPUT"
-      - id: seen
-        uses: actions/cache/restore@v4
-        with:
-          path: .probe
-          key: cbs-seen-v1-${{ steps.head.outputs.stamp }}
-          lookup-only: true
-
-  build:
-    needs: probe
-    # 手動觸發與 push 一律重建;排程只在來源真的更新時才動作
-    if: needs.probe.outputs.fresh == 'true' || github.event_name != 'schedule'
-    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -52,42 +30,8 @@ jobs:
         with:
           node-version: '22'
 
-      # 116 個月彙整共約 62MB,舊月份不再變動,靠快取避免每次重抓。
-      # 需要整批重建時把 key 裡的 v1 往上加即可。
-      - name: 還原資料快取
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            data/archive
-            data/places.json
-          key: cbs-data-v1-${{ github.run_id }}
-          restore-keys: cbs-data-v1-
-
-      - name: 鏡像來源檔
-        run: ./scripts/mirror.sh data
-
-      # 只有行政區代碼的告警靠地名定位;每次補查少量新地名,對 Nominatim 保持禮貌。
-      - name: 補查新地名座標
-        run: node scripts/geocode-places.mjs --limit=30
-
-      - name: 驗證解析結果
+      - name: 驗證解析與介面
         run: npm ci --silent && npm test
-
-      - name: 保存資料快取
-        uses: actions/cache/save@v4
-        with:
-          path: |
-            data/archive
-            data/places.json
-          key: cbs-data-v1-${{ github.run_id }}
-
-      - name: 記下這批來源已處理過
-        run: mkdir -p .probe && date -u > .probe/stamp
-      - uses: actions/cache/save@v4
-        continue-on-error: true   # 同一批來源被重跑時 key 會撞,不該讓部署失敗
-        with:
-          path: .probe
-          key: cbs-seen-v1-${{ needs.probe.outputs.stamp }}
 
       - name: 組出站台
         run: |
@@ -100,13 +44,5 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - id: deployment
         uses: actions/deploy-pages@v4

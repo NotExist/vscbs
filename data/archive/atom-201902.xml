@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>201902</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:21:40+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2019年2月 月彙整]]></description>
+</feed>

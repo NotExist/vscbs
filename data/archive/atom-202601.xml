@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202601</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2026-02-01T00:00:02+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2026年1月 月彙整]]></description>
+  <entry>
+    <id>A2026012918313235942167870</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2026-01-30T09:30:01+08:00</sent>
+    <expires>2026-01-30T09:40:00+08:00</expires>
+    <sender>
+      <value>農業部農田水利署苗栗管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.6309880436986,120.893342857429 24.630319465303,120.896054188108 24.6273186809595,120.898671696985 24.628137484201,120.902561712275 24.628227625589,120.906803119814 24.6301247168885,120.910532994049 24.6283195541005,120.914329288584 24.6218488376165,120.915832490895 24.6219648680321,120.914811958012 24.6217312048838,120.914014887221 24.6222263357779,120.913249205593 24.622897033381,120.913631416277 24.6235672905446,120.913248280206 24.6235952697316,120.911239213779 24.6230692918169,120.90913487802 24.6233307201573,120.907603989815 24.6244076648104,120.904956341544 24.6251937306682,120.903361245299 24.6248135448443,120.901480031131 24.6234397474043,120.895996098503 24.6235555985907,120.894911755702 24.6230300936598,120.893796063124 24.6232335869438,120.89299865287 24.6228242357763,120.891276972161 24.6239322104249,120.891594910961 24.6269637010352,120.891273391635 24.6309880436986,120.893342857429</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3f09</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]劍潭水庫自01月30日10時30分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 10:30 on01/30. Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735</text>
+    <description type="html"><![CDATA[[水庫放水警戒]劍潭水庫自01月30日10時30分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 10:30 on01/30. Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_115001101</id>
+    <title>強震</title>
+    <sent>2026-01-27T02:49:03+08:00</sent>
+    <expires>2026-01-27T02:52:01+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10013</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3f05</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]01/27 02:48左右南部地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20260124081300_34</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2026-01-24T08:20:22+08:00</sent>
+    <expires>2026-01-24T14:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣頭城鎮</areaDesc>
+      <circle>24.978784,121.945586 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3f01</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]宜蘭縣頭城鎮石城里石城火車站之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3ck</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]宜蘭縣頭城鎮石城里石城火車站之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3ck]]></description>
+  </entry>
+  <entry>
+    <id>A2026012310582434542152090</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2026-01-23T11:11:03+08:00</sent>
+    <expires>2026-01-23T13:00:17+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.327266499086534,121.69016358312786 9.096552874942823</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3efd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電東部電廠南溪壩將調節水量排砂放水，自1月23日12時00分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]09:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電東部電廠南溪壩將調節水量排砂放水，自1月23日12時00分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]09:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>A2026012213232475342149950</id>
+    <title>疏散避難</title>
+    <sent>2026-01-22T14:18:03+08:00</sent>
+    <expires>2026-01-22T14:20:00+08:00</expires>
+    <sender>
+      <value>臺北市政府警察局中正第一分局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.047729390767703,121.51706635951997 1.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ef9</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難]1月22日14:05於臺北車站發生重大治安案件，為維護人身安全，請保持冷靜、就近找掩護躲避，避免圍觀。臺北市政府1999</text>
+    <description type="html"><![CDATA[[演練][疏散避難]1月22日14:05於臺北車站發生重大治安案件，為維護人身安全，請保持冷靜、就近找掩護躲避，避免圍觀。臺北市政府1999]]></description>
+  </entry>
+  <entry>
+    <id>A2026012213251481842149970</id>
+    <title>疏散避難</title>
+    <sent>2026-01-22T14:18:03+08:00</sent>
+    <expires>2026-01-22T14:20:00+08:00</expires>
+    <sender>
+      <value>臺北市政府警察局中正第一分局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.04773425069118,121.51702880859376 1.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ef5</link>
+    <channel>
+      <value>4384</value>
+    </channel>
+    <text>[Drill] [Evacuation]A major incident has occurred on Taipei Main Station.For your personal safety,please remain calm,find cover nearby,and avoid gathering in the crowd.Taipei City Government1999</text>
+    <description type="html"><![CDATA[[Drill] [Evacuation]A major incident has occurred on Taipei Main Station.For your personal safety,please remain calm,find cover nearby,and avoid gathering in the crowd.Taipei City Government1999]]></description>
+  </entry>
+  <entry>
+    <id>A2026012208033062242149240</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2026-01-22T08:32:04+08:00</sent>
+    <expires>2026-01-22T10:30:30+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.0381839097611,121.40107709485729 24.03584749235387,121.41177501722812 24.034279715223015,121.41469326063631 24.0231479475425,121.42911281630036 24.001195158787564,121.45812358900541 23.983630230722117,121.48593273207177 23.97139609754356,121.5051588062905 23.96739622510276,121.50108184858823 23.95939610782638,121.51017990156697 23.95076797402327,121.5218528752001 23.9478264328396,121.53116550490003 23.943649329113544,121.54348220869673 23.944747547891794,121.54713001295707 23.94333555060286,121.55017700239807 23.939687819423742,121.54507007643359 23.937574122397514,121.54870587903676 23.92329575580554,121.5740259321373 23.921961981594496,121.58621388990093 23.918509796151163,121.59574109632182 23.9054848114701,121.58844548780134 23.905955616916213,121.58398229200056 23.910506647816018,121.56801778394394 23.919372851161416,121.547847572152 23.926355538714375,121.53308469373404 23.931219659738243,121.52544576245964 23.94479115732129,121.50896627027217 23.953262813666683,121.49969655591673 23.961028009840806,121.49343091565792 23.9647143534053,121.4873369367761 23.953498129511793,121.46665174085328 23.9508311914603,121.43128949720098 23.97263571373256,121.42837125379279 23.987692798509517,121.41807157117562 24.006511678654967,121.38202268201552 24.0381839097611,121.40107709485729</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ef1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒] 台電木瓜壩，將於01月22日09時30分起，排放水至木瓜溪，請木瓜溪下游民眾注意遠離河床。[Reservoir discharge] 09:30 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒] 台電木瓜壩，將於01月22日09時30分起，排放水至木瓜溪，請木瓜溪下游民眾注意遠離河床。[Reservoir discharge] 09:30 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>20260121-PWS_MESSAGE_CASE1_000000001</id>
+    <title>系統測試</title>
+    <sent>2026-01-21T16:00:01+08:00</sent>
+    <expires>2026-01-21T16:05:00+08:00</expires>
+    <sender>
+      <value>災防告警細胞廣播訊息系統營運辦公室</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>systemTest</value>
+    </eventCode>
+    <area>
+      <areaDesc>Test_Geocode</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09020</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ee9</link>
+    <channel>
+      <value>4380</value>
+    </channel>
+    <text>﹝災防告警訊息測試﹞每月訊息發送測試，敬請見諒，電信業者共同關心您。Public Warning System is testing, please don’t panic.</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A2026011806385607042138360</id>
+    <title>台電大觀電廠(水庫放水)</title>
+    <sent>2026-01-18T07:05:02+08:00</sent>
+    <expires>2026-01-18T07:35:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司大觀發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.856542836240592,120.86381288662048 23.852931905589582,120.87239595546814 23.836995509927384,120.86964937343689 23.842648051803785,120.85383506908474 23.84574899440014,120.85610958232941 23.856542836240592,120.86381288662048</polygon>
+    </area>
+    <area>
+      <areaDesc>發布區域2</areaDesc>
+      <polygon>23.859444618135477,120.86284157690208 23.859680104842557,120.88447091039816 23.83510868476173,120.88241097387473 23.83510868476173,120.85211274084253 23.859444618135477,120.86284157690208</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ee5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>大觀發電廠明湖下池 2026年01月18日07時20分進行放水，請水里溪下游沿岸附近民眾遠離河床，以策安全。（大觀電廠關心您）2026/01/18  07：20 Shuili River level rises. Plz stay away. (Takuan plant care about you).
+.Taipower049-2774016</text>
+    <description type="html"><![CDATA[大觀發電廠明湖下池 2026年01月18日07時20分進行放水，請水里溪下游沿岸附近民眾遠離河床，以策安全。（大觀電廠關心您）2026/01/18  07：20 Shuili River level rises. Plz stay away. (Takuan plant care about you).
+.Taipower049-2774016]]></description>
+  </entry>
+  <entry>
+    <id>A2026011410425536442122070</id>
+    <title>疏散避難</title>
+    <sent>2026-01-14T10:44:02+08:00</sent>
+    <expires>2026-01-14T10:52:12+08:00</expires>
+    <sender>
+      <value>新北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>25.0121268443429,121.46580948680695 25.01250103766376,121.46567541284114 25.01232609027906,121.46535899828181 25.012058809071146,121.46553061295805 25.0121268443429,121.46580948680695</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ee1</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>細胞簡訊CBS測試
+Cell Broadcast Service (CBS) Test.EOC of NTPC,02-89535599#9測試請勿驚慌</text>
+    <description type="html"><![CDATA[細胞簡訊CBS測試
+Cell Broadcast Service (CBS) Test.EOC of NTPC,02-89535599#9測試請勿驚慌]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_115000301</id>
+    <title>強震</title>
+    <sent>2026-01-12T21:32:06+08:00</sent>
+    <expires>2026-01-12T21:35:05+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3edd</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]01/12 21:31左右東北地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A2026010719483643042092560</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2026-01-08T09:00:03+08:00</sent>
+    <expires>2026-01-08T11:00:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.327266499086534,121.69016358312786 9.096552874942823</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ed9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電東部電廠南溪壩將調節水量排砂放水，自1月8日09時00分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]09:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電東部電廠南溪壩將調節水量排砂放水，自1月8日09時00分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]09:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>A2026010510303997942085940</id>
+    <title>台電大甲溪電廠(水庫放水)</title>
+    <sent>2026-01-05T13:00:01+08:00</sent>
+    <expires>2026-01-05T14:10:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司大甲溪發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6602900</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ed5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]台電天輪壩自01月05日14時進行放水，請大甲溪天輪壩至馬鞍壩間沿岸民眾遠離河道。Tien Lun Reservoir will discharge at 14:00,01/05,Please keep away from Dajia River.Taipower04-25941455</text>
+    <description type="html"><![CDATA[[水庫放水警戒]台電天輪壩自01月05日14時進行放水，請大甲溪天輪壩至馬鞍壩間沿岸民眾遠離河道。Tien Lun Reservoir will discharge at 14:00,01/05,Please keep away from Dajia River.Taipower04-25941455]]></description>
+  </entry>
+  <entry>
+    <id>A2026010510055679942085800</id>
+    <title>台電大觀電廠(水庫放水)</title>
+    <sent>2026-01-05T10:46:02+08:00</sent>
+    <expires>2026-01-05T11:15:09+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司大觀發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.920264446183378,121.0604238217733 23.920107528602582,121.0604238217733 23.920107528602582,121.06025216039635 23.88181394349247,121.07741829809163 23.88212787143101,121.02694985326748 23.91963677471643,121.02454659399015 23.920264446183378,121.0604238217733</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ed1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]武界壩 自2026年01月05日11時00分進行放水，請濁水溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2026/01/05 11:00 WUJEH Flood discharge. Plz stay away.。(Takuan plant care about you).Taipower049-2774016</text>
+    <description type="html"><![CDATA[[水庫放水警戒]武界壩 自2026年01月05日11時00分進行放水，請濁水溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2026/01/05 11:00 WUJEH Flood discharge. Plz stay away.。(Takuan plant care about you).Taipower049-2774016]]></description>
+  </entry>
+  <entry>
+    <id>A2025123116352442342070390</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2026-01-01T08:00:03+08:00</sent>
+    <expires>2026-01-01T10:00:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.327266499086534,121.69016358312786 9.096552874942823</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ecd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電東部電廠南溪壩將調節水量排砂放水，自1月1日09時00分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]09:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電東部電廠南溪壩將調節水量排砂放水，自1月1日09時00分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]09:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20260101045000_F18016</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2026-01-01T05:01:27+08:00</sent>
+    <expires>2026-01-01T10:50:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區弓橋里</areaDesc>
+      <circle>25.09242,121.83557 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ec9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]新北市瑞芳區弓橋里，有效累積雨量426.1mm(警戒百分比已達85.2%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]新北市瑞芳區弓橋里，有效累積雨量426.1mm(警戒百分比已達85.2%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20260101045000_F18014</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2026-01-01T05:01:27+08:00</sent>
+    <expires>2026-01-01T10:50:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區猴硐里</areaDesc>
+      <circle>25.08443,121.82997 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ec1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]新北市瑞芳區猴硐里，有效累積雨量426.1mm(警戒百分比已達85.2%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]新北市瑞芳區猴硐里，有效累積雨量426.1mm(警戒百分比已達85.2%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20260101045000_F18015</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2026-01-01T05:00:27+08:00</sent>
+    <expires>2026-01-01T10:50:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區光復里</areaDesc>
+      <circle>25.08807,121.82642 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26013cdd3ebd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]新北市瑞芳區光復里，有效累積雨量426.1mm(警戒百分比已達85.2%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]新北市瑞芳區光復里，有效累積雨量426.1mm(警戒百分比已達85.2%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+</feed>

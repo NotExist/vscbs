@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>201703</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:22:37+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2017年3月 月彙整]]></description>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_106016</id>
+    <title>地震</title>
+    <sent>2017-03-24T01:24:21+08:00</sent>
+    <expires>2017-03-24T01:28:41+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10010</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17031ea45373</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]03/24 01:09嘉義縣中埔鄉發生規模4.1有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cdcc.gov.tw_airRaidAlert_20170302132949001</id>
+    <title>防空</title>
+    <sent>2017-03-02T13:29:56+08:00</sent>
+    <expires>2017-03-02T14:04:49+08:00</expires>
+    <sender>
+      <value>內政部警政署民防指揮管制所</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airRaidAlert</value>
+    </eventCode>
+    <area>
+      <areaDesc>東區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17031ea4535f</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[萬安演習]東區萬安演習將於13:30~14:00實施警報發放，請配合憲警民防人員管制及引導進入防空避難設備；車輛除行駛於高速公路外，乘客皆須於停靠路邊後避難。內政部警政署。</text>
+    <description type="html"><![CDATA[東區萬安演習將於13:30~14:00實施警報發放]]></description>
+  </entry>
+</feed>

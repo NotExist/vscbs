@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202007</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:21:11+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2020年7月 月彙整]]></description>
+  <entry>
+    <id>A20200730141653706-213782</id>
+    <title>疏散避難</title>
+    <sent>2020-07-30T14:16:54+08:00</sent>
+    <expires>2020-07-30T14:20:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <circle>23.562819373844253,120.47388931504366 1.8457607537119953</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbef</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>109年全民防衛動員暨災害防救演習疏散避難警報發送演練。嘉義縣災害應變中心05-3620233按324</text>
+    <description type="html"><![CDATA[109年全民防衛動員暨災害防救演習疏散避難警報發送演練。嘉義縣災害應變中心05-3620233按324]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20200729165258_000</id>
+    <title>雷雨</title>
+    <sent>2020-07-29T16:53:05+08:00</sent>
+    <expires>2020-07-29T17:45:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>雲林縣(水林鄉),嘉義縣(朴子市 布袋鎮 新港鄉等共10鄉鎮區),臺南市(新營區 鹽水區 白河區等共8鄉鎮區)</areaDesc>
+      <polygon>23.52,120.36 23.47,120.4 23.35,120.52 23.26,120.44 23.25,120.23 23.39,120.18 23.52,120.23 23.52,120.36</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbee</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至29日17:45；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[109 年 7 月 29 日 16 時 52 分 氣象局發布大雷雨即時訊息，持續時間至 17 時 45 分；請慎防劇烈降雨、雷擊，低窪地區慎防淹水]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20200728174106_000</id>
+    <title>雷雨</title>
+    <sent>2020-07-28T17:41:11+08:00</sent>
+    <expires>2020-07-28T18:45:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣成功鎮 臺東縣東河鄉</areaDesc>
+      <polygon>22.98,121.27 23.04,121.27 23.04,121.32 23.01,121.32 22.98,121.3 22.98,121.27</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbed</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至28日18:45；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[109 年 7 月 28 日 17 時 40 分 氣象局發布大雷雨即時訊息，持續時間至 18 時 45 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，低窪地區慎防淹水]]></description>
+  </entry>
+  <entry>
+    <id>A20200727141226155-213384</id>
+    <title>疏散避難</title>
+    <sent>2020-07-27T14:12:27+08:00</sent>
+    <expires>2020-07-27T14:17:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣　五結鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000209</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbec</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報][Evacuation Drill]宜蘭縣109年民安6號演習疏散避難警報演練。宜蘭縣災害應變中心(Yilan.EOC)03-9365027</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報][Evacuation Drill]宜蘭縣109年民安6號演習疏散避難警報演練。宜蘭縣災害應變中心(Yilan.EOC)03-9365027]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_109020901</id>
+    <title>強震</title>
+    <sent>2020-07-26T20:53:00+08:00</sent>
+    <expires>2020-07-26T20:56:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbeb</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]07/26 20:52左右東部海域發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_109946401</id>
+    <title>強震</title>
+    <sent>2020-07-26T20:52:56+08:00</sent>
+    <expires>2020-07-26T20:55:55+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbea</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]07/26 20:52左右東北地區發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A20200723140357970-209499</id>
+    <title>疏散避難</title>
+    <sent>2020-07-23T14:03:59+08:00</sent>
+    <expires>2020-07-23T15:02:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣　新豐鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000406</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbe9</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練] [疏散避難警報] [Evacuation Drill]新竹縣災害防救演習疏散避難警報演練。新竹縣災害應變中心EOC of Hsinchu　County 035513520</text>
+    <description type="html"><![CDATA[[演練] [疏散避難警報] [Evacuation Drill]新竹縣災害防救演習疏散避難警報演練。新竹縣災害應變中心EOC of Hsinchu　County 035513520]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20200722160059_000</id>
+    <title>雷雨</title>
+    <sent>2020-07-22T16:01:04+08:00</sent>
+    <expires>2020-07-22T16:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市旗山區 高雄市美濃區 屏東縣里港鄉 屏東縣高樹鄉</areaDesc>
+      <polygon>22.88,120.55 22.82,120.56 22.78,120.55 22.79,120.49 22.82,120.49 22.86,120.5 22.88,120.55</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbe8</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至22日16:30；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[109 年 7 月 22 日 16 時 0 分 氣象局發布大雷雨即時訊息，持續時間至 16 時 30 分；請慎防劇烈降雨、雷擊，低窪地區慎防淹水]]></description>
+  </entry>
+  <entry>
+    <id>A20200721142008572-208967</id>
+    <title>疏散避難</title>
+    <sent>2020-07-21T14:20:13+08:00</sent>
+    <expires>2020-07-21T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>苗栗縣　苗栗市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000501</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbe7</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報][Evacuation Drill]苗栗縣109年全民防衛動員暨災害防救(民安6號)演習。苗栗縣政府災害應變中心037-271880。苗栗縣政府關心您</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報][Evacuation Drill]苗栗縣109年全民防衛動員暨災害防救(民安6號)演習。苗栗縣政府災害應變中心037-271880。苗栗縣政府關心您]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20200720163840_000</id>
+    <title>雷雨</title>
+    <sent>2020-07-20T16:38:47+08:00</sent>
+    <expires>2020-07-20T17:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市新店區</areaDesc>
+      <polygon>24.95,121.57 24.9,121.57 24.9,121.49 24.96,121.51 24.95,121.57</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbe6</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至20日17:00；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[109 年 7 月 20 日 16 時 37 分 氣象局發布大雷雨即時訊息，持續時間至 17 時 0 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流，低窪地區慎防淹水]]></description>
+  </entry>
+  <entry>
+    <id>A20200715103610077-208509</id>
+    <title>疏散避難</title>
+    <sent>2020-07-15T10:36:11+08:00</sent>
+    <expires>2020-07-15T11:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>雲林縣　麥寮鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000913</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbe5</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>本日(7/15)上午9時許,六輕塑化煉二廠發生火警，現火勢已受控制，暫無爆炸危險，請民眾勿驚慌!雲林縣政府提醒您</text>
+    <description type="html"><![CDATA[本日(7/15)上午9時許,六輕塑化煉二廠發生火警，現火勢已受控制，暫無爆炸危險，請民眾勿驚慌!雲林縣政府提醒您]]></description>
+  </entry>
+  <entry>
+    <id>air.mnd.gov.tw_airRaidAlert_20200714135958001</id>
+    <title>防空</title>
+    <sent>2020-07-14T14:00:03+08:00</sent>
+    <expires>2020-07-14T14:04:58+08:00</expires>
+    <sender>
+      <value>國防部</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airRaidAlert</value>
+    </eventCode>
+    <area>
+      <areaDesc>北區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>中區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10020</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>南區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10013</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>東區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>澎湖</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10016</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>金門</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09020</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>馬祖</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09007</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20073c807bfc</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【萬安演習結束】【飛彈空襲警報解除】 萬安演習於1400結束，感謝民眾配合。Missile warning drill ended.國防部(MND)02_2735_5979。</text>
+    <description type="html"><![CDATA[[飛彈空襲警報測試]此為萬安演習模擬飛彈空襲警報測試訊息，請配合演練避難疏散。國防部02-23116117]]></description>
+  </entry>
+  <entry>
+    <id>air.mnd.gov.tw_airRaidAlert_20200714132901001</id>
+    <title>防空</title>
+    <sent>2020-07-14T13:29:03+08:00</sent>
+    <expires>2020-07-14T13:34:01+08:00</expires>
+    <sender>
+      <value>國防部</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airRaidAlert</value>
+    </eventCode>
+    <area>
+      <areaDesc>北區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>中區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10020</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>南區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10013</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>東區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>澎湖</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10016</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>金門</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09020</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>馬祖</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09007</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbe3</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>【演練】【萬安演習飛彈空襲警報】模擬飛彈空襲警報演練，不實施人車管制及疏散演練。Missile warning drill.國防部(MND)02_2735_5979。</text>
+    <description type="html"><![CDATA[[飛彈空襲警報測試]此為萬安演習模擬飛彈空襲警報測試訊息，請配合演練避難疏散。國防部02-23116117]]></description>
+  </entry>
+  <entry>
+    <id>A20200713133004373-208453_2</id>
+    <title>疏散避難</title>
+    <sent>2020-07-13T14:23:25+08:00</sent>
+    <expires>2020-07-13T14:28:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbe2</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報]109年花蓮縣災害防救演習，模擬地震疏散警報發送演練。花蓮縣災害應變中心03-8462119。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A20200709140019627-208429</id>
+    <title>疏散避難</title>
+    <sent>2020-07-09T14:00:20+08:00</sent>
+    <expires>2020-07-09T14:57:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>金門縣　金寧鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>0902004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>金門縣　金湖鎮</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>0902003</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbe1</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報][Evacuation Drill]金門縣109年全動暨災防(民安6號)演習疏散避難警報發送演練。金門縣災害應變中心敬上082-373795#0</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報][Evacuation Drill]金門縣109年全動暨災防(民安6號)演習疏散避難警報發送演練。金門縣災害應變中心敬上082-373795#0]]></description>
+  </entry>
+  <entry>
+    <id>A20200707141222428-208404</id>
+    <title>疏散避難</title>
+    <sent>2020-07-07T14:12:23+08:00</sent>
+    <expires>2020-07-07T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>雲林縣　虎尾鎮</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000903</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbe0</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難][Evacuation Drill]109年民安6號演習疏散警報發送演練。雲林縣災害應變中心Yunlin.EOC，05-5379409*0。雲林縣政府關心您</text>
+    <description type="html"><![CDATA[[演練][疏散避難][Evacuation Drill]109年民安6號演習疏散警報發送演練。雲林縣災害應變中心Yunlin.EOC，05-5379409*0。雲林縣政府關心您]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20200702165939_000</id>
+    <title>雷雨</title>
+    <sent>2020-07-02T16:59:44+08:00</sent>
+    <expires>2020-07-02T18:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <polygon>24.25,121.72 24.22,121.68 24.21,121.67 24.22,121.65 24.27,121.68 24.27,121.72 24.25,121.72</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbdf</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至02日18:00；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[109 年 7 月 2 日 16 時 59 分 氣象局發布大雷雨即時訊息，持續時間至 18 時 0 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流]]></description>
+  </entry>
+  <entry>
+    <id>EPA_airQuality_202007021530</id>
+    <title>空品警報</title>
+    <sent>2020-07-02T15:30:29+08:00</sent>
+    <expires>2020-07-02T15:45:00+08:00</expires>
+    <sender>
+      <value>環境保護署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airQuality</value>
+    </eventCode>
+    <area>
+      <areaDesc>彰化(大城)測站</areaDesc>
+      <circle>23.84315833,120.28181389 20.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbde</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[空品警報]07/02 15:00您所在地區因風速強引發揚塵現象，空品達嚴重惡化一級。建議您減少戶外活動。行政院環境保護署及環保局關心您(02)23712121#6100</text>
+    <description type="html"><![CDATA[AQI大於200]]></description>
+  </entry>
+  <entry>
+    <id>EPA_airQuality_202007021421</id>
+    <title>空品警報</title>
+    <sent>2020-07-02T14:21:44+08:00</sent>
+    <expires>2020-07-02T14:36:00+08:00</expires>
+    <sender>
+      <value>環境保護署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airQuality</value>
+    </eventCode>
+    <area>
+      <areaDesc>彰化(大城)測站</areaDesc>
+      <circle>23.84315833,120.28181389 20.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbdd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[空品警報]07/02 14:00您所在地區因風速強引發揚塵現象，空品達嚴重惡化三級。建議您減少戶外活動。行政院環境保護署及環保局關心您(02)23712121#6100</text>
+    <description type="html"><![CDATA[AQI大於200]]></description>
+  </entry>
+  <entry>
+    <id>A20200702135501248-208218</id>
+    <title>疏散避難</title>
+    <sent>2020-07-02T13:55:03+08:00</sent>
+    <expires>2020-07-02T14:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>彰化縣　鹿港鎮</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000702</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbdc</link>
+    <channel>
+      <value>4384</value>
+    </channel>
+    <text>[Evacuation Drill] Changhua County Government, EOC彰化縣災害應變中心04-7512119</text>
+    <description type="html"><![CDATA[[Evacuation Drill] Changhua County Government, EOC彰化縣災害應變中心04-7512119]]></description>
+  </entry>
+  <entry>
+    <id>A20200702135501263-208217</id>
+    <title>疏散避難</title>
+    <sent>2020-07-02T13:55:03+08:00</sent>
+    <expires>2020-07-02T14:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>彰化縣　鹿港鎮</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000702</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20071ea4cbdb</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練] [疏散避難警報] 彰化縣109年全民防衛動員暨災害防救（民安6號）演習彰化縣災害應變中心04-7512119</text>
+    <description type="html"><![CDATA[[演練] [疏散避難警報] 彰化縣109年全民防衛動員暨災害防救（民安6號）演習彰化縣災害應變中心04-7512119]]></description>
+  </entry>
+</feed>

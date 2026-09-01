@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>201904</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:21:38+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2019年4月 月彙整]]></description>
+  <entry>
+    <id>A20190430094501895-187581</id>
+    <title>疏散避難</title>
+    <sent>2019-04-30T09:45:02+08:00</sent>
+    <expires>2019-04-30T09:50:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <circle>23.775167984013,120.70990666196263 4.964530181451948</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a40e</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難][Evacuation Drill]南投縣108年災害防救演習疏散避難警報發送演練。南投縣災害應變中心(Nantou.EOC)049-2227119#9</text>
+    <description type="html"><![CDATA[[演練][疏散避難][Evacuation Drill]南投縣108年災害防救演習疏散避難警報發送演練。南投縣災害應變中心(Nantou.EOC)049-2227119#9]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281800_G09023</id>
+    <title>土石流</title>
+    <sent>2019-04-28T17:59:01+08:00</sent>
+    <expires>2019-04-28T18:13:31+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮南建里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-023</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a40d</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮南建里解除全部土石流警戒。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮南建里計(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281800_G09027</id>
+    <title>土石流</title>
+    <sent>2019-04-28T17:59:01+08:00</sent>
+    <expires>2019-04-28T18:13:31+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖愛里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-027</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a40c</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮聖愛里解除全部土石流警戒。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖愛里計(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281800_G09011</id>
+    <title>土石流</title>
+    <sent>2019-04-28T17:59:00+08:00</sent>
+    <expires>2019-04-28T18:13:31+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮蘇北里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-011</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a40b</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮蘇北里解除全部土石流警戒。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮蘇北里計(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281800_G09014</id>
+    <title>土石流</title>
+    <sent>2019-04-28T17:59:00+08:00</sent>
+    <expires>2019-04-28T18:13:31+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮長安里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-014</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a409</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮長安里解除全部土石流警戒。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮長安里計(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281800_G09009</id>
+    <title>土石流</title>
+    <sent>2019-04-28T17:59:00+08:00</sent>
+    <expires>2019-04-28T18:13:31+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖湖里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-009</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a408</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮聖湖里解除全部土石流警戒。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖湖里計(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281530_G09027</id>
+    <title>土石流</title>
+    <sent>2019-04-28T15:17:01+08:00</sent>
+    <expires>2019-04-28T15:31:31+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖愛里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-027</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a406</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮聖愛里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖愛里計3條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281530_G09009</id>
+    <title>土石流</title>
+    <sent>2019-04-28T15:17:01+08:00</sent>
+    <expires>2019-04-28T15:31:31+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖湖里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-009</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a407</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮聖湖里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖湖里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281530_G09023</id>
+    <title>土石流</title>
+    <sent>2019-04-28T15:17:00+08:00</sent>
+    <expires>2019-04-28T15:31:31+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮南建里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-023</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a405</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮南建里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮南建里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281530_G09014</id>
+    <title>土石流</title>
+    <sent>2019-04-28T15:17:00+08:00</sent>
+    <expires>2019-04-28T15:31:30+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮長安里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-014</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a403</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮長安里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮長安里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281530_G09011</id>
+    <title>土石流</title>
+    <sent>2019-04-28T15:17:00+08:00</sent>
+    <expires>2019-04-28T15:31:31+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮蘇北里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-011</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a402</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮蘇北里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮蘇北里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281230_G09027</id>
+    <title>土石流</title>
+    <sent>2019-04-28T12:18:02+08:00</sent>
+    <expires>2019-04-28T12:32:29+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖愛里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-027</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a401</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮聖愛里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖愛里計3條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281230_G09014</id>
+    <title>土石流</title>
+    <sent>2019-04-28T12:18:02+08:00</sent>
+    <expires>2019-04-28T12:32:29+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮長安里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-014</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a400</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮長安里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮長安里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281230_G09017</id>
+    <title>土石流</title>
+    <sent>2019-04-28T12:18:01+08:00</sent>
+    <expires>2019-04-28T12:32:29+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮永樂里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-017</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3ff</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮永樂里解除全部土石流警戒。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮永樂里計(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281230_G09016</id>
+    <title>土石流</title>
+    <sent>2019-04-28T12:18:01+08:00</sent>
+    <expires>2019-04-28T12:32:29+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮永春里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-016</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3fe</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮永春里解除全部土石流警戒。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮永春里計(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281230_G09023</id>
+    <title>土石流</title>
+    <sent>2019-04-28T12:18:00+08:00</sent>
+    <expires>2019-04-28T12:32:29+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮南建里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-023</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3fd</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮南建里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮南建里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281230_G09009</id>
+    <title>土石流</title>
+    <sent>2019-04-28T12:18:00+08:00</sent>
+    <expires>2019-04-28T12:32:29+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖湖里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-009</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3fb</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮聖湖里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖湖里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904281230_G09011</id>
+    <title>土石流</title>
+    <sent>2019-04-28T12:18:00+08:00</sent>
+    <expires>2019-04-28T12:32:29+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮蘇北里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-011</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3fa</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮蘇北里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮蘇北里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904280630_G09023</id>
+    <title>土石流</title>
+    <sent>2019-04-28T06:30:02+08:00</sent>
+    <expires>2019-04-28T06:44:27+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮南建里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-023</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3f8</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮南建里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮南建里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904280630_G09016</id>
+    <title>土石流</title>
+    <sent>2019-04-28T06:30:02+08:00</sent>
+    <expires>2019-04-28T06:44:27+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮永春里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-016</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3f9</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮永春里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮永春里計2條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904280630_G09017</id>
+    <title>土石流</title>
+    <sent>2019-04-28T06:30:01+08:00</sent>
+    <expires>2019-04-28T06:44:27+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮永樂里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-017</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3f7</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮永樂里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮永樂里計7條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904280630_G09027</id>
+    <title>土石流</title>
+    <sent>2019-04-28T06:30:01+08:00</sent>
+    <expires>2019-04-28T06:44:27+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖愛里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-027</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3f5</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮聖愛里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖愛里計3條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904280630_G09014</id>
+    <title>土石流</title>
+    <sent>2019-04-28T06:30:00+08:00</sent>
+    <expires>2019-04-28T06:44:27+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮長安里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-014</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3f6</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮長安里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮長安里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904280630_G09011</id>
+    <title>土石流</title>
+    <sent>2019-04-28T06:30:00+08:00</sent>
+    <expires>2019-04-28T06:44:27+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮蘇北里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-011</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3f3</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮蘇北里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮蘇北里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_201904280630_G09009</id>
+    <title>土石流</title>
+    <sent>2019-04-28T06:30:00+08:00</sent>
+    <expires>2019-04-28T06:44:27+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣蘇澳鎮聖湖里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203-009</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3f2</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[土石流警戒]宜蘭縣蘇澳鎮聖湖里已發布土石流黃色警戒，請提高警覺。農委會水土保持局</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：蘇澳鎮聖湖里計1條土石流潛勢溪流達黃色警戒(相關詳細土石流警戒資訊請上土石流防災資訊網(http://246.swcb.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>A20190425140705948-187323</id>
+    <title>疏散避難</title>
+    <sent>2019-04-25T14:07:06+08:00</sent>
+    <expires>2019-04-25T14:12:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <circle>24.805257546135298,120.99390503820669 0.99799316358781</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3f1</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報][Evacuation Drill]新竹市民安5號演習疏散避難警報發送演練。新竹市災害應變中心Hsinchu City EOC.03－5283119。</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報][Evacuation Drill]新竹市民安5號演習疏散避難警報發送演練。新竹市災害應變中心Hsinchu City EOC.03－5283119。]]></description>
+  </entry>
+  <entry>
+    <id>A20190419140201446-186890</id>
+    <title>疏散避難</title>
+    <sent>2019-04-19T14:02:02+08:00</sent>
+    <expires>2019-04-19T14:07:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市　八德區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6800800</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>桃園市　中壢區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6800200</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>桃園市　大溪區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6800300</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>桃園市　桃園區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6800100</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3f0</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報][Evacuation Drill]108年桃園市災防演習疏散警報發送演練。桃園市政府消防局Taoyuan. EOC 03-3379119#656</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報][Evacuation Drill]108年桃園市災防演習疏散警報發送演練。桃園市政府消防局Taoyuan. EOC 03-3379119#656]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_108942501</id>
+    <title>強震</title>
+    <sent>2019-04-18T13:01:24+08:00</sent>
+    <expires>2019-04-18T13:04:24+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3ef</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]04/18 13:01左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A20190416151922844-186863</id>
+    <title>疏散避難</title>
+    <sent>2019-04-16T15:19:23+08:00</sent>
+    <expires>2019-04-16T15:45:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>雲林縣　口湖鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000919</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3ee</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報][Evacuation Drill]108年雲林縣災防演習疏散警報發送演練。雲林縣災害應變中心(Yunlin.EOC)055379409雲林縣政府關心您</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報][Evacuation Drill]108年雲林縣災防演習疏散警報發送演練。雲林縣災害應變中心(Yunlin.EOC)055379409雲林縣政府關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20190411141601454-186836</id>
+    <title>疏散避難</title>
+    <sent>2019-04-11T14:16:02+08:00</sent>
+    <expires>2019-04-11T14:21:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>實兵狀況六（安億停車場）</areaDesc>
+      <circle>22.99666678334509,120.16483143179016 2.5413870720065557</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3ed</link>
+    <channel>
+      <value>4384</value>
+    </channel>
+    <text>[Evacuation Drill]Tainan City Government,EOC臺南市災害應變中心演練06-2975119 Ext 9.</text>
+    <description type="html"><![CDATA[[Evacuation Drill]Tainan City Government,EOC臺南市災害應變中心演練06-2975119 Ext 9.]]></description>
+  </entry>
+  <entry>
+    <id>A20190411141501908-186835</id>
+    <title>疏散避難</title>
+    <sent>2019-04-11T14:15:02+08:00</sent>
+    <expires>2019-04-11T14:20:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>實兵狀況六（安億停車場）</areaDesc>
+      <circle>22.99666678334509,120.16483143179016 2.5413870720065557</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3ec</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報]108年臺南市政府全民防衛動員暨災害防救（民安5號）演習疏散避難警報發送演練，臺南市災害應變中心06-2975119#9。</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報]108年臺南市政府全民防衛動員暨災害防救（民安5號）演習疏散避難警報發送演練，臺南市災害應變中心06-2975119#9。]]></description>
+  </entry>
+  <entry>
+    <id>A20190411103558184-186834</id>
+    <title>疏散避難</title>
+    <sent>2019-04-11T10:35:58+08:00</sent>
+    <expires>2019-04-11T10:38:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>兵推特別狀況三之二（安平國中）</areaDesc>
+      <circle>22.997248589370066,120.16902920660345 2.2077519480287298</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3eb</link>
+    <channel>
+      <value>4384</value>
+    </channel>
+    <text>[Evacuation Drill]Tainan City Government,EOC 06-2975119臺南市災害應變中心Ext 9.</text>
+    <description type="html"><![CDATA[[Evacuation Drill]Tainan City Government,EOC 06-2975119臺南市災害應變中心Ext 9.]]></description>
+  </entry>
+  <entry>
+    <id>A20190411103349267-186833</id>
+    <title>疏散避難</title>
+    <sent>2019-04-11T10:33:50+08:00</sent>
+    <expires>2019-04-11T10:38:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>兵推特別狀況三之二（安平國中）</areaDesc>
+      <circle>22.997248589370066,120.16902920660345 2.2077519480287298</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3ea</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報]108年臺南市政府全民防衛動員暨災害防救（民安5號）演習疏散避難警報發送演練，臺南市災害應變中心06-2975119#9。</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報]108年臺南市政府全民防衛動員暨災害防救（民安5號）演習疏散避難警報發送演練，臺南市災害應變中心06-2975119#9。]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_108938501</id>
+    <title>強震</title>
+    <sent>2019-04-10T04:24:32+08:00</sent>
+    <expires>2019-04-10T04:27:32+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3e9</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]04/10 04:24左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_108938401</id>
+    <title>強震</title>
+    <sent>2019-04-09T23:13:44+08:00</sent>
+    <expires>2019-04-09T23:16:44+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3e8</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]04/09 23:13左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>EPA_airQuality_201904091550</id>
+    <title>空品警報</title>
+    <sent>2019-04-09T15:49:10+08:00</sent>
+    <expires>2019-04-09T16:05:00+08:00</expires>
+    <sender>
+      <value>環境保護署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airQuality</value>
+    </eventCode>
+    <area>
+      <areaDesc>彰化(大城)測站</areaDesc>
+      <circle>23.84315833,120.28181389 20.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/19041ea4a3e7</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[空品警報]彰化縣大城地區因風速強引發揚塵現象，空品已達嚴重惡化三級。建議您減少戶外活動留在室內。行政院環境保護署及環保局關心您(02)23117722#2335</text>
+    <description type="html"><![CDATA[AQI大於200]]></description>
+  </entry>
+</feed>

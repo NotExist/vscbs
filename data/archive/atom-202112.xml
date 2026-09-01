@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202112</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:20:45+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2021年12月 月彙整]]></description>
+  <entry>
+    <id>A20211222074226994-230747</id>
+    <title>水庫放水</title>
+    <sent>2021-12-22T07:42:28+08:00</sent>
+    <expires>2021-12-22T10:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>225－立霧溪排放水CBS區域</areaDesc>
+      <circle>24.16128826488235,121.61768400482087 5.449940386989495</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21123c78712c</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電溪畔壩，自12月22日08時進行放水，請立霧溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]16:00 Liwu River level rise. Plz stay away.1911 TAIPOWER(台電公司1911)台灣電力股份有限公司東部發電廠1911</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電溪畔壩，自12月22日08時進行放水，請立霧溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]16:00 Liwu River level rise. Plz stay away.1911 TAIPOWER(台電公司1911)台灣電力股份有限公司東部發電廠1911]]></description>
+  </entry>
+  <entry>
+    <id>A20211206100004348-230692</id>
+    <title>水庫放水</title>
+    <sent>2021-12-06T10:00:05+08:00</sent>
+    <expires>2021-12-06T11:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>225－木瓜溪排放水CBS區域</areaDesc>
+      <circle>23.986607824717908,121.45979401525685 7.071574282499708</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21121ea4e9c5</link>
+    <channel>
+      <value>919</value>
+    </channel>
+    <text>[水壩放水警戒]台電水簾壩，自6日10時進行放水，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]10:00 Mugua River level rise.Plz stay away.1911,TAIPOWER(台電公司1911)台灣電力股份有限公司東部發電廠1911</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電水簾壩，自6日10時進行放水，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]10:00 Mugua River level rise.Plz stay away.1911,TAIPOWER(台電公司1911)台灣電力股份有限公司東部發電廠1911]]></description>
+  </entry>
+</feed>

@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202512</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2026-01-01T00:00:02+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2025年12月 月彙整]]></description>
+  <entry>
+    <id>A2025123123282002942071230</id>
+    <title>疏散避難</title>
+    <sent>2025-12-31T23:30:03+08:00</sent>
+    <expires>2025-12-31T23:40:00+08:00</expires>
+    <sender>
+      <value>臺中市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.175469388468365,120.65072986065205 24.17663386686638,120.65016089485798 24.18992186782021,120.64990324997005 24.190323030419844,120.65672010429533 24.19034259929486,120.65742792093315 24.19044044362493,120.6578358586723 24.182563734892685,120.65826526681877 24.175958666400383,120.65927437596297 24.175958666400383,120.6519637022693 24.175469388468365,120.65072986065205</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3eb9</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>【人流管制通知】2026台中市跨年晚會中央球場主會場及中科路轉播現場，人數已達容留上限，請民眾勿再前往。Due to capacity limits, please do not enter the Central Stadium main venue or Zhongke Rd. broadcast site.臺中市政府04-23811119提醒您</text>
+    <description type="html"><![CDATA[【人流管制通知】2026台中市跨年晚會中央球場主會場及中科路轉播現場，人數已達容留上限，請民眾勿再前往。Due to capacity limits, please do not enter the Central Stadium main venue or Zhongke Rd. broadcast site.臺中市政府04-23811119提醒您]]></description>
+  </entry>
+  <entry>
+    <id>A2025123122272067642071150</id>
+    <title>疏散避難</title>
+    <sent>2025-12-31T22:29:03+08:00</sent>
+    <expires>2025-12-31T22:39:00+08:00</expires>
+    <sender>
+      <value>臺中市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.175469388468365,120.65072986065205 24.17663386686638,120.65016089485798 24.18992186782021,120.64990324997005 24.190323030419844,120.65672010429533 24.19034259929486,120.65742792093315 24.19044044362493,120.6578358586723 24.182563734892685,120.65826526681877 24.175958666400383,120.65927437596297 24.175958666400383,120.6519637022693 24.175469388468365,120.65072986065205</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3eb5</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>【台中跨年晚會安全提醒】中央球場人潮已達約8成滿，請民眾注意安全，請依照工作人員引導前往中科路或凱旋路轉播現場。Central Stadium is about 80% full. Please follow staff to broadcast areas via Zhongke or Kaixuan Rd.臺中市政府04-23811119感協您的配合</text>
+    <description type="html"><![CDATA[【台中跨年晚會安全提醒】中央球場人潮已達約8成滿，請民眾注意安全，請依照工作人員引導前往中科路或凱旋路轉播現場。Central Stadium is about 80% full. Please follow staff to broadcast areas via Zhongke or Kaixuan Rd.臺中市政府04-23811119感協您的配合]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20251231070300_34</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-12-31T07:11:26+08:00</sent>
+    <expires>2025-12-31T13:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣頭城鎮</areaDesc>
+      <circle>24.978784,121.945586 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3eb1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]宜蘭縣頭城鎮石城里石城火車站之1小時累積雨量20.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3ck</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]宜蘭縣頭城鎮石城里石城火車站之1小時累積雨量20.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3ck]]></description>
+  </entry>
+  <entry>
+    <id>A2025122917312450641805460</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-12-29T18:30:02+08:00</sent>
+    <expires>2025-12-29T20:30:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.327266499086534,121.69016358312786 9.096552874942823</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3ead</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電東部電廠南溪壩將調節水量排放水，自12月29日19時30分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]19:30 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電東部電廠南溪壩將調節水量排放水，自12月29日19時30分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]19:30 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>A2025122916173440441805280</id>
+    <title>疏散避難</title>
+    <sent>2025-12-29T16:18:01+08:00</sent>
+    <expires>2025-12-29T16:27:28+08:00</expires>
+    <sender>
+      <value>臺中市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.175469388468365,120.65072986065205 24.17663386686638,120.65016089485798 24.18992186782021,120.64990324997005 24.190323030419844,120.65672010429533 24.19034259929486,120.65742792093315 24.19044044362493,120.6578358586723 24.182563734892685,120.65826526681877 24.175958666400383,120.65927437596297 24.175958666400383,120.6519637022693 24.175469388468365,120.65072986065205</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3ea9</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>【演練】本訊息為「2026台中最強跨年晚會」災防告警細胞廣播服務(CBS)訊息事前測試(TEST)，非實際災害請勿驚慌，無須採取任何行動。臺中市政府04-23811119</text>
+    <description type="html"><![CDATA[【演練】本訊息為「2026台中最強跨年晚會」災防告警細胞廣播服務(CBS)訊息事前測試(TEST)，非實際災害請勿驚慌，無須採取任何行動。臺中市政府04-23811119]]></description>
+  </entry>
+  <entry>
+    <id>A2025122916152469341805220</id>
+    <title>疏散避難</title>
+    <sent>2025-12-29T16:16:01+08:00</sent>
+    <expires>2025-12-29T16:25:18+08:00</expires>
+    <sender>
+      <value>臺中市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.187552090324456,120.66035823327027 24.176472790420906,120.6609586158603 24.176277034424665,120.65028038265287 24.187865272098655,120.65019461371143 24.187552090324456,120.66035823327027</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3ea5</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>【演練】本訊息為「2026台中最強跨年晚會」災防告警細胞廣播服務(CBS)訊息事前測試(TEST)，非實際災害請勿驚慌，無須採取任何行動。臺中市政府04-23811119</text>
+    <description type="html"><![CDATA[【演練】本訊息為「2026台中最強跨年晚會」災防告警細胞廣播服務(CBS)訊息事前測試(TEST)，非實際災害請勿驚慌，無須採取任何行動。臺中市政府04-23811119]]></description>
+  </entry>
+  <entry>
+    <id>A2025122916130286241805150</id>
+    <title>疏散避難</title>
+    <sent>2025-12-29T16:14:02+08:00</sent>
+    <expires>2025-12-29T16:22:51+08:00</expires>
+    <sender>
+      <value>臺中市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.187552090324456,120.66035823327027 24.176472790420906,120.6609586158603 24.176277034424665,120.65028038265287 24.187865272098655,120.65019461371143 24.187552090324456,120.66035823327027</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3ea1</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>【演練】本訊息為「2026台中最強跨年晚會」災防告警細胞廣播服務(CBS)訊息事前測試(TEST)，非實際災害請勿驚慌，無須採取任何行動。臺中市政府04-23811119</text>
+    <description type="html"><![CDATA[【演練】本訊息為「2026台中最強跨年晚會」災防告警細胞廣播服務(CBS)訊息事前測試(TEST)，非實際災害請勿驚慌，無須採取任何行動。臺中市政府04-23811119]]></description>
+  </entry>
+  <entry>
+    <id>A2025122909402525641803460</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-12-29T10:00:03+08:00</sent>
+    <expires>2025-12-29T12:00:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.327266499086534,121.69016358312786 9.096552874942823</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e9d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電東部電廠南溪壩將調節水量排放水，自12月29日11時00分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]11:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電東部電廠南溪壩將調節水量排放水，自12月29日11時00分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]11:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114095302</id>
+    <title>強震</title>
+    <sent>2025-12-27T23:06:13+08:00</sent>
+    <expires>2025-12-27T23:09:11+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09020</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e99</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]12/27 23:06左右東北地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114095301</id>
+    <title>強震</title>
+    <sent>2025-12-27T23:06:12+08:00</sent>
+    <expires>2025-12-27T23:09:10+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10014</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e95</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]12/27 23:06左右東北地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A2025122611501784141798490</id>
+    <title>疏散避難</title>
+    <sent>2025-12-26T13:12:03+08:00</sent>
+    <expires>2025-12-26T13:20:00+08:00</expires>
+    <sender>
+      <value>臺北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.040860152006427,121.56614333801168 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e91</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難]捷運市政府站發生重大災害事件，請民眾保持冷靜，聽從現場引導，迅速離開現場並前往安全區域。臺北市政府1999</text>
+    <description type="html"><![CDATA[[演練][疏散避難]捷運市政府站發生重大災害事件，請民眾保持冷靜，聽從現場引導，迅速離開現場並前往安全區域。臺北市政府1999]]></description>
+  </entry>
+  <entry>
+    <id>A2025122611531810941798500</id>
+    <title>疏散避難</title>
+    <sent>2025-12-26T13:12:02+08:00</sent>
+    <expires>2025-12-26T13:20:00+08:00</expires>
+    <sender>
+      <value>臺北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.04093502937553,121.5661539954867 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e8d</link>
+    <channel>
+      <value>4384</value>
+    </channel>
+    <text>[Drill] [Evacuation]A major incident has occurred on MRT Taipei City Hall Station.Remain calm and follow on-site instructions.Leave the area immediately.Taipei City Government1999</text>
+    <description type="html"><![CDATA[[Drill] [Evacuation]A major incident has occurred on MRT Taipei City Hall Station.Remain calm and follow on-site instructions.Leave the area immediately.Taipei City Government1999]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114095103</id>
+    <title>強震</title>
+    <sent>2025-12-24T17:47:16+08:00</sent>
+    <expires>2025-12-24T17:50:14+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10016</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e89</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]12/24 17:47左右臺東地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114095101</id>
+    <title>強震</title>
+    <sent>2025-12-24T17:47:15+08:00</sent>
+    <expires>2025-12-24T17:50:13+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10014</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e85</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]12/24 17:47左右臺東地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114095102</id>
+    <title>強震</title>
+    <sent>2025-12-24T17:47:15+08:00</sent>
+    <expires>2025-12-24T17:50:14+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10013</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e81</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]12/24 17:47左右臺東地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114093901</id>
+    <title>強震</title>
+    <sent>2025-12-18T19:33:07+08:00</sent>
+    <expires>2025-12-18T19:36:06+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e6d</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]12/18 19:32左右花蓮地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A2025121808131840141781330</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-12-18T09:30:02+08:00</sent>
+    <expires>2025-12-18T11:30:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.0381839097611,121.40107709485729 24.03584749235387,121.41177501722812 24.034279715223015,121.41469326063631 24.0231479475425,121.42911281630036 24.001195158787564,121.45812358900541 23.983630230722117,121.48593273207177 23.97139609754356,121.5051588062905 23.96739622510276,121.50108184858823 23.95939610782638,121.51017990156697 23.95076797402327,121.5218528752001 23.9478264328396,121.53116550490003 23.943649329113544,121.54348220869673 23.944747547891794,121.54713001295707 23.94333555060286,121.55017700239807 23.939687819423742,121.54507007643359 23.937574122397514,121.54870587903676 23.92329575580554,121.5740259321373 23.921961981594496,121.58621388990093 23.918509796151163,121.59574109632182 23.9054848114701,121.58844548780134 23.905955616916213,121.58398229200056 23.910506647816018,121.56801778394394 23.919372851161416,121.547847572152 23.926355538714375,121.53308469373404 23.931219659738243,121.52544576245964 23.94479115732129,121.50896627027217 23.953262813666683,121.49969655591673 23.961028009840806,121.49343091565792 23.9647143534053,121.4873369367761 23.953498129511793,121.46665174085328 23.9508311914603,121.43128949720098 23.97263571373256,121.42837125379279 23.987692798509517,121.41807157117562 24.006511678654967,121.38202268201552 24.0381839097611,121.40107709485729</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e69</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒] 台電木瓜壩，將於12月18日10時30分起，排放水至木瓜溪，請木瓜溪下游民眾注意遠離河床。[Reservoir discharge] 09:30 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒] 台電木瓜壩，將於12月18日10時30分起，排放水至木瓜溪，請木瓜溪下游民眾注意遠離河床。[Reservoir discharge] 09:30 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20251218004300_16</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-12-18T00:50:07+08:00</sent>
+    <expires>2025-12-18T06:43:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.156288,121.626049 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e65</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉崇德村共5處之1小時累積雨量25.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/7bJ</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉崇德村共5處之1小時累積雨量25.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/7bJ]]></description>
+  </entry>
+  <entry>
+    <id>A2025121508590341541774300</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-12-15T09:02:01+08:00</sent>
+    <expires>2025-12-15T11:00:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.0381839097611,121.40107709485729 24.03584749235387,121.41177501722812 24.034279715223015,121.41469326063631 24.0231479475425,121.42911281630036 24.001195158787564,121.45812358900541 23.983630230722117,121.48593273207177 23.97139609754356,121.5051588062905 23.96739622510276,121.50108184858823 23.95939610782638,121.51017990156697 23.95076797402327,121.5218528752001 23.9478264328396,121.53116550490003 23.943649329113544,121.54348220869673 23.944747547891794,121.54713001295707 23.94333555060286,121.55017700239807 23.939687819423742,121.54507007643359 23.937574122397514,121.54870587903676 23.92329575580554,121.5740259321373 23.921961981594496,121.58621388990093 23.918509796151163,121.59574109632182 23.9054848114701,121.58844548780134 23.905955616916213,121.58398229200056 23.910506647816018,121.56801778394394 23.919372851161416,121.547847572152 23.926355538714375,121.53308469373404 23.931219659738243,121.52544576245964 23.94479115732129,121.50896627027217 23.953262813666683,121.49969655591673 23.961028009840806,121.49343091565792 23.9647143534053,121.4873369367761 23.953498129511793,121.46665174085328 23.9508311914603,121.43128949720098 23.97263571373256,121.42837125379279 23.987692798509517,121.41807157117562 24.006511678654967,121.38202268201552 24.0381839097611,121.40107709485729</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e61</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒] 台電木瓜壩，將於12月15日09時30分起，排放水至木瓜溪，請木瓜溪下游民眾注意遠離河床。[Reservoir discharge] 09:30 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒] 台電木瓜壩，將於12月15日09時30分起，排放水至木瓜溪，請木瓜溪下游民眾注意遠離河床。[Reservoir discharge] 09:30 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>A2025121507154338941774150</id>
+    <title>台電大觀電廠(水庫放水)</title>
+    <sent>2025-12-15T08:15:03+08:00</sent>
+    <expires>2025-12-15T08:45:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司大觀發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.920264446183378,121.0604238217733 23.920107528602582,121.0604238217733 23.920107528602582,121.06025216039635 23.88181394349247,121.07741829809163 23.88212787143101,121.02694985326748 23.91963677471643,121.02454659399015 23.920264446183378,121.0604238217733</polygon>
+    </area>
+    <area>
+      <areaDesc>發布區域2</areaDesc>
+      <circle>23.91752270802204,121.05501439170195 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e5d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]武界壩 自2025年12月15日08時30分進行放水，請濁水溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2025/12/15 08:30 WUJEH Flood discharge. Plz stay away.。(Takuan plant care about you).Taipower049-2774016</text>
+    <description type="html"><![CDATA[[水庫放水警戒]武界壩 自2025年12月15日08時30分進行放水，請濁水溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2025/12/15 08:30 WUJEH Flood discharge. Plz stay away.。(Takuan plant care about you).Taipower049-2774016]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114094901</id>
+    <title>強震</title>
+    <sent>2025-12-11T23:19:52+08:00</sent>
+    <expires>2025-12-11T23:22:51+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>67</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3e59</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]12/11 23:19左右南部地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114094601</id>
+    <title>強震</title>
+    <sent>2025-12-08T19:25:08+08:00</sent>
+    <expires>2025-12-08T19:28:06+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25123cdd3d9d</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]12/08 19:25左右花蓮地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+</feed>

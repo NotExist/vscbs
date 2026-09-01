@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>201712</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:22:05+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2017年12月 月彙整]]></description>
+  <entry>
+    <id>20171222-PWS_MESSAGE_CHT_CASE2_00000001</id>
+    <title>土石流</title>
+    <sent>2017-12-22T11:00:05+08:00</sent>
+    <expires>2017-12-22T11:03:00+08:00</expires>
+    <sender>
+      <value>災防告警細胞廣播訊息系統營運辦公室</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>Test_Geocode</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09020</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17121ea4896c</link>
+    <channel>
+      <value>4380</value>
+    </channel>
+    <text>【災防告警訊息測試】為配合政府政策提供災防告警細胞廣播訊息服務，您所收到的是災防告警細胞廣播訊息服務系統發送之測試訊息，造成您的不便，敬請見諒。中華電信關心您!</text>
+    <description type="html"><![CDATA[【災防告警訊息測試】為配合政府政策提供災防告警細胞廣播訊息服務，您所收到的是災防告警細胞廣播訊息服務系統發送之測試訊息，造成您的不便，敬請見諒。中華電信關心您!]]></description>
+  </entry>
+</feed>

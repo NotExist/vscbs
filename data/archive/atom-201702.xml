@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>201702</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:22:37+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2017年2月 月彙整]]></description>
+  <entry>
+    <id>cdcc.gov.tw_airRaidAlert_201702231329</id>
+    <title>防空</title>
+    <sent>2017-02-23T13:30:00+08:00</sent>
+    <expires>2017-02-23T14:04:56+08:00</expires>
+    <sender>
+      <value>內政部警政署民防指揮管制所</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airRaidAlert</value>
+    </eventCode>
+    <area>
+      <areaDesc>馬祖</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09007</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17021ea4535d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[萬安演習]馬祖萬安演習將於13:30~14:00實施警報發放，請配合憲警民防人員管制及引導進入防空避難設備；車輛除行駛於高速公路外，乘客皆須於停靠路邊後避難。內政部警政署。</text>
+    <description type="html"><![CDATA[馬祖萬安演習將於13:30~14:00實施警報發放]]></description>
+  </entry>
+  <entry>
+    <id>cdcc.gov.tw_airRaidAlert_201702211329</id>
+    <title>防空</title>
+    <sent>2017-02-21T13:29:53+08:00</sent>
+    <expires>2017-02-21T14:04:52+08:00</expires>
+    <sender>
+      <value>內政部警政署民防指揮管制所</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airRaidAlert</value>
+    </eventCode>
+    <area>
+      <areaDesc>金門</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09020</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17021ea4535b</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[萬安演習]金門萬安演習將於13:30~14:00實施警報發放，請配合憲警民防人員管制及引導進入防空避難設備；車輛除行駛於高速公路外，乘客皆須於停靠路邊後避難。內政部警政署。</text>
+    <description type="html"><![CDATA[金門萬安演習將於13:30~14:00實施警報發放]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_106010</id>
+    <title>地震</title>
+    <sent>2017-02-12T12:35:03+08:00</sent>
+    <expires>2017-02-12T12:39:44+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>67</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17021ea4535a</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/12 12:30臺灣西部海域發生規模4.3有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_106008</id>
+    <title>地震</title>
+    <sent>2017-02-11T01:27:05+08:00</sent>
+    <expires>2017-02-11T01:31:39+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10013</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17021ea45359</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/11 01:12高雄市近海發生規模5.6有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_106087801</id>
+    <title>強震</title>
+    <sent>2017-02-11T01:13:23+08:00</sent>
+    <expires>2017-02-11T01:16:21+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10013</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17021ea45358</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/11 01:12左右嘉南地區發生有感地震，預估震度4級以上地區：臺南、高雄、屏東，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+</feed>

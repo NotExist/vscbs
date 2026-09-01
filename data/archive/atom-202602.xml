@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202602</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2026-03-01T00:00:01+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2026年2月 月彙整]]></description>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_115001402</id>
+    <title>強震</title>
+    <sent>2026-02-24T12:37:31+08:00</sent>
+    <expires>2026-02-24T12:40:30+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f39</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]02/24 12:37左右東北地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_115001401</id>
+    <title>強震</title>
+    <sent>2026-02-24T12:37:31+08:00</sent>
+    <expires>2026-02-24T12:40:30+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f3d</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]02/24 12:37左右東北地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A2026020916315407142206060</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2026-02-10T08:30:04+08:00</sent>
+    <expires>2026-02-10T10:30:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.327266499086534,121.69016358312786 9.096552874942823</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f2d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電東部電廠南溪壩將水門測試排放水，自2月10日9時30分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]09:30 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電東部電廠南溪壩將水門測試排放水，自2月10日9時30分起排砂放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]09:30 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>A2026020513072781642191630</id>
+    <title>疏散避難</title>
+    <sent>2026-02-05T13:52:02+08:00</sent>
+    <expires>2026-02-05T14:00:00+08:00</expires>
+    <sender>
+      <value>臺北市政府警察局大同分局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.063113323423163,121.51320822402776 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f29</link>
+    <channel>
+      <value>4384</value>
+    </channel>
+    <text>[Drill] [Evacuation]A major incident has occurred on MRT Daqiaotou Station.For your personal safety,please remain calm,find cover nearby,and avoid gathering in the crowd.Taipei City Government1999</text>
+    <description type="html"><![CDATA[[Drill] [Evacuation]A major incident has occurred on MRT Daqiaotou Station.For your personal safety,please remain calm,find cover nearby,and avoid gathering in the crowd.Taipei City Government1999]]></description>
+  </entry>
+  <entry>
+    <id>A2026020513062578642191610</id>
+    <title>疏散避難</title>
+    <sent>2026-02-05T13:52:01+08:00</sent>
+    <expires>2026-02-05T14:00:00+08:00</expires>
+    <sender>
+      <value>臺北市政府警察局大同分局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.063118182736662,121.51320822402776 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f25</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難]2月5日於捷運大橋頭站發生重大治安案件，為維護人身安全，請保持冷靜、就近找掩護躲避，避免圍觀。臺北市政府1999</text>
+    <description type="html"><![CDATA[[演練][疏散避難]2月5日於捷運大橋頭站發生重大治安案件，為維護人身安全，請保持冷靜、就近找掩護躲避，避免圍觀。臺北市政府1999]]></description>
+  </entry>
+  <entry>
+    <id>A2026020513454870442191830</id>
+    <title>疏散避難</title>
+    <sent>2026-02-05T13:47:01+08:00</sent>
+    <expires>2026-02-05T13:55:35+08:00</expires>
+    <sender>
+      <value>新北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.07041659986855,121.49669172687486 2.0</circle>
+    </area>
+    <area>
+      <areaDesc>發布區域2</areaDesc>
+      <circle>25.07041659986855,121.49669172687486 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f21</link>
+    <channel>
+      <value>4384</value>
+    </channel>
+    <text>[Drill] [Evacuation] A major incident has occurred on MRT Sanchong Elementary School Station. Remain calm and follow on-site instructions. Leave the area immediately. New Taipei City1999</text>
+    <description type="html"><![CDATA[[Drill] [Evacuation] A major incident has occurred on MRT Sanchong Elementary School Station. Remain calm and follow on-site instructions. Leave the area immediately. New Taipei City1999]]></description>
+  </entry>
+  <entry>
+    <id>A2026020513445432442191800</id>
+    <title>疏散避難</title>
+    <sent>2026-02-05T13:46:01+08:00</sent>
+    <expires>2026-02-05T13:54:58+08:00</expires>
+    <sender>
+      <value>新北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.07041659986855,121.49669172687486 2.0</circle>
+    </area>
+    <area>
+      <areaDesc>發布區域2</areaDesc>
+      <circle>25.07041659986855,121.49669172687486 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f1d</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報] 捷運三重國小站發生重大治安案件，請民眾保持冷靜，聽從現場引導，迅速離開現場並前往安全區域。新北市政府1999</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報] 捷運三重國小站發生重大治安案件，請民眾保持冷靜，聽從現場引導，迅速離開現場並前往安全區域。新北市政府1999]]></description>
+  </entry>
+  <entry>
+    <id>A2026020314570322742184440</id>
+    <title>疏散避難</title>
+    <sent>2026-02-05T13:40:02+08:00</sent>
+    <expires>2026-02-05T13:50:00+08:00</expires>
+    <sender>
+      <value>新北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.07039883760161,121.49668693542482 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f19</link>
+    <channel>
+      <value>4384</value>
+    </channel>
+    <text> A major incident has occurred on MRT Sanchong Elementary School Station. Remain calm and follow on-site instructions. Leave the area immediately. New Taipei City1999</text>
+    <description type="html"><![CDATA[ A major incident has occurred on MRT Sanchong Elementary School Station. Remain calm and follow on-site instructions. Leave the area immediately. New Taipei City1999]]></description>
+  </entry>
+  <entry>
+    <id>A2026020314522220442184420</id>
+    <title>疏散避難</title>
+    <sent>2026-02-05T13:40:02+08:00</sent>
+    <expires>2026-02-05T13:50:00+08:00</expires>
+    <sender>
+      <value>新北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.07042313272219,121.49671375751497 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f15</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>捷運三重國小站發生重大治安案件，請民眾保持冷靜，聽從現場引導，迅速離開現場並前往安全區域。新北市政府1999</text>
+    <description type="html"><![CDATA[捷運三重國小站發生重大治安案件，請民眾保持冷靜，聽從現場引導，迅速離開現場並前往安全區域。新北市政府1999]]></description>
+  </entry>
+  <entry>
+    <id>A2026020308465770042182810</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2026-02-05T10:00:02+08:00</sent>
+    <expires>2026-02-05T10:10:00+08:00</expires>
+    <sender>
+      <value>農業部農田水利署南投管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.83888,120.89805 23.83794,120.90072 23.83355999999999,120.89583 23.82547,120.89351 23.81472,120.88222 23.81555,120.87777 23.82555,120.87777 23.83527,120.88333 23.83888,120.89805</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f11</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[演練]  [水庫放水警戒]頭社水庫自2月5日10時0分進行放水，請遠離水社水尾溪下游沿岸。  [Drill]  [Reservoir discharge]  Toushe Reservoir will discharge at 10:00 on 2/5.Plz keep away.農水署049-2895541</text>
+    <description type="html"><![CDATA[[演練]  [水庫放水警戒]頭社水庫自2月5日10時0分進行放水，請遠離水社水尾溪下游沿岸。  [Drill]  [Reservoir discharge]  Toushe Reservoir will discharge at 10:00 on 2/5.Plz keep away.農水署049-2895541]]></description>
+  </entry>
+  <entry>
+    <id>A2026020210433880542180780</id>
+    <title>疏散避難</title>
+    <sent>2026-02-02T10:50:02+08:00</sent>
+    <expires>2026-02-02T10:59:47+08:00</expires>
+    <sender>
+      <value>嘉義縣消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>23.46534552499731,120.29516994953157 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/26023cdd3f0d</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][drill] [疏散避難警報][Evacuation Alert]
+嘉義縣政府2026台灣燈會防災應變演練-演練警報發送，請接獲示警民眾勿驚慌。
+嘉義縣消防局(Chiayi County FireBureau)05-3620233#324
+.ChiaYi County Government05-3620233嘉義縣政府關心您</text>
+    <description type="html"><![CDATA[[演練][drill] [疏散避難警報][Evacuation Alert]
+嘉義縣政府2026台灣燈會防災應變演練-演練警報發送，請接獲示警民眾勿驚慌。
+嘉義縣消防局(Chiayi County FireBureau)05-3620233#324
+.ChiaYi County Government05-3620233嘉義縣政府關心您]]></description>
+  </entry>
+</feed>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202301</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:20:39+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2023年1月 月彙整]]></description>
+  <entry>
+    <id>EPA_airQuality_202301241333</id>
+    <title>空品警報</title>
+    <sent>2023-01-24T13:33:31+08:00</sent>
+    <expires>2023-01-24T13:43:00+08:00</expires>
+    <sender>
+      <value>環境保護署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airQuality</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南(學甲)測站</areaDesc>
+      <circle>23.23688056,120.18339722 10.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/23013ca6050a</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[空氣品質不良通報] 01/24 13:00您所在地區因“受風速增強易起揚塵”以致空品不良，請避免不必要外出及注意防護。環保署及環保局關心您。This area currently has unhealthy air condition.Please reduce outdoor activities.EPA。06-2686751</text>
+    <description type="html"><![CDATA[AQI大於200]]></description>
+  </entry>
+  <entry>
+    <id>EPA_airQuality_202301241046</id>
+    <title>空品警報</title>
+    <sent>2023-01-24T10:46:23+08:00</sent>
+    <expires>2023-01-24T10:56:00+08:00</expires>
+    <sender>
+      <value>環境保護署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>airQuality</value>
+    </eventCode>
+    <area>
+      <areaDesc>二林測站</areaDesc>
+      <circle>23.925175,120.409653 20.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/23013ca58fdf</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[空氣品質不良通報]01/24 10:00您所在地區因“風速大引起揚塵”以致空品不良，請避免不必要外出及注意防護。環保署及環保局關心您。This area currently has unhealthy air condition.Please reduce outdoor activities.EPA。04-7115655</text>
+    <description type="html"><![CDATA[AQI大於200]]></description>
+  </entry>
+  <entry>
+    <id>20230111-PWS_MESSAGE_CASE1_000000001</id>
+    <title>系統測試</title>
+    <sent>2023-01-11T16:00:02+08:00</sent>
+    <expires>2023-01-11T16:05:00+08:00</expires>
+    <sender>
+      <value>災防告警細胞廣播訊息系統營運辦公室</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>systemTest</value>
+    </eventCode>
+    <area>
+      <areaDesc>Test_Geocode</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09020</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/23013ca3bb1e</link>
+    <channel>
+      <value>4380</value>
+    </channel>
+    <text>﹝災防告警訊息測試﹞每月訊息發送測試，敬請見諒，電信業者共同關心您。Public Warning System is testing, please don’t panic.</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A2023010615502724212679550</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2023-01-08T08:00:06+08:00</sent>
+    <expires>2023-01-08T09:00:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.327266499086534,121.69016358312786 9.096552874942823</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/23013ca3bb1a</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電南溪壩，自01月08日08時00分進行放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]08:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911)。Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電南溪壩，自01月08日08時00分進行放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]08:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911)。Taipower03-8350161]]></description>
+  </entry>
+</feed>

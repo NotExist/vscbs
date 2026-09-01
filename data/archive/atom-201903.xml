@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>201903</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:21:40+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2019年3月 月彙整]]></description>
+  <entry>
+    <id>A20190329110002036-186783</id>
+    <title>低溫警報</title>
+    <sent>2019-03-29T11:00:03+08:00</sent>
+    <expires>2019-03-29T11:10:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>coldSurge</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣　尖石鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000412</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19031ea4a3e6</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【演練】【低溫警報】農糧署049-2341013【Low-temp Alert Drill】(AFA)049-2341013行政院農業委員會農糧署關心您</text>
+    <description type="html"><![CDATA[【演練】【低溫警報】農糧署049-2341013【Low-temp Alert Drill】(AFA)049-2341013行政院農業委員會農糧署關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20190321135729841-186596</id>
+    <title/>
+    <sent>2019-03-21T13:57:30+08:00</sent>
+    <expires>2019-03-21T14:07:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <circle>25.037427011478684,121.48253149713389 2.637978027269523</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/19031ea4a3e5</link>
+    <channel>
+      <value>4384</value>
+    </channel>
+    <text>[Evacuation Drill]New Taipei City Government,EOC 02-89535599#9新北市災害應變中心.</text>
+    <description type="html"><![CDATA[[Evacuation Drill]New Taipei City Government,EOC 02-89535599#9新北市災害應變中心.]]></description>
+  </entry>
+  <entry>
+    <id>A20190321135529838-186595</id>
+    <title/>
+    <sent>2019-03-21T13:55:30+08:00</sent>
+    <expires>2019-03-21T14:05:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <circle>25.037661115034762,121.48294573946939 2.635881699604833</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/19031ea4a3e4</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報]演練108年新北市政府全民防衛動員暨災害防救(民安5號)演習(含防汛演習)疏散避難警報發送演練，新北市災害應變中心02-89535599#9。</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報]演練108年新北市政府全民防衛動員暨災害防救(民安5號)演習(含防汛演習)疏散避難警報發送演練，新北市災害應變中心02-89535599#9。]]></description>
+  </entry>
+  <entry>
+    <id>A20190314140201451-186552</id>
+    <title/>
+    <sent>2019-03-14T14:02:02+08:00</sent>
+    <expires>2019-03-14T14:07:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣　卑南鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001404</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺東縣　臺東市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001401</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺東縣　太麻里鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001409</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19031ea4a3e3</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>(演習)[疏散避難] 依中央氣象局風雨資料研判：太麻里鄉土石流潛勢溪流達已達紅色警戒，請立即執行太麻里鄉華源村南北坑疏散撤離作為，災害應變中心089-357576臺東縣政府發布</text>
+    <description type="html"><![CDATA[(演習)[疏散避難] 依中央氣象局風雨資料研判：太麻里鄉土石流潛勢溪流達已達紅色警戒，請立即執行太麻里鄉華源村南北坑疏散撤離作為，災害應變中心089-357576臺東縣政府發布]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_108923501</id>
+    <title>強震</title>
+    <sent>2019-03-13T04:20:01+08:00</sent>
+    <expires>2019-03-13T04:23:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/19031ea4a3e2</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]03/13 04:19左右北部地區發生有感地震，預估震度臺北市3級，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A20190307141735419-186509</id>
+    <title/>
+    <sent>2019-03-07T14:17:36+08:00</sent>
+    <expires>2019-03-07T14:22:00+08:00</expires>
+    <sender>
+      <value>臺北市政府消防局(MSP)|陳木村|kimula82726</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>108年北市全民防衛動員暨災害防救（民安5號）演習</areaDesc>
+      <polygon>25.050727729922915,121.59570429347093 25.054537757606976,121.59476015589765 25.056364973762914,121.60583231471144 25.05869755054551,121.6051456692036 25.05978607118322,121.60973761103722 25.05644272703762,121.61029551051232 25.055354176702846,121.61514494441138 25.05298265857044,121.61510202906713 25.05298265857044,121.61510202906713 25.050727729922915,121.59570429347093</polygon>
+    </area>
+    <area>
+      <areaDesc>108年北市全民防衛動員暨災害防救（民安5號）演習</areaDesc>
+      <polygon>25.050727729922915,121.59570429347093 25.054537757606976,121.59476015589765 25.056364973762914,121.60583231471144 25.05869755054551,121.6051456692036 25.05978607118322,121.60973761103722 25.05644272703762,121.61029551051232 25.055354176702846,121.61514494441138 25.05298265857044,121.61510202906713 25.05298265857044,121.61510202906713 25.050727729922915,121.59570429347093</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/19031ea4a3e1</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[Evacuation Drill]Taipei City Government,EOC 02-87863119 Ext 9.臺北市政府消防局演練</text>
+    <description type="html"><![CDATA[[Evacuation Drill]Taipei City Government,EOC 02-87863119 Ext 9.臺北市政府消防局演練]]></description>
+  </entry>
+  <entry>
+    <id>A20190307141729647-186508</id>
+    <title/>
+    <sent>2019-03-07T14:17:30+08:00</sent>
+    <expires>2019-03-07T14:20:00+08:00</expires>
+    <sender>
+      <value>臺北市政府消防局(MSP)|高聿正|T122612798</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>108年北市全民防衛動員暨災害防救（民安5號）演習</areaDesc>
+      <polygon>25.050727729922915,121.59570429347093 25.054537757606976,121.59476015589765 25.056364973762914,121.60583231471144 25.05869755054551,121.6051456692036 25.05978607118322,121.60973761103722 25.05644272703762,121.61029551051232 25.055354176702846,121.61514494441138 25.05298265857044,121.61510202906713 25.05298265857044,121.61510202906713 25.050727729922915,121.59570429347093</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/19031ea4a3e0</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報]108年臺北市全民防衛動員暨災害防救(民安5號)演習疏散避難警報發送演練。臺北市災害應變中心02-87863119按9。臺北市政府消防局演練</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報]108年臺北市全民防衛動員暨災害防救(民安5號)演習疏散避難警報發送演練。臺北市災害應變中心02-87863119按9。臺北市政府消防局演練]]></description>
+  </entry>
+</feed>

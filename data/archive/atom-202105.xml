@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202105</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:21:03+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2021年5月 月彙整]]></description>
+  <entry>
+    <id>A20210531030221407-226616</id>
+    <title>水庫放水</title>
+    <sent>2021-05-31T03:02:22+08:00</sent>
+    <expires>2021-05-31T04:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>225－立霧溪排放水CBS區域</areaDesc>
+      <circle>24.16128826488235,121.61768400482087 5.449940386989495</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd56</link>
+    <channel>
+      <value>919</value>
+    </channel>
+    <text>[水庫放水警戒]東部電廠溪畔壩，將於110年05月31日04時00分起，將排放水至立霧溪，請遊客遠離。連絡電話:0912488229台灣電力股份有限公司東部發電廠遙控中心</text>
+    <description type="html"><![CDATA[[水庫放水警戒]東部電廠溪畔壩，將於110年05月31日04時00分起，將排放水至立霧溪，請遊客遠離。連絡電話:0912488229台灣電力股份有限公司東部發電廠遙控中心]]></description>
+  </entry>
+  <entry>
+    <id>A20210530215842965-226609</id>
+    <title>水庫放水</title>
+    <sent>2021-05-30T21:58:44+08:00</sent>
+    <expires>2021-05-30T22:51:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>武界壩放水警戒區</areaDesc>
+      <circle>23.90503984819849,121.03046891149762 2.945558830049638</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd55</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[Reservoir discharge]2021年5月30日22：00 Zhuoshui River level rises.Plz stay away.台電大觀電廠關心您</text>
+    <description type="html"><![CDATA[[Reservoir discharge]2021年5月30日22：00 Zhuoshui River level rises.Plz stay away.台電大觀電廠關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20210530215827408-226608</id>
+    <title>水庫放水</title>
+    <sent>2021-05-30T21:58:28+08:00</sent>
+    <expires>2021-05-30T22:51:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>武界壩放水警戒區</areaDesc>
+      <circle>23.90503984819849,121.03046891149762 2.945558830049638</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd54</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[Reservoir discharge]2021年5月30日22：00 Zhuoshui River level rises.Plz stay away.台電大觀電廠關心您</text>
+    <description type="html"><![CDATA[[Reservoir discharge]2021年5月30日22：00 Zhuoshui River level rises.Plz stay away.台電大觀電廠關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20210530215033053-226607</id>
+    <title>水庫放水</title>
+    <sent>2021-05-30T21:50:34+08:00</sent>
+    <expires>2021-05-30T22:44:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>武界壩放水警戒區</areaDesc>
+      <circle>23.90503984819849,121.03046891149762 2.945558830049638</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd53</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水]武界水庫 自2021年5月30日日22時OO分進行放水，請濁水溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（台電公司1911）台灣電力股份有限公司大觀發電廠關心您</text>
+    <description type="html"><![CDATA[[水庫放水]武界水庫 自2021年5月30日日22時OO分進行放水，請濁水溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（台電公司1911）台灣電力股份有限公司大觀發電廠關心您]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20210530163457_000</id>
+    <title>雷雨</title>
+    <sent>2021-05-30T16:35:02+08:00</sent>
+    <expires>2021-05-30T18:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>雲林縣(口湖鄉 水林鄉),嘉義縣(朴子市 布袋鎮 新港鄉等共7鄉鎮區)</areaDesc>
+      <polygon>23.42,120.14 23.48,120.13 23.54,120.12 23.56,120.27 23.53,120.32 23.44,120.34 23.39,120.16 23.42,120.14</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd52</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至30日18:00；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[110 年 5 月 30 日 16 時 34 分 氣象局發布大雷雨即時訊息，持續時間至 18 時 0 分；請慎防劇烈降雨、雷擊，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20210530065653_000</id>
+    <title>雷雨</title>
+    <sent>2021-05-30T06:56:57+08:00</sent>
+    <expires>2021-05-30T07:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>彰化縣鹿港鎮 彰化縣福興鄉 彰化縣秀水鄉 彰化縣埔鹽鄉</areaDesc>
+      <polygon>24.09,120.48 24.05,120.51 23.99,120.45 24.03,120.38 24.09,120.4 24.09,120.48</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd51</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至30日07:30；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[110 年 5 月 30 日 6 時 56 分 氣象局發布大雷雨即時訊息，持續時間至 7 時 30 分；請慎防劇烈降雨、雷擊，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20210525000320_000</id>
+    <title>雷雨</title>
+    <sent>2021-05-25T00:03:25+08:00</sent>
+    <expires>2021-05-25T00:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣成功鎮 臺東縣東河鄉</areaDesc>
+      <polygon>22.93,121.19 23.07,121.26 23.07,121.35 22.95,121.28 22.93,121.29 22.87,121.24 22.93,121.19</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd50</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至25日00:30；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[110 年 5 月 25 日 0 時 1 分 氣象局發布大雷雨即時訊息，持續時間至 0 時 30 分；，溪(河)水暴漲，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20210524151342_000</id>
+    <title>雷雨</title>
+    <sent>2021-05-24T15:13:46+08:00</sent>
+    <expires>2021-05-24T16:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺北市松山區 臺北市南港區 臺北市內湖區 新北市汐止區</areaDesc>
+      <polygon>25.11,121.65 25.05,121.63 25.04,121.57 25.05,121.55 25.09,121.57 25.11,121.65</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd4f</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至24日16:15；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[110 年 5 月 24 日 15 時 12 分 氣象局發布大雷雨即時訊息，持續時間至 16 時 15 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流，低窪地區慎防淹水]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20210524135333_000</id>
+    <title>雷雨</title>
+    <sent>2021-05-24T13:53:37+08:00</sent>
+    <expires>2021-05-24T15:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺北市文山區 新北市新店區 新北市石碇區 新北市深坑區</areaDesc>
+      <polygon>25.0,121.66 24.94,121.67 24.89,121.62 24.89,121.56 24.93,121.51 24.99,121.55 25.01,121.58 25.0,121.66</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd4e</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至24日15:00；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[110 年 5 月 24 日 13 時 53 分 氣象局發布大雷雨即時訊息，持續時間至 15 時 0 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，低窪地區慎防淹水]]></description>
+  </entry>
+  <entry>
+    <id>A20210517201524017-225643</id>
+    <title>電力中斷</title>
+    <sent>2021-05-17T20:15:24+08:00</sent>
+    <expires>2021-05-17T21:13:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>electric</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>64</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺北市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>嘉義縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>雲林縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10009</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>花蓮縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺東縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10014</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>屏東縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10013</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>新竹縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>宜蘭縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>南投縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10008</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>彰化縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10007</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>苗栗縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10005</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>嘉義市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10020</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>新竹市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10018</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>基隆市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10017</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>桃園市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>68</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>67</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺中市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>66</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>新北市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>65</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21053c744e04</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[電力中斷通知]2021年5月17日20時10分因負載突升，供電能力不足，5月17日20時50分執行緊急分區輪流停電，勿搭電梯，電1911或台電官網查詢。Taipower台電</text>
+    <description type="html"><![CDATA[[電力中斷通知]2021年5月17日20時10分因負載突升，供電能力不足，5月17日20時50分執行緊急分區輪流停電，勿搭電梯，電1911或台電官網查詢。Taipower台電]]></description>
+  </entry>
+  <entry>
+    <id>A20210517193147405-225642</id>
+    <title>水庫放水</title>
+    <sent>2021-05-17T19:31:48+08:00</sent>
+    <expires>2021-05-17T20:16:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <polygon>23.838641603717065,120.86122858981223 23.83848458714069,120.86122858981223 23.838641603717065,120.86105692843527 23.83518719511846,120.87719309786885 23.808805041504563,120.85401881198021 23.81508699309061,120.82861292819116 23.830790542008717,120.83015788058377 23.824666383981672,120.84869730929466 23.838641603717065,120.86122858981223</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd4c</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>明潭水庫放水通知，預定今日20:00起放水，初期每秒12立方米逐遞增加放水量，最大至每秒70立方米，溪裡及沿岸民眾遠離水域以免危險。台灣電力股份有限公司明潭發電廠明潭水庫放水告知</text>
+    <description type="html"><![CDATA[明潭水庫放水通知，預定今日20:00起放水，初期每秒12立方米逐遞增加放水量，最大至每秒70立方米，溪裡及沿岸民眾遠離水域以免危險。台灣電力股份有限公司明潭發電廠明潭水庫放水告知]]></description>
+  </entry>
+  <entry>
+    <id>A20210514140004664-225563</id>
+    <title>疏散避難</title>
+    <sent>2021-05-14T14:00:05+08:00</sent>
+    <expires>2021-05-14T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <circle>22.43122544441772,120.64800267724405 5.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd4b</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報Evacuation Drill]屏東縣110年災害防救演習警報發送演練。屏東縣災害應變中心PingTung EOC08-7662911*9屏東縣政府關心您</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報Evacuation Drill]屏東縣110年災害防救演習警報發送演練。屏東縣災害應變中心PingTung EOC08-7662911*9屏東縣政府關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20210513150531440-225566</id>
+    <title>電力中斷</title>
+    <sent>2021-05-13T15:05:32+08:00</sent>
+    <expires>2021-05-13T16:01:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>electric</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>64</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺北市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>嘉義縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>雲林縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10009</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>花蓮縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺東縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10014</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>屏東縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10013</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>新竹縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>宜蘭縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>南投縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10008</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>彰化縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10007</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>苗栗縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10005</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>嘉義市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10020</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>新竹市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10018</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>基隆市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10017</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>桃園市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>68</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>67</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺中市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>66</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>新北市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>65</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21053c80f13c</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[電力中斷通知]2021年5月13日14時37分興達電廠因事故全廠停機，目前系統供電能力不足，預計5月13日15時開始執行緊急分區輪流停電，電1911或台電官網查詢。電力調度處台電</text>
+    <description type="html"><![CDATA[[電力中斷通知]2021年5月13日14時37分興達電廠因事故全廠停機，目前系統供電能力不足，預計5月13日15時開始執行緊急分區輪流停電，電1911或台電官網查詢。電力調度處台電]]></description>
+  </entry>
+  <entry>
+    <id>A20210513140328336-225562</id>
+    <title>疏散避難</title>
+    <sent>2021-05-13T14:03:29+08:00</sent>
+    <expires>2021-05-13T14:10:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹市民安7號演習－測試訊息</areaDesc>
+      <circle>24.80736057435326,120.9945916837145 1.66</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd49</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報] [Evacuation Drill]新竹市防災及民安演習疏散避難警報發送演練。新竹市災害應變中心Hsinchu City EOC.03－5283119。</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報] [Evacuation Drill]新竹市防災及民安演習疏散避難警報發送演練。新竹市災害應變中心Hsinchu City EOC.03－5283119。]]></description>
+  </entry>
+  <entry>
+    <id>20210512-PWS_MESSAGE_CASE1_000000001</id>
+    <title>系統測試</title>
+    <sent>2021-05-12T16:00:10+08:00</sent>
+    <expires>2021-05-12T16:05:00+08:00</expires>
+    <sender>
+      <value>災防告警細胞廣播訊息系統營運辦公室</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>systemTest</value>
+    </eventCode>
+    <area>
+      <areaDesc>Test_Geocode</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09020</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd48</link>
+    <channel>
+      <value>4380</value>
+    </channel>
+    <text>﹝災防告警訊息測試﹞每月訊息發送測試，敬請見諒，電信業者共同關心您。Public Warning System is testing, please don’t panic.</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A20210507140004293-224973</id>
+    <title>疏散避難</title>
+    <sent>2021-05-07T14:00:05+08:00</sent>
+    <expires>2021-05-07T14:05:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <circle>25.157500222828617,121.76075932439922 2.0</circle>
+    </area>
+    <area>
+      <areaDesc>CBS臨時圈選區域1</areaDesc>
+      <circle>25.158085652329568,121.76050183233171 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/21051ea4cd47</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報][Evacuation Drill]110年基隆市災防演習疏散警報發送演練。&#13;基隆市災害應變中心Keelung. EOC基隆市消防局1999 關心您</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報][Evacuation Drill]110年基隆市災防演習疏散警報發送演練。
+基隆市災害應變中心Keelung. EOC基隆市消防局1999 關心您]]></description>
+  </entry>
+</feed>

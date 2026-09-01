@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202008</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:21:09+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2020年8月 月彙整]]></description>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_109021101</id>
+    <title>強震</title>
+    <sent>2020-08-19T11:13:42+08:00</sent>
+    <expires>2020-08-19T11:16:41+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10010</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/20081ea4cbf6</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Quake Alert]08/19 11:13左右南部地區發生中型有感地震，慎防強烈搖晃，氣象局。Beware of probable shaking. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20200815154245_000</id>
+    <title>雷雨</title>
+    <sent>2020-08-15T15:42:48+08:00</sent>
+    <expires>2020-08-15T16:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市楊梅區 桃園市龍潭區 桃園市平鎮區 新竹縣新埔鎮</areaDesc>
+      <polygon>24.91,121.23 24.86,121.24 24.84,121.14 24.92,121.1 24.95,121.14 24.94,121.17 24.91,121.23</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/20081ea4cbf5</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至15日16:15；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[109 年 8 月 15 日 15 時 42 分 氣象局發布大雷雨即時訊息，持續時間至 16 時 15 分；請慎防劇烈降雨、雷擊、冰雹，溪(河)水暴漲，低窪地區慎防淹水]]></description>
+  </entry>
+  <entry>
+    <id>A20200815103329638-215170</id>
+    <title>疏散避難</title>
+    <sent>2020-08-15T10:33:30+08:00</sent>
+    <expires>2020-08-15T10:40:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <circle>25.259776734953597,121.50184129172287 1.5223605373511635</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/20081ea4cbf4</link>
+    <channel>
+      <value>4384</value>
+    </channel>
+    <text>[Evacuation Drill]New Taipei City Government,EOC新北市災害應變中心02-89535599#9</text>
+    <description type="html"><![CDATA[[Evacuation Drill]New Taipei City Government,EOC新北市災害應變中心02-89535599#9]]></description>
+  </entry>
+  <entry>
+    <id>A20200815103125279-215169</id>
+    <title>疏散避難</title>
+    <sent>2020-08-15T10:31:26+08:00</sent>
+    <expires>2020-08-15T10:39:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <circle>25.25900165450161,121.50138026770723 1.6717653011732017</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/20081ea4cbf3</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報]演練109年三芝區錫板里防災社區演練疏散避難警報發送演練。新北市災害應變中心02-89535599#9</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報]演練109年三芝區錫板里防災社區演練疏散避難警報發送演練。新北市災害應變中心02-89535599#9]]></description>
+  </entry>
+  <entry>
+    <id>A20200811141504616-214671</id>
+    <title>疏散避難</title>
+    <sent>2020-08-11T14:15:06+08:00</sent>
+    <expires>2020-08-11T14:20:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <circle>23.98801937745283,120.68651262698235 1.9352796008689492</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/20081ea4cbf2</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難][Evacuation Drill]南投縣109年災害防救演習疏散避難警報發送演練。南投縣災害應變中心(Nantou.EOC)049-2227119#9</text>
+    <description type="html"><![CDATA[[演練][疏散避難][Evacuation Drill]南投縣109年災害防救演習疏散避難警報發送演練。南投縣災害應變中心(Nantou.EOC)049-2227119#9]]></description>
+  </entry>
+  <entry>
+    <id>A20200804140005740-207073</id>
+    <title>疏散避難</title>
+    <sent>2020-08-04T14:00:07+08:00</sent>
+    <expires>2020-08-04T14:05:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東109年度民安6號演習（109/02/03）</areaDesc>
+      <polygon>22.652597237104963,120.47665747739212 22.652597237104963,120.4767433080806 22.66447814126305,120.48240813352004 22.665982982396645,120.4866138372554 22.66614138576636,120.49365195371045 22.655448747895722,120.50060423947707 22.64665639940365,120.49742850400344 22.6507754075362,120.48506888486281 22.652597237104963,120.47665747739212</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/20081ea4cbf1</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練測試][疏散避難警報][Evacuation Drill]109年全民防衛動員暨災害防救演習發送演練。屏東縣政府(Pingtung.GOV)08-7662911按9</text>
+    <description type="html"><![CDATA[[演練測試][疏散避難警報][Evacuation Drill]109年全民防衛動員暨災害防救演習發送演練。屏東縣政府(Pingtung.GOV)08-7662911按9]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20200803120426_000</id>
+    <title>雷雨</title>
+    <sent>2020-08-03T12:04:35+08:00</sent>
+    <expires>2020-08-03T13:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺北市士林區 臺北市北投區 新北市淡水區 新北市八里區</areaDesc>
+      <polygon>25.1,121.54 25.09,121.5 25.12,121.46 25.14,121.44 25.2,121.4 25.2,121.45 25.13,121.51 25.1,121.54</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/20081ea4cbf0</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至03日13:00；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[109 年 8 月 3 日 12 時 3 分 氣象局發布大雷雨即時訊息，持續時間至 13 時 0 分；請慎防劇烈降雨、雷擊，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+</feed>

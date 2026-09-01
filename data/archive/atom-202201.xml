@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202201</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:20:45+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2022年1月 月彙整]]></description>
+  <entry>
+    <id>A20220122182104427-230862</id>
+    <title>水庫放水</title>
+    <sent>2022-01-22T18:21:05+08:00</sent>
+    <expires>2022-01-22T18:35:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>翡翠水庫下游北勢溪、新店溪沿岸兩側（包括臺北市、新北市地區）</areaDesc>
+      <polygon>24.91383,121.57749 24.90773,121.56066 24.92345,121.54858 24.92482,121.53895 24.93546,121.54661 24.94942,121.54992 24.95708,121.54168 24.97051,121.53696 24.98097,121.52614 24.99216,121.53657 25.00383,121.53915 25.01301,121.53529 25.02468,121.52078 25.02639,121.50705 25.02063,121.49658 25.03638,121.49151 25.03729,121.47645 25.00913,121.48503 25.00353,121.49567 25.01318,121.5149 24.99926,121.52426 24.97797,121.51298 24.96635,121.52451 24.95133,121.53018 24.94558,121.51815 24.91373,121.52805 24.90826,121.53661 24.91191,121.54229 24.90057,121.55111 24.90188,121.58049 24.91383,121.57749</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22013c7b735e</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]翡翠水庫自1月22日20時00分進行放水，請水庫下游北勢溪、新店溪民眾加強注意並遠離河床，以策安全。Feitsui Reservoir will discharge at 20:00 on 1/22. Please keep away from Beishi and Xindian Creek.臺北翡翠水庫管理局02-2666-7824</text>
+    <description type="html"><![CDATA[[水庫放水警戒]翡翠水庫自1月22日20時00分進行放水，請水庫下游北勢溪、新店溪民眾加強注意並遠離河床，以策安全。Feitsui Reservoir will discharge at 20:00 on 1/22. Please keep away from Beishi and Xindian Creek.臺北翡翠水庫管理局02-2666-7824]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_111017601</id>
+    <title>強震</title>
+    <sent>2022-01-16T16:16:07+08:00</sent>
+    <expires>2022-01-16T16:19:04+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/22013c7f1c71</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]01/16 16:15左右東部海域發生中型有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象局。Felt earthquake alert. Keep calm and seek cover nearby. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>20220112-PWS_MESSAGE_CASE1_000000001</id>
+    <title>系統測試</title>
+    <sent>2022-01-12T16:00:04+08:00</sent>
+    <expires>2022-01-12T16:05:00+08:00</expires>
+    <sender>
+      <value>災防告警細胞廣播訊息系統營運辦公室</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>systemTest</value>
+    </eventCode>
+    <area>
+      <areaDesc>Test_Geocode</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09020</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/22013c7b735f</link>
+    <channel>
+      <value>4380</value>
+    </channel>
+    <text>﹝災防告警訊息測試﹞每月訊息發送測試，敬請見諒，電信業者共同關心您。Public Warning System is testing, please don’t panic.</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+</feed>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202202</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:20:45+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2022年2月 月彙整]]></description>
+  <entry>
+    <id>A20220224100208803-230953</id>
+    <title>水庫放水</title>
+    <sent>2022-02-24T10:02:10+08:00</sent>
+    <expires>2022-02-24T10:10:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>南投縣　水里鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000811</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/22023c7b735b</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>明潭水庫放水通知，預定今日10：30起放水，逐遞增加放水量最大至每秒50立方公尺，請在水里溪裡的民眾遠離水域以免危險。台灣電力股份有限公司明潭發電廠緊急電話049-2774650</text>
+    <description type="html"><![CDATA[明潭水庫放水通知，預定今日10：30起放水，逐遞增加放水量最大至每秒50立方公尺，請在水里溪裡的民眾遠離水域以免危險。台灣電力股份有限公司明潭發電廠緊急電話049-2774650]]></description>
+  </entry>
+  <entry>
+    <id>A20220222170005760-230946</id>
+    <title>水庫放水</title>
+    <sent>2022-02-22T17:00:06+08:00</sent>
+    <expires>2022-02-22T17:15:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>翡翠水庫下游北勢溪、新店溪沿岸兩側（包括臺北市、新北市地區）</areaDesc>
+      <polygon>24.91383,121.57749 24.90773,121.56066 24.92345,121.54858 24.92482,121.53895 24.93546,121.54661 24.94942,121.54992 24.95708,121.54168 24.97051,121.53696 24.98097,121.52614 24.99216,121.53657 25.00383,121.53915 25.01301,121.53529 25.02468,121.52078 25.02639,121.50705 25.02063,121.49658 25.03638,121.49151 25.03729,121.47645 25.00913,121.48503 25.00353,121.49567 25.01318,121.5149 24.99926,121.52426 24.97797,121.51298 24.96635,121.52451 24.95133,121.53018 24.94558,121.51815 24.91373,121.52805 24.90826,121.53661 24.91191,121.54229 24.90057,121.55111 24.90188,121.58049 24.91383,121.57749</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22023c73ecd7</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]翡翠水庫自2月22日19時00分進行放水，請水庫下游北勢溪、新店溪民眾加強注意並遠離河床，以策安全。Feitsui Reservoir will discharge at 19:00 on 2/22. Please keep away from Beishi and Xindian Creek.臺北翡翠水庫管理局02-2666-7824</text>
+    <description type="html"><![CDATA[[水庫放水警戒]翡翠水庫自2月22日19時00分進行放水，請水庫下游北勢溪、新店溪民眾加強注意並遠離河床，以策安全。Feitsui Reservoir will discharge at 19:00 on 2/22. Please keep away from Beishi and Xindian Creek.臺北翡翠水庫管理局02-2666-7824]]></description>
+  </entry>
+  <entry>
+    <id>A20220222113004641-230942</id>
+    <title>水庫放水</title>
+    <sent>2022-02-22T11:30:05+08:00</sent>
+    <expires>2022-02-22T13:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市　石岡區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6602000</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺中市　新社區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6601900</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺中市　東勢區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6601000</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺中市　和平區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6602900</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/22023c74c2d4</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>大甲溪電廠預定2月22日12時00分執行谷關壩調節性放水，請大甲溪下游沿岸附近民眾加強注意並盡速遠離河床，避免發生危險。（台電公司1911）台灣電力股份有限公司大甲溪發電廠04－25941455</text>
+    <description type="html"><![CDATA[大甲溪電廠預定2月22日12時00分執行谷關壩調節性放水，請大甲溪下游沿岸附近民眾加強注意並盡速遠離河床，避免發生危險。（台電公司1911）台灣電力股份有限公司大甲溪發電廠04－25941455]]></description>
+  </entry>
+  <entry>
+    <id>A20220222100004592-230941</id>
+    <title>水庫放水</title>
+    <sent>2022-02-22T10:00:06+08:00</sent>
+    <expires>2022-02-22T11:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>225－木瓜溪排放水CBS區域</areaDesc>
+      <circle>23.986607824717908,121.45979401525685 7.071574282499708</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/22023c81db5b</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電龍溪壩，自2月22日10時進行放水，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]16:00 Liwu River level rise. Plz stay away.1911 TAIPOWER(台電公司1911)台灣電力股份有限公司東部發電廠1911</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電龍溪壩，自2月22日10時進行放水，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]16:00 Liwu River level rise. Plz stay away.1911 TAIPOWER(台電公司1911)台灣電力股份有限公司東部發電廠1911]]></description>
+  </entry>
+  <entry>
+    <id>A20220222090005674-230939</id>
+    <title>水庫放水</title>
+    <sent>2022-02-22T09:00:06+08:00</sent>
+    <expires>2022-02-22T10:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市　石岡區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6602000</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺中市　新社區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6601900</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺中市　東勢區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6601000</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺中市　和平區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6602900</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/22023c73ecc5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>大甲溪電廠預定2月22日9時20分執行天輪、馬鞍壩調節性放水，請大甲溪下游沿岸附近民眾加強注意並盡速遠離河床，避免發生危險。（台電公司1911）04－25941455台灣電力股份有限公司大甲溪發電廠04－25941455</text>
+    <description type="html"><![CDATA[大甲溪電廠預定2月22日9時20分執行天輪、馬鞍壩調節性放水，請大甲溪下游沿岸附近民眾加強注意並盡速遠離河床，避免發生危險。（台電公司1911）04－25941455台灣電力股份有限公司大甲溪發電廠04－25941455]]></description>
+  </entry>
+  <entry>
+    <id>A20220220074435738-230934</id>
+    <title>水庫放水</title>
+    <sent>2022-02-20T07:44:37+08:00</sent>
+    <expires>2022-02-20T07:46:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>武界壩放水警戒－R1</areaDesc>
+      <polygon>23.920264446183378,121.0604238217733 23.920107528602582,121.0604238217733 23.920107528602582,121.06025216039635 23.88181394349247,121.07741829809163 23.88212787143101,121.02694985326748 23.91963677471643,121.02454659399015 23.920264446183378,121.0604238217733</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22023c7be88d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>2022年2月20日07:30 Zhuoshui River level rises. Plz stay away.台灣電力股份有限公司大觀發電廠關心你</text>
+    <description type="html"><![CDATA[2022年2月20日07:30 Zhuoshui River level rises. Plz stay away.台灣電力股份有限公司大觀發電廠關心你]]></description>
+  </entry>
+  <entry>
+    <id>A20220220074027108-230933</id>
+    <title>水庫放水</title>
+    <sent>2022-02-20T07:40:29+08:00</sent>
+    <expires>2022-02-20T07:43:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>武界壩放水警戒－R1</areaDesc>
+      <polygon>23.920264446183378,121.0604238217733 23.920107528602582,121.0604238217733 23.920107528602582,121.06025216039635 23.88181394349247,121.07741829809163 23.88212787143101,121.02694985326748 23.91963677471643,121.02454659399015 23.920264446183378,121.0604238217733</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22023c7b735c</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]栗栖壩 自2022年2月22日07時3O分進行放水，請栗栖溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（台電公司1911）台灣電力股份有限公司大觀發電廠關心你</text>
+    <description type="html"><![CDATA[[水庫放水警戒]栗栖壩 自2022年2月22日07時3O分進行放水，請栗栖溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（台電公司1911）台灣電力股份有限公司大觀發電廠關心你]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_111017801</id>
+    <title>強震</title>
+    <sent>2022-02-07T18:58:52+08:00</sent>
+    <expires>2022-02-07T19:01:41+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/22023c7cd22a</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]02/07 18:58左右東北地區發生中型有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象局。Felt earthquake alert. Keep calm and seek cover nearby. CWB</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+</feed>

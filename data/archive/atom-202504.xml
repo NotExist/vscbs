@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202504</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-05-01T00:00:02+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2025年4月 月彙整]]></description>
+  <entry>
+    <id>A2025031014454015138614390</id>
+    <title>疏散避難</title>
+    <sent>2025-04-30T14:30:03+08:00</sent>
+    <expires>2025-04-30T14:40:00+08:00</expires>
+    <sender>
+      <value>基隆市消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.125941,121.719533 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcfb81</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報][Evacuation Drill]基隆市2025年城鎮韌性(全民防衛動員)演習，演練時間14時-17時。基隆災害應變中心(防災演練訊息)Keelung. EOC
+02-24252119
+.Keelung. EOC24302675</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報][Evacuation Drill]基隆市2025年城鎮韌性(全民防衛動員)演習，演練時間14時-17時。基隆災害應變中心(防災演練訊息)Keelung. EOC
+02-24252119
+.Keelung. EOC24302675]]></description>
+  </entry>
+  <entry>
+    <id>A2025042417560802339096410</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-04-25T08:30:03+08:00</sent>
+    <expires>2025-04-25T08:40:00+08:00</expires>
+    <sender>
+      <value>農業部農田水利署苗栗管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.6309880436986,120.893342857429 24.630319465303,120.896054188108 24.6273186809595,120.898671696985 24.628137484201,120.902561712275 24.628227625589,120.906803119814 24.6301247168885,120.910532994049 24.6283195541005,120.914329288584 24.6218488376165,120.915832490895 24.6219648680321,120.914811958012 24.6217312048838,120.914014887221 24.6222263357779,120.913249205593 24.622897033381,120.913631416277 24.6235672905446,120.913248280206 24.6235952697316,120.911239213779 24.6230692918169,120.90913487802 24.6233307201573,120.907603989815 24.6244076648104,120.904956341544 24.6251937306682,120.903361245299 24.6248135448443,120.901480031131 24.6234397474043,120.895996098503 24.6235555985907,120.894911755702 24.6230300936598,120.893796063124 24.6232335869438,120.89299865287 24.6228242357763,120.891276972161 24.6239322104249,120.891594910961 24.6269637010352,120.891273391635 24.6309880436986,120.893342857429</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcfb59</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]劍潭水庫自04月25日09時30分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 09:30 on 04/25. Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735</text>
+    <description type="html"><![CDATA[[水庫放水警戒]劍潭水庫自04月25日09時30分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 09:30 on 04/25. Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735]]></description>
+  </entry>
+  <entry>
+    <id>A2025033111483794138856610</id>
+    <title>疏散避難</title>
+    <sent>2025-04-24T13:00:03+08:00</sent>
+    <expires>2025-04-24T15:00:00+08:00</expires>
+    <sender>
+      <value>花蓮縣消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>23.992435735218145,121.60139134797903 1.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcfb49</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難]2025年花蓮縣城鎮韌性演習疏散警報發送演練。花蓮縣災害應變中心03-8462119。[Evacuation Drill] Hualien  County EOC 03-8462119.Hualien County EOC03-8462119</text>
+    <description type="html"><![CDATA[[演練][疏散避難]2025年花蓮縣城鎮韌性演習疏散警報發送演練。花蓮縣災害應變中心03-8462119。[Evacuation Drill] Hualien  County EOC 03-8462119.Hualien County EOC03-8462119]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250423080900_000</id>
+    <title>雷雨</title>
+    <sent>2025-04-23T08:12:04+08:00</sent>
+    <expires>2025-04-23T10:09:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣油羅溪</areaDesc>
+      <polygon>24.70024,121.20431 24.71185,121.18603 24.7007,121.17131 24.69119,121.18792 24.70024,121.20431</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcfa91</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至4/23 10:09氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新竹縣油羅溪(雞油樹下區域)發布災防告警，持續時間至10時09分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>A2025041516542379439016200</id>
+    <title>疏散避難</title>
+    <sent>2025-04-18T14:00:03+08:00</sent>
+    <expires>2025-04-18T16:00:00+08:00</expires>
+    <sender>
+      <value>花蓮縣消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001505</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf98d</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報]114年花蓮縣吉安鄉防汛演習，疏散避難警報發送演練。花蓮縣吉安鄉災害應變中心03-8523126。[Drill][Evacuation]Drill of Evacuation Alert,Ji-an Township,Hualien Country,EOC03-8523126.Hualien County EOC03-8462119</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報]114年花蓮縣吉安鄉防汛演習，疏散避難警報發送演練。花蓮縣吉安鄉災害應變中心03-8523126。[Drill][Evacuation]Drill of Evacuation Alert,Ji-an Township,Hualien Country,EOC03-8523126.Hualien County EOC03-8462119]]></description>
+  </entry>
+  <entry>
+    <id>A2025041415165013538998910</id>
+    <title>疏散避難</title>
+    <sent>2025-04-14T15:22:01+08:00</sent>
+    <expires>2025-04-14T17:10:28+08:00</expires>
+    <sender>
+      <value>臺北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.176365985284914,121.54694708636853 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf889</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[Evacuation Notice] A forest fire started today  nearby Xiaoyoukeng Visitor Center, Yangmingshan. Fire may spread.Stay away and follow evacuation orders.Taipei City Government1999</text>
+    <description type="html"><![CDATA[[Evacuation Notice] A forest fire started today  nearby Xiaoyoukeng Visitor Center, Yangmingshan. Fire may spread.Stay away and follow evacuation orders.Taipei City Government1999]]></description>
+  </entry>
+  <entry>
+    <id>A2025041415151936438998890</id>
+    <title>疏散避難</title>
+    <sent>2025-04-14T15:16:01+08:00</sent>
+    <expires>2025-04-14T17:10:43+08:00</expires>
+    <sender>
+      <value>臺北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.176375701025602,121.54696855240901 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf885</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[疏散避難]本市北投區竹子湖路69號(陽明山小油坑服務中心旁山坡)於今(14)日發生重大山林火災，有延燒及擴大之虞，七星山步道（含小油坑登山口）及小油坑停車場已封閉，公車暫不停靠。請當地民眾及登山旅客勿進入該區域並配合救災人員疏散。臺北市政府1999</text>
+    <description type="html"><![CDATA[[疏散避難]本市北投區竹子湖路69號(陽明山小油坑服務中心旁山坡)於今(14)日發生重大山林火災，有延燒及擴大之虞，七星山步道（含小油坑登山口）及小油坑停車場已封閉，公車暫不停靠。請當地民眾及登山旅客勿進入該區域並配合救災人員疏散。臺北市政府1999]]></description>
+  </entry>
+  <entry>
+    <id>A2025041414262833338998640</id>
+    <title>疏散避難</title>
+    <sent>2025-04-14T14:28:01+08:00</sent>
+    <expires>2025-04-14T14:45:54+08:00</expires>
+    <sender>
+      <value>臺北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.176375701025602,121.54696855240901 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf881</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[Evacuation Notice] A forest fire started today  nearby Xiaoyoukeng Visitor Center, Yangmingshan. Fire may spread.Stay away and follow evacuation orders.Taipei City Government1999</text>
+    <description type="html"><![CDATA[[Evacuation Notice] A forest fire started today  nearby Xiaoyoukeng Visitor Center, Yangmingshan. Fire may spread.Stay away and follow evacuation orders.Taipei City Government1999]]></description>
+  </entry>
+  <entry>
+    <id>A2025041414113087538998560</id>
+    <title>疏散避難</title>
+    <sent>2025-04-14T14:13:02+08:00</sent>
+    <expires>2025-04-14T14:45:26+08:00</expires>
+    <sender>
+      <value>臺北市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>25.176461,121.546882 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf879</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[疏散避難]本市北投區竹子湖路69號(陽明山小油坑服務中心旁山坡)於今(14)日發生重大山林火災，有延燒及擴大之虞，七星山步道（含小油坑登山口）及小油坑停車場已封閉，公車暫不停靠。請當地民眾及登山旅客勿進入該區域並配合救災人員疏散。臺北市政府1999</text>
+    <description type="html"><![CDATA[[疏散避難]本市北投區竹子湖路69號(陽明山小油坑服務中心旁山坡)於今(14)日發生重大山林火災，有延燒及擴大之虞，七星山步道（含小油坑登山口）及小油坑停車場已封閉，公車暫不停靠。請當地民眾及登山旅客勿進入該區域並配合救災人員疏散。臺北市政府1999]]></description>
+  </entry>
+  <entry>
+    <id>A2025041304581804138988130</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-04-13T05:02:01+08:00</sent>
+    <expires>2025-04-13T06:06:59+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.0381839097611,121.40107709485729 24.03584749235387,121.41177501722812 24.034279715223015,121.41469326063631 24.0231479475425,121.42911281630036 24.001195158787564,121.45812358900541 23.983630230722117,121.48593273207177 23.97139609754356,121.5051588062905 23.96739622510276,121.50108184858823 23.95939610782638,121.51017990156697 23.95076797402327,121.5218528752001 23.9478264328396,121.53116550490003 23.943649329113544,121.54348220869673 23.944747547891794,121.54713001295707 23.94333555060286,121.55017700239807 23.939687819423742,121.54507007643359 23.937574122397514,121.54870587903676 23.92329575580554,121.5740259321373 23.921961981594496,121.58621388990093 23.918509796151163,121.59574109632182 23.9054848114701,121.58844548780134 23.905955616916213,121.58398229200056 23.910506647816018,121.56801778394394 23.919372851161416,121.547847572152 23.926355538714375,121.53308469373404 23.931219659738243,121.52544576245964 23.94479115732129,121.50896627027217 23.953262813666683,121.49969655591673 23.961028009840806,121.49343091565792 23.9647143534053,121.4873369367761 23.953498129511793,121.46665174085328 23.9508311914603,121.43128949720098 23.97263571373256,121.42837125379279 23.987692798509517,121.41807157117562 24.006511678654967,121.38202268201552 24.0381839097611,121.40107709485729</polygon>
+    </area>
+    <area>
+      <areaDesc>發布區域2</areaDesc>
+      <polygon>24.009277151357722,121.41768835717814 24.004883613893824,121.44335173303261 23.99570377465427,121.46086119348183 23.991466704930982,121.46970175439493 23.98346297173515,121.48182104865558 23.977028236328827,121.48722838202957 23.97437577479296,121.49804304877762 23.968803861259435,121.50731276313311 23.96276080948892,121.51400755683426 23.95662329057984,121.52449606801386 23.94987325192182,121.53196333791131 23.944457267824358,121.53788565541619 23.930798560533706,121.52046202565545 23.942416404443033,121.50775908376093 23.95196109398906,121.49382018047619 23.959809815646665,121.48618124920179 23.967406923377954,121.47282599355097 23.97541165543854,121.46595953847283 23.98358852602682,121.44539450760932 23.992172895297593,121.41873549262527 23.993899116254088,121.40500258246905 23.996959178330833,121.38842009502697 24.00182374263643,121.37563132244398 24.005071913349504,121.36057662020905 24.010453968664486,121.34571074653651 24.02606536076231,121.35523795295741 24.0225353123254,121.37523650337245 24.009277151357722,121.41768835717814</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf875</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒] 台電龍溪壩，將於04月13日05時10分起排砂放水至木瓜溪，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 05:10 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒] 台電龍溪壩，將於04月13日05時10分起排砂放水至木瓜溪，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 05:10 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>A2025041303070621638988090</id>
+    <title>台電大觀電廠(水庫放水)</title>
+    <sent>2025-04-13T03:16:02+08:00</sent>
+    <expires>2025-04-13T03:45:22+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司大觀發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.920264446183378,121.0604238217733 23.920107528602582,121.0604238217733 23.920107528602582,121.06025216039635 23.88181394349247,121.07741829809163 23.88212787143101,121.02694985326748 23.91963677471643,121.02454659399015 23.920264446183378,121.0604238217733</polygon>
+    </area>
+    <area>
+      <areaDesc>發布區域2</areaDesc>
+      <circle>23.91752270802204,121.05501439170195 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf871</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]栗栖壩自2025年04月13日03時30分進行放水，請栗栖溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2025/04/13 03:30 Zhuoshui River level rises. Plz stay away.。(Takuan plant care about you).Taipower049-2774016</text>
+    <description type="html"><![CDATA[[水庫放水警戒]栗栖壩自2025年04月13日03時30分進行放水，請栗栖溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2025/04/13 03:30 Zhuoshui River level rises. Plz stay away.。(Takuan plant care about you).Taipower049-2774016]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250413022000_26</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-04-13T02:20:12+08:00</sent>
+    <expires>2025-04-13T08:20:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣高樹鄉</areaDesc>
+      <circle>22.870815,120.645366 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf869</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]屏東縣高樹鄉新豐村沿山公路一段，1小時累積雨量已達26.5mm、3小時累積雨量已達30mm、24小時累積雨量已達30mm，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]屏東縣高樹鄉新豐村沿山公路一段，1小時累積雨量已達26.5mm、3小時累積雨量已達30mm、24小時累積雨量已達30mm，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250413022000_22</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-04-13T02:20:03+08:00</sent>
+    <expires>2025-04-13T08:20:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區</areaDesc>
+      <circle>22.884631,120.665739 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf865</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉，1小時累積雨量已達26.5mm、3小時累積雨量已達30mm、24小時累積雨量已達30mm，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉，1小時累積雨量已達26.5mm、3小時累積雨量已達30mm、24小時累積雨量已達30mm，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250413020000_3</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-04-13T02:00:05+08:00</sent>
+    <expires>2025-04-13T08:00:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市桃源區</areaDesc>
+      <circle>23.188351,120.7883 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf861</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]高雄市桃源區勤和里(玉穗溪)1小時累積雨量已達24.5mm、3小時累積雨量已達27mm、24小時累積雨量已達27mm，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]高雄市桃源區勤和里(玉穗溪)1小時累積雨量已達24.5mm、3小時累積雨量已達27mm、24小時累積雨量已達27mm，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250412233000_7</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-04-12T23:30:03+08:00</sent>
+    <expires>2025-04-13T05:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市汐止區</areaDesc>
+      <circle>25.053909,121.695801 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf85d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]新北市汐止區東山里(鵠鵠崙路20巷)1小時累積雨量已達20.5mm、3小時累積雨量已達26mm、24小時累積雨量已達26mm，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]新北市汐止區東山里(鵠鵠崙路20巷)1小時累積雨量已達20.5mm、3小時累積雨量已達26mm、24小時累積雨量已達26mm，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>A2025040914490589438954050</id>
+    <title>疏散避難</title>
+    <sent>2025-04-10T14:49:01+08:00</sent>
+    <expires>2025-04-10T15:30:00+08:00</expires>
+    <sender>
+      <value>連江縣消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>0900701</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf831</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>連江縣2025城鎮韌性(全民防衛動員)疏散避難警報發送演練，接獲警報簡訊民眾請勿驚慌。  連江縣災害應變中心。Lienchiang City EOC。0836-23799*9.  .連江縣災害應變中心0836-23799</text>
+    <description type="html"><![CDATA[連江縣2025城鎮韌性(全民防衛動員)疏散避難警報發送演練，接獲警報簡訊民眾請勿驚慌。  連江縣災害應變中心。Lienchiang City EOC。0836-23799*9.  .連江縣災害應變中心0836-23799]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250410102500_000</id>
+    <title>雷雨</title>
+    <sent>2025-04-10T10:26:34+08:00</sent>
+    <expires>2025-04-10T12:25:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市基隆河</areaDesc>
+      <polygon>25.046698,121.75664 25.0400473,121.766443 25.0357413,121.769873 25.032545415696063,121.75975227105684 25.03588532469177,121.75661981391295 25.046698,121.75664</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市南勢溪</areaDesc>
+      <polygon>24.90953,121.54909 24.89972,121.56325 24.88914,121.5514 24.87858,121.55242 24.87777,121.53701 24.88689,121.5368 24.8935,121.53896 24.90953,121.54909</polygon>
+    </area>
+    <area>
+      <areaDesc>宜蘭縣得子口溪</areaDesc>
+      <polygon>24.83363,121.74483 24.83339,121.7471 24.8304605,121.7490588 24.8297984,121.7486082 24.83112,121.74396 24.83363,121.74483</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市石碇溪</areaDesc>
+      <polygon>25.00757,121.65286 24.99599,121.65688 24.99595,121.6501 25.00719,121.64963 25.00757,121.65286</polygon>
+    </area>
+    <area>
+      <areaDesc>臺北市雙溪</areaDesc>
+      <polygon>25.12818,121.58426 25.12678,121.59525 25.11543,121.59027 25.11551,121.58083 25.1096,121.57594 25.10875,121.56899 25.11139,121.55983 25.10548,121.55831 25.10532,121.55681 25.11324485,121.55651092 25.11341,121.56607 25.11862,121.57414 25.12258,121.57585 25.12818,121.58426</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市虎豹潭</areaDesc>
+      <polygon>24.97647,121.82287 24.9675,121.82276 24.96738,121.83268 24.97633,121.83274 24.97647,121.82287</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市北勢溪</areaDesc>
+      <polygon>24.95924,121.74254 24.95387,121.7513 24.94473,121.74151 24.9457,121.72855 24.94885,121.72752 24.95924,121.74254</polygon>
+    </area>
+    <area>
+      <areaDesc>桃園市霞雲溪</areaDesc>
+      <polygon>24.82944,121.3888 24.81854,121.4106 24.7921942,121.3844367 24.8106599,121.3613482 24.82944,121.3888</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市大豹溪</areaDesc>
+      <polygon>24.87875,121.38773 24.87213,121.43927 24.86029,121.45163 24.86777,121.46004 24.85204,121.48064 24.824,121.45437 24.83428,121.42656 24.83989,121.43171 24.85173,121.42656 24.86884,121.38449 24.87875,121.38773</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市永定溪</areaDesc>
+      <polygon>25.01878,121.68057 25.01092,121.69379 25.00151,121.68272 25.01073,121.66941 25.01878,121.68057</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市北港溪</areaDesc>
+      <polygon>25.11862010170354,121.6322718751227 25.116142906802036,121.63501840779806 25.1136391,121.6367181 25.1126482,121.6314824 25.1164015,121.6248059 25.1175776,121.6248128 25.11862010170354,121.6322718751227</polygon>
+    </area>
+    <area>
+      <areaDesc>宜蘭縣猴洞坑溪</areaDesc>
+      <polygon>24.84795,121.7738682 24.84851,121.77747 24.8424285,121.7872367 24.83395,121.783423 24.84364,121.7738682 24.84795,121.7738682</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市逮魚堀溪</areaDesc>
+      <polygon>24.9317912,121.7043792 24.9156964,121.7220557 24.9042186,121.7031183 24.92694,121.69482 24.9317912,121.7043792</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf82d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至4/10 12:25氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對宜蘭縣得子口溪(五峰旗防砂壩),宜蘭縣猴洞坑溪,新北市北勢溪(坪林映像虎寮區),新北市北港溪(汐止柯子林),新北市南勢溪(紅河谷至龜岩寶島區),新北市基隆河(平溪望古瀑布),新北市大豹溪,新北市永定溪(石碇蚯蚓坑),新北市石碇溪(石碇淡蘭吊橋),新北市虎豹潭,新北市逮魚堀溪,桃園市霞雲溪(優霞雲瀑布區),臺北市雙溪(雙溪淨水場至聖人瀑布)發布災防告警，持續時間至12時25分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250410101100_000</id>
+    <title>雷雨</title>
+    <sent>2025-04-10T10:12:53+08:00</sent>
+    <expires>2025-04-10T12:11:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市頭汴坑溪</areaDesc>
+      <polygon>24.12572,120.73034 24.12364,120.73727 24.12872,120.7415 24.09888,120.77246 24.11596,120.83391 24.13257,120.82052 24.12051,120.77383 24.14244,120.74431 24.12572,120.73034</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf829</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至4/10 12:11氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺中市頭汴坑溪(仙女瀑布至一江橋)發布災防告警，持續時間至12時11分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>A2025041009012750938961460</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-04-10T09:11:01+08:00</sent>
+    <expires>2025-04-10T11:05:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.0381839097611,121.40107709485729 24.03584749235387,121.41177501722812 24.034279715223015,121.41469326063631 24.0231479475425,121.42911281630036 24.001195158787564,121.45812358900541 23.983630230722117,121.48593273207177 23.97139609754356,121.5051588062905 23.96739622510276,121.50108184858823 23.95939610782638,121.51017990156697 23.95076797402327,121.5218528752001 23.9478264328396,121.53116550490003 23.943649329113544,121.54348220869673 23.944747547891794,121.54713001295707 23.94333555060286,121.55017700239807 23.939687819423742,121.54507007643359 23.937574122397514,121.54870587903676 23.92329575580554,121.5740259321373 23.921961981594496,121.58621388990093 23.918509796151163,121.59574109632182 23.9054848114701,121.58844548780134 23.905955616916213,121.58398229200056 23.910506647816018,121.56801778394394 23.919372851161416,121.547847572152 23.926355538714375,121.53308469373404 23.931219659738243,121.52544576245964 23.94479115732129,121.50896627027217 23.953262813666683,121.49969655591673 23.961028009840806,121.49343091565792 23.9647143534053,121.4873369367761 23.953498129511793,121.46665174085328 23.9508311914603,121.43128949720098 23.97263571373256,121.42837125379279 23.987692798509517,121.41807157117562 24.006511678654967,121.38202268201552 24.0381839097611,121.40107709485729</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf825</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒] 台電木瓜壩，將於04月10日09時30分起排砂放水至木瓜溪，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 09:30 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒] 台電木瓜壩，將於04月10日09時30分起排砂放水至木瓜溪，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 09:30 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250409110200_000</id>
+    <title>雷雨</title>
+    <sent>2025-04-09T11:05:55+08:00</sent>
+    <expires>2025-04-09T13:02:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市霞雲溪</areaDesc>
+      <polygon>24.82944,121.3888 24.81854,121.4106 24.7921942,121.3844367 24.8106599,121.3613482 24.82944,121.3888</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf801</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[演練][大雷雨即時訊息](山區暴雨之霞雲溪溪水暴漲警示)此為氣象署災防告警演練測試訊息，請無須驚慌。若有問題或建議，請來電02_2349_1217，氣象署。[Drill]This is a message for DISASTER PREVENTION DRILL from CWA. Don't panic.</text>
+    <description type="html"><![CDATA[[此為演練測試訊息]氣象署針對桃園市霞雲溪(優霞雲瀑布區)發布災防告警，持續時間至13時02分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250409103100_000</id>
+    <title>雷雨</title>
+    <sent>2025-04-09T10:47:58+08:00</sent>
+    <expires>2025-04-09T12:31:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市三叉坑溪</areaDesc>
+      <polygon>25.0308651,121.8337108 25.0205969,121.8367178 25.0110243,121.8163172 25.030235,121.8127066 25.0308651,121.8337108</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf7fd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[演練][大雷雨即時訊息](山區暴雨之三叉坑溪溪水暴漲警示)此為氣象署災防告警演練測試訊息，請無須驚慌。若有問題或建議，請來電02_2349_1217，氣象署。[Drill]This is a message for DISASTER PREVENTION DRILL from CWA. Don't panic.</text>
+    <description type="html"><![CDATA[[此為演練測試訊息]氣象署針對新北市三叉坑溪(雙溪清水坑)發布災防告警，持續時間至12時31分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250409103600_000</id>
+    <title>雷雨</title>
+    <sent>2025-04-09T10:47:24+08:00</sent>
+    <expires>2025-04-09T12:36:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市宇內溪</areaDesc>
+      <polygon>24.80393,121.3732 24.801183,121.4069993 24.7774012,121.3956397 24.78997,121.37433 24.80393,121.3732</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf7f9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[演練][大雷雨即時訊息](山區暴雨之宇內溪溪水暴漲警示)此為氣象署災防告警演練測試訊息，請無須驚慌。若有問題或建議，請來電02_2349_1217，氣象署。[Drill]This is a message for DISASTER PREVENTION DRILL from CWA. Don't panic.</text>
+    <description type="html"><![CDATA[[此為演練測試訊息]氣象署針對桃園市宇內溪(宇內橋)發布災防告警，持續時間至12時36分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114088802</id>
+    <title>強震</title>
+    <sent>2025-04-09T09:53:43+08:00</sent>
+    <expires>2025-04-09T09:56:42+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf7f5</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]04/09 09:53左右東北地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/KNs</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114088801</id>
+    <title>強震</title>
+    <sent>2025-04-09T09:53:42+08:00</sent>
+    <expires>2025-04-09T09:56:42+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf7f1</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]04/09 09:53左右東北地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/KNs</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A2025040809361665438935690</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-04-08T09:41:01+08:00</sent>
+    <expires>2025-04-08T11:40:52+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.0381839097611,121.40107709485729 24.03584749235387,121.41177501722812 24.034279715223015,121.41469326063631 24.0231479475425,121.42911281630036 24.001195158787564,121.45812358900541 23.983630230722117,121.48593273207177 23.97139609754356,121.5051588062905 23.96739622510276,121.50108184858823 23.95939610782638,121.51017990156697 23.95076797402327,121.5218528752001 23.9478264328396,121.53116550490003 23.943649329113544,121.54348220869673 23.944747547891794,121.54713001295707 23.94333555060286,121.55017700239807 23.939687819423742,121.54507007643359 23.937574122397514,121.54870587903676 23.92329575580554,121.5740259321373 23.921961981594496,121.58621388990093 23.918509796151163,121.59574109632182 23.9054848114701,121.58844548780134 23.905955616916213,121.58398229200056 23.910506647816018,121.56801778394394 23.919372851161416,121.547847572152 23.926355538714375,121.53308469373404 23.931219659738243,121.52544576245964 23.94479115732129,121.50896627027217 23.953262813666683,121.49969655591673 23.961028009840806,121.49343091565792 23.9647143534053,121.4873369367761 23.953498129511793,121.46665174085328 23.9508311914603,121.43128949720098 23.97263571373256,121.42837125379279 23.987692798509517,121.41807157117562 24.006511678654967,121.38202268201552 24.0381839097611,121.40107709485729</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf6fd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒] 台電木瓜壩，將於04月08日10時40分起取水，河床水位將有變化，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 10:40 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒] 台電木瓜壩，將於04月08日10時40分起取水，河床水位將有變化，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 10:40 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114088301</id>
+    <title>強震</title>
+    <sent>2025-04-03T11:47:09+08:00</sent>
+    <expires>2025-04-03T11:50:07+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>67</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf689</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]04/03 11:47左右南部地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/KNs</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A2025040107561773738860520</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-04-01T09:00:01+08:00</sent>
+    <expires>2025-04-01T09:10:00+08:00</expires>
+    <sender>
+      <value>農業部農田水利署苗栗管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.6309880436986,120.893342857429 24.630319465303,120.896054188108 24.6273186809595,120.898671696985 24.628137484201,120.902561712275 24.628227625589,120.906803119814 24.6301247168885,120.910532994049 24.6283195541005,120.914329288584 24.6218488376165,120.915832490895 24.6219648680321,120.914811958012 24.6217312048838,120.914014887221 24.6222263357779,120.913249205593 24.622897033381,120.913631416277 24.6235672905446,120.913248280206 24.6235952697316,120.911239213779 24.6230692918169,120.90913487802 24.6233307201573,120.907603989815 24.6244076648104,120.904956341544 24.6251937306682,120.903361245299 24.6248135448443,120.901480031131 24.6234397474043,120.895996098503 24.6235555985907,120.894911755702 24.6230300936598,120.893796063124 24.6232335869438,120.89299865287 24.6228242357763,120.891276972161 24.6239322104249,120.891594910961 24.6269637010352,120.891273391635 24.6309880436986,120.893342857429</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf681</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]劍潭水庫自04月01日10時00分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 10:00 on 04/01. Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735</text>
+    <description type="html"><![CDATA[[水庫放水警戒]劍潭水庫自04月01日10時00分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 10:00 on 04/01. Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735]]></description>
+  </entry>
+  <entry>
+    <id>A2025040101054998638860310</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-04-01T01:15:02+08:00</sent>
+    <expires>2025-04-01T03:15:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.0381839097611,121.40107709485729 24.03584749235387,121.41177501722812 24.034279715223015,121.41469326063631 24.0231479475425,121.42911281630036 24.001195158787564,121.45812358900541 23.983630230722117,121.48593273207177 23.97139609754356,121.5051588062905 23.96739622510276,121.50108184858823 23.95939610782638,121.51017990156697 23.95076797402327,121.5218528752001 23.9478264328396,121.53116550490003 23.943649329113544,121.54348220869673 23.944747547891794,121.54713001295707 23.94333555060286,121.55017700239807 23.939687819423742,121.54507007643359 23.937574122397514,121.54870587903676 23.92329575580554,121.5740259321373 23.921961981594496,121.58621388990093 23.918509796151163,121.59574109632182 23.9054848114701,121.58844548780134 23.905955616916213,121.58398229200056 23.910506647816018,121.56801778394394 23.919372851161416,121.547847572152 23.926355538714375,121.53308469373404 23.931219659738243,121.52544576245964 23.94479115732129,121.50896627027217 23.953262813666683,121.49969655591673 23.961028009840806,121.49343091565792 23.9647143534053,121.4873369367761 23.953498129511793,121.46665174085328 23.9508311914603,121.43128949720098 23.97263571373256,121.42837125379279 23.987692798509517,121.41807157117562 24.006511678654967,121.38202268201552 24.0381839097611,121.40107709485729</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25043cdcf67d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒] 台電龍溪壩，將於04月01日02時00分起排砂放水至木瓜溪，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 02:00 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒] 台電龍溪壩，將於04月01日02時00分起排砂放水至木瓜溪，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 02:00 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+</feed>

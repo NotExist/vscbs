@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202208</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:20:43+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2022年8月 月彙整]]></description>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220828141350_000</id>
+    <title>雷雨</title>
+    <sent>2022-08-28T14:14:06+08:00</sent>
+    <expires>2022-08-28T15:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市燕巢區</areaDesc>
+      <polygon>22.8,120.42 22.77,120.41 22.77,120.35 22.81,120.36 22.8,120.42</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c93405d</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至28日15:15；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[111 年 8 月 28 日 14 時 11 分 氣象局發布大雷雨即時訊息，持續時間至 15 時 15 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，低窪地區慎防淹水]]></description>
+  </entry>
+  <entry>
+    <id>swcb.gov.tw_debrisFlow_20220826161001_F003</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2022-08-26T16:11:00+08:00</sent>
+    <expires>2022-08-26T17:10:00+08:00</expires>
+    <sender>
+      <value>農委會水土保持局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市桃源區</areaDesc>
+      <circle>23.18835,120.78834 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c93405c</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]高雄市桃源區勤和里(玉穗溪)1小時累積雨量已達17.5mm、3小時累積雨量已達17.5mm、24小時累積雨量已達17.5mm，請提高警覺。農委會關心您0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]高雄市桃源區勤和里(玉穗溪)1小時累積雨量已達17.5mm、3小時累積雨量已達17.5mm、24小時累積雨量已達17.5mm，請提高警覺。農委會關心您0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220825164040_000</id>
+    <title>雷雨</title>
+    <sent>2022-08-25T16:41:00+08:00</sent>
+    <expires>2022-08-25T18:40:40+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺北市雙溪（楓林橋與碧溪橋）</areaDesc>
+      <polygon>25.12474,121.58564 25.11634,121.58916 25.10894,121.56648 25.11734,121.56296 25.12474,121.58564</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c925600</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並注意安全，持續至8/25 18:40，氣象局；There is/will be heavy rainfall in area(s) nearby. Flash flood possible. Take precautions to stay safe.02-23491234.</text>
+    <description type="html"><![CDATA[氣象局針對臺北市雙溪（楓林橋與碧溪橋）發布災防告警，持續時間至18時40分；您所在的鄰近區域已有暴雨或有暴雨發生的機率，請注意可能的影響。]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220825163307_001</id>
+    <title>雷雨</title>
+    <sent>2022-08-25T16:33:21+08:00</sent>
+    <expires>2022-08-25T17:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺北市松山區 臺北市大安區 臺北市中山區 臺北市信義區</areaDesc>
+      <polygon>25.06,121.58 25.02,121.58 25.01,121.54 25.04,121.54 25.06,121.53 25.06,121.58</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c93405b</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至25日17:30；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[111 年 8 月 25 日 16 時 32 分 氣象局發布大雷雨即時訊息，持續時間至 17 時 30 分；請慎防劇烈降雨、雷擊、9級以上強陣風，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220825161442_000</id>
+    <title>雷雨</title>
+    <sent>2022-08-25T16:14:55+08:00</sent>
+    <expires>2022-08-25T16:45:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市新店區 新北市中和區</areaDesc>
+      <polygon>24.99,121.55 24.96,121.55 24.93,121.48 24.95,121.46 24.96,121.48 24.99,121.52 24.99,121.55</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c91e0ce</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至25日16:45；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[111 年 8 月 25 日 16 時 14 分 氣象局發布大雷雨即時訊息，持續時間至 16 時 45 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220825160816_000</id>
+    <title>雷雨</title>
+    <sent>2022-08-25T16:08:34+08:00</sent>
+    <expires>2022-08-25T18:08:16+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市大豹溪</areaDesc>
+      <polygon>24.84555,121.45194 24.8425,121.44861 24.85416,121.43444 24.85611,121.43722 24.84555,121.45194</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c9255ff</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並注意安全，持續至8/25 18:8，氣象局；There is/will be heavy rainfall in area(s) nearby. Flash flood possible. Take precautions to stay safe.02-23491234.</text>
+    <description type="html"><![CDATA[氣象局針對新北市大豹溪發布災防告警，持續時間至18時8分；您所在的鄰近區域已有暴雨或有暴雨發生的機率，請注意可能的影響。]]></description>
+  </entry>
+  <entry>
+    <id>A2022082208534612112116040</id>
+    <title>台電萬大電廠(水庫放水)</title>
+    <sent>2022-08-22T08:53:59+08:00</sent>
+    <expires>2022-08-22T08:55:11+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司萬大發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.199873255701828,119.55631256103517 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c9255fc</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>testTaipower049-2974166</text>
+    <description type="html"><![CDATA[testTaipower049-2974166]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220817162731_000</id>
+    <title>雷雨</title>
+    <sent>2022-08-17T16:27:46+08:00</sent>
+    <expires>2022-08-17T17:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>南投縣南投市 南投縣草屯鎮 南投縣中寮鄉</areaDesc>
+      <polygon>23.99,120.73 23.9,120.77 23.89,120.66 23.95,120.66 23.99,120.73</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c9255fb</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至17日17:30；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[111 年 8 月 17 日 16 時 26 分 氣象局發布大雷雨即時訊息，持續時間至 17 時 30 分；請慎防劇烈降雨、雷擊、9級以上強陣風，低窪地區慎防淹水]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220817160703_001</id>
+    <title>雷雨</title>
+    <sent>2022-08-17T16:07:21+08:00</sent>
+    <expires>2022-08-17T17:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市六甲區 臺南市官田區</areaDesc>
+      <polygon>23.19,120.3 23.22,120.32 23.24,120.34 23.22,120.42 23.17,120.35 23.17,120.32 23.19,120.3</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c9255fa</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至17日17:00；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[111 年 8 月 17 日 16 時 5 分 氣象局發布大雷雨即時訊息，持續時間至 17 時 0 分；請慎防劇烈降雨、雷擊、9級以上強陣風、冰雹，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220810190016_000</id>
+    <title>雷雨</title>
+    <sent>2022-08-10T19:00:28+08:00</sent>
+    <expires>2022-08-10T20:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣中埔鄉 嘉義縣番路鄉 嘉義縣大埔鄉 臺南市白河區 臺南市東山區</areaDesc>
+      <polygon>23.26,120.57 23.27,120.53 23.28,120.48 23.42,120.52 23.37,120.63 23.26,120.57</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c916b9b</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至10日20:00；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[111 年 8 月 10 日 18 時 59 分 氣象局發布大雷雨即時訊息，持續時間至 20 時 0 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220810170050_000</id>
+    <title>雷雨</title>
+    <sent>2022-08-10T17:02:13+08:00</sent>
+    <expires>2022-08-10T18:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市(岡山區 永安區 梓官區等共7鄉鎮區)</areaDesc>
+      <polygon>22.76,120.25 22.82,120.22 22.81,120.29 22.85,120.33 22.85,120.39 22.78,120.37 22.78,120.31 22.76,120.25</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c8eac8b</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至10日18:00；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[111 年 8 月 10 日 16 時 59 分 氣象局發布大雷雨即時訊息，持續時間至 18 時 0 分；請慎防劇烈降雨、雷擊，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>A2022081010205053012073560</id>
+    <title>台電萬大電廠(水庫放水)</title>
+    <sent>2022-08-10T10:25:06+08:00</sent>
+    <expires>2022-08-10T10:30:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司萬大發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.01790370538025,121.12711444528085 24.018530898434356,121.12711444528082 24.018530898434356,121.12642779977301 24.005986456142736,121.19440570504636 23.91060875247167,121.184792667937 23.864777302068436,121.10239520699962 23.855357870537578,121.06050983102311 23.925045433472302,121.03304401071067 23.9928134751846,121.00901141793726 24.021039640056053,121.04952350289814 24.03797236534219,121.11200824410899 24.01790370538025,121.12711444528085</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c916b9a</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒] 霧社水庫自10日10時30分進行放水，請濁水溪下游沿岸附近民眾加強注意並遠離河床，以策安全。(測試用)[Reservoir discharge] 10:30 Zhuoshui River level rises. Plz stay away. 1911,Taipower（台電公司1911）台電萬大電廠049-2974166關心您</text>
+    <description type="html"><![CDATA[[水庫放水警戒] 霧社水庫自10日10時30分進行放水，請濁水溪下游沿岸附近民眾加強注意並遠離河床，以策安全。(測試用)[Reservoir discharge] 10:30 Zhuoshui River level rises. Plz stay away. 1911,Taipower（台電公司1911）台電萬大電廠049-2974166關心您]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220807185418_000</id>
+    <title>雷雨</title>
+    <sent>2022-08-07T18:54:34+08:00</sent>
+    <expires>2022-08-07T19:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>南投縣埔里鎮 南投縣魚池鄉 南投縣仁愛鄉</areaDesc>
+      <polygon>23.97,121.07 23.87,121.07 23.85,121.0 23.87,120.94 23.95,120.97 23.97,121.07</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c90f66a</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至07日19:30；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[111 年 8 月 7 日 18 時 53 分 氣象局發布大雷雨即時訊息，持續時間至 19 時 30 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220804163759_000</id>
+    <title>雷雨</title>
+    <sent>2022-08-04T16:38:22+08:00</sent>
+    <expires>2022-08-04T17:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義市(東區 西區),嘉義縣(大林鎮 民雄鄉 溪口鄉等共10鄉鎮區)</areaDesc>
+      <polygon>23.56,120.5 23.43,120.5 23.4,120.31 23.51,120.27 23.62,120.39 23.56,120.5</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c90813b</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至04日17:30；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[111 年 8 月 4 日 16 時 37 分 氣象局發布大雷雨即時訊息，持續時間至 17 時 30 分；請慎防劇烈降雨、雷擊，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20220803180553_000</id>
+    <title>雷雨</title>
+    <sent>2022-08-03T18:06:08+08:00</sent>
+    <expires>2022-08-03T18:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>南投縣(南投市 草屯鎮),彰化縣(員林市 芬園鄉 永靖鄉等共4鄉鎮區)</areaDesc>
+      <polygon>23.98,120.64 23.95,120.68 23.88,120.65 23.91,120.57 23.97,120.55 23.98,120.64</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/22083c900c0d</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地即將發生大雷雨,預計持續至03日18:30；Thunderstorm this area. CWB. TEL:02_2349_1234</text>
+    <description type="html"><![CDATA[111 年 8 月 3 日 18 時 4 分 氣象局發布大雷雨即時訊息，持續時間至 18 時 30 分；請慎防劇烈降雨、雷擊、9級以上強陣風，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+</feed>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>201709</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:22:12+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2017年9月 月彙整]]></description>
+  <entry>
+    <id>cwb.gov.tw_thunderstorm_20170929160320_000</id>
+    <title>雷雨</title>
+    <sent>2017-09-29T16:03:25+08:00</sent>
+    <expires>2017-09-29T17:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市(六甲區 官田區 大內區等共13鄉鎮區)</areaDesc>
+      <polygon>23.07,120.51 22.99,120.34 23.07,120.27 23.18,120.34 23.21,120.51 23.07,120.51</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7b7367</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在地區即將發生大雷雨,預計持續至09/29 17:00；請注意強降雨、陣風、雷擊現象，低窪慎防淹水.氣象局</text>
+    <description type="html"><![CDATA[106 年 9 月 29 日 16 時 2 分 氣象局發布大雷雨即時訊息，持續時間至 17 時 0 分；請慎防劇烈降雨、雷擊、9級以上強陣風，溪(河)水暴漲，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>A20170922135958980</id>
+    <title>核子事故警報</title>
+    <sent>2017-09-22T14:00:15+08:00</sent>
+    <expires>2017-09-22T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Nuclear</value>
+    </eventCode>
+    <area>
+      <areaDesc>基隆市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10017</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7be89a</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【演習】106年國家防災日【DISASTER_DRILL】核安23號演習警報測試，原能會關心您!</text>
+    <description type="html"><![CDATA[【演習】106年國家防災日【DISASTER_DRILL】核安23號演習警報測試，原能會關心您!]]></description>
+  </entry>
+  <entry>
+    <id>A20170922095526346</id>
+    <title>核子事故警報</title>
+    <sent>2017-09-22T09:55:33+08:00</sent>
+    <expires>2017-09-22T10:25:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Nuclear</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>65</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7b7366</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【演習】106年國家防災日【DISASTER_DRILL】核安23號演習警報測試，原能會關心您!</text>
+    <description type="html"><![CDATA[【演習】106年國家防災日【DISASTER_DRILL】核安23號演習警報測試，原能會關心您!]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_tsunami_TWTS_10699901</id>
+    <title>海嘯</title>
+    <sent>2017-09-21T10:00:02+08:00</sent>
+    <expires>2017-09-21T10:03:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>tsunami</value>
+    </eventCode>
+    <area>
+      <areaDesc>海峽沿海地區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>0900703</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7b7364</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【演習】106年國家防災日【DISASTER_DRILL】海嘯警報即時通，如遇真實海嘯事件請立即往高處避難，政府關心守護您！</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_tsunami_TWSE_10699901</id>
+    <title>海嘯</title>
+    <sent>2017-09-21T10:00:01+08:00</sent>
+    <expires>2017-09-21T10:03:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>tsunami</value>
+    </eventCode>
+    <area>
+      <areaDesc>東南沿海地區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001324</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7b7365</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【演習】106年國家防災日【DISASTER_DRILL】海嘯警報即時通，如遇真實海嘯事件請立即往高處避難，政府關心守護您！</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_tsunami_TWEC_10699901</id>
+    <title>海嘯</title>
+    <sent>2017-09-21T10:00:01+08:00</sent>
+    <expires>2017-09-21T10:03:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>tsunami</value>
+    </eventCode>
+    <area>
+      <areaDesc>東部沿海地區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001408</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7be899</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【演習】106年國家防災日【DISASTER_DRILL】海嘯警報即時通，如遇真實海嘯事件請立即往高處避難，政府關心守護您！</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_tsunami_TWSW_10699901</id>
+    <title>海嘯</title>
+    <sent>2017-09-21T10:00:01+08:00</sent>
+    <expires>2017-09-21T10:03:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>tsunami</value>
+    </eventCode>
+    <area>
+      <areaDesc>西南沿海地區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001304</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7be896</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【演習】106年國家防災日【DISASTER_DRILL】海嘯警報即時通，如遇真實海嘯事件請立即往高處避難，政府關心守護您！</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_tsunami_TWNC_10699901</id>
+    <title>海嘯</title>
+    <sent>2017-09-21T10:00:01+08:00</sent>
+    <expires>2017-09-21T10:03:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>tsunami</value>
+    </eventCode>
+    <area>
+      <areaDesc>北部沿海地區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6502600</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7be898</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【演習】106年國家防災日【DISASTER_DRILL】海嘯警報即時通，如遇真實海嘯事件請立即往高處避難，政府關心守護您！</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_tsunami_TWNE_10699901</id>
+    <title>海嘯</title>
+    <sent>2017-09-21T10:00:01+08:00</sent>
+    <expires>2017-09-21T10:03:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>tsunami</value>
+    </eventCode>
+    <area>
+      <areaDesc>東北沿海地區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000203</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7be897</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【演習】106年國家防災日【DISASTER_DRILL】海嘯警報即時通，如遇真實海嘯事件請立即往高處避難，政府關心守護您！</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_106999901</id>
+    <title>強震</title>
+    <sent>2017-09-21T09:21:07+08:00</sent>
+    <expires>2017-09-21T09:24:00+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09020</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7be895</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>【演習】106年國家防災日【DISASTER_DRILL】印記921，地震警報即時通，「趴下、掩護、穩住」做到位，政府關心您！</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_106042</id>
+    <title>地震</title>
+    <sent>2017-09-20T22:35:09+08:00</sent>
+    <expires>2017-09-20T22:40:03+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10007</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7b7363</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]09/20 22:29臺灣東部海域發生規模5.7有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_106041</id>
+    <title>地震</title>
+    <sent>2017-09-18T06:46:54+08:00</sent>
+    <expires>2017-09-18T06:51:45+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10007</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7be894</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]09/18 06:39臺灣東部海域發生規模4.8有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_106038</id>
+    <title>地震</title>
+    <sent>2017-09-05T18:12:23+08:00</sent>
+    <expires>2017-09-05T18:17:17+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/17093c7b7362</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]09/05 18:08花蓮縣秀林鄉發生規模4.2有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+</feed>

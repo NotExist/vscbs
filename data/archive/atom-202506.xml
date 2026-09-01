@@ -1,0 +1,4225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>202506</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-07-01T00:00:03+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2025年6月 月彙整]]></description>
+  <entry>
+    <id>A2025062918563623139798240</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-06-29T20:30:02+08:00</sent>
+    <expires>2025-06-29T20:40:00+08:00</expires>
+    <sender>
+      <value>農業部農田水利署苗栗管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.6309880436986,120.893342857429 24.630319465303,120.896054188108 24.6273186809595,120.898671696985 24.628137484201,120.902561712275 24.628227625589,120.906803119814 24.6301247168885,120.910532994049 24.6283195541005,120.914329288584 24.6218488376165,120.915832490895 24.6219648680321,120.914811958012 24.6217312048838,120.914014887221 24.6222263357779,120.913249205593 24.622897033381,120.913631416277 24.6235672905446,120.913248280206 24.6235952697316,120.911239213779 24.6230692918169,120.90913487802 24.6233307201573,120.907603989815 24.6244076648104,120.904956341544 24.6251937306682,120.903361245299 24.6248135448443,120.901480031131 24.6234397474043,120.895996098503 24.6235555985907,120.894911755702 24.6230300936598,120.893796063124 24.6232335869438,120.89299865287 24.6228242357763,120.891276972161 24.6239322104249,120.891594910961 24.6269637010352,120.891273391635 24.6309880436986,120.893342857429</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09fd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]劍潭水庫自06月29日21時30分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 21:30 on 06/29. Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735</text>
+    <description type="html"><![CDATA[[水庫放水警戒]劍潭水庫自06月29日21時30分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 21:30 on 06/29. Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250629162933_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-29T16:29:46+08:00</sent>
+    <expires>2025-06-29T17:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市楠西區 臺南市南化區 高雄市甲仙區</areaDesc>
+      <polygon>23.12,120.62 23.12,120.5 23.23,120.5 23.21,120.64 23.12,120.62</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09f9</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/29 17:30，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 29, 17:30.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 29 日 16 時 29 分 氣象署發布大雷雨即時訊息，持續時間至 17 時 30 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250629161600_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-29T16:16:58+08:00</sent>
+    <expires>2025-06-29T18:16:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市頭汴坑溪</areaDesc>
+      <polygon>24.12572,120.73034 24.12364,120.73727 24.12872,120.7415 24.09888,120.77246 24.11596,120.83391 24.13257,120.82052 24.12051,120.77383 24.14244,120.74431 24.12572,120.73034</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09f5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/29 18:16氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺中市頭汴坑溪(仙女瀑布至一江橋)發布災防告警，持續時間至18時16分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250629155300_42</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-29T16:01:06+08:00</sent>
+    <expires>2025-06-29T21:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣中埔鄉</areaDesc>
+      <circle>23.380597,120.57171 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09f1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量28mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量28mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250629155400_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-29T15:54:55+08:00</sent>
+    <expires>2025-06-29T17:54:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市後堀溪</areaDesc>
+      <polygon>23.12882,120.56126 23.12882,120.5858653 23.1886455,120.606868 23.1888024,120.586097 23.12882,120.56126</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09ed</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/29 17:54氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺南市後堀溪(千層岩瀑布)發布災防告警，持續時間至17時54分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250629152000_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-29T15:21:19+08:00</sent>
+    <expires>2025-06-29T17:20:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣草山溪</areaDesc>
+      <polygon>23.39702,120.62902 23.3649437,120.6455583 23.3449289,120.6277055 23.3452442,120.6009263 23.39655,120.60155 23.39702,120.62902</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09e9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/29 17:20氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對嘉義縣草山溪(葫蘆谷)發布災防告警，持續時間至17時20分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250629145802_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-29T14:58:19+08:00</sent>
+    <expires>2025-06-29T16:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市大社區 高雄市大樹區 高雄市田寮區 高雄市燕巢區 高雄市旗山區</areaDesc>
+      <polygon>22.8,120.45 22.74,120.42 22.77,120.36 22.83,120.4 22.8,120.45</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09e5</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/29 16:00，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 29, 16:00.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 29 日 14 時 58 分 氣象署發布大雷雨即時訊息，持續時間至 16 時 0 分；請慎防劇烈降雨、雷擊、9級以上強陣風，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>A2025062821071813039795990</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-06-28T22:11:02+08:00</sent>
+    <expires>2025-06-28T22:20:48+08:00</expires>
+    <sender>
+      <value>農業部農田水利署苗栗管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.674621749472,120.966430727285 24.6735231175643,120.969055236863 24.6731651438573,120.971897454562 24.6739503624735,120.974365294851 24.6738388718588,120.977767736872 24.6744386432107,120.982238830669 24.6733191788505,120.984079571633 24.673295220852,120.985238968738 24.6741861073618,120.985449665119 24.6746438380533,120.988453524842 24.6734161530152,120.992669618162 24.6723326924075,120.993170325612 24.6723086525988,120.994013515664 24.6712974302466,120.994856745262 24.6706473267624,120.994487881814 24.671610346843,120.992696074457 24.6705508557748,120.991115178975 24.6694433249122,120.991668587578 24.6687767851816,120.991079061866 24.6633912807729,120.992187560525 24.6610109088295,120.991516174858 24.6622682111417,120.986343122596 24.6616899522791,120.985899019367 24.6606542854555,120.982684779402 24.6609190140589,120.981630851758 24.6640731897256,120.981867520998 24.6658326873189,120.97875982702 24.6660768277616,120.975219788691 24.6651555404929,120.974121012314 24.6638060985714,120.968351110686 24.6677858128374,120.963806213138 24.6710817095945,120.963562072726 24.674621749472,120.966430727285</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09e1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]大埔水庫刻正進行放水，請峨眉溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。 Dapu Reservoir is discharging.Please keep away from Emei creek.農業部農水署苗栗管理處037-602145</text>
+    <description type="html"><![CDATA[[水庫放水警戒]大埔水庫刻正進行放水，請峨眉溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。 Dapu Reservoir is discharging.Please keep away from Emei creek.農業部農水署苗栗管理處037-602145]]></description>
+  </entry>
+  <entry>
+    <id>A2025062805594634939793930</id>
+    <title>台電大觀電廠(水庫放水)</title>
+    <sent>2025-06-28T06:15:02+08:00</sent>
+    <expires>2025-06-28T06:45:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司大觀發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.856542836240592,120.86381288662048 23.852931905589582,120.87239595546814 23.836995509927384,120.86964937343689 23.842648051803785,120.85383506908474 23.84574899440014,120.85610958232941 23.856542836240592,120.86381288662048</polygon>
+    </area>
+    <area>
+      <areaDesc>發布區域2</areaDesc>
+      <polygon>23.859444618135477,120.86284157690208 23.859680104842557,120.88447091039816 23.83510868476173,120.88241097387473 23.83510868476173,120.85211274084253 23.859444618135477,120.86284157690208</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09dd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]大觀發電廠明湖下池因溢洪道閘門測試自 2025年06月28日6時30分進行放水，請水里溪下游沿岸附近民眾加強注意並遠離河床。The Takuan Plant will release water from 6:30 on June 28, 2025. Taipower 049-2774016.Taipower049-2774016</text>
+    <description type="html"><![CDATA[[水庫放水警戒]大觀發電廠明湖下池因溢洪道閘門測試自 2025年06月28日6時30分進行放水，請水里溪下游沿岸附近民眾加強注意並遠離河床。The Takuan Plant will release water from 6:30 on June 28, 2025. Taipower 049-2774016.Taipower049-2774016]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250627161300_25</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-27T16:20:05+08:00</sent>
+    <expires>2025-06-27T22:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣來義鄉</areaDesc>
+      <circle>22.451131,120.660297 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09d5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣來義鄉南和村白鷺二號橋之1小時累積雨量22.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/puA</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣來義鄉南和村白鷺二號橋之1小時累積雨量22.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/puA]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250627160300_26</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-27T16:10:05+08:00</sent>
+    <expires>2025-06-27T22:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣高樹鄉</areaDesc>
+      <circle>22.870815,120.645366 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09d1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰、金龍山法輪禪寺之1小時累積雨量47mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰、金龍山法輪禪寺之1小時累積雨量47mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250627155300_24</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-27T16:00:05+08:00</sent>
+    <expires>2025-06-27T21:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市旗山區</areaDesc>
+      <circle>22.832024,120.460579 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09cd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市旗山區新光里勞碡坑三龍寺之1小時累積雨量22mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/d5g</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市旗山區新光里勞碡坑三龍寺之1小時累積雨量22mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/d5g]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250627154000_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-27T15:42:07+08:00</sent>
+    <expires>2025-06-27T17:40:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市南勢溪</areaDesc>
+      <polygon>24.90953,121.54909 24.89972,121.56325 24.88914,121.5514 24.87858,121.55242 24.87777,121.53701 24.88689,121.5368 24.8935,121.53896 24.90953,121.54909</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市石碇溪</areaDesc>
+      <polygon>25.00757,121.65286 24.99599,121.65688 24.99595,121.6501 25.00719,121.64963 25.00757,121.65286</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市北港溪</areaDesc>
+      <polygon>25.11862010170354,121.6322718751227 25.116142906802036,121.63501840779806 25.1136391,121.6367181 25.1126482,121.6314824 25.1164015,121.6248059 25.1175776,121.6248128 25.11862010170354,121.6322718751227</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09c9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/27 17:40氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新北市北港溪(汐止柯子林),新北市南勢溪(紅河谷至龜岩寶島區),新北市石碇溪(石碇淡蘭吊橋)發布災防告警，持續時間至17時40分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250627145100_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-27T14:52:15+08:00</sent>
+    <expires>2025-06-27T16:51:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市宇內溪</areaDesc>
+      <polygon>24.80393,121.3732 24.801183,121.4069993 24.7774012,121.3956397 24.78997,121.37433 24.80393,121.3732</polygon>
+    </area>
+    <area>
+      <areaDesc>桃園市霞雲溪</areaDesc>
+      <polygon>24.82944,121.3888 24.81854,121.4106 24.7921942,121.3844367 24.8106599,121.3613482 24.82944,121.3888</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市大豹溪</areaDesc>
+      <polygon>24.87875,121.38773 24.87213,121.43927 24.86029,121.45163 24.86777,121.46004 24.85204,121.48064 24.824,121.45437 24.83428,121.42656 24.83989,121.43171 24.85173,121.42656 24.86884,121.38449 24.87875,121.38773</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09c1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/27 16:51氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新北市大豹溪,桃園市宇內溪(宇內橋),桃園市霞雲溪(優霞雲瀑布區)發布災防告警，持續時間至16時51分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250627143500_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-27T14:35:57+08:00</sent>
+    <expires>2025-06-27T16:35:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣牛角灣溪</areaDesc>
+      <polygon>22.7123933,120.6404596 22.7087899,120.6517046 22.6945373,120.6652658 22.6650385,120.6409746 22.6965574,120.6203752 22.7123933,120.6404596</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09bd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/27 16:35氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對屏東縣牛角灣溪發布災防告警，持續時間至16時35分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250627143200_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-27T14:33:01+08:00</sent>
+    <expires>2025-06-27T16:32:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市後堀溪</areaDesc>
+      <polygon>23.12882,120.56126 23.12882,120.5858653 23.1886455,120.606868 23.1888024,120.586097 23.12882,120.56126</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09b9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/27 16:32氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺南市後堀溪(千層岩瀑布)發布災防告警，持續時間至16時32分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250627135100_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-27T13:52:33+08:00</sent>
+    <expires>2025-06-27T15:51:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市頭汴坑溪</areaDesc>
+      <polygon>24.12572,120.73034 24.12364,120.73727 24.12872,120.7415 24.09888,120.77246 24.11596,120.83391 24.13257,120.82052 24.12051,120.77383 24.14244,120.74431 24.12572,120.73034</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09b5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/27 15:51氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺中市頭汴坑溪(仙女瀑布至一江橋)發布災防告警，持續時間至15時51分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250627133100_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-27T13:32:08+08:00</sent>
+    <expires>2025-06-27T15:31:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣油羅溪</areaDesc>
+      <polygon>24.70024,121.20431 24.71185,121.18603 24.7007,121.17131 24.69119,121.18792 24.70024,121.20431</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09b1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/27 15:31氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新竹縣油羅溪(雞油樹下區域)發布災防告警，持續時間至15時31分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250626211753_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-26T21:18:20+08:00</sent>
+    <expires>2025-06-26T22:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市霧峰區 臺中市太平區 臺中市大里區</areaDesc>
+      <polygon>24.12,120.8 24.03,120.74 24.05,120.68 24.15,120.72 24.12,120.8</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd09a1</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/26 22:15，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 26, 22:15.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 26 日 21 時 17 分 氣象署發布大雷雨即時訊息，持續時間至 22 時 15 分；請慎防劇烈降雨、雷擊、9級以上強陣風，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250626182745_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-26T18:28:09+08:00</sent>
+    <expires>2025-06-26T19:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣民雄鄉 嘉義縣溪口鄉 嘉義縣新港鄉 嘉義縣六腳鄉 嘉義縣太保市</areaDesc>
+      <polygon>23.53,120.47 23.5,120.37 23.54,120.29 23.61,120.39 23.53,120.47</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd099d</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/26 19:00，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 26, 19:00.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 26 日 18 時 27 分 氣象署發布大雷雨即時訊息，持續時間至 19 時 0 分；請慎防劇烈降雨、雷擊，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250626175502_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-26T17:55:21+08:00</sent>
+    <expires>2025-06-26T19:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義市西區 嘉義縣鹿草鄉 嘉義縣太保市 嘉義縣水上鄉</areaDesc>
+      <polygon>23.48,120.43 23.42,120.43 23.41,120.39 23.41,120.34 23.46,120.31 23.5,120.4 23.48,120.43</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0999</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/26 19:00，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 26, 19:00.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 26 日 17 時 54 分 氣象署發布大雷雨即時訊息，持續時間至 19 時 0 分；請慎防劇烈降雨、雷擊、9級以上強陣風、冰雹，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>A2025062617191530739789830</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-06-26T17:26:02+08:00</sent>
+    <expires>2025-06-26T17:35:23+08:00</expires>
+    <sender>
+      <value>農業部農田水利署嘉南管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.2307164216132,120.346060372492 23.2639726889386,120.331649742759 23.2970475173513,120.339701942311 23.3015323554372,120.298238151226 23.29357848129,120.260187292474 23.2677533132857,120.241304524269 23.2421773787182,120.246269770816 23.2299294299733,120.261717591492 23.2234922427051,120.284615804265 23.2223737988048,120.313837714168 23.2307164216132,120.346060372492</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0995</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]德元埤水庫自6月26日18時00分進行放水，請龜子港排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全 。Deyuanpi Reservoir will discharge at 18:00 on 6/26 Please keep away from Guizigang Drainage.農業部農水署嘉南管理處6222284</text>
+    <description type="html"><![CDATA[[水庫放水警戒]德元埤水庫自6月26日18時00分進行放水，請龜子港排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全 。Deyuanpi Reservoir will discharge at 18:00 on 6/26 Please keep away from Guizigang Drainage.農業部農水署嘉南管理處6222284]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250626170300_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-26T17:03:20+08:00</sent>
+    <expires>2025-06-26T18:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市官田區 臺南市大內區 臺南市玉井區</areaDesc>
+      <polygon>23.12,120.41 23.13,120.37 23.18,120.33 23.19,120.41 23.15,120.46 23.12,120.41</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0991</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/26 18:00，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 26, 18:00.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 26 日 17 時 2 分 氣象署發布大雷雨即時訊息，持續時間至 18 時 0 分；請慎防劇烈降雨、雷擊、9級以上強陣風，溪(河)水暴漲，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250626163500_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-26T16:37:11+08:00</sent>
+    <expires>2025-06-26T18:35:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市後堀溪</areaDesc>
+      <polygon>23.12882,120.56126 23.12882,120.5858653 23.1886455,120.606868 23.1888024,120.586097 23.12882,120.56126</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd098d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/26 18:35氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺南市後堀溪(千層岩瀑布)發布災防告警，持續時間至18時35分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250626162300_44</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-26T16:30:05+08:00</sent>
+    <expires>2025-06-26T22:23:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區</areaDesc>
+      <circle>22.982622,120.636216 1.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0989</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市六龜區文武里覺華寺之1小時累積雨量24mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/kQo</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市六龜區文武里覺華寺之1小時累積雨量24mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/kQo]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250626160300_26</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-26T16:11:04+08:00</sent>
+    <expires>2025-06-26T22:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣高樹鄉</areaDesc>
+      <circle>22.870815,120.645366 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0985</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰、金龍山法輪禪寺之1小時累積雨量23mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰、金龍山法輪禪寺之1小時累積雨量23mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250626153400_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-26T15:35:54+08:00</sent>
+    <expires>2025-06-26T17:34:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣沙漠溪</areaDesc>
+      <polygon>22.83103,120.65182 22.82462,120.65749 22.81386,120.64023 22.81975,120.62693 22.8266,120.62693 22.83103,120.65182</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0981</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/26 17:34氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對屏東縣沙漠溪(海神宮)發布災防告警，持續時間至17時34分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250626145200_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-26T14:53:24+08:00</sent>
+    <expires>2025-06-26T16:52:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣牛角灣溪</areaDesc>
+      <polygon>22.7123933,120.6404596 22.7087899,120.6517046 22.6945373,120.6652658 22.6650385,120.6409746 22.6965574,120.6203752 22.7123933,120.6404596</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0965</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/26 16:52氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對屏東縣牛角灣溪發布災防告警，持續時間至16時52分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250625221300_10</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-25T22:20:05+08:00</sent>
+    <expires>2025-06-26T04:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.236094,121.708961 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0961</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉和平村和仁車站之1小時累積雨量26.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/uet</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉和平村和仁車站之1小時累積雨量26.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/uet]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250625204300_20</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-25T20:50:31+08:00</sent>
+    <expires>2025-06-26T02:43:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.068258,121.602592 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0955</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村加灣橋之1小時累積雨量25.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/BFc</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村加灣橋之1小時累積雨量25.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/BFc]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250625204300_19</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-25T20:50:18+08:00</sent>
+    <expires>2025-06-26T02:43:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.103918,121.608215 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd094d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村三棧國小之1小時累積雨量25.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/HdM</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村三棧國小之1小時累積雨量25.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/HdM]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250625204300_16</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-25T20:50:05+08:00</sent>
+    <expires>2025-06-26T02:43:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.156288,121.626049 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0951</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉崇德村共5處之1小時累積雨量28mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/7bJ</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉崇德村共5處之1小時累積雨量28mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/7bJ]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250625164300_22</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-25T16:50:05+08:00</sent>
+    <expires>2025-06-25T22:43:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區</areaDesc>
+      <circle>22.884631,120.665739 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0949</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250625161200_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-25T16:13:07+08:00</sent>
+    <expires>2025-06-25T18:12:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市頭汴坑溪</areaDesc>
+      <polygon>24.12572,120.73034 24.12364,120.73727 24.12872,120.7415 24.09888,120.77246 24.11596,120.83391 24.13257,120.82052 24.12051,120.77383 24.14244,120.74431 24.12572,120.73034</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0941</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/25 18:12氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺中市頭汴坑溪(仙女瀑布至一江橋)發布災防告警，持續時間至18時12分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250625150300_42</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-25T15:10:05+08:00</sent>
+    <expires>2025-06-25T21:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣中埔鄉</areaDesc>
+      <circle>23.380597,120.57171 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd093d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量21mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量21mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250625143100_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-25T14:32:35+08:00</sent>
+    <expires>2025-06-25T16:31:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺北市雙溪</areaDesc>
+      <polygon>25.12818,121.58426 25.12678,121.59525 25.11543,121.59027 25.11551,121.58083 25.1096,121.57594 25.10875,121.56899 25.11139,121.55983 25.10548,121.55831 25.10532,121.55681 25.11324485,121.55651092 25.11341,121.56607 25.11862,121.57414 25.12258,121.57585 25.12818,121.58426</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0929</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/25 16:31氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺北市雙溪(雙溪淨水場至聖人瀑布)發布災防告警，持續時間至16時31分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250624155900_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-24T16:00:27+08:00</sent>
+    <expires>2025-06-24T17:59:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市南勢溪</areaDesc>
+      <polygon>24.90953,121.54909 24.89972,121.56325 24.88914,121.5514 24.87858,121.55242 24.87777,121.53701 24.88689,121.5368 24.8935,121.53896 24.90953,121.54909</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd090d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/24 17:59氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新北市南勢溪(紅河谷至龜岩寶島區)發布災防告警，持續時間至17時59分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>A2025062410124319639779250</id>
+    <title>疏散避難</title>
+    <sent>2025-06-24T10:14:02+08:00</sent>
+    <expires>2025-06-24T10:23:41+08:00</expires>
+    <sender>
+      <value>嘉義縣消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>23.52580890007097,120.55362224316924 2.0</circle>
+    </area>
+    <area>
+      <areaDesc>發布區域2</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001014</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0901</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][drill] [疏散避難警報][Evacuation Alert]
+嘉義縣114年災害防救演習-演練警報發送，請接獲示警民眾勿驚慌。
+嘉義縣消防局(Chiayi County Fire Bureau)05-3620233#324.ChiaYi County Government05-3620233嘉義縣政府關心您</text>
+    <description type="html"><![CDATA[[演練][drill] [疏散避難警報][Evacuation Alert]
+嘉義縣114年災害防救演習-演練警報發送，請接獲示警民眾勿驚慌。
+嘉義縣消防局(Chiayi County Fire Bureau)05-3620233#324.ChiaYi County Government05-3620233嘉義縣政府關心您]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250622142100_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-22T14:23:08+08:00</sent>
+    <expires>2025-06-22T16:21:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣梵梵溪</areaDesc>
+      <polygon>24.6141649,121.5164697 24.6186296,121.5224375 24.6155483,121.5272979 24.6111971,121.5272011 24.6108069,121.5257205 24.6116848,121.5222229 24.6141649,121.5164697</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0879</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/22 16:21氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對宜蘭縣梵梵溪(芃芃野溪溫泉)發布災防告警，持續時間至16時21分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250621161800_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-21T16:19:25+08:00</sent>
+    <expires>2025-06-21T18:18:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市石碇溪</areaDesc>
+      <polygon>25.00757,121.65286 24.99599,121.65688 24.99595,121.6501 25.00719,121.64963 25.00757,121.65286</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市永定溪</areaDesc>
+      <polygon>25.01878,121.68057 25.01092,121.69379 25.00151,121.68272 25.01073,121.66941 25.01878,121.68057</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0875</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/21 18:18氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新北市永定溪(石碇蚯蚓坑),新北市石碇溪(石碇淡蘭吊橋)發布災防告警，持續時間至18時18分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250621141900_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-21T14:21:41+08:00</sent>
+    <expires>2025-06-21T16:19:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣油羅溪</areaDesc>
+      <polygon>24.70024,121.20431 24.71185,121.18603 24.7007,121.17131 24.69119,121.18792 24.70024,121.20431</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0871</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/21 16:19氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新竹縣油羅溪(雞油樹下區域)發布災防告警，持續時間至16時19分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>A2025062105492118939768380</id>
+    <title>台電大觀電廠(水庫放水)</title>
+    <sent>2025-06-21T06:16:02+08:00</sent>
+    <expires>2025-06-21T06:45:43+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司大觀發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.859444618135477,120.86284157690208 23.859680104842557,120.88447091039816 23.83510868476173,120.88241097387473 23.83510868476173,120.85211274084253 23.859444618135477,120.86284157690208</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd086d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]大觀發電廠明湖下池因溢洪道閘門測試自 2025年06月21日6時30分進行放水，請水里溪下游沿岸附近民眾加強注意並遠離河床。The Takuan Plant will release water from 6:30 on June 21, 2025. .Taipower049-2774016</text>
+    <description type="html"><![CDATA[[水庫放水警戒]大觀發電廠明湖下池因溢洪道閘門測試自 2025年06月21日6時30分進行放水，請水里溪下游沿岸附近民眾加強注意並遠離河床。The Takuan Plant will release water from 6:30 on June 21, 2025. .Taipower049-2774016]]></description>
+  </entry>
+  <entry>
+    <id>A2025062019264646039767470</id>
+    <title>台電大觀電廠(水庫放水)</title>
+    <sent>2025-06-20T19:28:01+08:00</sent>
+    <expires>2025-06-20T19:45:57+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司大觀發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.920264446183378,121.0604238217733 23.920107528602582,121.0604238217733 23.920107528602582,121.06025216039635 23.88181394349247,121.07741829809163 23.88212787143101,121.02694985326748 23.91963677471643,121.02454659399015 23.920264446183378,121.0604238217733</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0869</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]栗栖壩自2025年06月20日19時30分進行放水，請栗栖溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2025/06/20 19:30 Zhuoshui River level rises. Plz stay away.。(Takuan plant care about you).Taipower049-2774016</text>
+    <description type="html"><![CDATA[[水庫放水警戒]栗栖壩自2025年06月20日19時30分進行放水，請栗栖溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2025/06/20 19:30 Zhuoshui River level rises. Plz stay away.。(Takuan plant care about you).Taipower049-2774016]]></description>
+  </entry>
+  <entry>
+    <id>A2025062018545496939767340</id>
+    <title>台電大觀電廠(水庫放水)</title>
+    <sent>2025-06-20T19:15:02+08:00</sent>
+    <expires>2025-06-20T19:45:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司大觀發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.920264446183378,121.0604238217733 23.920107528602582,121.0604238217733 23.920107528602582,121.06025216039635 23.88181394349247,121.07741829809163 23.88212787143101,121.02694985326748 23.91963677471643,121.02454659399015 23.920264446183378,121.0604238217733</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0865</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]栗栖壩自2025年06月20日19時30分進行放水，請栗栖溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2025/06/20 19:30 Zhuoshui River level rises. Plz stay away.。(Takuan plant care about you).Taipower049-2774016</text>
+    <description type="html"><![CDATA[[水庫放水警戒]栗栖壩自2025年06月20日19時30分進行放水，請栗栖溪下游沿岸附近民眾加強注意並遠離河床，以策安全。（大觀電廠關心您）2025/06/20 19:30 Zhuoshui River level rises. Plz stay away.。(Takuan plant care about you).Taipower049-2774016]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250620171700_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-20T17:18:45+08:00</sent>
+    <expires>2025-06-20T19:17:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市頭汴坑溪</areaDesc>
+      <polygon>24.12572,120.73034 24.12364,120.73727 24.12872,120.7415 24.09888,120.77246 24.11596,120.83391 24.13257,120.82052 24.12051,120.77383 24.14244,120.74431 24.12572,120.73034</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0861</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/20 19:17氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺中市頭汴坑溪(仙女瀑布至一江橋)發布災防告警，持續時間至19時17分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250620171000_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-20T17:11:20+08:00</sent>
+    <expires>2025-06-20T19:10:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市基隆河</areaDesc>
+      <polygon>25.046698,121.75664 25.0400473,121.766443 25.0357413,121.769873 25.032545415696063,121.75975227105684 25.03588532469177,121.75661981391295 25.046698,121.75664</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市三叉坑溪</areaDesc>
+      <polygon>25.0308651,121.8337108 25.0205969,121.8367178 25.0110243,121.8163172 25.030235,121.8127066 25.0308651,121.8337108</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市北勢溪</areaDesc>
+      <polygon>24.95924,121.74254 24.95387,121.7513 24.94473,121.74151 24.9457,121.72855 24.94885,121.72752 24.95924,121.74254</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市永定溪</areaDesc>
+      <polygon>25.01878,121.68057 25.01092,121.69379 25.00151,121.68272 25.01073,121.66941 25.01878,121.68057</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市逮魚堀溪</areaDesc>
+      <polygon>24.9317912,121.7043792 24.9156964,121.7220557 24.9042186,121.7031183 24.92694,121.69482 24.9317912,121.7043792</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd085d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/20 19:10氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新北市三叉坑溪(雙溪清水坑),新北市北勢溪(坪林映像虎寮區),新北市基隆河(平溪望古瀑布),新北市永定溪(石碇蚯蚓坑),新北市逮魚堀溪發布災防告警，持續時間至19時10分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250620162300_23</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-20T16:31:05+08:00</sent>
+    <expires>2025-06-20T22:23:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區</areaDesc>
+      <circle>22.884631,120.665739 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0859</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250619165300_28</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-19T17:00:06+08:00</sent>
+    <expires>2025-06-19T22:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣卑南鄉</areaDesc>
+      <circle>22.813201,121.052088 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0819</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]臺東縣卑南鄉泰安村大巴六九之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/uKt</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]臺東縣卑南鄉泰安村大巴六九之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/uKt]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250619163300_42</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-19T16:40:06+08:00</sent>
+    <expires>2025-06-19T22:33:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣中埔鄉</areaDesc>
+      <circle>23.380597,120.57171 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0815</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量28mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量28mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250619154400_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-19T15:46:03+08:00</sent>
+    <expires>2025-06-19T17:44:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣草山溪</areaDesc>
+      <polygon>23.39702,120.62902 23.3649437,120.6455583 23.3449289,120.6277055 23.3452442,120.6009263 23.39655,120.60155 23.39702,120.62902</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0811</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/19 17:44氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對嘉義縣草山溪(葫蘆谷)發布災防告警，持續時間至17時44分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>A2025061217313330239733010</id>
+    <title>疏散避難</title>
+    <sent>2025-06-19T13:55:02+08:00</sent>
+    <expires>2025-06-19T14:15:00+08:00</expires>
+    <sender>
+      <value>嘉義市政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>23.472396823637535,120.46722292900087 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07fd</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難]嘉義市2025城鎮韌性(全民防衛動員)演習發送測試演練。[Drill] Drill of Evacuation Alert. Chiayi City EOC.嘉義市災害應變中心05-2782119分機9</text>
+    <description type="html"><![CDATA[[演練][疏散避難]嘉義市2025城鎮韌性(全民防衛動員)演習發送測試演練。[Drill] Drill of Evacuation Alert. Chiayi City EOC.嘉義市災害應變中心05-2782119分機9]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250618165515_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-18T16:55:27+08:00</sent>
+    <expires>2025-06-18T17:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>苗栗縣泰安鄉</areaDesc>
+      <polygon>24.43,120.96 24.4,120.99 24.34,120.95 24.35,120.93 24.37,120.91 24.41,120.91 24.44,120.94 24.43,120.96</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07f1</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/18 17:30，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 18, 17:30.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 18 日 16 時 55 分 氣象署發布大雷雨即時訊息，持續時間至 17 時 30 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流，低窪地區慎防淹水]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250618160858_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-18T16:09:09+08:00</sent>
+    <expires>2025-06-18T17:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市和平區</areaDesc>
+      <polygon>24.31,120.96 24.24,121.0 24.24,120.91 24.29,120.9 24.31,120.96</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07ed</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/18 17:15，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 18, 17:15.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 18 日 16 時 9 分 氣象署發布大雷雨即時訊息，持續時間至 17 時 15 分；請慎防劇烈降雨、雷擊、冰雹，溪(河)水暴漲，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250618154300_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-18T15:44:21+08:00</sent>
+    <expires>2025-06-18T17:43:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市頭汴坑溪</areaDesc>
+      <polygon>24.12572,120.73034 24.12364,120.73727 24.12872,120.7415 24.09888,120.77246 24.11596,120.83391 24.13257,120.82052 24.12051,120.77383 24.14244,120.74431 24.12572,120.73034</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07e5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/18 17:43氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺中市頭汴坑溪(仙女瀑布至一江橋)發布災防告警，持續時間至17時43分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>A2025061815143252639760440</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-06-18T15:25:03+08:00</sent>
+    <expires>2025-06-18T15:35:00+08:00</expires>
+    <sender>
+      <value>農業部農田水利署嘉南管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.2307164216132,120.346060372492 23.2639726889386,120.331649742759 23.2970475173513,120.339701942311 23.3015323554372,120.298238151226 23.29357848129,120.260187292474 23.2677533132857,120.241304524269 23.2421773787182,120.246269770816 23.2299294299733,120.261717591492 23.2234922427051,120.284615804265 23.2223737988048,120.313837714168 23.2307164216132,120.346060372492</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07e1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]德元埤水庫自6月18日16時00分進行放水，請龜子港排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全 。Deyuanpi Reservoir will discharge at 16:00 on 6/18 Please keep away from Guizigang Drainage.農業部農水署嘉南管理處06-6222284</text>
+    <description type="html"><![CDATA[[水庫放水警戒]德元埤水庫自6月18日16時00分進行放水，請龜子港排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全 。Deyuanpi Reservoir will discharge at 16:00 on 6/18 Please keep away from Guizigang Drainage.農業部農水署嘉南管理處06-6222284]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250618144300_42</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-18T14:50:07+08:00</sent>
+    <expires>2025-06-18T20:43:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣中埔鄉</areaDesc>
+      <circle>23.380597,120.57171 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07d9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量25mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量25mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250618143200_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-18T14:33:41+08:00</sent>
+    <expires>2025-06-18T16:32:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市宇內溪</areaDesc>
+      <polygon>24.80393,121.3732 24.801183,121.4069993 24.7774012,121.3956397 24.78997,121.37433 24.80393,121.3732</polygon>
+    </area>
+    <area>
+      <areaDesc>桃園市霞雲溪</areaDesc>
+      <polygon>24.82944,121.3888 24.81854,121.4106 24.7921942,121.3844367 24.8106599,121.3613482 24.82944,121.3888</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市大豹溪</areaDesc>
+      <polygon>24.87875,121.38773 24.87213,121.43927 24.86029,121.45163 24.86777,121.46004 24.85204,121.48064 24.824,121.45437 24.83428,121.42656 24.83989,121.43171 24.85173,121.42656 24.86884,121.38449 24.87875,121.38773</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07d5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/18 16:32氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新北市大豹溪,桃園市宇內溪(宇內橋),桃園市霞雲溪(優霞雲瀑布區)發布災防告警，持續時間至16時32分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250618142524_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-18T14:25:43+08:00</sent>
+    <expires>2025-06-18T15:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>雲林縣古坑鄉 嘉義縣竹崎鄉 嘉義縣梅山鄉 嘉義縣番路鄉</areaDesc>
+      <polygon>23.63,120.61 23.61,120.68 23.52,120.71 23.47,120.59 23.56,120.54 23.63,120.61</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07d1</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/18 15:30，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 18, 15:30.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 18 日 14 時 25 分 氣象署發布大雷雨即時訊息，持續時間至 15 時 30 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250618141300_26</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-18T14:20:06+08:00</sent>
+    <expires>2025-06-18T20:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣高樹鄉</areaDesc>
+      <circle>22.870815,120.645366 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07cd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰、金龍山法輪禪寺之1小時累積雨量23mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰、金龍山法輪禪寺之1小時累積雨量23mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250618140300_23</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-18T14:10:06+08:00</sent>
+    <expires>2025-06-18T20:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區</areaDesc>
+      <circle>22.884631,120.665739 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07c9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉之1小時累積雨量24.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉之1小時累積雨量24.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250618135300_3</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-18T14:01:07+08:00</sent>
+    <expires>2025-06-18T19:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市桃源區</areaDesc>
+      <circle>23.188351,120.7883 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07c5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市桃源區勤和里玉穗溪之1小時累積雨量15.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/Pt3</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市桃源區勤和里玉穗溪之1小時累積雨量15.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/Pt3]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250618135400_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-18T13:55:28+08:00</sent>
+    <expires>2025-06-18T15:54:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣草山溪</areaDesc>
+      <polygon>23.39702,120.62902 23.3649437,120.6455583 23.3449289,120.6277055 23.3452442,120.6009263 23.39655,120.60155 23.39702,120.62902</polygon>
+    </area>
+    <area>
+      <areaDesc>臺南市後堀溪</areaDesc>
+      <polygon>23.12882,120.56126 23.12882,120.5858653 23.1886455,120.606868 23.1888024,120.586097 23.12882,120.56126</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07c1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/18 15:54氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對嘉義縣草山溪(葫蘆谷),臺南市後堀溪(千層岩瀑布)發布災防告警，持續時間至15時54分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250617140900_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-17T14:10:12+08:00</sent>
+    <expires>2025-06-17T16:09:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣隘寮北溪</areaDesc>
+      <polygon>22.7842742,120.7627573 22.7368442,120.7584571 22.739219,120.7211208 22.7825332,120.7124605 22.7842742,120.7627573</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07bd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/17 16:09氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對屏東縣隘寮北溪(飛龍瀑布群)發布災防告警，持續時間至16時09分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250617121000_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-17T12:10:55+08:00</sent>
+    <expires>2025-06-17T14:10:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣得子口溪</areaDesc>
+      <polygon>24.83363,121.74483 24.83339,121.7471 24.8304605,121.7490588 24.8297984,121.7486082 24.83112,121.74396 24.83363,121.74483</polygon>
+    </area>
+    <area>
+      <areaDesc>宜蘭縣猴洞坑溪</areaDesc>
+      <polygon>24.84795,121.7738682 24.84851,121.77747 24.8424285,121.7872367 24.83395,121.783423 24.84364,121.7738682 24.84795,121.7738682</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市逮魚堀溪</areaDesc>
+      <polygon>24.9317912,121.7043792 24.9156964,121.7220557 24.9042186,121.7031183 24.92694,121.69482 24.9317912,121.7043792</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd07b9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/17 14:10氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對宜蘭縣得子口溪(五峰旗防砂壩),宜蘭縣猴洞坑溪,新北市逮魚堀溪發布災防告警，持續時間至14時10分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250616165700_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-16T16:59:25+08:00</sent>
+    <expires>2025-06-16T18:57:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣沙漠溪</areaDesc>
+      <polygon>22.83103,120.65182 22.82462,120.65749 22.81386,120.64023 22.81975,120.62693 22.8266,120.62693 22.83103,120.65182</polygon>
+    </area>
+    <area>
+      <areaDesc>屏東縣隘寮北溪</areaDesc>
+      <polygon>22.7842742,120.7627573 22.7368442,120.7584571 22.739219,120.7211208 22.7825332,120.7124605 22.7842742,120.7627573</polygon>
+    </area>
+    <area>
+      <areaDesc>屏東縣牛角灣溪</areaDesc>
+      <polygon>22.7123933,120.6404596 22.7087899,120.6517046 22.6945373,120.6652658 22.6650385,120.6409746 22.6965574,120.6203752 22.7123933,120.6404596</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd073d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/16 18:57氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對屏東縣沙漠溪(海神宮),屏東縣牛角灣溪,屏東縣隘寮北溪(飛龍瀑布群)發布災防告警，持續時間至18時57分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250614064000_E12003</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-14T06:50:05+08:00</sent>
+    <expires>2025-06-14T12:40:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市桃源區建山里</areaDesc>
+      <circle>23.10529,120.68514 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0699</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]高雄市桃源區建山里，有效累積雨量256.2mm(警戒百分比已達85.4%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]高雄市桃源區建山里，有效累積雨量256.2mm(警戒百分比已達85.4%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250614063000_E30011</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-14T06:40:04+08:00</sent>
+    <expires>2025-06-14T12:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區文武里</areaDesc>
+      <circle>22.9826,120.63217 4.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0695</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]高雄市六龜區文武里，有效累積雨量273.9mm(警戒百分比已達109.6%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]高雄市六龜區文武里，有效累積雨量273.9mm(警戒百分比已達109.6%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506140630_E30011</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-14T06:29:41+08:00</sent>
+    <expires>2025-06-14T12:29:40+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區文武里</areaDesc>
+      <circle>22.9826,120.63217 4.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0691</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][警戒解除]高雄市六龜區文武里警戒解除。惟連日降雨山區易有零星崩塌，出入山區請小心並注意氣象資訊，農業部農村水保署0800_246246。[Alert Lifted]Due to recent rains, use caution in mountain areas, check weather updates.</text>
+    <description type="html"><![CDATA[解除土石流與大規模崩塌警戒。(相關詳細土石流警戒資訊請上土石流及大規模崩塌防災資訊網(https://246.ardswc.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250614024300_25</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-14T02:50:04+08:00</sent>
+    <expires>2025-06-14T08:43:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣來義鄉</areaDesc>
+      <circle>22.451131,120.660297 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd068d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣來義鄉南和村白鷺二號橋之1小時累積雨量21mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/puA</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣來義鄉南和村白鷺二號橋之1小時累積雨量21mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/puA]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506140030_E12004</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-14T00:22:38+08:00</sent>
+    <expires>2025-06-14T06:22:38+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市桃源區高中里</areaDesc>
+      <circle>23.12259,120.7067 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0679</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][警戒解除]高雄市桃源區高中里警戒解除。惟連日降雨山區易有零星崩塌，出入山區請小心並注意氣象資訊，農業部農村水保署0800_246246。[Alert Lifted]Due to recent rains, use caution in mountain areas, check weather updates.</text>
+    <description type="html"><![CDATA[解除土石流與大規模崩塌警戒。(相關詳細土石流警戒資訊請上土石流及大規模崩塌防災資訊網(https://246.ardswc.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506140030_E12003</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-14T00:22:38+08:00</sent>
+    <expires>2025-06-14T06:22:37+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市桃源區建山里</areaDesc>
+      <circle>23.10529,120.68514 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0675</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][警戒解除]高雄市桃源區建山里警戒解除。惟連日降雨山區易有零星崩塌，出入山區請小心並注意氣象資訊，農業部農村水保署0800_246246。[Alert Lifted]Due to recent rains, use caution in mountain areas, check weather updates.</text>
+    <description type="html"><![CDATA[解除土石流與大規模崩塌警戒。(相關詳細土石流警戒資訊請上土石流及大規模崩塌防災資訊網(https://246.ardswc.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506140030_E30008</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-14T00:22:37+08:00</sent>
+    <expires>2025-06-14T06:22:37+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區興龍里</areaDesc>
+      <circle>23.01261,120.67126 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0671</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][警戒解除]高雄市六龜區興龍里，警戒解除。惟連日降雨山區易有零星崩塌，出入山區請小心並注意氣象資訊，農業部農村水保署0800_246246。[Alert Lifted]Due to recent rains, use caution in mountain areas, check weather updates.</text>
+    <description type="html"><![CDATA[解除土石流與大規模崩塌警戒。(相關詳細土石流警戒資訊請上土石流及大規模崩塌防災資訊網(https://246.ardswc.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506140030_E30004</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-14T00:22:37+08:00</sent>
+    <expires>2025-06-14T06:22:37+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區新發里</areaDesc>
+      <polygon>23.07827,120.7093 23.07322,120.70888 23.05758,120.72417 23.05098,120.71627 23.04397,120.71336 23.03937,120.70286 23.02787,120.69954 23.02001,120.69288 23.0204,120.6631 23.01402,120.66466 23.01656,120.65133 23.0219,120.64502 23.01911,120.63353 23.03039,120.62429 23.0363,120.60808 23.04799,120.625 23.05749,120.62428 23.04603,120.65017 23.04475,120.66102 23.04928,120.67291 23.05749,120.67046 23.069,120.68407 23.08167,120.68923 23.0835,120.69205 23.07827,120.7093</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd066d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][警戒解除]高雄市六龜區新發里警戒解除。惟連日降雨山區易有零星崩塌，出入山區請小心並注意氣象資訊，農業部農村水保署0800_246246。[Alert Lifted]Due to recent rains, use caution in mountain areas, check weather updates.</text>
+    <description type="html"><![CDATA[解除土石流與大規模崩塌警戒。(相關詳細土石流警戒資訊請上土石流及大規模崩塌防災資訊網(https://246.ardswc.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506140030_E30006</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-14T00:22:37+08:00</sent>
+    <expires>2025-06-14T06:22:37+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區六龜里</areaDesc>
+      <circle>23.02319,120.64027 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0685</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][警戒解除]高雄市六龜區六龜里警戒解除。惟連日降雨山區易有零星崩塌，出入山區請小心並注意氣象資訊，農業部農村水保署0800_246246。[Alert Lifted]Due to recent rains, use caution in mountain areas, check weather updates.</text>
+    <description type="html"><![CDATA[解除土石流與大規模崩塌警戒。(相關詳細土石流警戒資訊請上土石流及大規模崩塌防災資訊網(https://246.ardswc.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506132130_E26001</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T21:39:37+08:00</sent>
+    <expires>2025-06-14T03:39:37+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區茂林里</areaDesc>
+      <circle>22.88698,120.66287 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0655</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][警戒解除]高雄市茂林區茂林里警戒解除。惟連日降雨山區易有零星崩塌，出入山區請小心並注意氣象資訊，農業部農村水保署0800_246246。[Alert Lifted]Due to recent rains, use caution in mountain areas, check weather updates.</text>
+    <description type="html"><![CDATA[解除土石流與大規模崩塌警戒。(相關詳細土石流警戒資訊請上土石流及大規模崩塌防災資訊網(https://246.ardswc.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506132130_E30009</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T21:39:37+08:00</sent>
+    <expires>2025-06-14T03:39:36+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區中興里</areaDesc>
+      <polygon>23.00608,120.64346 22.9939,120.65782 22.98651,120.67437 22.96742,120.66305 22.94584,120.67266 22.93383,120.67162 22.93193,120.65952 22.92629,120.65433 22.92687,120.6517 22.95383,120.64352 22.96099,120.65046 22.97463,120.65043 22.98272,120.6415 22.99361,120.64147 22.99758,120.63707 23.00608,120.64346</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0659</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][警戒解除]高雄市六龜區中興里警戒解除。惟連日降雨山區易有零星崩塌，出入山區請小心並注意氣象資訊，農業部農村水保署0800_246246。[Alert Lifted]Due to recent rains, use caution in mountain areas, check weather updates.</text>
+    <description type="html"><![CDATA[解除土石流與大規模崩塌警戒。(相關詳細土石流警戒資訊請上土石流及大規模崩塌防災資訊網(https://246.ardswc.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506132130_E30012</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T21:39:36+08:00</sent>
+    <expires>2025-06-14T03:39:36+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區大津里</areaDesc>
+      <circle>22.90743,120.65001 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd065d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][警戒解除]高雄市六龜區大津里警戒解除。惟連日降雨山區易有零星崩塌，出入山區請小心並注意氣象資訊，農業部農村水保署0800_246246。[Alert Lifted]Due to recent rains, use caution in mountain areas, check weather updates.</text>
+    <description type="html"><![CDATA[解除土石流與大規模崩塌警戒。(相關詳細土石流警戒資訊請上土石流及大規模崩塌防災資訊網(https://246.ardswc.gov.tw/)查詢)]]></description>
+  </entry>
+  <entry>
+    <id>A2025061321025317539741410</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-06-13T21:10:02+08:00</sent>
+    <expires>2025-06-13T23:10:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.0381839097611,121.40107709485729 24.03584749235387,121.41177501722812 24.034279715223015,121.41469326063631 24.0231479475425,121.42911281630036 24.001195158787564,121.45812358900541 23.983630230722117,121.48593273207177 23.97139609754356,121.5051588062905 23.96739622510276,121.50108184858823 23.95939610782638,121.51017990156697 23.95076797402327,121.5218528752001 23.9478264328396,121.53116550490003 23.943649329113544,121.54348220869673 23.944747547891794,121.54713001295707 23.94333555060286,121.55017700239807 23.939687819423742,121.54507007643359 23.937574122397514,121.54870587903676 23.92329575580554,121.5740259321373 23.921961981594496,121.58621388990093 23.918509796151163,121.59574109632182 23.9054848114701,121.58844548780134 23.905955616916213,121.58398229200056 23.910506647816018,121.56801778394394 23.919372851161416,121.547847572152 23.926355538714375,121.53308469373404 23.931219659738243,121.52544576245964 23.94479115732129,121.50896627027217 23.953262813666683,121.49969655591673 23.961028009840806,121.49343091565792 23.9647143534053,121.4873369367761 23.953498129511793,121.46665174085328 23.9508311914603,121.43128949720098 23.97263571373256,121.42837125379279 23.987692798509517,121.41807157117562 24.006511678654967,121.38202268201552 24.0381839097611,121.40107709485729</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0651</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒] 台電龍溪壩，因豪雨將於06月13日21時10分起排砂放水至木瓜溪，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 21:10 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒] 台電龍溪壩，因豪雨將於06月13日21時10分起排砂放水至木瓜溪，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 21:10 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250613185300_3</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T19:00:04+08:00</sent>
+    <expires>2025-06-14T00:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市桃源區</areaDesc>
+      <circle>23.188351,120.7883 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd064d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市桃源區勤和里玉穗溪之12小時累積雨量138.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/Pt3</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市桃源區勤和里玉穗溪之12小時累積雨量138.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/Pt3]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250613180300_44</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T18:10:03+08:00</sent>
+    <expires>2025-06-14T00:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區</areaDesc>
+      <circle>22.982622,120.636216 1.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0649</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市六龜區文武里覺華寺之12小時累積雨量223mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/kQo</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市六龜區文武里覺華寺之12小時累積雨量223mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/kQo]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506131530_E30008</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T15:38:33+08:00</sent>
+    <expires>2025-06-13T21:38:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區興龍里</areaDesc>
+      <circle>23.01261,120.67126 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0635</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]高雄市六龜區興龍里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=E30008</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：六龜區興龍里計3條土石流潛勢溪流達黃色警戒，1條大規模崩塌潛勢區達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow and large-scale landslide in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506131530_E30004</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T15:38:33+08:00</sent>
+    <expires>2025-06-13T21:38:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區新發里</areaDesc>
+      <polygon>23.07827,120.7093 23.07322,120.70888 23.05758,120.72417 23.05098,120.71627 23.04397,120.71336 23.03937,120.70286 23.02787,120.69954 23.02001,120.69288 23.0204,120.6631 23.01402,120.66466 23.01656,120.65133 23.0219,120.64502 23.01911,120.63353 23.03039,120.62429 23.0363,120.60808 23.04799,120.625 23.05749,120.62428 23.04603,120.65017 23.04475,120.66102 23.04928,120.67291 23.05749,120.67046 23.069,120.68407 23.08167,120.68923 23.0835,120.69205 23.07827,120.7093</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd062d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]高雄市六龜區新發里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=E30004</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：六龜區新發里計15條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506131530_E30011</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T15:38:33+08:00</sent>
+    <expires>2025-06-13T21:38:33+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區文武里</areaDesc>
+      <circle>22.9826,120.63217 4.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0631</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][紅色警戒]高雄市六龜區文武里，已發布紅色警戒，請依地方政府指示避難。農業部農村水保署0800_246246。[Warning]Debris flow Red Alert in this area. https://246.ardswc.gov.tw/?CTV=E30011</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：六龜區文武里計1條土石流潛勢溪流達紅色警戒，3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506131530_E30006</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T15:38:33+08:00</sent>
+    <expires>2025-06-13T21:38:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區六龜里</areaDesc>
+      <circle>23.02319,120.64027 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0639</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]高雄市六龜區六龜里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=E30006</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：六龜區六龜里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250613152800_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-13T15:32:03+08:00</sent>
+    <expires>2025-06-13T17:28:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣草山溪</areaDesc>
+      <polygon>23.39702,120.62902 23.3649437,120.6455583 23.3449289,120.6277055 23.3452442,120.6009263 23.39655,120.60155 23.39702,120.62902</polygon>
+    </area>
+    <area>
+      <areaDesc>臺南市後堀溪</areaDesc>
+      <polygon>23.12882,120.56126 23.12882,120.5858653 23.1886455,120.606868 23.1888024,120.586097 23.12882,120.56126</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0629</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/13 17:28氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對嘉義縣草山溪(葫蘆谷),臺南市後堀溪(千層岩瀑布)發布災防告警，持續時間至17時28分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506131230_E12004</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T12:30:32+08:00</sent>
+    <expires>2025-06-13T18:30:31+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市桃源區高中里</areaDesc>
+      <circle>23.12259,120.7067 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd060d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]高雄市桃源區高中里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=E12004</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：桃源區高中里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506131230_E12003</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T12:30:31+08:00</sent>
+    <expires>2025-06-13T18:30:31+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市桃源區建山里</areaDesc>
+      <circle>23.10529,120.68514 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0611</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]高雄市桃源區建山里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=E12003</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：桃源區建山里計2條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506131230_E26001</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T12:30:31+08:00</sent>
+    <expires>2025-06-13T18:30:31+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區茂林里</areaDesc>
+      <circle>22.88698,120.66287 0.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0619</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]高雄市茂林區茂林里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=E26001</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：茂林區茂林里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506131230_E30009</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T12:30:31+08:00</sent>
+    <expires>2025-06-13T18:30:31+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區中興里</areaDesc>
+      <polygon>23.00608,120.64346 22.9939,120.65782 22.98651,120.67437 22.96742,120.66305 22.94584,120.67266 22.93383,120.67162 22.93193,120.65952 22.92629,120.65433 22.92687,120.6517 22.95383,120.64352 22.96099,120.65046 22.97463,120.65043 22.98272,120.6415 22.99361,120.64147 22.99758,120.63707 23.00608,120.64346</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd061d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]高雄市六龜區中興里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=E30009</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：六龜區中興里計5條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506131230_E30012</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T12:30:31+08:00</sent>
+    <expires>2025-06-13T18:30:31+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區大津里</areaDesc>
+      <circle>22.90743,120.65001 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0621</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]高雄市六龜區大津里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=E30012</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：六龜區大津里計3條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202506131030_E30011</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T10:48:30+08:00</sent>
+    <expires>2025-06-13T16:48:30+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區文武里</areaDesc>
+      <circle>22.9826,120.63217 4.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0609</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][黃色警戒]高雄市六龜區文武里，已發布黃色警戒，請作好避難準備。農業部農村水保署0800_246246。[Warning]Debris flow Yellow Alert in this area. https://246.ardswc.gov.tw/?CTV=E30011</text>
+    <description type="html"><![CDATA[依據中央氣象局風雨資料研判：六龜區文武里計1條土石流潛勢溪流達黃色警戒，請提高警覺。農業部關心您[Warning]Debris flow in this area. https://246.ardswc.gov.tw]]></description>
+  </entry>
+  <entry>
+    <id>A2025061309590516139736200</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-06-13T10:15:03+08:00</sent>
+    <expires>2025-06-13T10:25:00+08:00</expires>
+    <sender>
+      <value>農業部農田水利署嘉南管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.0124241681825,120.322891655333 23.0774033876297,120.358268302471 23.082543011173,120.351755463473 23.0938270680099,120.306346429051 23.0903712521622,120.264954725807 23.0735015985621,120.24378745861 23.05773543071,120.241517768985 23.0337903473798,120.247771397122 23.0237416982768,120.263777887823 23.0124241681825,120.322891655333</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0605</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]鹽水埤水庫自6月13日11時00分進行放水，請烏鬼厝溪排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Yanshueipi Reservoir will discharge at 11:00 06/13. Please keep away from Wuguicuoxi Drainage.農業部農水署嘉南管理處06-5988735</text>
+    <description type="html"><![CDATA[[水庫放水警戒]鹽水埤水庫自6月13日11時00分進行放水，請烏鬼厝溪排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Yanshueipi Reservoir will discharge at 11:00 06/13. Please keep away from Wuguicuoxi Drainage.農業部農水署嘉南管理處06-5988735]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250613090800_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-13T09:09:39+08:00</sent>
+    <expires>2025-06-13T11:08:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣沙漠溪</areaDesc>
+      <polygon>22.83103,120.65182 22.82462,120.65749 22.81386,120.64023 22.81975,120.62693 22.8266,120.62693 22.83103,120.65182</polygon>
+    </area>
+    <area>
+      <areaDesc>屏東縣隘寮北溪</areaDesc>
+      <polygon>22.7842742,120.7627573 22.7368442,120.7584571 22.739219,120.7211208 22.7825332,120.7124605 22.7842742,120.7627573</polygon>
+    </area>
+    <area>
+      <areaDesc>屏東縣牛角灣溪</areaDesc>
+      <polygon>22.7123933,120.6404596 22.7087899,120.6517046 22.6945373,120.6652658 22.6650385,120.6409746 22.6965574,120.6203752 22.7123933,120.6404596</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0601</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/13 11:08氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對屏東縣沙漠溪(海神宮),屏東縣牛角灣溪,屏東縣隘寮北溪(飛龍瀑布群)發布災防告警，持續時間至11時08分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250613083300_42</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T08:40:03+08:00</sent>
+    <expires>2025-06-13T14:33:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣中埔鄉</areaDesc>
+      <circle>23.380597,120.57171 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05fd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量21mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量21mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250613081808_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-13T08:18:27+08:00</sent>
+    <expires>2025-06-13T09:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市(三民區 新興區 前金區等共15鄉鎮區),屏東縣(屏東市 萬丹鄉 長治鄉等共9鄉鎮區)</areaDesc>
+      <polygon>22.5,120.32 22.55,120.29 22.63,120.29 22.8,120.43 22.75,120.59 22.5,120.47 22.46,120.38 22.5,120.32</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05f9</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/13 09:15，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 13, 09:15.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 13 日 8 時 18 分 氣象署發布大雷雨即時訊息，持續時間至 9 時 15 分；請慎防劇烈降雨、雷擊，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>A2025061306575101039735180</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-06-13T07:04:01+08:00</sent>
+    <expires>2025-06-13T07:10:15+08:00</expires>
+    <sender>
+      <value>農業部農田水利署嘉南管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.2307164216132,120.346060372492 23.2639726889386,120.331649742759 23.2970475173513,120.339701942311 23.3015323554372,120.298238151226 23.29357848129,120.260187292474 23.2677533132857,120.241304524269 23.2421773787182,120.246269770816 23.2299294299733,120.261717591492 23.2234922427051,120.284615804265 23.2223737988048,120.313837714168 23.2307164216132,120.346060372492</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05f5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]德元埤水庫自6月13日8時00分進行放水，請龜子港排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全 。Deyuanpi Reservoir will discharge at 8:00 on 6/13 Please keep away from Guizigang Drainage.農業部農水署嘉南管理處06-6222284</text>
+    <description type="html"><![CDATA[[水庫放水警戒]德元埤水庫自6月13日8時00分進行放水，請龜子港排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全 。Deyuanpi Reservoir will discharge at 8:00 on 6/13 Please keep away from Guizigang Drainage.農業部農水署嘉南管理處06-6222284]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250613065300_3</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T07:00:04+08:00</sent>
+    <expires>2025-06-13T12:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市桃源區</areaDesc>
+      <circle>23.188351,120.7883 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05f1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市桃源區勤和里玉穗溪之3小時累積雨量32.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/Pt3</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市桃源區勤和里玉穗溪之3小時累積雨量32.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/Pt3]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250613060300_24</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T06:10:02+08:00</sent>
+    <expires>2025-06-13T12:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市旗山區</areaDesc>
+      <circle>22.832024,120.460579 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05ed</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市旗山區新光里勞碡坑三龍寺之1小時累積雨量22mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/d5g</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市旗山區新光里勞碡坑三龍寺之1小時累積雨量22mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/d5g]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250613055300_44</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T06:00:12+08:00</sent>
+    <expires>2025-06-13T11:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區</areaDesc>
+      <circle>22.982622,120.636216 1.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05dd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市六龜區文武里覺華寺之1小時累積雨量25mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/kQo</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市六龜區文武里覺華寺之1小時累積雨量25mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/kQo]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250613055300_26</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T06:00:03+08:00</sent>
+    <expires>2025-06-13T11:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣高樹鄉</areaDesc>
+      <circle>22.870815,120.645366 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05e1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰、金龍山法輪禪寺之3小時累積雨量59mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰、金龍山法輪禪寺之3小時累積雨量59mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250613052300_29</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T05:30:03+08:00</sent>
+    <expires>2025-06-13T11:23:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣卑南鄉</areaDesc>
+      <circle>22.717983,121.0229 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05d9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]臺東縣卑南鄉溫泉村木瓜溪鎮樂橋之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/tdr</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]臺東縣卑南鄉溫泉村木瓜溪鎮樂橋之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/tdr]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250613040300_23</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T04:10:03+08:00</sent>
+    <expires>2025-06-13T10:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區</areaDesc>
+      <circle>22.884631,120.665739 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05d5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉之1小時累積雨量21mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉之1小時累積雨量21mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250613032300_25</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-13T03:31:29+08:00</sent>
+    <expires>2025-06-13T09:23:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣來義鄉</areaDesc>
+      <circle>22.451131,120.660297 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05d1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣來義鄉南和村白鷺二號橋之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/puA</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣來義鄉南和村白鷺二號橋之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/puA]]></description>
+  </entry>
+  <entry>
+    <id>A2025061301002689039734900</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-06-13T01:02:01+08:00</sent>
+    <expires>2025-06-13T03:00:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.0381839097611,121.40107709485729 24.03584749235387,121.41177501722812 24.034279715223015,121.41469326063631 24.0231479475425,121.42911281630036 24.001195158787564,121.45812358900541 23.983630230722117,121.48593273207177 23.97139609754356,121.5051588062905 23.96739622510276,121.50108184858823 23.95939610782638,121.51017990156697 23.95076797402327,121.5218528752001 23.9478264328396,121.53116550490003 23.943649329113544,121.54348220869673 23.944747547891794,121.54713001295707 23.94333555060286,121.55017700239807 23.939687819423742,121.54507007643359 23.937574122397514,121.54870587903676 23.92329575580554,121.5740259321373 23.921961981594496,121.58621388990093 23.918509796151163,121.59574109632182 23.9054848114701,121.58844548780134 23.905955616916213,121.58398229200056 23.910506647816018,121.56801778394394 23.919372851161416,121.547847572152 23.926355538714375,121.53308469373404 23.931219659738243,121.52544576245964 23.94479115732129,121.50896627027217 23.953262813666683,121.49969655591673 23.961028009840806,121.49343091565792 23.9647143534053,121.4873369367761 23.953498129511793,121.46665174085328 23.9508311914603,121.43128949720098 23.97263571373256,121.42837125379279 23.987692798509517,121.41807157117562 24.006511678654967,121.38202268201552 24.0381839097611,121.40107709485729</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05cd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒] 台電龍溪壩，因豪雨將於06月13日01時30分起排砂放水至木瓜溪，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 01:30 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒] 台電龍溪壩，因豪雨將於06月13日01時30分起排砂放水至木瓜溪，請木瓜溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge] 01:30 MUGUA River level rise. Plz stay away.1911 TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>A2025061223430714739734680</id>
+    <title>台電東部電廠(水庫放水)</title>
+    <sent>2025-06-12T23:45:01+08:00</sent>
+    <expires>2025-06-13T00:45:00+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司東部發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.327266499086534,121.69016358312786 9.096552874942823</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05c9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水壩放水警戒]台電南溪壩，自6月12日23時45分進行放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]08:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161</text>
+    <description type="html"><![CDATA[[水壩放水警戒]台電南溪壩，自6月12日23時45分進行放水，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]08:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250612231300_18</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-12T23:21:19+08:00</sent>
+    <expires>2025-06-13T05:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣豐濱鄉</areaDesc>
+      <circle>23.670685,121.544098 2.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05c5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣豐濱鄉新社村新豐隧道之1小時累積雨量27.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/vhE</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣豐濱鄉新社村新豐隧道之1小時累積雨量27.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/vhE]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250612220300_20</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-12T22:11:12+08:00</sent>
+    <expires>2025-06-13T04:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.068258,121.602592 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05bd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村加灣橋之1小時累積雨量26.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/BFc</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村加灣橋之1小時累積雨量26.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/BFc]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250612220300_19</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-12T22:10:58+08:00</sent>
+    <expires>2025-06-13T04:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.103918,121.608215 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05b5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村三棧國小之1小時累積雨量26.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/HdM</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村三棧國小之1小時累積雨量26.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/HdM]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250612220300_10</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-12T22:10:58+08:00</sent>
+    <expires>2025-06-13T04:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.236094,121.708961 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05b1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉和平村和仁車站之1小時累積雨量26.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/uet</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉和平村和仁車站之1小時累積雨量26.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/uet]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250612215300_17</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-12T22:01:21+08:00</sent>
+    <expires>2025-06-13T03:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.009801,121.565233 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05ad</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉水源村石壁街之1小時累積雨量25.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/FJD</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉水源村石壁街之1小時累積雨量25.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/FJD]]></description>
+  </entry>
+  <entry>
+    <id>A2025061214340696039732800</id>
+    <title>疏散避難</title>
+    <sent>2025-06-12T14:35:01+08:00</sent>
+    <expires>2025-06-12T14:50:31+08:00</expires>
+    <sender>
+      <value>金門縣消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>0902001</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05a9</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難警報] 2025年金門縣城鎮韌性演習疏散警報發送演練。金門縣災害應變中心082-373795#0。[Evacuation Drill] Kinmen County EOC 082-373795 Ext 0.金門縣政府082-324021關心您</text>
+    <description type="html"><![CDATA[[演練][疏散避難警報] 2025年金門縣城鎮韌性演習疏散警報發送演練。金門縣災害應變中心082-373795#0。[Evacuation Drill] Kinmen County EOC 082-373795 Ext 0.金門縣政府082-324021關心您]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250611223300_30</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-11T22:41:17+08:00</sent>
+    <expires>2025-06-12T04:33:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣金峰鄉</areaDesc>
+      <circle>22.635876,121.001082 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05a5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]臺東縣金峰鄉新興村豐收橋、太麻里鄉大王村沙崙溪之1小時累積雨量23.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/96k</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]臺東縣金峰鄉新興村豐收橋、太麻里鄉大王村沙崙溪之1小時累積雨量23.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/96k]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250611221300_32</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-11T22:21:17+08:00</sent>
+    <expires>2025-06-12T04:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣太麻里鄉</areaDesc>
+      <circle>22.649535,121.019665 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd05a1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]臺東縣太麻里鄉華源村南北坑之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/vLp</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]臺東縣太麻里鄉華源村南北坑之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/vLp]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114090313</id>
+    <title>強震</title>
+    <sent>2025-06-11T19:01:00+08:00</sent>
+    <expires>2025-06-11T19:03:58+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09007</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd059d</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]06/11 19:00左右花東地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/KNs</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114090302</id>
+    <title>強震</title>
+    <sent>2025-06-11T19:00:43+08:00</sent>
+    <expires>2025-06-11T19:03:42+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10016</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0599</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]06/11 19:00左右花東地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/KNs</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_114090301</id>
+    <title>強震</title>
+    <sent>2025-06-11T19:00:41+08:00</sent>
+    <expires>2025-06-11T19:03:40+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10014</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0595</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報 Earthquake Alert]06/11 19:00左右花東地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/KNs</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250611172300_42</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-11T17:31:18+08:00</sent>
+    <expires>2025-06-11T23:23:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣中埔鄉</areaDesc>
+      <circle>23.380597,120.57171 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0591</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量21mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量21mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250611152800_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-11T15:29:40+08:00</sent>
+    <expires>2025-06-11T17:28:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣草山溪</areaDesc>
+      <polygon>23.39702,120.62902 23.3649437,120.6455583 23.3449289,120.6277055 23.3452442,120.6009263 23.39655,120.60155 23.39702,120.62902</polygon>
+    </area>
+    <area>
+      <areaDesc>臺南市後堀溪</areaDesc>
+      <polygon>23.12882,120.56126 23.12882,120.5858653 23.1886455,120.606868 23.1888024,120.586097 23.12882,120.56126</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0565</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/11 17:28氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對嘉義縣草山溪(葫蘆谷),臺南市後堀溪(千層岩瀑布)發布災防告警，持續時間至17時28分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250611152200_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-11T15:24:46+08:00</sent>
+    <expires>2025-06-11T17:22:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣油羅溪</areaDesc>
+      <polygon>24.70024,121.20431 24.71185,121.18603 24.7007,121.17131 24.69119,121.18792 24.70024,121.20431</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0559</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/11 17:22氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新竹縣油羅溪(雞油樹下區域)發布災防告警，持續時間至17時22分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>A2025061011014087239725130</id>
+    <title>台灣糖業股份公司(水庫放水)</title>
+    <sent>2025-06-10T11:04:01+08:00</sent>
+    <expires>2025-06-10T11:11:06+08:00</expires>
+    <sender>
+      <value>台灣糖業股份有限公司雲嘉區處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.391942424744876,120.47443286183588 23.393359898753708,120.44051981200903 23.38398853924338,120.4325352205308 23.375719142158175,120.4460145846392 23.378554422141693,120.46541800048949 23.384461060634237,120.4791549320649 23.391942424744876,120.47443286183588</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04e9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]鹿寮溪水庫自6月10日12時將進行放水每秒0.13立方公尺，請下游沿岸民眾加強注意並遠離行水區域，以策安全。(鹿寮溪水庫06-6851804).鹿寮溪水庫06-6851804</text>
+    <description type="html"><![CDATA[[水庫放水警戒]鹿寮溪水庫自6月10日12時將進行放水每秒0.13立方公尺，請下游沿岸民眾加強注意並遠離行水區域，以策安全。(鹿寮溪水庫06-6851804).鹿寮溪水庫06-6851804]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250609160900_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-09T16:10:20+08:00</sent>
+    <expires>2025-06-09T18:09:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣梵梵溪</areaDesc>
+      <polygon>24.6141649,121.5164697 24.6186296,121.5224375 24.6155483,121.5272979 24.6111971,121.5272011 24.6108069,121.5257205 24.6116848,121.5222229 24.6141649,121.5164697</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04e5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/9 18:09氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對宜蘭縣梵梵溪(芃芃野溪溫泉)發布災防告警，持續時間至18時09分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250609155300_42</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-09T16:01:09+08:00</sent>
+    <expires>2025-06-09T21:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣中埔鄉</areaDesc>
+      <circle>23.380597,120.57171 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04e1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250609154200_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-09T15:43:56+08:00</sent>
+    <expires>2025-06-09T17:42:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市逮魚堀溪</areaDesc>
+      <polygon>24.9317912,121.7043792 24.9156964,121.7220557 24.9042186,121.7031183 24.92694,121.69482 24.9317912,121.7043792</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04dd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/9 17:42氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新北市逮魚堀溪發布災防告警，持續時間至17時42分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250609151200_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-09T15:14:04+08:00</sent>
+    <expires>2025-06-09T17:12:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市南勢溪</areaDesc>
+      <polygon>24.90953,121.54909 24.89972,121.56325 24.88914,121.5514 24.87858,121.55242 24.87777,121.53701 24.88689,121.5368 24.8935,121.53896 24.90953,121.54909</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市石碇溪</areaDesc>
+      <polygon>25.00757,121.65286 24.99599,121.65688 24.99595,121.6501 25.00719,121.64963 25.00757,121.65286</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04d9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/9 17:12氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新北市南勢溪(紅河谷至龜岩寶島區),新北市石碇溪(石碇淡蘭吊橋)發布災防告警，持續時間至17時12分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250609012300_17</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-09T01:31:27+08:00</sent>
+    <expires>2025-06-09T07:23:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.009801,121.565233 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04d5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉水源村石壁街之1小時累積雨量25.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/FJD</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉水源村石壁街之1小時累積雨量25.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/FJD]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250608180934_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-08T18:09:51+08:00</sent>
+    <expires>2025-06-08T19:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣新城鄉 花蓮縣秀林鄉</areaDesc>
+      <polygon>24.09,121.61 24.06,121.61 24.06,121.6 24.05,121.58 24.1,121.57 24.1,121.62 24.09,121.61</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04d1</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/08 19:15，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 08, 19:15.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 8 日 18 時 8 分 氣象署發布大雷雨即時訊息，持續時間至 19 時 15 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，坍方、落石、土石流，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250608171300_20</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-08T17:21:00+08:00</sent>
+    <expires>2025-06-08T23:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.068258,121.602592 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04bd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村加灣橋之1小時累積雨量33.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/BFc</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村加灣橋之1小時累積雨量33.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/BFc]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250608171300_19</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-08T17:21:00+08:00</sent>
+    <expires>2025-06-08T23:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.103918,121.608215 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04c1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村三棧國小之1小時累積雨量33.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/HdM</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉景美村三棧國小之1小時累積雨量33.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/HdM]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250608162300_16</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-08T16:31:18+08:00</sent>
+    <expires>2025-06-08T22:23:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.156288,121.626049 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04b9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉崇德村共5處之1小時累積雨量27.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/7bJ</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉崇德村共5處之1小時累積雨量27.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/7bJ]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250608161800_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-08T16:20:28+08:00</sent>
+    <expires>2025-06-08T18:18:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣三棧溪</areaDesc>
+      <polygon>24.102318,121.623587 24.1245399,121.6093554 24.093497,121.56053 24.077355,121.578807 24.102318,121.623587</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04b5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/8 18:18氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對花蓮縣三棧溪發布災防告警，持續時間至18時18分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250608150300_26</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-08T15:11:17+08:00</sent>
+    <expires>2025-06-08T21:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣高樹鄉</areaDesc>
+      <circle>22.870815,120.645366 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04b1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰、金龍山法輪禪寺之1小時累積雨量27mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰、金龍山法輪禪寺之1小時累積雨量27mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250608134700_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-08T13:49:08+08:00</sent>
+    <expires>2025-06-08T15:47:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣牛角灣溪</areaDesc>
+      <polygon>22.7123933,120.6404596 22.7087899,120.6517046 22.6945373,120.6652658 22.6650385,120.6409746 22.6965574,120.6203752 22.7123933,120.6404596</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04ad</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/8 15:47氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對屏東縣牛角灣溪發布災防告警，持續時間至15時47分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250607194300_10</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-07T19:51:19+08:00</sent>
+    <expires>2025-06-08T01:43:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣秀林鄉</areaDesc>
+      <circle>24.236094,121.708961 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04a9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉和平村和仁車站之1小時累積雨量26mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/uet</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]花蓮縣秀林鄉和平村和仁車站之1小時累積雨量26mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/uet]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250607140600_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-07T14:08:27+08:00</sent>
+    <expires>2025-06-07T16:06:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市南勢溪</areaDesc>
+      <polygon>24.90953,121.54909 24.89972,121.56325 24.88914,121.5514 24.87858,121.55242 24.87777,121.53701 24.88689,121.5368 24.8935,121.53896 24.90953,121.54909</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市大豹溪</areaDesc>
+      <polygon>24.87875,121.38773 24.87213,121.43927 24.86029,121.45163 24.86777,121.46004 24.85204,121.48064 24.824,121.45437 24.83428,121.42656 24.83989,121.43171 24.85173,121.42656 24.86884,121.38449 24.87875,121.38773</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd04a5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/7 16:06氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對新北市南勢溪(紅河谷至龜岩寶島區),新北市大豹溪發布災防告警，持續時間至16時06分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250606160300_22</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-06T16:11:16+08:00</sent>
+    <expires>2025-06-06T22:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區</areaDesc>
+      <circle>22.884631,120.665739 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd049d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉之1小時累積雨量27.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布、情人谷溫泉之1小時累積雨量27.5mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/qgL]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250606135300_42</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-06T14:01:19+08:00</sent>
+    <expires>2025-06-06T19:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣中埔鄉</areaDesc>
+      <circle>23.380597,120.57171 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0499</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量28mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]嘉義縣中埔鄉中崙村中崙四號橋之1小時累積雨量28mm已達注意值，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall has reached the cautionary threshold. https://gov.tw/3j4]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250606135400_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-06T13:55:40+08:00</sent>
+    <expires>2025-06-06T15:54:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市頭汴坑溪</areaDesc>
+      <polygon>24.12572,120.73034 24.12364,120.73727 24.12872,120.7415 24.09888,120.77246 24.11596,120.83391 24.13257,120.82052 24.12051,120.77383 24.14244,120.74431 24.12572,120.73034</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0495</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/6 15:54氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺中市頭汴坑溪(仙女瀑布至一江橋)發布災防告警，持續時間至15時54分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250606125900_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-06T13:00:01+08:00</sent>
+    <expires>2025-06-06T14:59:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣草山溪</areaDesc>
+      <polygon>23.39702,120.62902 23.3649437,120.6455583 23.3449289,120.6277055 23.3452442,120.6009263 23.39655,120.60155 23.39702,120.62902</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0491</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/6 14:59氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對嘉義縣草山溪(葫蘆谷)發布災防告警，持續時間至14時59分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250605161300_26</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-05T16:21:20+08:00</sent>
+    <expires>2025-06-05T22:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣高樹鄉</areaDesc>
+      <circle>22.870815,120.645366 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0471</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰(屏縣DF073)、金龍山法輪禪寺(屏縣DF072)之1小時累積雨量25mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]屏東縣高樹鄉新豐村新豐村18鄰(屏縣DF073)、金龍山法輪禪寺(屏縣DF072)之1小時累積雨量25mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250605153000_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-05T15:31:45+08:00</sent>
+    <expires>2025-06-05T17:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市頭汴坑溪</areaDesc>
+      <polygon>24.12572,120.73034 24.12364,120.73727 24.12872,120.7415 24.09888,120.77246 24.11596,120.83391 24.13257,120.82052 24.12051,120.77383 24.14244,120.74431 24.12572,120.73034</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0469</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/5 17:30氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺中市頭汴坑溪(仙女瀑布至一江橋)發布災防告警，持續時間至17時30分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>A2025060515153416839714530</id>
+    <title>疏散避難</title>
+    <sent>2025-06-05T15:23:01+08:00</sent>
+    <expires>2025-06-05T15:32:05+08:00</expires>
+    <sender>
+      <value>澎湖縣政府消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001602</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0461</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演練][疏散避難][測試訊息]澎湖縣2025城鎮韌性（全民防衛動員）演習疏散避難測試警報發送演練，接獲警示民眾請勿驚慌。澎湖縣政府9263346轉9。[Drill][Evacuation][Test Message]Evacuation test message. Penghu County Government.澎湖縣政府06-9263346#9</text>
+    <description type="html"><![CDATA[[演練][疏散避難][測試訊息]澎湖縣2025城鎮韌性（全民防衛動員）演習疏散避難測試警報發送演練，接獲警示民眾請勿驚慌。澎湖縣政府9263346轉9。[Drill][Evacuation][Test Message]Evacuation test message. Penghu County Government.澎湖縣政府06-9263346#9]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250605151300_22</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-05T15:21:09+08:00</sent>
+    <expires>2025-06-05T21:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區</areaDesc>
+      <circle>22.884631,120.665739 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0465</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布(高市DF116)、情人谷溫泉(高市SL0002)之1小時累積雨量30.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]高雄市茂林區茂林里情人谷瀑布(高市DF116)、情人谷溫泉(高市SL0002)之1小時累積雨量30.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250605151900_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-05T15:20:51+08:00</sent>
+    <expires>2025-06-05T17:19:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣沙漠溪</areaDesc>
+      <polygon>22.83103,120.65182 22.82462,120.65749 22.81386,120.64023 22.81975,120.62693 22.8266,120.62693 22.83103,120.65182</polygon>
+    </area>
+    <area>
+      <areaDesc>屏東縣隘寮北溪</areaDesc>
+      <polygon>22.7842742,120.7627573 22.7368442,120.7584571 22.739219,120.7211208 22.7825332,120.7124605 22.7842742,120.7627573</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0459</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/5 17:19氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對屏東縣沙漠溪(海神宮),屏東縣隘寮北溪(飛龍瀑布群)發布災防告警，持續時間至17時19分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>A2025060416145450939710800</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-06-04T16:21:01+08:00</sent>
+    <expires>2025-06-04T16:30:29+08:00</expires>
+    <sender>
+      <value>農業部農田水利署嘉南管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.2307164216132,120.346060372492 23.2639726889386,120.331649742759 23.2970475173513,120.339701942311 23.3015323554372,120.298238151226 23.29357848129,120.260187292474 23.2677533132857,120.241304524269 23.2421773787182,120.246269770816 23.2299294299733,120.261717591492 23.2234922427051,120.284615804265 23.2223737988048,120.313837714168 23.2307164216132,120.346060372492</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0429</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]德元埤水庫自6月4日17時00分進行放水，請龜子港排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全 。Deyuanpi Reservoir will discharge at 17:00 on 6/4. Please keep away from Guizigang Drainage.農業部農水署嘉南管理處06-6222284</text>
+    <description type="html"><![CDATA[[水庫放水警戒]德元埤水庫自6月4日17時00分進行放水，請龜子港排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全 。Deyuanpi Reservoir will discharge at 17:00 on 6/4. Please keep away from Guizigang Drainage.農業部農水署嘉南管理處06-6222284]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250604145500_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-04T14:56:32+08:00</sent>
+    <expires>2025-06-04T16:55:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣草山溪</areaDesc>
+      <polygon>23.39702,120.62902 23.3649437,120.6455583 23.3449289,120.6277055 23.3452442,120.6009263 23.39655,120.60155 23.39702,120.62902</polygon>
+    </area>
+    <area>
+      <areaDesc>臺南市後堀溪</areaDesc>
+      <polygon>23.12882,120.56126 23.12882,120.5858653 23.1886455,120.606868 23.1888024,120.586097 23.12882,120.56126</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0425</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/4 16:55氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對嘉義縣草山溪(葫蘆谷),臺南市後堀溪(千層岩瀑布)發布災防告警，持續時間至16時55分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250604135800_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-04T13:59:08+08:00</sent>
+    <expires>2025-06-04T15:58:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市頭汴坑溪</areaDesc>
+      <polygon>24.12572,120.73034 24.12364,120.73727 24.12872,120.7415 24.09888,120.77246 24.11596,120.83391 24.13257,120.82052 24.12051,120.77383 24.14244,120.74431 24.12572,120.73034</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0421</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/4 15:58氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺中市頭汴坑溪(仙女瀑布至一江橋)發布災防告警，持續時間至15時58分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603192300_22</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T19:30:06+08:00</sent>
+    <expires>2025-06-04T01:23:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區</areaDesc>
+      <circle>22.884631,120.665739 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd041d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，高雄市茂林區茂林里情人谷瀑布(高市DF116)、情人谷溫泉(高市SL0002)之1小時累積雨量24.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，高雄市茂林區茂林里情人谷瀑布(高市DF116)、情人谷溫泉(高市SL0002)之1小時累積雨量24.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603190300_29</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T19:10:05+08:00</sent>
+    <expires>2025-06-04T01:03:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣卑南鄉</areaDesc>
+      <circle>22.717983,121.0229 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0419</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，臺東縣卑南鄉溫泉村木瓜溪鎮樂橋(東縣DF059)之1小時累積雨量21mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，臺東縣卑南鄉溫泉村木瓜溪鎮樂橋(東縣DF059)之1小時累積雨量21mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603185300_31</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T19:00:09+08:00</sent>
+    <expires>2025-06-04T00:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣太麻里鄉</areaDesc>
+      <circle>22.635876,121.001082 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0415</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，臺東縣金峰鄉新興村豐收橋(東縣DF076)、太麻里鄉大王村沙崙溪(東縣DF111)之1小時累積雨量28mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，臺東縣金峰鄉新興村豐收橋(東縣DF076)、太麻里鄉大王村沙崙溪(東縣DF111)之1小時累積雨量28mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603181300_28</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T18:20:05+08:00</sent>
+    <expires>2025-06-04T00:13:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣卑南鄉</areaDesc>
+      <circle>22.813201,121.052088 3.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0411</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，臺東縣卑南鄉泰安村大巴六九(東縣DF049)之1小時累積雨量20.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，臺東縣卑南鄉泰安村大巴六九(東縣DF049)之1小時累積雨量20.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250603181443_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-03T18:15:01+08:00</sent>
+    <expires>2025-06-03T19:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市南區 高雄市茄萣區 高雄市湖內區</areaDesc>
+      <polygon>22.89,120.15 22.93,120.15 22.93,120.19 22.88,120.23 22.87,120.21 22.86,120.18 22.89,120.15</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd040d</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/03 19:15，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 03, 19:15.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 3 日 18 時 14 分 氣象署發布大雷雨即時訊息，持續時間至 19 時 15 分；請慎防劇烈降雨、雷擊、9級以上強陣風，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250603181112_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-03T18:11:34+08:00</sent>
+    <expires>2025-06-03T19:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣臺東市 臺東縣卑南鄉 臺東縣太麻里鄉 臺東縣金峰鄉</areaDesc>
+      <polygon>22.65,120.93 22.71,120.96 22.74,121.03 22.72,121.09 22.63,121.04 22.6,120.99 22.65,120.93</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0409</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/03 19:15，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 03, 19:15.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 3 日 18 時 10 分 氣象署發布大雷雨即時訊息，持續時間至 19 時 15 分；請慎防劇烈降雨、雷擊、9級以上強陣風，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603175300_32</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T18:00:06+08:00</sent>
+    <expires>2025-06-03T23:53:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣太麻里鄉</areaDesc>
+      <circle>22.649535,121.019665 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0405</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，臺東縣太麻里鄉華源村南北坑(東縣DF124)之1小時累積雨量27mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，臺東縣太麻里鄉華源村南北坑(東縣DF124)之1小時累積雨量27mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>A2025060313381101539706300</id>
+    <title>水庫放水</title>
+    <sent>2025-06-03T15:30:01+08:00</sent>
+    <expires>2025-06-03T16:30:00+08:00</expires>
+    <sender>
+      <value>經濟部水利署南區水資源分署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>22.811173313236814,120.34420052229706 22.810658972559615,120.34343900705687 22.80914561276617,120.34394310869475 22.8089477867142,120.3436320672586 22.809175286649197,120.34303143551986 22.810658972559615,120.34107938236899 22.810668863744787,120.34043584836323 22.810292998202982,120.33979231435742 22.809679741671687,120.33927748715278 22.81004572487848,120.33787103537863 22.809689640130735,120.33708806900493 22.80894779391701,120.33590825666099 22.8087400762533,120.33496440678586 22.806307272647793,120.33274262558778 22.80491256380226,120.33171297117853 22.805585191126966,120.33020066626496 22.805614865785397,120.32938552319095 22.80516974523022,120.32828078981433 22.80456439412991,120.32770427112719 22.80341696045229,120.32768281999368 22.802665188321594,120.32770427112719 22.802091464694996,120.32746830865844 22.80179471014733,120.32723234618962 22.803595011138963,120.32609543611274 22.80405002850365,120.32547335324048 22.804168728435872,120.32463675903294 22.80389176176652,120.32373581142485 22.80310042532376,120.3231137285526 22.80167600814734,120.32240584114624 22.800983577753584,120.32227713434509 22.801399036411986,120.32165505147279 22.80177492648784,120.32071120159766 22.801695791821192,120.31987460739016 22.80114184786802,120.31929542678496 22.800231792200197,120.31925252451789 22.799166723804763,120.3191601872187 22.798365467849816,120.31839867197851 22.796812402772375,120.31833431857794 22.79598307680995,120.31813799035902 22.795379648176883,120.31734429841852 22.795379648176883,120.3167490294632 22.795912579274667,120.31560833112452 22.795714734013174,120.31493262041845 22.795111304192396,120.31441779321383 22.79395389853732,120.31373135694098 22.792777162007514,120.31325905276502 22.79160984397046,120.31290510906186 22.790600798292648,120.31302309029624 22.789779706593936,120.31333413173238 22.789532388848382,120.31369880100232 22.789067616132048,120.31299062262856 22.788830189865184,120.31128525751325 22.78833574930917,120.30701515787644 22.78803896481831,120.3042157849513 22.78629825989675,120.29719740651836 22.786060828808736,120.29550276696978 22.786031149893677,120.29421569895821 22.786634619897224,120.29262831507727 22.787623909208538,120.29204913447208 22.790262847802055,120.291787416912 22.795045426559767,120.29147836889386 22.79702387596719,120.29014839861524 22.80203265551592,120.2871309582131 22.803021833101585,120.28560792773278 22.803991220169763,120.28374167911596 22.805292025725983,120.27843305888001 22.804856795723357,120.27405702764068 22.803511524800616,120.26838852751199 22.801731006374855,120.26714436176749 22.799633921508157,120.26096643531193 22.79765576354114,120.25615775902156 22.798724109330067,120.25092368244117 22.800029853923217,120.24526058319027 22.79908052239091,120.24070932050222 22.80149415536656,120.23534653712065 22.80493647598415,120.23320142376807 22.809129516772796,120.23079418902617 22.80928777742625,120.22714749632675 22.808140383523604,120.22281436735443 22.806320359582735,120.22264275828624 22.8073095060448,120.22058344946772 22.80758646576739,120.21719417037059 22.8069929223349,120.21208464204622 22.805252015714444,120.21148401030749 22.80295715027754,120.21238495791562 22.801453596796343,120.21586004154682 22.80228450998116,120.21912061384282 22.799989594573823,120.2242688858891 22.801137057107724,120.22718624004865 22.80335281948927,120.22825879672499 22.797971619789067,120.23070422594694 22.795439217008,120.23375028690768 22.793579453757776,120.24130108590889 22.794726970250004,120.24735030556323 22.793382458020634,120.25242038399766 22.792551490572436,120.25941345352719 22.794727823151643,120.26396109383471 22.797181101859763,120.26996741122204 22.799792319967782,120.27451970700783 22.80086064901092,120.27769447476966 22.79963404828626,120.2827998445489 22.797299519637242,120.28610331911194 22.792234642064766,120.28889196647032 22.7870520373022,120.28902581260557 22.78353011988963,120.29074190328767 22.782936529348596,120.29511793452698 22.78353011988963,120.3012958609825 22.785033871033203,120.30502835821609 22.787195769946564,120.31454906385416 22.78875883733919,120.31611499660154 22.79006467737495,120.31624370340272 22.791350719733902,120.31482792858996 22.79340836227982,120.31575032733161 22.793467716892486,120.31693013967553 22.793351014162106,120.31908407515364 22.79429079289026,120.319974297195 22.797574335592543,120.32111207363548 22.799087823893018,120.32120860373628 22.799540642420617,120.32336957289259 22.802072240044815,120.32476528275352 22.799797105012722,120.32680314043849 22.80029170281554,120.32903405832522 22.803991237457133,120.32963469006393 22.80319990159201,120.33233753288825 22.80569217911474,120.33499884001145 22.807235251572973,120.335878336486 22.808263956836743,120.3379376453045 22.807847988976423,120.34014973403349 22.8088766896139,120.34081471917277 22.807650161040314,120.3433674040624 22.807847988976423,120.34536235948033 22.809193211324345,120.3450834947445 22.81047907321113,120.34489043454279 22.811173313236814,120.34420052229706</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0401</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]阿公店溪阿公店水庫自6月3日16時進行放水，請下游沿岸民眾注意並遠離河床，以策安全。Agongdian Reservoir will release water at 16:00, please keep away from the Agongdian Riverway for safety.經濟部水利署南區水資源分署07-6165641</text>
+    <description type="html"><![CDATA[[水庫放水警戒]阿公店溪阿公店水庫自6月3日16時進行放水，請下游沿岸民眾注意並遠離河床，以策安全。Agongdian Reservoir will release water at 16:00, please keep away from the Agongdian Riverway for safety.經濟部水利署南區水資源分署07-6165641]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250603150511_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-03T15:05:32+08:00</sent>
+    <expires>2025-06-03T15:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣光復鄉 花蓮縣豐濱鄉 花蓮縣瑞穗鄉</areaDesc>
+      <polygon>23.57,121.45 23.6,121.38 23.65,121.37 23.67,121.43 23.65,121.52 23.56,121.5 23.57,121.45</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03f9</link>
+    <channel>
+      <value>0</value>
+    </channel>
+    <text>[大雷雨即時訊息]您所在區域附近有劇烈雷雨或降雨發生，請注意防範，持續至06/03 15:30，氣象署Watch out for extremely heavy rain in area(s) nearby until Jun. 03, 15:30.CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[114 年 6 月 3 日 15 時 5 分 氣象署發布大雷雨即時訊息，持續時間至 15 時 30 分；請慎防劇烈降雨、雷擊，溪(河)水暴漲，低窪地區慎防淹水，以及低能見度]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603150000_39</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T15:00:19+08:00</sent>
+    <expires>2025-06-03T21:00:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣玉里鎮</areaDesc>
+      <circle>23.36407,121.35022 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03f1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，花蓮縣玉里鎮東豐里坪頂部落(花縣DF082)之1小時累積雨量37.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，花蓮縣玉里鎮東豐里坪頂部落(花縣DF082)之1小時累積雨量37.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603150000_35</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T15:00:05+08:00</sent>
+    <expires>2025-06-03T21:00:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣卓溪鄉</areaDesc>
+      <circle>23.348367,121.303055 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03ed</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，花蓮縣卓溪鄉卓溪村卓溪教會、卓溪8鄰部落(花縣DF039、花縣DF178)之1小時累積雨量37.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，花蓮縣卓溪鄉卓溪村卓溪教會、卓溪8鄰部落(花縣DF039、花縣DF178)之1小時累積雨量37.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603144000_38</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T14:50:19+08:00</sent>
+    <expires>2025-06-03T20:40:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣卓溪鄉</areaDesc>
+      <circle>23.29885,121.259127 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03e9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，花蓮縣卓溪鄉卓清村台30線6.5K(花縣DF177)之1小時累積雨量21mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，花蓮縣卓溪鄉卓清村台30線6.5K(花縣DF177)之1小時累積雨量21mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250603135100_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-03T13:52:37+08:00</sent>
+    <expires>2025-06-03T15:51:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市頭汴坑溪</areaDesc>
+      <polygon>24.12572,120.73034 24.12364,120.73727 24.12872,120.7415 24.09888,120.77246 24.11596,120.83391 24.13257,120.82052 24.12051,120.77383 24.14244,120.74431 24.12572,120.73034</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03cd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/3 15:51氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對臺中市頭汴坑溪(仙女瀑布至一江橋)發布災防告警，持續時間至15時51分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603121000_24</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T12:10:05+08:00</sent>
+    <expires>2025-06-03T18:10:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市旗山區</areaDesc>
+      <circle>22.832024,120.460579 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03c9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，高雄市旗山區新光里勞碡坑三龍寺(高市SL0001)之1小時累積雨量29mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，高雄市旗山區新光里勞碡坑三龍寺(高市SL0001)之1小時累積雨量29mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603113000_34</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T11:31:07+08:00</sent>
+    <expires>2025-06-03T17:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣頭城鎮</areaDesc>
+      <circle>24.978784,121.945586 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03c5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，宜蘭縣頭城鎮石城里石城火車站(宜縣DF151)之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，宜蘭縣頭城鎮石城里石城火車站(宜縣DF151)之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20250603111700_000</id>
+    <title>雷雨</title>
+    <sent>2025-06-03T11:18:49+08:00</sent>
+    <expires>2025-06-03T13:17:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市基隆河</areaDesc>
+      <polygon>25.046698,121.75664 25.0400473,121.766443 25.0357413,121.769873 25.032545415696063,121.75975227105684 25.03588532469177,121.75661981391295 25.046698,121.75664</polygon>
+    </area>
+    <area>
+      <areaDesc>宜蘭縣得子口溪</areaDesc>
+      <polygon>24.83363,121.74483 24.83339,121.7471 24.8304605,121.7490588 24.8297984,121.7486082 24.83112,121.74396 24.83363,121.74483</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市石碇溪</areaDesc>
+      <polygon>25.00757,121.65286 24.99599,121.65688 24.99595,121.6501 25.00719,121.64963 25.00757,121.65286</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市三叉坑溪</areaDesc>
+      <polygon>25.0308651,121.8337108 25.0205969,121.8367178 25.0110243,121.8163172 25.030235,121.8127066 25.0308651,121.8337108</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市虎豹潭</areaDesc>
+      <polygon>24.97647,121.82287 24.9675,121.82276 24.96738,121.83268 24.97633,121.83274 24.97647,121.82287</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市北勢溪</areaDesc>
+      <polygon>24.95924,121.74254 24.95387,121.7513 24.94473,121.74151 24.9457,121.72855 24.94885,121.72752 24.95924,121.74254</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市永定溪</areaDesc>
+      <polygon>25.01878,121.68057 25.01092,121.69379 25.00151,121.68272 25.01073,121.66941 25.01878,121.68057</polygon>
+    </area>
+    <area>
+      <areaDesc>宜蘭縣猴洞坑溪</areaDesc>
+      <polygon>24.84795,121.7738682 24.84851,121.77747 24.8424285,121.7872367 24.83395,121.783423 24.84364,121.7738682 24.84795,121.7738682</polygon>
+    </area>
+    <area>
+      <areaDesc>新北市逮魚堀溪</areaDesc>
+      <polygon>24.9317912,121.7043792 24.9156964,121.7220557 24.9042186,121.7031183 24.92694,121.69482 24.9317912,121.7043792</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03c1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[大雷雨即時訊息](山區暴雨之溪水暴漲警示)您所在區域附近有暴雨發生的機率，留意溪水暴漲並儘速遠離溪流，持續至6/3 13:17氣象署；Heavy rainfall and flash flood possible in area(s) nearby. Keep away from waterside. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[氣象署針對宜蘭縣得子口溪(五峰旗防砂壩),宜蘭縣猴洞坑溪,新北市三叉坑溪(雙溪清水坑),新北市北勢溪(坪林映像虎寮區),新北市基隆河(平溪望古瀑布),新北市永定溪(石碇蚯蚓坑),新北市石碇溪(石碇淡蘭吊橋),新北市虎豹潭,新北市逮魚堀溪發布災防告警，持續時間至13時17分；此區域已有暴雨或有暴雨發生的機率，留意溪水暴漲並儘速遠離。]]></description>
+  </entry>
+  <entry>
+    <id>A2025060309414122839704810</id>
+    <title>農田水利署(水庫放水)</title>
+    <sent>2025-06-03T09:50:03+08:00</sent>
+    <expires>2025-06-03T10:00:00+08:00</expires>
+    <sender>
+      <value>農業部農田水利署嘉南管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.2307164216132,120.346060372492 23.2639726889386,120.331649742759 23.2970475173513,120.339701942311 23.3015323554372,120.298238151226 23.29357848129,120.260187292474 23.2677533132857,120.241304524269 23.2421773787182,120.246269770816 23.2299294299733,120.261717591492 23.2234922427051,120.284615804265 23.2223737988048,120.313837714168 23.2307164216132,120.346060372492</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03bd</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[水庫放水警戒]德元埤水庫自6月3日11時00分進行放水，請龜子港排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全 。Deyuanpi Reservoir will discharge at 11:00 on 6/3. Please keep away from Guizigang Drainage.農業部農水署嘉南管理處06-6222284</text>
+    <description type="html"><![CDATA[[水庫放水警戒]德元埤水庫自6月3日11時00分進行放水，請龜子港排水下游沿岸附近民眾加強注意並儘速遠離河道，以策安全 。Deyuanpi Reservoir will discharge at 11:00 on 6/3. Please keep away from Guizigang Drainage.農業部農水署嘉南管理處06-6222284]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250603031000_25</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-03T03:10:05+08:00</sent>
+    <expires>2025-06-03T09:10:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣來義鄉</areaDesc>
+      <circle>22.451131,120.660297 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03b9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，屏東縣來義鄉南和村白鷺二號橋(屏縣DF074)之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，屏東縣來義鄉南和村白鷺二號橋(屏縣DF074)之1小時累積雨量21.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250602122000_25</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-02T12:20:04+08:00</sent>
+    <expires>2025-06-02T18:20:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣來義鄉</areaDesc>
+      <circle>22.451131,120.660297 3.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03b5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，屏東縣來義鄉南和村白鷺二號橋(屏縣DF074)之1小時累積雨量24.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，屏東縣來義鄉南和村白鷺二號橋(屏縣DF074)之1小時累積雨量24.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250602035000_44</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-02T03:50:48+08:00</sent>
+    <expires>2025-06-02T09:50:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市六龜區</areaDesc>
+      <circle>22.982622,120.636216 1.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03a1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，高雄市六龜區文武里覺華寺(高市DF099)之1小時累積雨量20.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，高雄市六龜區文武里覺華寺(高市DF099)之1小時累積雨量20.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250602035000_26</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-02T03:50:36+08:00</sent>
+    <expires>2025-06-02T09:50:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣高樹鄉</areaDesc>
+      <circle>22.870815,120.645366 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd0399</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，屏東縣高樹鄉新豐村新豐村18鄰(屏縣DF073)、金龍山法輪禪寺(屏縣DF072)之1小時累積雨量21mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，屏東縣高樹鄉新豐村新豐村18鄰(屏縣DF073)、金龍山法輪禪寺(屏縣DF072)之1小時累積雨量21mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250602035000_24</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-02T03:50:23+08:00</sent>
+    <expires>2025-06-02T09:50:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市旗山區</areaDesc>
+      <circle>22.832024,120.460579 1.5</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd03a5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，高雄市旗山區新光里勞碡坑三龍寺(高市SL0001)之1小時累積雨量28.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，高雄市旗山區新光里勞碡坑三龍寺(高市SL0001)之1小時累積雨量28.5mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20250602035000_22</id>
+    <title>土石流及大規模崩塌</title>
+    <sent>2025-06-02T03:50:05+08:00</sent>
+    <expires>2025-06-02T09:50:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市茂林區</areaDesc>
+      <circle>22.884631,120.665739 2.0</circle>
+    </area>
+    <link ref="alternate">https://cbs.tw/25063cdd039d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[土石流及大規模崩塌警戒]二次災害高風險區提醒，高雄市茂林區茂林里情人谷瀑布(高市DF116)、情人谷溫泉(高市SL0002)之1小時累積雨量21mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌警戒]二次災害高風險區提醒，高雄市茂林區茂林里情人谷瀑布(高市DF116)、情人谷溫泉(高市SL0002)之1小時累積雨量21mm已達注意值，請提高警覺，農業部關心您。[Warning]Rainfall reached the warning level. ARDSWC. TEL:0800_246_246]]></description>
+  </entry>
+</feed>

@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>201804</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:22:01+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2018年4月 月彙整]]></description>
+  <entry>
+    <id>A20180427101114540</id>
+    <title/>
+    <sent>2018-04-27T10:11:15+08:00</sent>
+    <expires>2018-04-27T10:42:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市　永和區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6500400</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489dc</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試 疏散避難]因颱風影響，本市永和區河堤里、網溪里、頂溪里、光復里等4里，已有積淹水情形，請該區域民眾配合疏散避難。新北市災害應變中心02-89535599轉9</text>
+    <description type="html"><![CDATA[[測試 疏散避難]因颱風影響，本市永和區河堤里、網溪里、頂溪里、光復里等4里，已有積淹水情形，請該區域民眾配合疏散避難。新北市災害應變中心02-89535599轉9]]></description>
+  </entry>
+  <entry>
+    <id>20180425-PWS_MESSAGE_CASE2_000000001</id>
+    <title>系統測試</title>
+    <sent>2018-04-25T16:00:13+08:00</sent>
+    <expires>2018-04-25T16:10:00+08:00</expires>
+    <sender>
+      <value>災防告警細胞廣播訊息系統營運辦公室</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>systemTest</value>
+    </eventCode>
+    <area>
+      <areaDesc>Test_Geocode</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10016</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489db</link>
+    <channel>
+      <value>4380</value>
+    </channel>
+    <text>【災防告警訊息測試】5家電信業者配合政府政策，聯合進行災防告警訊息發送測試，造成不便，敬請見諒。中華、遠傳、台哥大、台灣之星及亞太電信關心您，豪雨及颱風季節將至，請做好居家整備。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A20180424105559855</id>
+    <title>測試</title>
+    <sent>2018-04-24T10:56:00+08:00</sent>
+    <expires>2018-04-24T11:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市　大園區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6800600</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489da</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>【演習測試】為配合107年災害防救演習情境設定，發布災害疏散避難訊息測試，請勿驚慌桃園市災害應變中心敬啟。</text>
+    <description type="html"><![CDATA[【演習測試】為配合107年災害防救演習情境設定，發布災害疏散避難訊息測試，請勿驚慌桃園市災害應變中心敬啟。]]></description>
+  </entry>
+  <entry>
+    <id>A20180424104405434</id>
+    <title/>
+    <sent>2018-04-24T10:44:06+08:00</sent>
+    <expires>2018-04-24T10:55:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>107災防演習測試</areaDesc>
+      <polygon>25.025956023584268,121.21881505502317 25.022145107962864,121.22336408151254 25.01673962675905,121.21774217141719 25.02016182955358,121.21422311318955 25.023856145939945,121.21576806558217 25.025994909868487,121.21877213967895 25.025956023584268,121.21881505502317</polygon>
+    </area>
+    <area>
+      <areaDesc>107災防演習測試</areaDesc>
+      <polygon>25.025956023584268,121.21881505502317 25.022145107962864,121.22336408151254 25.01673962675905,121.21774217141719 25.02016182955358,121.21422311318955 25.023856145939945,121.21576806558217 25.025994909868487,121.21877213967895 25.025956023584268,121.21881505502317</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489d9</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>【演習測試】為配合107年災害防救演習情境設定，發布災害疏散避難訊息測試，請勿驚慌。桃園市災害應變中心敬啟。</text>
+    <description type="html"><![CDATA[【演習測試】為配合107年災害防救演習情境設定，發布災害疏散避難訊息測試，請勿驚慌。桃園市災害應變中心敬啟。]]></description>
+  </entry>
+  <entry>
+    <id>A20180418142537550</id>
+    <title>臺南市4/18CBS測試</title>
+    <sent>2018-04-18T14:25:38+08:00</sent>
+    <expires>2018-04-18T14:40:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市　安定區　大同里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702100-010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安定區　六嘉里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702100-011</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　關廟區　五甲里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702900-007</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安定區　港尾里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702100-006</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　關廟區　新埔里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702900-005</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　關廟區　關廟里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702900-001</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安定區　港南里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702100-009</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　山上區　明和里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702200-001</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　左鎮區　榮和里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702600-002</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安定區　港口里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702100-008</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　左鎮區　左鎮里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702600-003</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　左鎮區　中正里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702600-004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　左鎮區　岡林里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702600-008</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　關廟區　埤頭里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702900-016</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　左鎮區　內庄里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702600-006</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　左鎮區　光和里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702600-001</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　關廟區　布袋里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702900-013</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　關廟區　龜洞里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702900-015</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　關廟區　深坑里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702900-012</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　關廟區　香洋里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702900-003</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　山上區　平陽里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702200-006</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安定區　中沙里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702100-012</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　山上區　玉峯里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702200-005</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安定區　新吉里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702100-013</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489d8</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試][疏散避難]目前本市已發生積淹水，且持續降雨，請加強警戒，視情況往高樓層避難，並配合疏散撤離。臺南市災害變中心06-2989119</text>
+    <description type="html"><![CDATA[[測試][疏散避難]目前本市已發生積淹水，且持續降雨，請加強警戒，視情況往高樓層避難，並配合疏散撤離。臺南市災害變中心06-2989119]]></description>
+  </entry>
+  <entry>
+    <id>A20180418142332513</id>
+    <title>臺南市4/18CBS測試</title>
+    <sent>2018-04-18T14:23:33+08:00</sent>
+    <expires>2018-04-18T15:21:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市　北門區　慈安里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-011</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　將軍區　廣山里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701600-014</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　將軍區　三吉里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701600-012</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　北門區　玉港里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-009</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　將軍區　平沙里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701600-016</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　北門區　永隆里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-013</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　將軍區　鯤溟里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701600-018</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　新化區　清水里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701800-008</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　新化區　唪口里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701800-010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　新化區　豐榮里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701800-012</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　北門區　三光里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-007</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　北門區　東壁里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-003</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　北門區　中樞里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　將軍區　玉山里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701600-013</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　北門區　保吉里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-001</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　新化區　大坑里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701800-017</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　將軍區　將貴里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701600-011</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　將軍區　將富里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701600-010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　新化區　知義里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701800-015</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　將軍區　長沙里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701600-015</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　新化區　太平里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701800-004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　將軍區　鯤鯓里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701600-017</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　新化區　東榮里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701800-002</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　北門區　永華里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-012</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　新化區　武安里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701800-001</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　新化區　中央里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701800-005</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　北門區　鯤江里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　北門區　錦湖里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-006</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　北門區　雙春里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701700-002</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　新化區　協興里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701800-009</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489d7</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試][疏散避難]目前本市已發生積淹水，且持續降雨，請加強警戒，視情況往高樓層避難，並配合疏散撤離。臺南市災害變中心06-2989119</text>
+    <description type="html"><![CDATA[[測試][疏散避難]目前本市已發生積淹水，且持續降雨，請加強警戒，視情況往高樓層避難，並配合疏散撤離。臺南市災害變中心06-2989119]]></description>
+  </entry>
+  <entry>
+    <id>A20180418142124529</id>
+    <title>臺南市4/18CBS測試</title>
+    <sent>2018-04-18T14:21:25+08:00</sent>
+    <expires>2018-04-18T15:19:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市　七股區　槺榔里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-020</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　永吉里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-021</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　後港里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-001</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　溪南里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-009</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　七股里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　龍山里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-008</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　玉成里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-011</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　大寮里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-013</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　西寮里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-006</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　塩埕里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-007</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　大埕里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-012</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　三股里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-022</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　篤加里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　十份里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-023</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　頂山里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-005</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　中寮里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-017</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　城內里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-003</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　看坪里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-014</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　七股區　大潭里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701500-002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489d6</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試][疏散避難]目前本市已發生積淹水，且持續降雨，請加強警戒，視情況往高樓層避難，並配合疏散撤離。臺南市災害變中心06-2989119</text>
+    <description type="html"><![CDATA[[測試][疏散避難]目前本市已發生積淹水，且持續降雨，請加強警戒，視情況往高樓層避難，並配合疏散撤離。臺南市災害變中心06-2989119]]></description>
+  </entry>
+  <entry>
+    <id>A20180418142001498</id>
+    <title>疏散避難－測試簡訊</title>
+    <sent>2018-04-18T14:20:02+08:00</sent>
+    <expires>2018-04-18T15:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣　來義鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001330</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489d5</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試][疏散避難]因大量降雨，本縣來義鄉來社溪已有發生土石流狀況，請來義鄉來義、義林村立即配合疏散撤離。屏東縣災害應變中心08-7662911#9、119</text>
+    <description type="html"><![CDATA[[測試][疏散避難]因大量降雨，本縣來義鄉來社溪已有發生土石流狀況，請來義鄉來義、義林村立即配合疏散撤離。屏東縣災害應變中心08-7662911#9、119]]></description>
+  </entry>
+  <entry>
+    <id>A20180418141939773</id>
+    <title>臺南市4/18CBS測試</title>
+    <sent>2018-04-18T14:19:40+08:00</sent>
+    <expires>2018-04-18T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市　麻豆區　埤頭里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700700-017</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　麻豆區　小埤里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700700-016</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　麻豆區　北勢里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700700-010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　鹽水區　孫厝里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700200-018</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　後壁區　菁寮里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700500-018</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　後壁區　新嘉里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700500-019</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　大內區　內郭里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701100-006</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　麻豆區　謝安里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700700-026</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　白河區　白河里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700300-001</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　麻豆區　安正里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700700-028</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　麻豆區　安東里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700700-023</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　大內區　環湖里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701100-008</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　鹽水區　歡雅里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700200-014</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　麻豆區　海埔里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700700-019</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　白河區　永安里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700300-002</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　麻豆區　港尾里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700700-021</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　大內區　石湖里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6701100-001</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　後壁區　嘉苳里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700500-003</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　後壁區　墨林里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700500-017</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　後壁區　平安里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700500-021</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489d4</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試][疏散避難]目前本市已發生積淹水，且持續降雨，請加強警戒，視情況往高樓層避難，並配合疏散撤離。臺南市災害變中心06-2989119</text>
+    <description type="html"><![CDATA[[測試][疏散避難]目前本市已發生積淹水，且持續降雨，請加強警戒，視情況往高樓層避難，並配合疏散撤離。臺南市災害變中心06-2989119]]></description>
+  </entry>
+  <entry>
+    <id>A20180418141801491</id>
+    <title>1070418金門測試</title>
+    <sent>2018-04-18T14:18:02+08:00</sent>
+    <expires>2018-04-18T15:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <polygon>24.465324006863003,118.31900116821481 24.465363068921718,118.31904408355905 24.46555837903357,118.33990094085942 24.450987413194817,118.3407592477442 24.451885939738396,118.31977364441113 24.465324006863003,118.31900116821481</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489d3</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>測試，颱風侵襲，造成金寧鄉安岐一帶大規模樹倒及房屋毀損，請附近民眾配合救災人員疏散措施金門縣政府、金門縣應變中心(082-373795*0)敬告</text>
+    <description type="html"><![CDATA[測試，颱風侵襲，造成金寧鄉安岐一帶大規模樹倒及房屋毀損，請附近民眾配合救災人員疏散措施金門縣政府、金門縣應變中心(082-373795*0)敬告]]></description>
+  </entry>
+  <entry>
+    <id>A20180418141455067</id>
+    <title>淹水訊息測試請勿驚慌</title>
+    <sent>2018-04-18T14:14:55+08:00</sent>
+    <expires>2018-04-18T15:12:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義市　東區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1002001</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489d2</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>（測試簡訊）嘉義市超大豪雨不停，東區荖藤里已積淹水50公分，請荖藤里居民、迅速撤至高處，另後湖里、後庄里視情況，居民亦應警戒。消防局2716660轉222嘉義市政府消防局關心您</text>
+    <description type="html"><![CDATA[（測試簡訊）嘉義市超大豪雨不停，東區荖藤里已積淹水50公分，請荖藤里居民、迅速撤至高處，另後湖里、後庄里視情況，居民亦應警戒。消防局2716660轉222嘉義市政府消防局關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20180418141401537</id>
+    <title>疏散避難警報</title>
+    <sent>2018-04-18T14:14:02+08:00</sent>
+    <expires>2018-04-18T15:10:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>連江縣　南竿鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>0900701</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489d1</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>【測試】目前本縣南竿鄉已發生淹水，請介壽村、福澳村及津沙村，視情況往高樓層避難，並配合疏散撤離，連江縣災害應變中心0836－23799連江縣災害應變中心關心您</text>
+    <description type="html"><![CDATA[【測試】目前本縣南竿鄉已發生淹水，請介壽村、福澳村及津沙村，視情況往高樓層避難，並配合疏散撤離，連江縣災害應變中心0836－23799連江縣災害應變中心關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20180418141344548</id>
+    <title>（測試）[疏散避難]</title>
+    <sent>2018-04-18T14:13:45+08:00</sent>
+    <expires>2018-04-18T15:05:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <polygon>22.764892359576557,121.15150091108559 22.764887413044317,121.1524879640032 22.76352216329509,121.15245577749502 22.763566682523958,121.15154382642984 22.764897306108626,121.1515009110856 22.764897306108626,121.1515009110856 22.764892359576557,121.15150091108559</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489d0</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>（測試）[疏散避難]目前本縣卑南鄉、鹿野鄉、延平鄉已發生積淹水，且持續降雨，請視情況往高處避難，並配合疏散撤離，臺東縣災害應變中心089－322112＃2393臺東縣災害應變中心</text>
+    <description type="html"><![CDATA[（測試）[疏散避難]目前本縣卑南鄉、鹿野鄉、延平鄉已發生積淹水，且持續降雨，請視情況往高處避難，並配合疏散撤離，臺東縣災害應變中心089－322112＃2393臺東縣災害應變中心]]></description>
+  </entry>
+  <entry>
+    <id>A20180418141118535</id>
+    <title>﹝測試﹞﹝疏散避難﹞</title>
+    <sent>2018-04-18T14:11:19+08:00</sent>
+    <expires>2018-04-18T15:05:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <polygon>22.618465957620593,120.28447148260369 22.6176736639998,120.33751484808215 22.57076175238764,120.33785817083604 22.57298091905042,120.29288289007441 22.61878287379082,120.28429982122675 22.618465957620593,120.28412815984979 22.618465957620593,120.28447148260369</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489cf</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>﹝測試﹞﹝疏散避難﹞目前本市災害應變中心周圍200公尺已發生積淹水，且持續降雨，請進駐應變中心同仁視情況將車輛移往高處並配合疏散避難，高雄市災害應變中心07－8224567關心您</text>
+    <description type="html"><![CDATA[﹝測試﹞﹝疏散避難﹞目前本市災害應變中心周圍200公尺已發生積淹水，且持續降雨，請進駐應變中心同仁視情況將車輛移往高處並配合疏散避難，高雄市災害應變中心07－8224567關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140917081</id>
+    <title>疏散避難警報測試</title>
+    <sent>2018-04-18T14:09:17+08:00</sent>
+    <expires>2018-04-18T15:03:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣　阿里山鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001018</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>嘉義縣　梅山鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001015</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>嘉義縣　竹崎鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001014</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489ce</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>土石流警戒訊息測試，請勿驚慌。農委會已發布土石流紅色警戒，請緞繻村、山美村、來吉村、瑞峰村立即配合疏散撤離。相關訊息如有問題請撥05－3620233＃324嘉義縣災害應變中心</text>
+    <description type="html"><![CDATA[土石流警戒訊息測試，請勿驚慌。農委會已發布土石流紅色警戒，請緞繻村、山美村、來吉村、瑞峰村立即配合疏散撤離。相關訊息如有問題請撥05－3620233＃324嘉義縣災害應變中心]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140843151</id>
+    <title>疏散避難－測試簡訊</title>
+    <sent>2018-04-18T14:08:44+08:00</sent>
+    <expires>2018-04-18T14:20:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺中市　和平區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6602900</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489cd</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試簡訊][疏散避難]&#13;行政院農委會已針對和平區發布土石流紅色警戒，有發生土石流可能，請立即配合疏散撤離。臺中市災害應變中心04-23298820#114</text>
+    <description type="html"><![CDATA[[測試簡訊][疏散避難]
+行政院農委會已針對和平區發布土石流紅色警戒，有發生土石流可能，請立即配合疏散撤離。臺中市災害應變中心04-23298820#114]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140802169</id>
+    <title>臺南市4/18CBS測試</title>
+    <sent>2018-04-18T14:08:03+08:00</sent>
+    <expires>2018-04-18T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市　安南區　城西里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703500-031</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安平區　平通里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703600-008</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安平區　海頭里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703600-013</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　南區　彰南里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703300-031</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　南區　鯤鯓里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703300-036</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安南區　四草里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703500-036</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　南區　喜南里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703300-016</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　南區　松安里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703300-037</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安南區　海南里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703500-017</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安南區　塩田里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703500-019</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安平區　西門里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703600-001</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　南區　省躬里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703300-017</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　南區　永寧里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703300-038</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安平區　國平里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703600-010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安平區　金城里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703600-002</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　安平區　漁光里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703600-004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　南區　喜北里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703300-015</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　南區　佛壇里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703300-020</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489cc</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試][疏散避難]因颱風來襲，本市海岸及漁港泊風浪甚大且將有長浪發生，請於區域內民眾儘速離去，以免發生危險，本府已派員巡查並視情況依法開罰。臺南市災害變中心06-2989119</text>
+    <description type="html"><![CDATA[[測試][疏散避難]因颱風來襲，本市海岸及漁港泊風浪甚大且將有長浪發生，請於區域內民眾儘速離去，以免發生危險，本府已派員巡查並視情況依法開罰。臺南市災害變中心06-2989119]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140710797</id>
+    <title>疏散避難－測試</title>
+    <sent>2018-04-18T14:07:11+08:00</sent>
+    <expires>2018-04-18T14:20:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>南投縣　信義鄉　東埔村</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000812-011</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>南投縣　信義鄉　神木村</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000812-010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>南投縣　信義鄉　同富村</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000812-009</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489cb</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>〔測試〕〔疏散避難〕行政院農委員已針對愛玉子溪發布土石流紅色警戒，有發生土石流可能，請神木村立即配合疏散撤離。南投縣政府消防局2225134#322，信義鄉公所2791515</text>
+    <description type="html"><![CDATA[〔測試〕〔疏散避難〕行政院農委員已針對愛玉子溪發布土石流紅色警戒，有發生土石流可能，請神木村立即配合疏散撤離。南投縣政府消防局2225134#322，信義鄉公所2791515]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140613004</id>
+    <title>臺南市4/18CBS測試</title>
+    <sent>2018-04-18T14:06:13+08:00</sent>
+    <expires>2018-04-18T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺南市　東山區　青山里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700600-014</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　東山區　南勢里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700600-013</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　東山區　高原里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700600-015</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　白河區　仙草里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700300-011</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　白河區　六溪里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700300-010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　玉井區　豐里里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702300-010</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　白河區　關嶺里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700300-012</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　楠西區　灣丘里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702400-002</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　龍崎區　龍船里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6703000-007</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　楠西區　照興里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702400-004</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　楠西區　密枝里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702400-003</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　楠西區　龜丹里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702400-006</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　六甲區　大丘里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700900-012</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　南化區　玉山里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702500-008</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　南化區　關山里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6702500-009</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺南市　白河區　大林里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6700300-008</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489ca</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試][疏散避難]行政院農委會已針對溪流發布土石流紅色警戒，有發生土石流可能，請立即配合疏散撤離。臺南市災害應變中心06-2989119</text>
+    <description type="html"><![CDATA[[測試][疏散避難]行政院農委會已針對溪流發布土石流紅色警戒，有發生土石流可能，請立即配合疏散撤離。臺南市災害應變中心06-2989119]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140603566</id>
+    <title>疏散避難</title>
+    <sent>2018-04-18T14:06:04+08:00</sent>
+    <expires>2018-04-18T14:39:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>花蓮縣　秀林鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001511</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489c9</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>（系統測試）（疏散避難）行政院農委會已針對秀林鄉發布土石流紅色警戒，有發生土石流可能，請立即配合疏散撤離。花蓮縣災害應變中心03－8462119－6203。關心您</text>
+    <description type="html"><![CDATA[（系統測試）（疏散避難）行政院農委會已針對秀林鄉發布土石流紅色警戒，有發生土石流可能，請立即配合疏散撤離。花蓮縣災害應變中心03－8462119－6203。關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140548309</id>
+    <title>【測試】</title>
+    <sent>2018-04-18T14:05:49+08:00</sent>
+    <expires>2018-04-18T14:59:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市　大園區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6800600</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489c8</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>為配合107年災害防救演習情境設定，發布災害疏散避難訊息測試。桃園市災害防救辦公室敬啟</text>
+    <description type="html"><![CDATA[為配合107年災害防救演習情境設定，發布災害疏散避難訊息測試。桃園市災害防救辦公室敬啟]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140313298</id>
+    <title>疏散避難警報測試請勿驚慌</title>
+    <sent>2018-04-18T14:03:13+08:00</sent>
+    <expires>2018-04-18T15:01:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣　東石鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001009</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489c7</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>積淹水訊息測試，請勿驚慌。目前本縣東石鄉已發生積淹水，且持續降雨，請東石村，視情況往高樓層避難，並配合疏散撤離。相關訊息如有問題請撥05－3620233＃324嘉義縣災害應變中心</text>
+    <description type="html"><![CDATA[積淹水訊息測試，請勿驚慌。目前本縣東石鄉已發生積淹水，且持續降雨，請東石村，視情況往高樓層避難，並配合疏散撤離。相關訊息如有問題請撥05－3620233＃324嘉義縣災害應變中心]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140301723</id>
+    <title>[測試]苗栗市疏散撤離</title>
+    <sent>2018-04-18T14:03:02+08:00</sent>
+    <expires>2018-04-18T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>苗栗縣　苗栗市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000501</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489c6</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試]目前本縣苗栗市區發生積淹水且持續降雨，請苗栗市民視情況往高樓層避難並配合疏散撤離，本訊息為演習測試，實際並無災害或異常，請民眾安心。苗栗縣災害應變中心037-271620</text>
+    <description type="html"><![CDATA[[測試]目前本縣苗栗市區發生積淹水且持續降雨，請苗栗市民視情況往高樓層避難並配合疏散撤離，本訊息為演習測試，實際並無災害或異常，請民眾安心。苗栗縣災害應變中心037-271620]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140210981</id>
+    <title>疏散避難警報測試</title>
+    <sent>2018-04-18T14:02:11+08:00</sent>
+    <expires>2018-04-18T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <polygon>24.982380419682237,121.9496297543922 24.980300121542875,121.94080840297542 24.98278974397751,121.94904814906916 24.920534071402933,121.88450347133477 24.850770389270732,121.82133208461599 24.709203273533053,121.83731046982622 24.601867462687743,121.88537565537312 24.485691321221115,121.8524166709981 24.323114686575373,121.75353971787308 24.37065872862306,121.62582365341991 24.334376730751178,121.55853239365425 24.383167350416404,121.44042936631045 24.390671929439034,121.36627165146665 24.440691062104786,121.32644621201354 24.523179246755742,121.40472379990419 24.569398947052683,121.40884367295105 24.598121525184965,121.43493620224797 24.663035226402464,121.4541622764667 24.682018094666304,121.53764244970453 24.72693173964666,121.60081383642331 24.795518504682143,121.62415978368895 24.81297090426953,121.68321129736086 24.839144895503228,121.72578331884525 24.86406736165533,121.77522179540776 24.896459057960655,121.80131432470465 24.90393285846148,121.83839318212654 24.923860780208265,121.85624596532968 24.94378548166276,121.84113976415779 24.982380419682237,121.9496297543922</polygon>
+    </area>
+    <area>
+      <areaDesc>宜蘭縣</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10002</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489c5</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[訊息發布測試] [疏散避難]因○○颱風來襲，宜蘭縣災害應變中心已成立二級開設，海岸線已列為危險潛勢區域，請”範圍”內旅客或民眾立即疏散。宜蘭縣災害應變中心（03）9311294</text>
+    <description type="html"><![CDATA[[訊息發布測試] [疏散避難]因○○颱風來襲，宜蘭縣災害應變中心已成立二級開設，海岸線已列為危險潛勢區域，請”範圍”內旅客或民眾立即疏散。宜蘭縣災害應變中心（03）9311294]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140206218</id>
+    <title/>
+    <sent>2018-04-18T14:02:06+08:00</sent>
+    <expires>2018-04-18T14:40:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>彰化縣　彰化市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000701</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489c4</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演習測試]目前本縣彰化市已發生積淹水且持續降雨，請彰化市民眾視情況往高樓層避難，並配合疏散撤離。彰化縣災害應變中心047512119彰化縣災害應變中心關心您</text>
+    <description type="html"><![CDATA[[演習測試]目前本縣彰化市已發生積淹水且持續降雨，請彰化市民眾視情況往高樓層避難，並配合疏散撤離。彰化縣災害應變中心047512119彰化縣災害應變中心關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140202193</id>
+    <title>（系統測試）[疏散避難]</title>
+    <sent>2018-04-18T14:02:03+08:00</sent>
+    <expires>2018-04-18T15:01:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣　延平鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001413</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺東縣　卑南鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001404</value>
+      </geocode>
+    </area>
+    <area>
+      <areaDesc>臺東縣　鹿野鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001405</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489c3</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>（測試）[疏散避難]目前本縣卑南鄉、鹿野鄉、延平鄉已發生積淹水，且持續降雨，請視情況往高處避難，並配合疏散撤離，臺東縣災害應變中心089－322112＃2393臺東縣災害應變中心</text>
+    <description type="html"><![CDATA[（測試）[疏散避難]目前本縣卑南鄉、鹿野鄉、延平鄉已發生積淹水，且持續降雨，請視情況往高處避難，並配合疏散撤離，臺東縣災害應變中心089－322112＃2393臺東縣災害應變中心]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140202208</id>
+    <title>淹水訊息測試請勿驚慌</title>
+    <sent>2018-04-18T14:02:03+08:00</sent>
+    <expires>2018-04-18T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義市　東區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1002001</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489c2</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>嘉義市超大豪雨不停，東區荖藤里已積淹水50公分，請荖藤里居民、迅速撤離往高處避難，另後湖里、後庄里視情況，居民亦應警戒。消防局052716660轉222嘉義市政府消防局關心您</text>
+    <description type="html"><![CDATA[嘉義市超大豪雨不停，東區荖藤里已積淹水50公分，請荖藤里居民、迅速撤離往高處避難，另後湖里、後庄里視情況，居民亦應警戒。消防局052716660轉222嘉義市政府消防局關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140115927</id>
+    <title>疏散避難</title>
+    <sent>2018-04-18T14:01:16+08:00</sent>
+    <expires>2018-04-18T14:57:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <polygon>23.61878991908078,120.65839287695223 23.628855551045927,120.73049065527246 23.562785733879537,120.74697014745993 23.56782079553268,120.65770623144442 23.61878991908078,120.65839287695223</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489c1</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試簡訊] [疏散避難]農委會已發布土石流紅色警戒，請草嶺村立即配合疏散撤離，雲林縣災害應變中心05－5379409雲林縣災害應變中心關心您</text>
+    <description type="html"><![CDATA[[測試簡訊] [疏散避難]農委會已發布土石流紅色警戒，請草嶺村立即配合疏散撤離，雲林縣災害應變中心05－5379409雲林縣災害應變中心關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140108855</id>
+    <title>疏散避難警報測試請勿驚慌</title>
+    <sent>2018-04-18T14:01:09+08:00</sent>
+    <expires>2018-04-18T14:53:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>嘉義縣　布袋鎮</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001003</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489c0</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>積淹水訊息測試，請勿驚慌。目前本縣布袋鎮已發生積淹水，且持續降雨，請岑海里，視情況往高樓層避難，並配合疏散撤離。相關訊息如有問題請撥05－3620233＃324嘉義縣災害應變中心</text>
+    <description type="html"><![CDATA[積淹水訊息測試，請勿驚慌。目前本縣布袋鎮已發生積淹水，且持續降雨，請岑海里，視情況往高樓層避難，並配合疏散撤離。相關訊息如有問題請撥05－3620233＃324嘉義縣災害應變中心]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140100405</id>
+    <title/>
+    <sent>2018-04-18T14:01:01+08:00</sent>
+    <expires>2018-04-18T14:52:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣　竹北市</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1000401</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489bf</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試] [疏散避難]目前本縣竹北市已發生積淹水，且持續降雨，請視情況往高樓層避難，並配合疏散撤離。新竹縣災害應變中心03-5513522 竹北市災害應變中心03-5517910</text>
+    <description type="html"><![CDATA[[測試] [疏散避難]目前本縣竹北市已發生積淹水，且持續降雨，請視情況往高樓層避難，並配合疏散撤離。新竹縣災害應變中心03-5513522 竹北市災害應變中心03-5517910]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140021685</id>
+    <title>測試簡訊</title>
+    <sent>2018-04-18T14:00:22+08:00</sent>
+    <expires>2018-04-18T14:55:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>基隆市　信義區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001707</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489be</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>【測試簡訊】本日下午14時，發生芮氏規模4.8地震，請民眾注意，本市震度3級以上，並確實做好「趴下、掩護、隱住」防護動作。基隆市災害應變中心24252119分機109基隆市政府</text>
+    <description type="html"><![CDATA[【測試簡訊】本日下午14時，發生芮氏規模4.8地震，請民眾注意，本市震度3級以上，並確實做好「趴下、掩護、隱住」防護動作。基隆市災害應變中心24252119分機109基隆市政府]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140006938</id>
+    <title>[測試]颱風疏散避難告警</title>
+    <sent>2018-04-18T14:00:07+08:00</sent>
+    <expires>2018-04-18T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>CBS臨時圈選區域0</areaDesc>
+      <polygon>23.576868391003362,119.56698057111912 23.577025722729847,119.56698057111912 23.577025722729847,119.56698057111912 23.577025722729847,119.56698057111912 23.58512805173796,119.56174489912203 23.58512805173796,119.56174489912203 23.59456702750494,119.58328840192964 23.59456702750494,119.58328840192964 23.587566518859585,119.5867216294687 23.587566518859585,119.5867216294687 23.573800384653648,119.57667943891694 23.573800384653648,119.57667943891694 23.576868391003362,119.56698057111912 23.576868391003362,119.56698057111912</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489bd</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試][疏散避難]您所在地區即將發生強風豪雨災情，請馬公市光榮、朝陽、重光及西衛里民眾前往安全處所避難，並配合疏散撤離。澎湖縣政府消防局069263346＃9澎湖縣政府關心您</text>
+    <description type="html"><![CDATA[[測試][疏散避難]您所在地區即將發生強風豪雨災情，請馬公市光榮、朝陽、重光及西衛里民眾前往安全處所避難，並配合疏散撤離。澎湖縣政府消防局069263346＃9澎湖縣政府關心您]]></description>
+  </entry>
+  <entry>
+    <id>A20180418140000589</id>
+    <title/>
+    <sent>2018-04-18T14:00:01+08:00</sent>
+    <expires>2018-04-18T14:10:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市　永和區</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6500400</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489bc</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試 疏散避難]因受颱風影響，本市永和區河堤里、網溪里、新廍里、頂溪里、光復里等5里，已有積淹水情形，請該區域民眾配合公所人員避難。新北市災害應變中心02-89535599轉9</text>
+    <description type="html"><![CDATA[[測試 疏散避難]因受颱風影響，本市永和區河堤里、網溪里、新廍里、頂溪里、光復里等5里，已有積淹水情形，請該區域民眾配合公所人員避難。新北市災害應變中心02-89535599轉9]]></description>
+  </entry>
+  <entry>
+    <id>A20180416135441980</id>
+    <title>疏散避難－演習測試</title>
+    <sent>2018-04-16T13:54:42+08:00</sent>
+    <expires>2018-04-16T14:30:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>避難疏散－園區毒性化學物質外洩</areaDesc>
+      <polygon>24.776498672574753,121.0138477061695 24.776420742623795,121.02749478563763 24.766328400616125,121.02792393908003 24.766289432454965,121.01217400774416 24.776537637531888,121.01298939928472 24.776498672574753,121.0139764522022 24.776498672574753,121.0138477061695</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489bb</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試簡訊－疏散避難]107年災防演習－本市篤行路與篤行一路口因車輛事故，導致毒性化學物質外洩，有汙染與健康危害之虞，請居民配合救災人員疏散。新竹市災害應變中心035283119</text>
+    <description type="html"><![CDATA[[測試簡訊－疏散避難]107年災防演習－本市篤行路與篤行一路口因車輛事故，導致毒性化學物質外洩，有汙染與健康危害之虞，請居民配合救災人員疏散。新竹市災害應變中心035283119]]></description>
+  </entry>
+  <entry>
+    <id>A20180416101500897</id>
+    <title>疏散避難－演習測試</title>
+    <sent>2018-04-16T10:15:01+08:00</sent>
+    <expires>2018-04-16T10:40:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>疏散避難－650巷崩塌</areaDesc>
+      <polygon>24.778897974251823,120.95572741347573 24.778975902647527,120.9781292231687 24.767519903499032,120.97825796920144 24.76740300010049,120.95607073622965 24.77885901003563,120.95572741347573 24.778897974251823,120.95572741347573</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489ba</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試簡訊][疏散避難]107年災害防救演習－因持續降雨，本市明湖路650巷範圍已發生土石崩塌，請東區柴橋里6鄰民眾，立即配合疏散撤離措施。新竹市災害應變中心035283119。</text>
+    <description type="html"><![CDATA[[測試簡訊][疏散避難]107年災害防救演習－因持續降雨，本市明湖路650巷範圍已發生土石崩塌，請東區柴橋里6鄰民眾，立即配合疏散撤離措施。新竹市災害應變中心035283119。]]></description>
+  </entry>
+  <entry>
+    <id>A20180416092439669</id>
+    <title>疏散避難－演習測試</title>
+    <sent>2018-04-16T09:24:40+08:00</sent>
+    <expires>2018-04-16T10:00:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>疏散避難－青草湖積淹水</areaDesc>
+      <polygon>24.784960168830157,120.95287796911477 24.78511601795943,120.98197457250826 24.764308428312678,120.98266121801608 24.763373173859275,120.95184800085303 24.784960168830157,120.95296379980324 24.784960168830157,120.95287796911477</polygon>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489b9</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[測試簡訊][避難疏散]107年災害防救演習－本市東區青草湖附近區域已發生積淹水，請東區湖濱、高峰、明湖、柴橋里民眾，視狀況往高樓層避難。新竹市災害應變中心03－5283119。</text>
+    <description type="html"><![CDATA[[測試簡訊][避難疏散]107年災害防救演習－本市東區青草湖附近區域已發生積淹水，請東區湖濱、高峰、明湖、柴橋里民眾，視狀況往高樓層避難。新竹市災害應變中心03－5283119。]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107078</id>
+    <title>地震</title>
+    <sent>2018-04-15T22:16:06+08:00</sent>
+    <expires>2018-04-15T22:21:01+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10010</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489b8</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]04/15 22:11嘉義縣阿里山鄉發生規模4.0有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>A20180413104219337</id>
+    <title>疏散避難警報</title>
+    <sent>2018-04-13T10:42:20+08:00</sent>
+    <expires>2018-04-13T10:45:00+08:00</expires>
+    <sender>
+      <value>消防署訊息服務平台</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺北市　信義區　新仁里</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>6300200-005</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489b7</link>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <text>[演習測試] [疏散避難]－ 因0413地震影響，建築物有倒塌之虞，請信義區新仁里範圍內民眾，立即疏散，臺北市災害應變中心02－87863119按9。臺北市政府消防局演習測試</text>
+    <description type="html"><![CDATA[[演習測試] [疏散避難]－ 因0413地震影響，建築物有倒塌之虞，請信義區新仁里範圍內民眾，立即疏散，臺北市災害應變中心02－87863119按9。臺北市政府消防局演習測試]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107077</id>
+    <title>地震</title>
+    <sent>2018-04-02T00:06:48+08:00</sent>
+    <expires>2018-04-02T00:11:28+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10007</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18041ea489b6</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]04/02 00:02南投縣水里鄉發生規模4.3有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+</feed>

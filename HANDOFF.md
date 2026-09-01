@@ -4,40 +4,55 @@
 
 ## 當前狀態（2026-09-01）
 
-**功能已完成，測試全過，尚未部署** — 等 user 確認後才首次部署（user 明確要求）。
+站台已部署：**https://notexist.github.io/vscbs/**（repo `NotExist/vscbs`，public）
 
 - 前端完成：最新告警 + 歷史回顧雙模式、清單↔地圖雙向連動、事件類型／日期／關鍵字篩選、網址狀態保存。
-- `npm test`（jsdom smoke test）全數通過，涵蓋載入、篩選、選取、切月、搜尋、網址還原。
-- 資料鏡像腳本與 GitHub Actions workflow 已就緒，**尚未 `git init`、尚未建 remote、尚未部署**。
-- `data/places.json` 的地理編碼**仍在跑**（背景 job，1055 個地名，Nominatim 每秒一次，約需 40–60 分鐘）。
-  未查完的地名會退回縣市層級顯示，功能不受影響。
+- `npm test`（jsdom smoke test）25 項全過。
+- 資料（116 個月彙整 + 最新 feed + `places.json`）已進版本庫，CI 只負責發布。
+- **最新告警目前是手動更新**——自動化方式尚未定案，見下方「下一步」。
+
+## 路上撞到的牆：cbs.tw 擋 GitHub Actions
+
+原訂讓 Actions 每 10 分鐘鏡像資料，實測**行不通**：
+
+- cbs.tw 在 Cloudflare 後面，對 Actions 的 Azure 出口 IP 回 `403` + `cf-mitigated: challenge`
+  （Managed Challenge，「Just a moment...」）。**連首頁都擋，換任何 User-Agent／標頭組合都無效**，
+  已用診斷 workflow 逐一驗證過七種組合。
+- 從台灣的一般網路（sandbox 走 HiNet AS3462）則完全暢通。
+- 上游的 `alerts.ncdr.nat.gov.tw/RSS.aspx` 已下線（302 導向網頁首頁），沒有替代來源。
+
+因此改成：**能連通的機器跑 `scripts/mirror.sh` → commit → push 觸發部署**。
+歷史月彙整寫定後不再變動，進版本庫反而比每次重抓合理；真正需要更新的只有 137KB 的 `rssatomfeed.xml`。
 
 ## 已定案的決策
 
 | 決策 | 理由 |
 | --- | --- |
-| GitHub Pages + Actions 鏡像資料 | cbs.tw 無 CORS，無法純前端直連。此法零第三方依賴，代價是最新資料延遲 10–20 分鐘 |
-| 用 Pages artifact 部署，資料不進版本庫 | 每 10 分鐘 commit 一次 XML 會讓 git 歷史爆掉；改用 Actions 快取保存 62MB 的月彙整 |
-| 地理編碼在建置階段做完 | 瀏覽器不打 Nominatim；結果存 `data/places.json`，唯一進版本庫的資料檔 |
-| Leaflet 內嵌 `vendor/` 而非 CDN | 與鏡像資料同一個理念：站台除了 OSM 圖磚沒有外部依賴 |
+| 資料進版本庫，CI 只發布 | cbs.tw 擋 Actions（見上）。62MB 的歷史月檔是不變資料，進版控是一次性成本 |
+| 地理編碼在建置階段做完 | 約 69% 的告警沒有經緯度，只給行政區代碼加 `areaDesc` 地名。照代碼直譯會讓七成資料疊在 22 個縣市中心 |
+| `placeKey` 去掉所有空白（含全形） | 資料裡「南投縣　信義鄉　神木村」與無空格版本是同一地點，不正規化會讓 169 個村里白白退到鄉鎮層級 |
+| Leaflet 內嵌 `vendor/` 而非 CDN | 站台除了 OSM 圖磚沒有外部依賴 |
 | 只標註 4370／4371 兩個頻道語意 | 其餘代碼（911／919／0）語意無公開明確定義，不臆測，顯示原始代碼 |
+| eventCode 中文名取自資料實際出現的 `<title>` | 不自行翻譯，見 `assets/catalog.js` |
 
 ## 下一步
 
-1. **等 user 確認後首次部署**：`git init` → commit → 建 GitHub repo → push →
-   Settings → Pages → Source 選 GitHub Actions。首次 workflow 要抓 62MB，約數分鐘。
-2. 部署後在真實瀏覽器確認視覺與地圖互動（開發環境無瀏覽器，目前只有 jsdom 層級的驗證）。
+1. **在真實瀏覽器確認視覺與地圖互動**——開發環境無瀏覽器，目前只有 jsdom 層級的驗證。
+2. **決定最新告警的自動更新方式**（三個選項，都需要 user 的資源）：
+   - self-hosted runner：在台灣網路的機器跑 Actions runner，鏡像步驟加回 workflow
+   - 自家 cron：機器上定時 `npm run mirror && git commit && git push`
+   - Cloudflare Worker：定時抓取存 R2／KV，前端改讀 Worker。**能否繞過 Cloudflare 挑戰需實測**
+     （Worker 出口未必落在台灣）；若可行，順帶解決即時性
 
-## 已知限制／可能的後續
+## 已知限制
 
-- **最新告警延遲 10–20 分鐘**（GitHub 排程精度）。要即時就得改用 Cloudflare Worker 反代 cbs.tw 補 CORS
-  標頭，前端只需改 `assets/app.js` 的 `DATA` 常數。這是 user 當初的次選方案，留作升級路徑。
 - **約 1% 的告警只能落到縣市中心**（`areaDesc` 是「地震速報廣播範圍」這類非地名，或 OSM 查無該村里）。
   已在卡片與詳情據實標示，不假裝是實際範圍。
+- 地名座標 931 筆：585 村里 / 311 鄉鎮 / 35 縣市；1055 個地名中 124 個查無，退回縣市中心。
 - 歷史月份單月最多 1436 筆，清單以 120 筆分頁增量渲染；地圖用 canvas renderer 一次畫完篩選結果。
-- GitHub 會停用連續 60 天無 commit 的 repo 排程，屆時需手動觸發一次 workflow。
 
 ## 里程碑
 
-- **2026-09-01** — 專案從零建立：確認 cbs.tw 無 CORS 並選定鏡像方案、解析 55,008 筆歷史告警驗證解析器
-  （零壞資料）、補齊 30 個 eventCode 對照、建立建置期地理編碼、完成前端與 smoke test。
+- **2026-09-01** — 專案從零建立並上線。確認 cbs.tw 無 CORS、解析 55,008 筆歷史告警驗證解析器（零壞資料）、
+  補齊 30 個 eventCode 對照、建立建置期地理編碼（931 筆地名）、完成前端與 25 項 smoke test。
+  首次部署時撞上 Cloudflare 擋 Actions，改成資料進版本庫、CI 只發布。

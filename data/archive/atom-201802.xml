@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>201802</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:22:02+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2018年2月 月彙整]]></description>
+  <entry>
+    <id>20180227-PWS_MESSAGE_CASE1_00000001</id>
+    <title>土石流</title>
+    <sent>2018-02-27T16:04:09+08:00</sent>
+    <expires>2018-02-27T16:05:00+08:00</expires>
+    <sender>
+      <value>災防告警細胞廣播訊息系統營運辦公室</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>Test_Geocode</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09007</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489aa</link>
+    <channel>
+      <value>4380</value>
+    </channel>
+    <text>【災防告警訊息測試】5 家電信業者配合政府政策，聯合進行災防告警訊息發送測試，造成不便，敬請見諒。中華、遠傳、台哥大、台灣之星及亞太電信關心您，並祝新春愉快、吉祥如意！</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107069</id>
+    <title>地震</title>
+    <sent>2018-02-26T02:35:01+08:00</sent>
+    <expires>2018-02-26T02:39:55+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489a9</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/26 02:28臺灣東部海域發生規模5.2有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107067</id>
+    <title>地震</title>
+    <sent>2018-02-22T07:16:58+08:00</sent>
+    <expires>2018-02-22T07:21:53+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10007</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489a8</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/22 07:10臺灣東部海域發生規模5.6有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107066</id>
+    <title>地震</title>
+    <sent>2018-02-19T22:51:36+08:00</sent>
+    <expires>2018-02-19T22:56:30+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10018</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489a7</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/19 22:47宜蘭縣大同鄉發生規模5.3有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107766201</id>
+    <title>強震</title>
+    <sent>2018-02-19T22:47:20+08:00</sent>
+    <expires>2018-02-19T22:50:19+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489a6</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/19 22:47左右東北地區發生有感地震，預估震度臺北市3級，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107063</id>
+    <title>地震</title>
+    <sent>2018-02-14T08:24:56+08:00</sent>
+    <expires>2018-02-14T08:29:50+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489a5</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/14 08:21花蓮縣壽豐鄉發生規模4.0有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107061</id>
+    <title>地震</title>
+    <sent>2018-02-13T08:07:35+08:00</sent>
+    <expires>2018-02-13T08:12:31+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489a4</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/13 08:03花蓮縣吉安鄉發生規模4.0有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107060</id>
+    <title>地震</title>
+    <sent>2018-02-11T15:42:49+08:00</sent>
+    <expires>2018-02-11T15:47:44+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489a3</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/11 15:39花蓮縣吉安鄉發生規模4.2有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107058</id>
+    <title>地震</title>
+    <sent>2018-02-10T02:48:43+08:00</sent>
+    <expires>2018-02-10T02:53:36+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489a2</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/10 02:43臺灣東部海域發生規模4.3有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107057</id>
+    <title>地震</title>
+    <sent>2018-02-09T10:18:15+08:00</sent>
+    <expires>2018-02-09T10:23:11+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489a1</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/09 10:14花蓮縣近海發生規模4.6有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107056</id>
+    <title>地震</title>
+    <sent>2018-02-08T11:18:34+08:00</sent>
+    <expires>2018-02-08T11:23:28+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea489a0</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/08 11:15花蓮縣吉安鄉發生規模4.0有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107055</id>
+    <title>地震</title>
+    <sent>2018-02-08T11:10:22+08:00</sent>
+    <expires>2018-02-08T11:15:16+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4899f</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/08 11:06花蓮縣吉安鄉發生規模4.5有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107054</id>
+    <title>地震</title>
+    <sent>2018-02-08T09:11:02+08:00</sent>
+    <expires>2018-02-08T09:15:55+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4899e</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/08 08:59花蓮縣吉安鄉發生規模4.0有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107053</id>
+    <title>地震</title>
+    <sent>2018-02-08T09:07:35+08:00</sent>
+    <expires>2018-02-08T09:12:30+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4899d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/08 08:54花蓮縣秀林鄉發生規模4.6有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107052</id>
+    <title>地震</title>
+    <sent>2018-02-08T09:00:24+08:00</sent>
+    <expires>2018-02-08T09:05:18+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4899c</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/08 08:54花蓮縣吉安鄉發生規模4.8有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107050</id>
+    <title>地震</title>
+    <sent>2018-02-08T02:48:21+08:00</sent>
+    <expires>2018-02-08T02:53:16+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4899b</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/08 02:43花蓮縣吉安鄉發生規模4.2有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107049</id>
+    <title>地震</title>
+    <sent>2018-02-08T02:05:41+08:00</sent>
+    <expires>2018-02-08T02:10:28+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4899a</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/08 02:02臺灣東部海域發生規模4.2有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107048</id>
+    <title>地震</title>
+    <sent>2018-02-07T23:26:42+08:00</sent>
+    <expires>2018-02-07T23:31:35+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48999</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 23:21臺灣東部海域發生規模5.7有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107742001</id>
+    <title>強震</title>
+    <sent>2018-02-07T23:21:52+08:00</sent>
+    <expires>2018-02-07T23:24:52+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48998</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/07 23:21左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107047</id>
+    <title>地震</title>
+    <sent>2018-02-07T22:22:58+08:00</sent>
+    <expires>2018-02-07T22:27:52+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48997</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 22:19花蓮縣花蓮市發生規模4.1有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107046</id>
+    <title>地震</title>
+    <sent>2018-02-07T21:11:08+08:00</sent>
+    <expires>2018-02-07T21:16:04+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48996</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 21:06花蓮縣近海發生規模4.8有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107043</id>
+    <title>地震</title>
+    <sent>2018-02-07T19:18:17+08:00</sent>
+    <expires>2018-02-07T19:23:11+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48995</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 19:13花蓮縣近海發生規模4.7有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107267301</id>
+    <title>強震</title>
+    <sent>2018-02-07T19:13:29+08:00</sent>
+    <expires>2018-02-07T19:16:28+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48994</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/07 19:13左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107040</id>
+    <title>地震</title>
+    <sent>2018-02-07T12:54:19+08:00</sent>
+    <expires>2018-02-07T12:59:13+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48993</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 12:50花蓮縣近海發生規模4.5有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107039</id>
+    <title>地震</title>
+    <sent>2018-02-07T11:39:24+08:00</sent>
+    <expires>2018-02-07T11:44:20+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48992</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 11:36花蓮縣近海發生規模4.8有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107262901</id>
+    <title>強震</title>
+    <sent>2018-02-07T11:36:42+08:00</sent>
+    <expires>2018-02-07T11:39:42+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48991</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/07 11:36左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107038</id>
+    <title>地震</title>
+    <sent>2018-02-07T10:21:27+08:00</sent>
+    <expires>2018-02-07T10:26:21+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48990</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 10:18花蓮縣近海發生規模4.4有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107037</id>
+    <title>地震</title>
+    <sent>2018-02-07T09:24:28+08:00</sent>
+    <expires>2018-02-07T09:29:23+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4898f</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 09:21花蓮縣近海發生規模4.2有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107036</id>
+    <title>地震</title>
+    <sent>2018-02-07T07:47:43+08:00</sent>
+    <expires>2018-02-07T07:52:36+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4898e</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 07:43花蓮縣近海發生規模4.4有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107035</id>
+    <title>地震</title>
+    <sent>2018-02-07T07:15:19+08:00</sent>
+    <expires>2018-02-07T07:20:12+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4898d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 07:11花蓮縣近海發生規模4.5有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107034</id>
+    <title>地震</title>
+    <sent>2018-02-07T05:07:11+08:00</sent>
+    <expires>2018-02-07T05:12:07+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4898c</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 05:02花蓮縣吉安鄉發生規模4.4有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107033</id>
+    <title>地震</title>
+    <sent>2018-02-07T04:59:52+08:00</sent>
+    <expires>2018-02-07T05:04:47+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4898b</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 04:56花蓮縣近海發生規模4.6有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107032</id>
+    <title>地震</title>
+    <sent>2018-02-07T03:40:53+08:00</sent>
+    <expires>2018-02-07T03:45:45+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4898a</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 03:36臺灣東部海域發生規模4.6有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107031</id>
+    <title>地震</title>
+    <sent>2018-02-07T03:19:27+08:00</sent>
+    <expires>2018-02-07T03:24:23+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48989</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 03:15花蓮縣近海發生規模5.4有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107728701</id>
+    <title>強震</title>
+    <sent>2018-02-07T03:15:53+08:00</sent>
+    <expires>2018-02-07T03:18:53+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48988</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/07 03:15左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107030</id>
+    <title>地震</title>
+    <sent>2018-02-07T02:14:58+08:00</sent>
+    <expires>2018-02-07T02:19:51+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48987</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 02:09花蓮縣近海發生規模4.0有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107029</id>
+    <title>地震</title>
+    <sent>2018-02-07T02:12:30+08:00</sent>
+    <expires>2018-02-07T02:17:23+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48986</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 02:07臺灣東部海域發生規模5.4有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107253701</id>
+    <title>強震</title>
+    <sent>2018-02-07T02:08:02+08:00</sent>
+    <expires>2018-02-07T02:11:01+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48985</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/07 02:07左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107028</id>
+    <title>地震</title>
+    <sent>2018-02-07T02:03:50+08:00</sent>
+    <expires>2018-02-07T02:08:45+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48984</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 02:00花蓮縣近海發生規模5.2有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107253401</id>
+    <title>強震</title>
+    <sent>2018-02-07T02:00:35+08:00</sent>
+    <expires>2018-02-07T02:03:34+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48983</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/07 02:00左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107027</id>
+    <title>地震</title>
+    <sent>2018-02-07T01:53:58+08:00</sent>
+    <expires>2018-02-07T01:58:46+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48982</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 01:50花蓮縣花蓮市發生規模4.1有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107026</id>
+    <title>地震</title>
+    <sent>2018-02-07T00:30:55+08:00</sent>
+    <expires>2018-02-07T00:35:49+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48981</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 00:26花蓮縣新城鄉發生規模4.1有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107025</id>
+    <title>地震</title>
+    <sent>2018-02-07T00:23:03+08:00</sent>
+    <expires>2018-02-07T00:27:52+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48980</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 00:17花蓮縣花蓮市發生規模4.7有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107024</id>
+    <title>地震</title>
+    <sent>2018-02-07T00:19:01+08:00</sent>
+    <expires>2018-02-07T00:23:55+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4897f</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/07 00:13花蓮縣新城鄉發生規模4.0有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107023</id>
+    <title>地震</title>
+    <sent>2018-02-07T00:10:39+08:00</sent>
+    <expires>2018-02-07T00:15:29+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4897e</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/06 23:53花蓮縣花蓮市發生規模5.0有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107022</id>
+    <title>地震</title>
+    <sent>2018-02-06T23:56:12+08:00</sent>
+    <expires>2018-02-07T00:01:07+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>65</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4897d</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/06 23:50花蓮縣近海發生規模6.0有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107721201</id>
+    <title>強震</title>
+    <sent>2018-02-06T23:51:02+08:00</sent>
+    <expires>2018-02-06T23:54:02+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4897c</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/06 23:50左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮、宜蘭、新北、臺北，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107719801</id>
+    <title>強震</title>
+    <sent>2018-02-06T13:09:33+08:00</sent>
+    <expires>2018-02-06T13:12:32+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4897b</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/06 13:09左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107017</id>
+    <title>地震</title>
+    <sent>2018-02-06T00:05:39+08:00</sent>
+    <expires>2018-02-06T00:10:08+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea4897a</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/05 23:58花蓮縣近海發生規模5.0有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107011</id>
+    <title>地震</title>
+    <sent>2018-02-04T22:21:07+08:00</sent>
+    <expires>2018-02-04T22:26:02+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48979</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/04 22:13花蓮縣近海發生規模5.5有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107237401</id>
+    <title>強震</title>
+    <sent>2018-02-04T22:17:17+08:00</sent>
+    <expires>2018-02-04T22:20:17+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48978</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/04 22:16左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107237201</id>
+    <title>強震</title>
+    <sent>2018-02-04T22:13:42+08:00</sent>
+    <expires>2018-02-04T22:16:41+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48976</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/04 22:13左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107008</id>
+    <title>地震</title>
+    <sent>2018-02-04T22:02:31+08:00</sent>
+    <expires>2018-02-04T22:07:15+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48974</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/04 21:56臺灣東部海域發生規模5.8有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107710301</id>
+    <title>強震</title>
+    <sent>2018-02-04T21:57:03+08:00</sent>
+    <expires>2018-02-04T22:00:03+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48973</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/04 21:56左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEQRP_107006</id>
+    <title>地震</title>
+    <sent>2018-02-04T21:18:10+08:00</sent>
+    <expires>2018-02-04T21:23:05+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquake</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震資訊廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48971</link>
+    <channel>
+      <value>911</value>
+    </channel>
+    <text>[地震報告]02/04 21:12花蓮縣近海發生規模5.1有感地震，詳細資訊請參考氣象局網站，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107710101</id>
+    <title>強震</title>
+    <sent>2018-02-04T21:13:14+08:00</sent>
+    <expires>2018-02-04T21:16:14+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18021ea48970</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]02/04 21:12左右花蓮地區發生有感地震，預估震度4級以上地區：花蓮，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+</feed>

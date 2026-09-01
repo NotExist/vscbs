@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
+  <id>201810</id>
+  <title>CBS-ATOM</title>
+  <link ref="alternate" href="https://cbs.tw/files/list.xml"/>
+  <updated>2025-04-25T10:21:44+08:00</updated>
+  <author>
+    <name>NCDR</name>
+  </author>
+  <description type="html"><![CDATA[2018年10月 月彙整]]></description>
+  <entry>
+    <id>cwb.gov.tw_earthquakeEW_107867401</id>
+    <title>強震</title>
+    <sent>2018-10-23T12:35:34+08:00</sent>
+    <expires>2018-10-23T12:38:33+08:00</expires>
+    <sender>
+      <value>中央氣象局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>63</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18101ea4a327</link>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <text>[地震速報]10/23 12:35左右東部海域發生有感地震，預估震度臺北市3級，氣象局。</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+  <entry>
+    <id>20181017-PWS_MESSAGE_CASE1_000000001</id>
+    <title>系統測試</title>
+    <sent>2018-10-17T16:00:04+08:00</sent>
+    <expires>2018-10-17T16:05:00+08:00</expires>
+    <sender>
+      <value>災防告警細胞廣播訊息系統營運辦公室</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>systemTest</value>
+    </eventCode>
+    <area>
+      <areaDesc>Test_Geocode</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>09007</value>
+      </geocode>
+    </area>
+    <link ref="alternate">https://cbs.tw/18101ea4a326</link>
+    <channel>
+      <value>4380</value>
+    </channel>
+    <text>[災防告警訊息測試]每月訊息發送測試,敬請見諒。電信業者共同關心您。Public warning system is testing, please don’t panic.</text>
+    <description type="html"><![CDATA[]]></description>
+  </entry>
+</feed>
