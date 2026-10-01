@@ -185,6 +185,10 @@ function refresh() {
   renderList();
   renderLegend();
   const drawn = map.render(state.view);
+  hoveredId = null;
+  if (state.selected && !state.view.some((e) => e.id === state.selected)) state.selected = null;
+  map.select(state.selected, { fly: false });
+  syncFocus();
   const noGeo = state.view.length - drawn;
   el.summary.textContent = state.entries.length
     ? `${state.view.length} / ${state.entries.length} 筆` + (noGeo ? `・${noGeo} 筆無地理範圍` : '')
@@ -317,6 +321,13 @@ const moreObserver = new IntersectionObserver((rows) => {
   }
 }, { root: el.list, rootMargin: '200px' });
 
+/* ---------- 地圖聚焦 ---------- */
+// 滑過的那筆優先,其次是選取的那筆;兩者皆無才顯示全部結果
+let hoveredId = null;
+function syncFocus() {
+  map.focus(hoveredId || state.selected);
+}
+
 /* ---------- 選取 ---------- */
 function select(id, { fromMap = false, silent = false } = {}) {
   if (state.selected === id && !fromMap && !silent) id = null; // 再點一次收合
@@ -334,6 +345,7 @@ function select(id, { fromMap = false, silent = false } = {}) {
 
   renderList();
   map.select(state.selected, { fly: !!state.selected });
+  syncFocus();
   if (state.selected) {
     const card = el.list.querySelector('.card.is-on');
     card?.scrollIntoView({ block: fromMap ? 'center' : 'nearest', behavior: 'smooth' });
@@ -398,6 +410,24 @@ function bindUI() {
     const card = ev.target.closest('.card');
     if (!card || ev.target.closest('a')) return;
     select(card.dataset.id);
+  });
+
+  el.list.addEventListener('mouseover', (ev) => {
+    const id = ev.target.closest('.card')?.dataset.id || null;
+    if (id === hoveredId) return;
+    hoveredId = id;
+    syncFocus();
+  });
+
+  el.list.addEventListener('mouseleave', () => {
+    hoveredId = null;
+    syncFocus();
+  });
+
+  // 點地圖空白處或按 Esc 取消選取,回到顯示全部
+  map.map.on('click', () => { if (state.selected) select(state.selected); });
+  document.addEventListener('keydown', (ev) => {
+    if (ev.key === 'Escape' && state.selected) select(state.selected);
   });
 
   el.list.addEventListener('keydown', (ev) => {

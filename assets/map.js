@@ -15,9 +15,12 @@ export function createMap(el, { onSelect } = {}) {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map);
 
+  // 平常顯示 group(全部結果);聚焦某一筆時把 group 整個拿下,只把那筆的圖層放進 focusGroup
   const group = L.layerGroup().addTo(map);
+  const focusGroup = L.layerGroup();
   let byId = new Map(); // id → { layers, bounds }
   let selectedId = null;
+  let focusedId = null;
 
   const baseStyle = (color, approx) => ({
     color,
@@ -47,6 +50,7 @@ export function createMap(el, { onSelect } = {}) {
   }
 
   function render(entries) {
+    focus(null);
     group.clearLayers();
     byId = new Map();
     selectedId = null;
@@ -71,7 +75,10 @@ export function createMap(el, { onSelect } = {}) {
         if (!layer) continue;
         layer.setStyle(baseStyle(color, entry.center.approx));
         layer.bindTooltip(`${entry.title}${area.desc ? ` — ${area.desc}` : ''}`, { sticky: true });
-        layer.on('click', () => onSelect?.(entry.id));
+        layer.on('click', (ev) => {
+          L.DomEvent.stopPropagation(ev); // 別讓地圖本身的 click 把選取清掉
+          onSelect?.(entry.id);
+        });
         layers.push(layer);
         group.addLayer(layer);
       }
@@ -111,7 +118,28 @@ export function createMap(el, { onSelect } = {}) {
     else map.setView(TAIWAN_VIEW.center, TAIWAN_VIEW.zoom);
   }
 
+  // 只留下指定那一筆的圖層;id 為 null 時恢復顯示全部
+  function focus(id) {
+    const rec = id ? byId.get(id) : null;
+    const next = rec ? id : null;
+    if (next === focusedId) return;
+    focusedId = next;
+    focusGroup.clearLayers();
+    if (rec) {
+      map.removeLayer(group);
+      for (const layer of rec.layers) focusGroup.addLayer(layer);
+      if (!map.hasLayer(focusGroup)) map.addLayer(focusGroup);
+    } else {
+      map.removeLayer(focusGroup);
+      if (!map.hasLayer(group)) map.addLayer(group);
+    }
+  }
+
   const has = (id) => byId.has(id);
 
-  return { map, render, select, fitAll, has, invalidate: () => map.invalidateSize() };
+  return {
+    map, render, select, focus, fitAll, has,
+    focused: () => focusedId,
+    invalidate: () => map.invalidateSize(),
+  };
 }

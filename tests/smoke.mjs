@@ -21,12 +21,25 @@ const bounds = () => ({
   getNorthEast: () => [25.3, 122.0],
 });
 const shape = () => ({ setStyle() {}, on() {}, bindTooltip() {}, bringToFront() {}, getBounds: bounds });
+// 圖層群組記下自己有哪些圖層、是否在地圖上,用來驗證「聚焦時只留該筆」
+const onMap = new Set();
+const groups = [];
+const group = () => {
+  const g = { layers: new Set(),
+    addTo() { onMap.add(this); return this; },
+    clearLayers() { this.layers.clear(); }, addLayer(l) { this.layers.add(l); } };
+  groups.push(g);
+  return g;
+};
+const visibleLayers = () => [...onMap].reduce((n, g) => n + g.layers.size, 0);
 window.L = {
-  map: () => ({ setView() { return this; }, flyToBounds() {}, fitBounds() {}, invalidateSize() {} }),
+  map: () => ({ setView() { return this; }, flyToBounds() {}, fitBounds() {}, invalidateSize() {}, on() {},
+    addLayer(g) { onMap.add(g); }, removeLayer(g) { onMap.delete(g); }, hasLayer: (g) => onMap.has(g) }),
   tileLayer: () => ({ addTo() { return this; } }),
-  layerGroup: () => ({ addTo() { return this; }, clearLayers() {}, addLayer() {} }),
+  layerGroup: group,
   circle: shape, polygon: shape, circleMarker: () => ({ ...shape(), getLatLng: () => [0, 0] }),
   latLngBounds: bounds,
+  DomEvent: { stopPropagation() {} },
 };
 
 // --- 用檔案系統當 fetch ---
@@ -73,6 +86,27 @@ await new Promise((r) => setTimeout(r, 50));
 check($$('.card.is-on').length === 1, '恰好一張卡片被選取');
 check($('.card.is-on .detail') !== null, '選取後展開詳情');
 check(window.location.hash.includes('id='), `網址帶上 id:${window.location.hash.slice(0, 60)}`);
+
+console.log('\n[地圖聚焦]');
+// 先收合選取,確認顯示全部
+$('.card.is-on').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+await new Promise((r) => setTimeout(r, 50));
+const allCount = visibleLayers();
+check(allCount > 10, `未聚焦時地圖顯示全部 ${allCount} 個圖層`);
+const hoverCard = $$('.card')[2];
+hoverCard.dispatchEvent(new window.MouseEvent('mouseover', { bubbles: true }));
+const hoverCount = visibleLayers();
+check(hoverCount > 0 && hoverCount < allCount, `滑過一筆後只剩 ${hoverCount} 個圖層`);
+$('#list').dispatchEvent(new window.MouseEvent('mouseleave'));
+check(visibleLayers() === allCount, '滑出清單後恢復全部');
+hoverCard.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+await new Promise((r) => setTimeout(r, 50));
+check(visibleLayers() === hoverCount, '選取後地圖只留該筆');
+$('#list').dispatchEvent(new window.MouseEvent('mouseleave'));
+check(visibleLayers() === hoverCount, '選取中滑出清單,仍只留選取那筆');
+window.document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape' }));
+await new Promise((r) => setTimeout(r, 50));
+check(visibleLayers() === allCount && !$('.card.is-on'), 'Esc 取消選取並恢復全部');
 
 console.log('\n[事件類型篩選]');
 const chip = $('.chip');
