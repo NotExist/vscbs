@@ -2,10 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
   <id>CBS-Season-Data</id>
   <title>彙整資料</title>
-  <updated>2026-09-01T00:00:01+08:00</updated>
+  <updated>2026-10-05T00:00:02+08:00</updated>
   <author>
     <name>NCDR</name>
   </author>
+  <entry>
+    <id>202609</id>
+    <title>2026年9月彙整資料</title>
+    <updated>2026-10-01T00:00:01+08:00</updated>
+    <author>
+      <name>NCDR</name>
+    </author>
+    <link ref="alternate" href="https://cbs.tw/files/atom-202609.xml"/>
+  </entry>
   <entry>
     <id>202608</id>
     <title>2026年8月彙整資料</title>
