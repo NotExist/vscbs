@@ -53,18 +53,39 @@ CAP 訊息的 `<area>` 有三種寫法，精度差很多，介面上會據實標
 瀏覽器只查表，不打任何地理編碼服務。查詢只接受 `boundary/administrative` 且地址確實包含指定縣市／鄉鎮的結果，
 村里查不到時退到鄉鎮、再退到縣市，並把實際命中的層級記在表裡供介面標示。
 
+### 什麼會重查、什麼不會
+
+`npm run geocode` 只查 `places.json` 裡**還沒有**的鍵，因此：
+
+| 情況 | 會不會重查 | 影響 |
+| --- | --- | --- |
+| 完全查無、但格式是「縣市＋鄉鎮＋村里」的真地名 | 每次都重查 | OSM 日後補上就會自動命中 |
+| `areaDesc` 不是行政區名（「地震資訊廣播範圍」「發布區域1」「北部」「馬祖」等） | 不送查詢 | 解析不出縣市／鄉鎮／村里結構，直接跳過，不耗 Nominatim 額度；前端退回縣市中心。目前 74 個 |
+| 村里查不到、**已退到鄉鎮層級存入表中** | **不會**重查 | OSM 日後補上該村里界線也**不會自動升級**。目前 161 個（如桃源區各里） |
+
+想讓第三類升級成村里層級，刪掉表中「層級為 `town` 但鍵以村／里結尾」的條目再重跑：
+
+```sh
+node -e '
+const fs = require("fs"), p = "data/places.json", t = JSON.parse(fs.readFileSync(p));
+for (const [k, v] of Object.entries(t)) if (v[2] === "town" && /[村里]$/.test(k)) delete t[k];
+fs.writeFileSync(p, JSON.stringify(t, Object.keys(t).sort()) + "\n");'
+npm run geocode      # 161 個約需 3–6 分鐘(每個最多兩次查詢,每秒一次)
+```
+
+仍查不到的會照舊退回鄉鎮層級，不會比原本差。
+
 ## 本地開發
 
 ```sh
 npm install          # 只有 jsdom,供測試用;網站本身沒有建置步驟
-npm run mirror       # 抓來源檔到 data/(首次約 62MB / 116 個月檔)
+npm run mirror       # 抓來源檔到 data/(需能連通 cbs.tw;已有的月檔只補缺漏)
 npm run geocode      # 補齊 data/places.json 的地名座標(遵守 Nominatim 每秒一次)
 npm test             # 在 jsdom 裡把整個頁面跑一遍
 npm run serve        # http://localhost:8080
 ```
 
-`data/` 的 XML 不進版本庫（由 CI 鏡像並快取），只有 `data/places.json` 例外——
-它是地理編碼的種子，少了它每次快取失效都得對 Nominatim 重查上千次。
+`data/` 整個進版本庫（原因見〈資料怎麼進來〉），更新資料就是跑完上面三步後 commit、push。
 
 ## 部署
 
