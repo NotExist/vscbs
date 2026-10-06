@@ -2,13 +2,14 @@
 
 > 單一事實來源。每次 recap／session 收尾就地更新本檔。
 
-## 當前狀態（2026-09-01）
+## 當前狀態（2026-10-06）
 
 站台已部署：**https://notexist.github.io/vscbs/**（repo `NotExist/vscbs`，public）
 
 - 前端完成：最新告警 + 歷史回顧雙模式、清單↔地圖雙向連動（滑過或選取時地圖只留該筆，Esc／點地圖空白處取消）、事件類型／日期／關鍵字篩選、網址狀態保存。
 - `npm test`（jsdom smoke test）31 項全過。
-- 資料（116 個月彙整 + 最新 feed + `places.json`）已進版本庫，CI 只負責發布。
+- 資料（117 個月彙整，至 2026-09 + 最新 feed + `places.json`）已進版本庫，CI 只負責發布。
+- 清單滑過或選取時，地圖只留該筆圖層（`6edcb78`）；Esc 或點地圖空白處取消選取。
 - **最新告警目前是手動更新**——自動化方式尚未定案，見下方「下一步」。
 
 ## 路上撞到的牆：cbs.tw 擋 GitHub Actions
@@ -18,7 +19,8 @@
 - cbs.tw 在 Cloudflare 後面，對 Actions 的 Azure 出口 IP 回 `403` + `cf-mitigated: challenge`
   （Managed Challenge，「Just a moment...」）。**連首頁都擋，換任何 User-Agent／標頭組合都無效**，
   已用診斷 workflow 逐一驗證過七種組合。
-- 從台灣的一般網路（sandbox 走 HiNet AS3462）則完全暢通。
+- 從台灣的一般網路（sandbox 走 HiNet AS3462）則 GET 暢通。
+- **2026-10 起 cbs.tw 連台灣網路的 HEAD 請求也回 403**（GET 仍 200）。日後若要靠 `Last-Modified` 判斷是否更新，得用 GET 或條件式 GET，不能用 HEAD。
 - 上游的 `alerts.ncdr.nat.gov.tw/RSS.aspx` 已下線（302 導向網頁首頁），沒有替代來源。
 
 因此改成：**能連通的機器跑 `scripts/mirror.sh` → commit → push 觸發部署**。
@@ -57,3 +59,4 @@
   補齊 30 個 eventCode 對照、建立建置期地理編碼（931 筆地名）、完成前端與 25 項 smoke test。
   首次部署時撞上 Cloudflare 擋 Actions，改成資料進版本庫、CI 只發布。
 - **2026-10-01** — 依 user 回饋：清單滑過或選取時，地圖只顯示該筆的圖層。
+- **2026-10-06** — 補入 2026-09 彙整（141 筆）並更新最新告警；8 月彙整與伺服器比對無變動，9 月無新地名。
