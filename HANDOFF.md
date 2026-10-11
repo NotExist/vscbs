@@ -34,7 +34,8 @@
 | 決策 | 理由 |
 | --- | --- |
 | 資料進版本庫，排程抓到新資料才 commit | 歷史月檔是不變資料，進版控是一次性成本；每小時最多一個小 commit，不必靠 Actions 快取 |
-| 抓取用 curl_cffi，不用 FlareSolverr | 見上；FlareSolverr 只在 curl_cffi 失效時才值得當後備（屆時用 `docker run` 按需啟動，不用 `services:`） |
+| 抓取用 curl_cffi，FlareSolverr 只當後備 | curl_cffi 失敗才 `docker run` 起 FlareSolverr（不用 `services:`，平常不拉 image）。2026-10-11 以 `fallback_test=compare/simulate` 實測：FlareSolverr 取回的 XML 位元組差 1 byte、C14N 相同、`parse.js` 解析結果完全一致；模擬失敗時後備正確接手且判定無變動 |
+| concurrency 設在 job 層（update / pages 各一組） | 同組只保留一個排隊中的 run，新的取消舊的；整個 workflow 共用一組會讓排程取消排隊中的 push 部署（實測時 simulate 就取消了 compare） |
 | 排程每小時（`23 * * * *`） | user 認定每小時足夠；避開整點的排程擁擠 |
 | 地理編碼在建置階段做完 | 約 69% 的告警沒有經緯度，只給行政區代碼加 `areaDesc` 地名。照代碼直譯會讓七成資料疊在 22 個縣市中心 |
 | `placeKey` 去掉所有空白（含全形） | 資料裡「南投縣　信義鄉　神木村」與無空格版本是同一地點，不正規化會讓 169 個村里白白退到鄉鎮層級 |
@@ -66,3 +67,4 @@
 - **2026-10-01** — 依 user 回饋：清單滑過或選取時，地圖只顯示該筆的圖層。
 - **2026-10-06** — 補入 2026-09 彙整（141 筆）並更新最新告警；8 月彙整與伺服器比對無變動，9 月無新地名。
 - **2026-10-11** — 推翻「cbs.tw 依 IP 擋 Actions」的判斷：實為 TLS 指紋。改用 curl_cffi，Actions 每小時自動抓取並部署。
+- **2026-10-11** — 加入 FlareSolverr 後備並實測 compare／simulate 兩種模式通過；concurrency 改為 job 層。

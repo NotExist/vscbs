@@ -22,6 +22,11 @@ cbs.tw 掛在 Cloudflare 後面，會依 **TLS／HTTP2 指紋**判斷客戶端�
 模仿 Chrome 的指紋，抓到的內容與一般 curl 逐位元相同。這樣從 GitHub Actions 也能直接抓，不需要
 headless 瀏覽器。另外 cbs.tw 也擋 HEAD 請求，一律只用 GET。
 
+**後備**：curl_cffi 失敗時，workflow 才臨時 `docker run` 一個 [FlareSolverr](https://github.com/FlareSolverr/FlareSolverr)
+（真的 Chrome）重抓並發出 warning，平常不拉 image。它取回的是 Chrome 重新序列化的 XML：位元組不同，
+但 C14N 相同、`parse.js` 解析結果完全一致，因此這條路改以 C14N 判斷有無變動，不會造成空 commit。
+可在 Actions 手動觸發時選 `fallback_test`：`compare`（兩路比對）或 `simulate`（模擬 curl_cffi 失敗），兩者都不 commit、不部署。
+
 `.github/workflows/deploy.yml` 每小時執行一次：
 
 1. `npm run mirror` 抓 `list.xml`、`rssatomfeed.xml` 與當月／上月彙整（其餘月份已在版本庫，只補缺漏），共約 4 個請求。
