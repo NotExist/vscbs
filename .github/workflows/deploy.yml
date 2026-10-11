@@ -2,6 +2,7 @@ name: 更新資料並部署到 GitHub Pages
 
 # cbs.tw 的 Cloudflare 依 TLS/HTTP2 指紋擋非瀏覽器客戶端(curl 換任何 UA 都 403),
 # 因此抓取用 curl_cffi 模仿 Chrome 指紋,從 Actions 即可直接取得。
+# curl_cffi 失敗時才臨時起 FlareSolverr(真 Chrome)當後備,平常不拉 image。
 # data/ 進版本庫:排程抓到新資料就 commit 回 main,再部署。
 on:
   schedule:
@@ -9,6 +10,15 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      fallback_test:
+        description: 'FlareSolverr 後備測試(測試模式不 commit、不部署)'
+        type: choice
+        default: none
+        options:
+          - none        # 一般更新
+          - compare     # 另經 FlareSolverr 抓一份,與 curl_cffi 版本比對
+          - simulate    # 讓 curl_cffi 步驟刻意失敗,走一次真正的後備路徑
 
 concurrency:
   group: pages
@@ -29,19 +39,72 @@ jobs:
         with:
           node-version: '22'
       - uses: astral-sh/setup-uv@v6
+      - run: npm ci --silent
 
-      - name: 抓取 cbs.tw
-        run: npm run mirror
+      - name: 抓取 cbs.tw(curl_cffi)
+        id: cffi
+        continue-on-error: true
+        run: |
+          if [ "${{ inputs.fallback_test }}" = simulate ]; then echo "模擬 curl_cffi 失敗"; exit 1; fi
+          npm run mirror
+
+      - name: 啟動 FlareSolverr
+        if: steps.cffi.outcome == 'failure' || inputs.fallback_test == 'compare'
+        run: |
+          docker run -d --name flaresolverr -p 8191:8191 ghcr.io/flaresolverr/flaresolverr:latest
+          for i in $(seq 90); do curl -sf http://localhost:8191/ >/dev/null && { echo "就緒(${i}s)"; exit 0; }; sleep 1; done
+          docker logs flaresolverr | tail -20; exit 1
+
+      - name: 後備:經 FlareSolverr 抓取
+        if: steps.cffi.outcome == 'failure'
+        env:
+          FLARESOLVERR_URL: http://localhost:8191/v1
+        run: |
+          echo "::warning::curl_cffi 抓取失敗,改用 FlareSolverr 後備。若持續發生,代表 Cloudflare 規則有變。"
+          npm run mirror | tee fs.log
+          git status --short data
+
+      # 驗證模式:複製一份 data/ 到 _fs/,強制經 FlareSolverr 重抓,檢查三件事:
+      # 1) 內容與 curl_cffi 版本 C14N 相同  2) mirror.py 判定為「沒有變動」(不會造成空 commit)
+      # 3) 前端的 parse.js 解析結果與原版一致
+      - name: 驗證 FlareSolverr 後備
+        if: inputs.fallback_test == 'compare'
+        env:
+          FLARESOLVERR_URL: http://localhost:8191/v1
+        run: |
+          rm -rf _fs && cp -r data _fs
+          uv run --with "curl_cffi>=0.16" scripts/mirror.py _fs | tee fs.log
+          grep -q '變動 0 個檔案' fs.log && echo "✅ mirror.py 判定無變動,不會產生空 commit" || echo "⚠️ mirror.py 判定有變動(可能是兩次抓取之間來源真的更新,或正規化不足)"
+          uv run --with "curl_cffi>=0.16" python - <<'PY2'
+          import sys
+          sys.path.insert(0, 'scripts')
+          import mirror  # FLARESOLVERR_URL 已由 step env 帶入
+          for name in ['list.xml', 'rssatomfeed.xml', 'atom-202609.xml']:
+              raw, fs = mirror.fetch_cffi(name), mirror.fetch_flaresolverr(name)
+              same_c14n = mirror.canonical(raw) == mirror.canonical(fs)
+              print(f'{name:18s} 位元組相同={raw == fs!s:5s} C14N相同={same_c14n!s:5s} raw={len(raw)}B fs={len(fs)}B')
+          PY2
+          node --input-type=module -e "
+          import { JSDOM } from 'jsdom'; import fs from 'node:fs';
+          globalThis.DOMParser = new JSDOM('').window.DOMParser;
+          const { parseFeed } = await import('./assets/parse.js');
+          for (const f of ['rssatomfeed.xml', 'archive/atom-202609.xml']) {
+            const a = parseFeed(fs.readFileSync('data/' + f, 'utf8'));
+            const b = parseFeed(fs.readFileSync('_fs/' + f, 'utf8'));
+            const same = JSON.stringify(a) === JSON.stringify(b);
+            console.log(f.padEnd(26), 'parse.js 筆數', a.length, '/', b.length, '解析結果完全相同=' + same);
+          }"
 
       # 只有行政區代碼的告警靠地名定位;每次補查少量新地名,對 Nominatim 保持禮貌
       - name: 補查新地名座標
         run: node scripts/geocode-places.mjs --limit=30
 
       - name: 驗證解析與介面
-        run: npm ci --silent && npm test
+        run: npm test
 
       - name: 有變動才 commit 回 main
         id: commit
+        if: inputs.fallback_test == 'none' || inputs.fallback_test == ''
         run: |
           if git diff --quiet -- data && [ -z "$(git ls-files --others --exclude-standard data)" ]; then
             echo "資料沒有變動"; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0
@@ -58,7 +121,9 @@ jobs:
   deploy:
     needs: update
     # update 被略過(push 觸發)也要部署;排程則只在資料有變時部署
-    if: always() && (github.event_name == 'push' || needs.update.outputs.changed == 'true' || github.event_name == 'workflow_dispatch')
+    if: >-
+      always() && (github.event_name == 'push' || needs.update.outputs.changed == 'true'
+      || (github.event_name == 'workflow_dispatch' && inputs.fallback_test == 'none'))
     runs-on: ubuntu-latest
     permissions:
       contents: read
