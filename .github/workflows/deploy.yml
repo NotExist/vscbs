@@ -20,15 +20,16 @@ on:
           - compare     # 另經 FlareSolverr 抓一份,與 curl_cffi 版本比對
           - simulate    # 讓 curl_cffi 步驟刻意失敗,走一次真正的後備路徑
 
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
 jobs:
   update:
     # push 觸發代表程式碼有改,資料沿用版本庫內的即可,不必抓
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
+    # concurrency 設在 job 層:同一 group 只保留一個排隊中的 run,新的會取消舊的。
+    # 若整個 workflow 共用一組,排程會把排隊中的 push 部署取消掉;分開後同組只會是同性質的工作。
+    concurrency:
+      group: update
+      cancel-in-progress: false
     permissions:
       contents: write
     outputs:
@@ -125,6 +126,10 @@ jobs:
       always() && (github.event_name == 'push' || needs.update.outputs.changed == 'true'
       || (github.event_name == 'workflow_dispatch' && inputs.fallback_test == 'none'))
     runs-on: ubuntu-latest
+    # 排隊中的部署被較新的取代無妨:部署一律 checkout main 最新版
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     permissions:
       contents: read
       pages: write
