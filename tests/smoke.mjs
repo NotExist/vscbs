@@ -76,7 +76,7 @@ check(cards.length > 0, `清單渲染出 ${cards.length} 張卡片`);
 check($$('.chip').length > 0, `事件類型 chips ${$$('.chip').length} 個`);
 check(/\d+ \/ \d+ 筆/.test($('#summary').textContent), `摘要文字「${$('#summary').textContent}」`);
 check($('#legend').children.length > 0, `圖例 ${$('#legend').children.length} 項`);
-check($('#mirror-time').textContent.includes('鏡像於'), `鏡像時間「${$('#mirror-time').textContent}」`);
+check($('#mirror-time').textContent.includes('資料更新於'), `資料更新時間「${$('#mirror-time').textContent}」`);
 check($('#month-select').options.length > 100, `月份選單 ${$('#month-select').options.length} 個月`);
 
 console.log('\n[選取一筆]');

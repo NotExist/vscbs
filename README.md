@@ -17,22 +17,21 @@
 cbs.tw 的回應**沒有 `Access-Control-Allow-Origin` 標頭**，而且帶 `cross-origin-resource-policy: same-site`，
 瀏覽器無法從別的網域直接 `fetch` 它的 XML。所以資料必須先鏡像成同源檔案。
 
-鏡像**不能**在 GitHub Actions 做：cbs.tw 掛在 Cloudflare 後面，對 Actions 的 Azure 出口 IP 一律回
-Managed Challenge（`403` + `cf-mitigated: challenge`），連首頁都擋，換任何 User-Agent 都無效。
-從台灣的一般網路（例如 HiNet）則暢通。
+cbs.tw 掛在 Cloudflare 後面，會依 **TLS／HTTP2 指紋**判斷客戶端是不是瀏覽器：curl 的握手特徵一看就不是，
+換任何 User-Agent 都回 `403`。`scripts/mirror.py` 因此用 [curl_cffi](https://github.com/lexiforest/curl_cffi)
+模仿 Chrome 的指紋，抓到的內容與一般 curl 逐位元相同。這樣從 GitHub Actions 也能直接抓，不需要
+headless 瀏覽器。另外 cbs.tw 也擋 HEAD 請求，一律只用 GET。
 
-因此分工是：
+`.github/workflows/deploy.yml` 每小時執行一次：
 
-| 工作 | 在哪裡做 | 頻率 |
-| --- | --- | --- |
-| `scripts/mirror.sh` 抓來源檔 | 能連通 cbs.tw 的機器 | 想更新最新告警時 |
-| `scripts/geocode-places.mjs` 補地名座標 | 同上 | 出現新地名時 |
-| 建置與發布 | GitHub Actions（`push` 觸發） | 每次 commit |
+1. `npm run mirror` 抓 `list.xml`、`rssatomfeed.xml` 與當月／上月彙整（其餘月份已在版本庫，只補缺漏），共約 4 個請求。
+2. 補查新地名座標、跑 `npm test`。
+3. **資料有變才** commit 回 `main` 並部署；沒變就結束，不產生空 commit 或空部署。
 
-`data/` 因此**進版本庫**。這其實比每次重抓合理：116 個歷史月彙整（62MB）寫定後就不再變動，
-真正需要更新的只有 137KB 的 `rssatomfeed.xml`。
+`data/` 因此**進版本庫**。116 個以上的歷史月彙整（60 多 MB）寫定後就不再變動，進版控是一次性成本；
+之後每小時最多新增一個小 commit（主要是幾十 KB 的 `rssatomfeed.xml`）。
 
-更新最新告警的流程就是在能連通的機器上：
+本地手動更新：
 
 ```sh
 npm run mirror && npm run geocode && npm test
@@ -79,7 +78,7 @@ npm run geocode      # 161 個約需 3–6 分鐘(每個最多兩次查詢,每�
 
 ```sh
 npm install          # 只有 jsdom,供測試用;網站本身沒有建置步驟
-npm run mirror       # 抓來源檔到 data/(需能連通 cbs.tw;已有的月檔只補缺漏)
+npm run mirror       # 抓來源檔到 data/(uv + curl_cffi;已有的月檔只補缺漏)
 npm run geocode      # 補齊 data/places.json 的地名座標(遵守 Nominatim 每秒一次)
 npm test             # 在 jsdom 裡把整個頁面跑一遍
 npm run serve        # http://localhost:8080
@@ -91,14 +90,10 @@ npm run serve        # http://localhost:8080
 
 **Settings → Pages → Source** 選 **GitHub Actions**，之後每次 push 到 `main` 就會發布。
 
-### 想讓最新告警自動更新
+排程每小時自動更新一次（見〈資料怎麼進來〉），也可以在 Actions 頁面手動觸發。
 
-目前最新告警是手動 push 更新的。要自動化，得讓抓取跑在**連得到 cbs.tw 的地方**，可能的做法：
-
-- **self-hosted runner** — 在自己（台灣網路）的機器上跑 Actions runner，把鏡像步驟加回 workflow 並指定 `runs-on: self-hosted`。
-- **自家 cron** — 機器上定時跑 `npm run mirror && git commit -am … && git push`，push 即觸發部署。
-- **Cloudflare Worker** — 由 Worker 定時抓取並存進 R2／KV，前端改讀 Worker。
-  能不能繞過 Cloudflare 的挑戰需要實測（Worker 的出口未必落在台灣）。
+> GitHub 會停用連續 60 天沒有活動的 repo 排程。排程本身有新資料就會 commit，一般不會觸發；
+> 若 cbs.tw 長時間沒有新告警，屆時需手動觸發一次 workflow 恢復。
 
 ## 授權與出處
 

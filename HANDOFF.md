@@ -2,35 +2,40 @@
 
 > 單一事實來源。每次 recap／session 收尾就地更新本檔。
 
-## 當前狀態（2026-10-06）
+## 當前狀態（2026-10-11）
 
 站台已部署：**https://notexist.github.io/vscbs/**（repo `NotExist/vscbs`，public）
 
 - 前端完成：最新告警 + 歷史回顧雙模式、清單↔地圖雙向連動（滑過或選取時地圖只留該筆，Esc／點地圖空白處取消）、事件類型／日期／關鍵字篩選、網址狀態保存。
 - `npm test`（jsdom smoke test）31 項全過。
-- 資料（117 個月彙整，至 2026-09 + 最新 feed + `places.json`）已進版本庫，CI 只負責發布。
-- 清單滑過或選取時，地圖只留該筆圖層（`6edcb78`）；Esc 或點地圖空白處取消選取。
-- **最新告警目前是手動更新**——自動化方式尚未定案，見下方「下一步」。
+- 資料（117 個月彙整，至 2026-09 + 最新 feed + `places.json`）進版本庫。
+- **Actions 每小時自動抓取**（`scripts/mirror.py`，curl_cffi 模仿 Chrome TLS 指紋），有變才 commit 回 `main` 並部署。
 
-## 路上撞到的牆：cbs.tw 擋 GitHub Actions
+## 路上撞到的牆：cbs.tw 擋非瀏覽器客戶端
 
-原訂讓 Actions 每 10 分鐘鏡像資料，實測**行不通**：
+- **2026-09-01**：首次部署時 Actions 抓 cbs.tw 一律 `403` + `cf-mitigated: challenge`，七種 UA／標頭組合全敗，
+  sandbox（HiNet）卻暢通，當時**誤判為依出口 IP／ASN 擋 Actions**，改成資料手動更新、CI 只發布。
+- **2026-10-11 推翻**：在 Actions 上以診斷分支實測三輪（同一台 Azure runner、同一 IP），結果完全一致：
 
-- cbs.tw 在 Cloudflare 後面，對 Actions 的 Azure 出口 IP 回 `403` + `cf-mitigated: challenge`
-  （Managed Challenge，「Just a moment...」）。**連首頁都擋，換任何 User-Agent／標頭組合都無效**，
-  已用診斷 workflow 逐一驗證過七種組合。
-- 從台灣的一般網路（sandbox 走 HiNet AS3462）則 GET 暢通。
-- **2026-10 起 cbs.tw 連台灣網路的 HEAD 請求也回 403**（GET 仍 200）。日後若要靠 `Last-Modified` 判斷是否更新，得用 GET 或條件式 GET，不能用 HEAD。
+  | 方式 | rssatomfeed | list | atom-202609 |
+  | --- | --- | --- | --- |
+  | curl + Chrome UA | 200 | 403 | 403 |
+  | curl_cffi（模仿 Chrome TLS 指紋） | 200 | 200 | 200 |
+  | FlareSolverr `request.get`（真 Chrome） | 200 | 200 | 200 |
+
+  FlareSolverr 每次回 `Challenge not detected!`，**真 Chrome 根本沒被挑戰**、也沒有 `cf_clearance` 可拿。
+  所以判斷依據是 **TLS／HTTP2 指紋**，不是 IP。選 curl_cffi：不需 Chrome、數秒完成、內容與 curl 逐位元相同
+  （已在 sandbox 比對三個檔案）；FlareSolverr 回傳的是 Chrome 重新序列化的 XML，非逐位元相同，且每次要拉數百 MB 的 image。
+- cbs.tw **也擋 HEAD**（GET 才 200），一律用 GET。
 - 上游的 `alerts.ncdr.nat.gov.tw/RSS.aspx` 已下線（302 導向網頁首頁），沒有替代來源。
-
-因此改成：**能連通的機器跑 `scripts/mirror.sh` → commit → push 觸發部署**。
-歷史月彙整寫定後不再變動，進版本庫反而比每次重抓合理；真正需要更新的只有 137KB 的 `rssatomfeed.xml`。
 
 ## 已定案的決策
 
 | 決策 | 理由 |
 | --- | --- |
-| 資料進版本庫，CI 只發布 | cbs.tw 擋 Actions（見上）。62MB 的歷史月檔是不變資料，進版控是一次性成本 |
+| 資料進版本庫，排程抓到新資料才 commit | 歷史月檔是不變資料，進版控是一次性成本；每小時最多一個小 commit，不必靠 Actions 快取 |
+| 抓取用 curl_cffi，不用 FlareSolverr | 見上；FlareSolverr 只在 curl_cffi 失效時才值得當後備（屆時用 `docker run` 按需啟動，不用 `services:`） |
+| 排程每小時（`23 * * * *`） | user 認定每小時足夠；避開整點的排程擁擠 |
 | 地理編碼在建置階段做完 | 約 69% 的告警沒有經緯度，只給行政區代碼加 `areaDesc` 地名。照代碼直譯會讓七成資料疊在 22 個縣市中心 |
 | `placeKey` 去掉所有空白（含全形） | 資料裡「南投縣　信義鄉　神木村」與無空格版本是同一地點，不正規化會讓 169 個村里白白退到鄉鎮層級 |
 | Leaflet 內嵌 `vendor/` 而非 CDN | 站台除了 OSM 圖磚沒有外部依賴 |
@@ -40,11 +45,8 @@
 ## 下一步
 
 1. **在真實瀏覽器確認視覺與地圖互動**——開發環境無瀏覽器，目前只有 jsdom 層級的驗證。
-2. **決定最新告警的自動更新方式**（三個選項，都需要 user 的資源）：
-   - self-hosted runner：在台灣網路的機器跑 Actions runner，鏡像步驟加回 workflow
-   - 自家 cron：機器上定時 `npm run mirror && git commit && git push`
-   - Cloudflare Worker：定時抓取存 R2／KV，前端改讀 Worker。**能否繞過 Cloudflare 挑戰需實測**
-     （Worker 出口未必落在台灣）；若可行，順帶解決即時性
+2. **觀察排程穩定度**：curl_cffi 的實測只在單一 runner、短時間內做過。若日後 Cloudflare 規則改變導致失敗，
+   workflow 會在「抓取 cbs.tw」步驟紅燈（`mirror.py` 抓不到合法 XML 即非零退出），不會靜默停更。
 
 ## 已知限制
 
@@ -63,3 +65,4 @@
   首次部署時撞上 Cloudflare 擋 Actions，改成資料進版本庫、CI 只發布。
 - **2026-10-01** — 依 user 回饋：清單滑過或選取時，地圖只顯示該筆的圖層。
 - **2026-10-06** — 補入 2026-09 彙整（141 筆）並更新最新告警；8 月彙整與伺服器比對無變動，9 月無新地名。
+- **2026-10-11** — 推翻「cbs.tw 依 IP 擋 Actions」的判斷：實為 TLS 指紋。改用 curl_cffi，Actions 每小時自動抓取並部署。

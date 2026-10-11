@@ -1,30 +1,76 @@
-name: 部署到 GitHub Pages
+name: 更新資料並部署到 GitHub Pages
 
-# 這裡刻意不抓 cbs.tw:它掛在 Cloudflare 後面,對 GitHub Actions 的 Azure 出口 IP
-# 一律回 Managed Challenge(403 + cf-mitigated: challenge),換任何 User-Agent 都無效。
-# 資料改由能連通的機器跑 scripts/mirror.sh 後 commit 進版本庫,CI 只負責發布。
+# cbs.tw 的 Cloudflare 依 TLS/HTTP2 指紋擋非瀏覽器客戶端(curl 換任何 UA 都 403),
+# 因此抓取用 curl_cffi 模仿 Chrome 指紋,從 Actions 即可直接取得。
+# data/ 進版本庫:排程抓到新資料就 commit 回 main,再部署。
 on:
+  schedule:
+    - cron: '23 * * * *'   # 每小時一次;避開整點,GitHub 排程在整點最擁擠、延遲最大
   push:
     branches: [main]
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  update:
+    # push 觸發代表程式碼有改,資料沿用版本庫內的即可,不必抓
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: astral-sh/setup-uv@v6
+
+      - name: 抓取 cbs.tw
+        run: npm run mirror
+
+      # 只有行政區代碼的告警靠地名定位;每次補查少量新地名,對 Nominatim 保持禮貌
+      - name: 補查新地名座標
+        run: node scripts/geocode-places.mjs --limit=30
+
+      - name: 驗證解析與介面
+        run: npm ci --silent && npm test
+
+      - name: 有變動才 commit 回 main
+        id: commit
+        run: |
+          if git diff --quiet -- data && [ -z "$(git ls-files --others --exclude-standard data)" ]; then
+            echo "資料沒有變動"; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          git commit -q -m "更新告警資料 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+          git pull -q --rebase   # 執行期間若有人 push,先接上再推
+          git push -q            # GITHUB_TOKEN 推的 commit 不會再觸發 push 事件,不會循環
+          git diff --stat HEAD~1 -- data
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: update
+    # update 被略過(push 觸發)也要部署;排程則只在資料有變時部署
+    if: always() && (github.event_name == 'push' || needs.update.outputs.changed == 'true' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # 取 update 剛推上去的那個 commit,而不是觸發時的舊 SHA
 
       - uses: actions/setup-node@v4
         with:

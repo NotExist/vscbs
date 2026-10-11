@@ -4,7 +4,7 @@
   "type": "module",
   "description": "以 OSM 呈現台灣災防告警 (CBS) 訊息的純靜態網站",
   "scripts": {
-    "mirror": "./scripts/mirror.sh data",
+    "mirror": "uv run --with \"curl_cffi>=0.16\" scripts/mirror.py data",
     "geocode": "node scripts/geocode-places.mjs",
     "test": "node tests/smoke.mjs",
     "serve": "python3 -m http.server 8080"

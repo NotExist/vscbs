@@ -82,8 +82,8 @@ async function boot() {
   try {
     const mirror = JSON.parse(await fetchText(DATA + 'mirror.json'));
     months = mirror.months.map((m) => m.id);
-    el.mirrorTime.textContent = `鏡像於 ${fFull.format(new Date(mirror.mirroredAt))}`;
-    el.mirrorTime.title = '本站每 10 分鐘自動同步 cbs.tw 的來源檔';
+    el.mirrorTime.textContent = `資料更新於 ${fFull.format(new Date(mirror.mirroredAt))}`;
+    el.mirrorTime.title = '本站每小時檢查 cbs.tw；此為來源最後一次有變動的時間';
   } catch {
     // 沒有 manifest 就退回讀鏡像的 list.xml
     try {
