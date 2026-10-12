@@ -20,7 +20,12 @@ const bounds = () => ({
   getSouthWest: () => [21.9, 120.0],
   getNorthEast: () => [25.3, 122.0],
 });
-const shape = () => ({ setStyle() {}, on() {}, bindTooltip() {}, bringToFront() {}, getBounds: bounds });
+// 記下 click 處理器與 tooltip 文字,用來模擬點擊地圖圖層
+const shape = () => ({ setStyle() {}, bringToFront() {}, getBounds: bounds,
+  on(type, fn) { if (type === 'click') this.click = fn; },
+  bindTooltip(text) { this.tooltip = text; } });
+let flies = 0;
+let mapClick = null;
 // 圖層群組記下自己有哪些圖層、是否在地圖上,用來驗證「聚焦時只留該筆」
 const onMap = new Set();
 const groups = [];
@@ -33,7 +38,8 @@ const group = () => {
 };
 const visibleLayers = () => [...onMap].reduce((n, g) => n + g.layers.size, 0);
 window.L = {
-  map: () => ({ setView() { return this; }, flyToBounds() {}, fitBounds() {}, invalidateSize() {}, on() {},
+  map: () => ({ setView() { return this; }, flyToBounds() { flies++; }, fitBounds() {}, invalidateSize() {},
+    on(type, fn) { if (type === 'click') mapClick = fn; },
     addLayer(g) { onMap.add(g); }, removeLayer(g) { onMap.delete(g); }, hasLayer: (g) => onMap.has(g) }),
   tileLayer: () => ({ addTo() { return this; } }),
   layerGroup: group,
@@ -113,6 +119,25 @@ check(visibleLayers() === hoverCount, '選取中滑出清單,仍只留選取那�
 window.document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape' }));
 await new Promise((r) => setTimeout(r, 50));
 check(visibleLayers() === allCount && !$('.card.is-on'), 'Esc 取消選取並恢復全部');
+
+console.log('\n[點地圖圖層]');
+const shown = [...onMap].flatMap((g) => [...g.layers]);
+const layerHit = shown.find((l) => l.click);
+check(/^\d{2}\/\d{2}\D+\d{2}:\d{2}　/.test(layerHit.tooltip || ''), `tooltip 以時間開頭:「${(layerHit.tooltip || '').slice(0, 40)}」`);
+const fliesBefore = flies;
+layerHit.click({});
+await new Promise((r) => setTimeout(r, 50));
+check($$('.card.is-on').length === 1, '點地圖圖層選取並展開對應卡片');
+check(flies === fliesBefore, '點地圖選取時地圖不飛移縮放');
+check(visibleLayers() === allCount, '點地圖選取時其他告警仍全部顯示');
+mapClick?.();
+await new Promise((r) => setTimeout(r, 50));
+check(!$('.card.is-on') && visibleLayers() === allCount, '點地圖空白處取消選取');
+$$('.card')[1].dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+await new Promise((r) => setTimeout(r, 50));
+check(flies === fliesBefore + 1 && visibleLayers() < allCount, '點清單仍飛移並只留該筆');
+mapClick?.();
+await new Promise((r) => setTimeout(r, 50));
 
 console.log('\n[事件類型篩選]');
 const chip = $('.chip');

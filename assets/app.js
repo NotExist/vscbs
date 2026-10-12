@@ -26,6 +26,7 @@ const state = {
   day: null,
   q: '',
   selected: null,
+  selectedFromMap: false, // 從地圖點選時不聚焦也不飛移,其他告警照常顯示
   shown: PAGE,
 };
 
@@ -69,7 +70,10 @@ async function loadFeed(key, path) {
 }
 
 async function boot() {
-  map = createMap($('#map'), { onSelect: (id) => select(id, { fromMap: true }) });
+  map = createMap($('#map'), {
+    onSelect: (id) => select(id, { fromMap: true }),
+    formatTime: (d) => fDateTime.format(d),
+  });
 
   // 地名座標表要在任何 parseFeed 之前就位,否則只有行政區代碼的告警會退成縣市中心
   try {
@@ -332,8 +336,9 @@ const moreObserver = new IntersectionObserver((rows) => {
 /* ---------- 地圖聚焦 ---------- */
 // 滑過的那筆優先,其次是選取的那筆;兩者皆無才顯示全部結果
 let hoveredId = null;
+// 滑過清單一律只留該筆;選取則只有從清單點選時才只留該筆,從地圖點選時保留全部、僅加粗標示
 function syncFocus() {
-  map.focus(hoveredId || state.selected);
+  map.focus(hoveredId || (state.selectedFromMap ? null : state.selected));
 }
 
 /* ---------- 選取 ---------- */
@@ -352,7 +357,8 @@ function select(id, { fromMap = false, silent = false } = {}) {
   }
 
   renderList();
-  map.select(state.selected, { fly: !!state.selected });
+  state.selectedFromMap = !!state.selected && fromMap;
+  map.select(state.selected, { fly: !!state.selected && !fromMap });
   syncFocus();
   if (state.selected) {
     const card = el.list.querySelector('.card.is-on');

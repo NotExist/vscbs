@@ -3,7 +3,7 @@ import { eventInfo } from './catalog.js';
 
 const TAIWAN_VIEW = { center: [23.7, 120.96], zoom: 7 };
 
-export function createMap(el, { onSelect } = {}) {
+export function createMap(el, { onSelect, formatTime } = {}) {
   const map = L.map(el, {
     preferCanvas: true, // 上千個 polygon 時 canvas 比 SVG 穩
     zoomControl: true,
@@ -74,7 +74,9 @@ export function createMap(el, { onSelect } = {}) {
         }
         if (!layer) continue;
         layer.setStyle(baseStyle(color, entry.center.approx));
-        layer.bindTooltip(`${entry.title}${area.desc ? ` — ${area.desc}` : ''}`, { sticky: true });
+        const time = entry.sentAt && formatTime ? `${formatTime(entry.sentAt)}　` : '';
+        // 字串形式的 tooltip 會被當 HTML 插入,來源文字要先跳脫
+        layer.bindTooltip(esc(`${time}${entry.title}${area.desc ? ` — ${area.desc}` : ''}`), { sticky: true });
         layer.on('click', (ev) => {
           L.DomEvent.stopPropagation(ev); // 別讓地圖本身的 click 把選取清掉
           onSelect?.(entry.id);
@@ -142,4 +144,8 @@ export function createMap(el, { onSelect } = {}) {
     focused: () => focusedId,
     invalidate: () => map.invalidateSize(),
   };
+}
+
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 }
