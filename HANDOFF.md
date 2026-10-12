@@ -35,7 +35,7 @@
 | 決策 | 理由 |
 | --- | --- |
 | 資料進版本庫，排程抓到新資料才 commit | 歷史月檔是不變資料，進版控是一次性成本；每小時最多一個小 commit，不必靠 Actions 快取 |
-| 抓取用 curl_cffi，FlareSolverr 只當後備 | curl_cffi 失敗才 `docker run` 起 FlareSolverr（不用 `services:`，平常不拉 image）。2026-10-11 以 `fallback_test=compare/simulate` 實測：FlareSolverr 取回的 XML 位元組差 1 byte、C14N 相同、`parse.js` 解析結果完全一致；模擬失敗時後備正確接手且判定無變動 |
+| 抓取用 curl_cffi，FlareSolverr 只當後備 | curl_cffi 失敗才 `docker run` 起 FlareSolverr（不用 `services:`，平常不拉 image）。2026-10-11 以 `fallback_test=compare/simulate` 實測：FlareSolverr 取回的 XML 位元組差 1 byte、C14N 相同、`parse.js` 解析結果完全一致；模擬失敗時後備正確接手且判定無變動。2026-10-12 再以 compare 驗證 `alertTypesList.json`：從 Chrome JSON viewer 的 `<pre>` 取出後與 curl_cffi 版本逐位元相同 |
 | concurrency 設在 job 層（update / pages 各一組） | 同組只保留一個排隊中的 run，新的取消舊的；整個 workflow 共用一組會讓排程取消排隊中的 push 部署（實測時 simulate 就取消了 compare） |
 | 排程每小時（`23 * * * *`） | user 認定每小時足夠；避開整點的排程擁擠 |
 | 行政區代碼查內政部界線圖（`data/admin/`），不再靠地名比對 | 約 70% 的告警只給行政區代碼。2026-10-12 改用內政部村里／鄉鎮界：以代碼直查（99.9% 命中），名稱寫法、異體字、OSM 缺漏都不再影響，而且能畫出實際界線而非概略落點。Nominatim 地名表只留作 29 個已整併舊里代碼的後備 |
