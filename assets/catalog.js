@@ -136,6 +136,28 @@ export function resolveGeocode(value) {
   return null;
 }
 
+// 行政區代碼正規化成 data/admin/ 的鍵(Taiwan_Geocode_103 寫法):
+//   村里 1000813-012、鄉鎮 1000813、縣市 10008。資料裡偶見內政部 8 碼鄉鎮(10014110)與直轄市 2 碼(67)。
+export function adminCode(value) {
+  const raw = String(value || '').trim();
+  if (/^\d{7}-\d{3}$/.test(raw) || /^\d{7}$/.test(raw) || /^\d{5}$/.test(raw)) return raw;
+  if (/^\d{7}0$/.test(raw)) return raw.slice(0, 7);
+  if (/^\d{2}$/.test(raw)) return raw + '000';
+  return '';
+}
+
+// 代碼所屬縣市(data/admin/<縣市>.json 的檔名);查不到回 ''
+export function countyCodeOf(value) {
+  const code = adminCode(value);
+  if (!code) return '';
+  for (const key of [code.slice(0, 5), code.slice(0, 2) + '000']) if (COUNTIES[key]) return key;
+  return '';
+}
+
+export function adminLevel(code) {
+  return code.includes('-') ? 'village' : code.length === 7 ? 'town' : 'county';
+}
+
 // 只給行政區代碼的告警,其 areaDesc 通常是「新竹縣尖石鄉秀巒村」這種全名。
 // data/places.json 以正規化後的全名為鍵,存放建置階段查好的座標。
 // areaDesc 偶爾省略縣市(如「番路鄉」「東區」),此時用代碼推得的縣市補前綴,

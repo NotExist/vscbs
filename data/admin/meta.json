@@ -1,0 +1,17 @@
+{
+  "sources": {
+    "village": [
+      "VILLAGE_NLSC_1150817",
+      "Village_Sanhe"
+    ],
+    "town": [
+      "TOWN_MOI_1140318",
+      "Town_Majia_Sanhe"
+    ]
+  },
+  "counts": {
+    "county": 22,
+    "town": 368,
+    "village": 7987
+  }
+}

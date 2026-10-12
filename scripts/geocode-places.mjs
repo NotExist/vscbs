@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // 把「只有行政區代碼」的告警其 areaDesc 地名,一次性查成座標存進 data/places.json。
 // 前端因此不必在瀏覽器裡打地理編碼服務,查表即可得到村里/鄉鎮層級的落點。
+// 代碼對得到 data/admin/(內政部界線圖)的不需要地名,不查也不留;
+// 本表只剩後備用途:已整併的舊村里代碼、內政部資料沒有的代碼。
 // 遵守 Nominatim 使用政策:單執行緒、每秒至多一次、附可識別的 User-Agent。
 import fs from 'node:fs';
 import path from 'node:path';
@@ -12,7 +14,16 @@ const ENDPOINT = 'https://nominatim.openstreetmap.org/search';
 
 const limit = Number(process.argv.find((a) => a.startsWith('--limit='))?.split('=')[1] ?? Infinity);
 
-const { placeKey } = await import(path.join(ROOT, 'assets/catalog.js'));
+const { placeKey, adminCode } = await import(path.join(ROOT, 'assets/catalog.js'));
+
+// data/admin/ 已涵蓋的行政區代碼
+const ADMIN_DIR = path.join(ROOT, 'data/admin');
+const covered = new Set();
+if (fs.existsSync(ADMIN_DIR)) {
+  for (const f of fs.readdirSync(ADMIN_DIR)) {
+    if (/^\d{5}\.json$/.test(f)) for (const k of Object.keys(JSON.parse(fs.readFileSync(path.join(ADMIN_DIR, f), 'utf8')))) covered.add(k);
+  }
+}
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -36,6 +47,7 @@ function collectKeys() {
       let desc = '';
       for (const m of body.matchAll(/<areaDesc>([\s\S]*?)<\/areaDesc>|<geocode>[\s\S]*?<value>([\s\S]*?)<\/value>[\s\S]*?<\/geocode>/g)) {
         if (m[1] !== undefined) { desc = m[1].trim(); continue; }
+        if (covered.has(adminCode(m[2]))) continue; // 代碼直接查得到,不需要地名
         const key = placeKey(desc, m[2].trim());
         if (key) counts.set(key, (counts.get(key) || 0) + 1);
       }
@@ -75,6 +87,10 @@ function acceptable(hit, step) {
 
 const table = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : {};
 const counts = collectKeys();
+// 已改由代碼定位的地名不再需要,移出後備表
+const pruned = Object.keys(table).filter((k) => !counts.has(k));
+for (const k of pruned) delete table[k];
+if (pruned.length) console.log(`移除 ${pruned.length} 個已由 data/admin/ 涵蓋的地名`);
 const pending = [...counts.entries()]
   .filter(([key]) => !(key in table))
   .sort((a, b) => b[1] - a[1])

@@ -1,11 +1,14 @@
 // 解析 NCDR/CBS 的 Atom。兩種來源的欄位寫法略有出入,這裡一併吸收:
 //   最新告警 rssatomfeed.xml : <link rel="alternate" href="URL"/>
 //   月彙整   atom-YYYYMM.xml : <link ref="alternate">URL</link>
-import { resolveGeocode, placeKey } from './catalog.js';
+import { resolveGeocode, placeKey, adminCode, adminLevel } from './catalog.js';
 
-// data/places.json:正規化地名 → [lat, lon, level]。載入前為空表,
-// 此時 geocode 區域一律退回縣市概略中心。
+// data/admin/<縣市>.json:行政區代碼 → [lat, lon, 幾何],來自內政部界線圖,優先採用。
+// data/places.json:正規化地名 → [lat, lon, level],內政部資料查不到代碼(如已整併的舊村里)時的後備。
+// 兩者都查不到才退回縣市概略中心。
+const ADMIN = {};
 let PLACES = {};
+export function addAdmin(table) { Object.assign(ADMIN, table); }
 export function setPlaces(table) { PLACES = table || {}; }
 
 const childrenOf = (node, name) =>
@@ -66,10 +69,14 @@ function parseAreas(entry) {
         }
         case 'geocode': {
           const value = firstText(el, 'value');
+          const code = adminCode(value);
+          const admin = ADMIN[code];
           const place = PLACES[placeKey(desc, value)];
           const county = resolveGeocode(value);
-          // 查得到地名就用村里/鄉鎮的中心,查不到才退回縣市
-          const approx = place
+          // 代碼對得到內政部行政區最準;其次是地名查表,最後才退回縣市
+          const approx = admin
+            ? { lat: admin[0], lon: admin[1], name: desc, level: adminLevel(code) }
+            : place
             ? { lat: place[0], lon: place[1], name: desc, level: place[2] }
             : county
               ? { lat: county.lat, lon: county.lon, name: county.name, level: 'county' }

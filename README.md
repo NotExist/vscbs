@@ -59,48 +59,47 @@ git commit -am "更新告警資料" && git push    # push 即觸發部署
   沿用 `catalog.js` 從資料 `<title>` 歸納的名稱。
 - `filename`（類型圖示）目前用不上：試過的路徑都只回網站首頁 HTML，實際位置不明。
 
-## 地理定位的三種來源
+## 地理定位
 
-CAP 訊息的 `<area>` 有三種寫法，精度差很多，介面上會據實標示：
+CAP 訊息的 `<area>` 有兩類寫法：
 
-| 來源 | 佔比 | 地圖呈現 |
+| 來源 | 佔比 | 定位方式 |
 | --- | --- | --- |
-| `<polygon>` / `<circle>` | 約 30% | 實線，就是訊息宣告的實際範圍 |
-| `<geocode>` + 地名（如「新竹縣尖石鄉秀巒村」） | 約 69% | 虛線圈，落在該村里／鄉鎮中心 |
-| `<geocode>` 只有代碼、地名無法解析 | 約 1% | 較大的虛線圈，落在縣市概略中心 |
+| `<polygon>` / `<circle>` | 約 30% | 訊息自帶的實際範圍，照畫 |
+| `<geocode>` 行政區代碼（村里 `1000813-012`／鄉鎮 `1000813`／縣市 `10008`） | 約 70% | **以代碼查內政部行政區界**（`data/admin/`） |
 
-第二類的座標由 `scripts/geocode-places.mjs` 在**建置階段**向 Nominatim 查好，存成 `data/places.json`；
-瀏覽器只查表，不打任何地理編碼服務。查詢只接受 `boundary/administrative` 且地址確實包含指定縣市／鄉鎮的結果，
-村里查不到時退到鄉鎮、再退到縣市，並把實際命中的層級記在表裡供介面標示。
+### 內政部行政區界（`data/admin/`）
 
-### 什麼會重查、什麼不會
+`scripts/build-admin.py` 下載內政部的
+[村里界圖](https://data.gov.tw/dataset/7438)與[鄉鎮市區界線](https://data.gov.tw/dataset/7441)（TWD97 經緯度，
+含金門、連江），簡化到約 50 m 精度後依縣市分成 22 個檔（共約 4 MB），每個行政區存
+`[代表點 lat, lon, 邊界多邊形]`。代表點用 polylabel 求出，保證落在界內。前端只載入當前資料用得到的縣市檔。
 
-`npm run geocode` 只查 `places.json` 裡**還沒有**的鍵，因此：
+代碼換算（CAP 的 Taiwan_Geocode_103 ↔ 內政部）：
 
-| 情況 | 會不會重查 | 影響 |
+| | CAP | 內政部 |
 | --- | --- | --- |
-| 完全查無、但格式是「縣市＋鄉鎮＋村里」的真地名 | 每次都重查 | OSM 日後補上就會自動命中 |
-| `areaDesc` 不是行政區名（「地震資訊廣播範圍」「發布區域1」「北部」「馬祖」等） | 不送查詢 | 解析不出縣市／鄉鎮／村里結構，直接跳過，不耗 Nominatim 額度；前端退回縣市中心。目前 74 個 |
-| 村里查不到、**已退到鄉鎮層級存入表中** | **不會**重查 | OSM 日後補上該村里界線也**不會自動升級**。目前 161 個（如桃源區各里） |
+| 一般縣市的鄉鎮／村里 | `1000813` / `1000813-012` | `TOWNCODE 10008130` / `VILLCODE 10008130012` |
+| 直轄市的區／里 | `6301100` / `6301100-003` | `TOWNCODE 63000110` / `VILLCODE 63000110003` |
 
-想讓第三類升級成村里層級，刪掉表中「層級為 `town` 但鍵以村／里結尾」的條目再重跑：
+以代碼查，不比對地名，所以全形空白、異體字（石硦／石弄、霧台／霧臺）、OSM 缺漏都不影響。
+2017 年以來 39,266 次行政區代碼中，39,236 次（99.9%）直接命中。內政部改版（約每季到每年）時跑 `npm run admin` 重建；
+排程不需要它。
 
-```sh
-node -e '
-const fs = require("fs"), p = "data/places.json", t = JSON.parse(fs.readFileSync(p));
-for (const [k, v] of Object.entries(t)) if (v[2] === "town" && /[村里]$/.test(k)) delete t[k];
-fs.writeFileSync(p, JSON.stringify(t, Object.keys(t).sort()) + "\n");'
-npm run geocode      # 161 個約需 3–6 分鐘(每個最多兩次查詢,每秒一次)
-```
+### 後備：地名查表（`data/places.json`）
 
-仍查不到的會照舊退回鄉鎮層級，不會比原本差。
+查不到代碼的只剩 30 次，全是 2018-04 臺南市一則測試告警裡、該年里整編前的舊里代碼。這些改用 `areaDesc` 地名向
+Nominatim 查（`scripts/geocode-places.mjs`，只接受 `boundary/administrative` 結果），查不到村里就退到鄉鎮，
+目前 29 個地名（3 村里／26 鄉鎮）。腳本會自動略過代碼已涵蓋的地名，並把不再需要的條目移出表外；
+兩者都查不到才退回縣市概略中心。
 
 ## 本地開發
 
 ```sh
 npm install          # 只有 jsdom,供測試用;網站本身沒有建置步驟
 npm run mirror       # 抓來源檔到 data/(uv + curl_cffi;已有的月檔只補缺漏)
-npm run geocode      # 補齊 data/places.json 的地名座標(遵守 Nominatim 每秒一次)
+npm run geocode      # 補齊 data/places.json 的後備地名座標(遵守 Nominatim 每秒一次)
+npm run admin        # 重建 data/admin/ 行政區界(內政部改版時才需要;uv + pyshp + shapely)
 npm test             # 在 jsdom 裡把整個頁面跑一遍
 npm run serve        # http://localhost:8080
 ```
@@ -120,5 +119,6 @@ npm run serve        # http://localhost:8080
 
 - 告警資料：NCDR / cbs.tw
 - 底圖：© OpenStreetMap contributors（[ODbL](https://www.openstreetmap.org/copyright)）
-- 地名座標：Nominatim / OpenStreetMap
+- 行政區界：內政部國土測繪中心（[政府資料開放授權條款第 1 版](https://data.gov.tw/license)）
+- 後備地名座標：Nominatim / OpenStreetMap
 - [Leaflet](https://leafletjs.com/) 1.9.4（BSD-2-Clause），已內嵌於 `vendor/`

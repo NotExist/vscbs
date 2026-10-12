@@ -13,8 +13,9 @@
    cbs.tw 也擋 HEAD，一律用 GET。（曾一度誤判為依 IP 擋 Actions，2026-10-11 實測推翻，見 HANDOFF。）
 2. **兩種來源的 Atom 欄位寫法不同**：`rssatomfeed.xml` 用 `<link rel="alternate" href="URL"/>`，
    月彙整用 `<link ref="alternate">URL</link>`（注意是 `ref`，而且值在文字節點）。`assets/parse.js` 兩種都吃。
-3. **約 69% 的告警沒有經緯度**，只有行政區代碼加 `areaDesc` 地名。座標在建置階段查好存進
-   `data/places.json`，前端只查表。介面必須據實標示落點是村里／鄉鎮／縣市層級，不可讓它看起來像實際範圍。
+3. **約 70% 的告警沒有經緯度**，只有行政區代碼（Taiwan_Geocode_103）加 `areaDesc` 地名。前端以代碼查
+   `data/admin/<縣市>.json`（內政部村里／鄉鎮界，`scripts/build-admin.py` 產生，99.9% 命中）；查不到才用
+   `data/places.json`（Nominatim 地名後備）。代碼換算規則見 README〈地理定位〉。
 
 ## 慣例
 

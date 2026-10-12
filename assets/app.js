@@ -1,5 +1,5 @@
-import { parseFeed, parseIndex, setPlaces } from './parse.js';
-import { eventInfo, channelLabel, setAlertTypes } from './catalog.js';
+import { parseFeed, parseIndex, setPlaces, addAdmin } from './parse.js';
+import { eventInfo, channelLabel, setAlertTypes, countyCodeOf } from './catalog.js';
 import { createMap } from './map.js';
 
 const DATA = 'data/';
@@ -61,10 +61,30 @@ async function fetchText(path) {
   return res.text();
 }
 
+// 行政區檔依縣市分檔,只載入這份資料用得到的縣市(每檔數十到數百 KB)
+const adminLoaded = new Map(); // 縣市代碼 → Promise
+function loadAdmin(xml) {
+  const counties = new Set();
+  for (const [, v] of xml.matchAll(/<geocode>[\s\S]*?<value>([^<]*)<\/value>/g)) {
+    const c = countyCodeOf(v);
+    if (c) counties.add(c);
+  }
+  return Promise.all([...counties].map((c) => {
+    if (!adminLoaded.has(c)) {
+      adminLoaded.set(c, fetchText(`${DATA}admin/${c}.json`)
+        .then((t) => addAdmin(JSON.parse(t)))
+        .catch(() => adminLoaded.delete(c))); // 失敗就退回地名表,下次再試
+    }
+    return adminLoaded.get(c);
+  }));
+}
+
 async function loadFeed(key, path) {
   if (cache.has(key)) return cache.get(key);
   el.list.innerHTML = '<p class="empty">載入中…</p>';
-  const entries = parseFeed(await fetchText(path));
+  const xml = await fetchText(path);
+  await loadAdmin(xml); // 必須在 parseFeed 之前:解析時就要依代碼決定落點
+  const entries = parseFeed(xml);
   cache.set(key, entries);
   return entries;
 }

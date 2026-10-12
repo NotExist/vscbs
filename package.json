@@ -6,6 +6,7 @@
   "scripts": {
     "mirror": "uv run --with \"curl_cffi>=0.16\" scripts/mirror.py data",
     "geocode": "node scripts/geocode-places.mjs",
+    "admin": "uv run --with pyshp --with shapely scripts/build-admin.py data",
     "test": "node tests/smoke.mjs",
     "serve": "python3 -m http.server 8080"
   },

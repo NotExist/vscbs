@@ -51,7 +51,9 @@ window.L = {
 };
 
 // --- 用檔案系統當 fetch ---
+const fetched = [];
 window.fetch = async (url) => {
+  fetched.push(String(url));
   const file = path.join(ROOT, String(url).replace(/^https?:\/\/localhost\//, '').split('?')[0]);
   if (!fs.existsSync(file)) return { ok: false, status: 404, text: async () => '' };
   return { ok: true, status: 200, text: async () => fs.readFileSync(file, 'utf8') };
@@ -85,6 +87,10 @@ check($$('.chip').length > 0, `事件類型 chips ${$$('.chip').length} 個`);
 check(/\d+ \/ \d+ 筆/.test($('#summary').textContent), `摘要文字「${$('#summary').textContent}」`);
 check($('#legend').children.length > 0, `圖例 ${$('#legend').children.length} 項`);
 check($('#mirror-time').textContent.includes('資料更新於'), `資料更新時間「${$('#mirror-time').textContent}」`);
+{
+  const admins = fetched.filter((u) => /admin\/\d{5}\.json/.test(u));
+  check(admins.length > 0 && admins.length < 22, `只載入用得到的縣市行政區檔(${admins.length} 個)`);
+}
 check($('#month-select').options.length > 100, `月份選單 ${$('#month-select').options.length} 個月`);
 
 console.log('\n[選取一筆]');
