@@ -2,8 +2,10 @@
 import { eventInfo } from './catalog.js';
 
 const TAIWAN_VIEW = { center: [23.7, 120.96], zoom: 7 };
-// 可拖曳範圍:本島、澎湖、金馬與東沙。viscosity 0 = 可拖出界,放手後彈回(同 cbs.tw 的設定)
-const MAX_BOUNDS = [[20, 117], [28, 125]];
+// 可拖曳範圍:涵蓋內政部行政區資料全境(南沙太平島 114.36°E/10.37°N、釣魚臺 124.56°E、馬祖 26.39°N),
+// 外側各留約 1° 讓邊緣的島也能拉到畫面中央(maxBounds 限制的是整個可視區,不是中心點)。
+// viscosity 0 = 可拖出界,放手後彈回(同 cbs.tw 的設定)
+const MAX_BOUNDS = [[9.5, 113.5], [27.5, 125.5]];
 
 export function createMap(el, { onSelect, formatTime } = {}) {
   const map = L.map(el, {
