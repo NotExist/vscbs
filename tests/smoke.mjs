@@ -21,7 +21,7 @@ const bounds = () => ({
   getNorthEast: () => [25.3, 122.0],
 });
 // 記下 click 處理器與 tooltip 文字,用來模擬點擊地圖圖層
-const shape = () => ({ setStyle() {}, bringToFront() {}, getBounds: bounds,
+const shape = () => ({ setStyle(st) { this.style = st; }, bringToFront() {}, getBounds: bounds,
   on(type, fn) { if (type === 'click') this.click = fn; },
   bindTooltip(text) { this.tooltip = text; } });
 let flies = 0;
@@ -37,6 +37,8 @@ const group = () => {
   return g;
 };
 const visibleLayers = () => [...onMap].reduce((n, g) => n + g.layers.size, 0);
+// 加粗標示(activeStyle weight 3)中的圖層數
+const boldLayers = () => [...onMap].flatMap((g) => [...g.layers]).filter((l) => l.style?.weight === 3).length;
 window.L = {
   map: () => ({ setView() { return this; }, flyToBounds() { flies++; }, fitBounds() {}, invalidateSize() {},
     on(type, fn) { if (type === 'click') mapClick = fn; },
@@ -107,15 +109,21 @@ const allCount = visibleLayers();
 check(allCount > 10, `未聚焦時地圖顯示全部 ${allCount} 個圖層`);
 const hoverCard = $$('.card')[2];
 hoverCard.dispatchEvent(new window.MouseEvent('mouseover', { bubbles: true }));
-const hoverCount = visibleLayers();
-check(hoverCount > 0 && hoverCount < allCount, `滑過一筆後只剩 ${hoverCount} 個圖層`);
+const hoverCount = boldLayers();
+check(visibleLayers() === allCount && hoverCount > 0, `滑過一筆時全部 ${allCount} 個圖層照常顯示,該筆 ${hoverCount} 個加粗`);
 $('#list').dispatchEvent(new window.MouseEvent('mouseleave'));
-check(visibleLayers() === allCount, '滑出清單後恢復全部');
+check(visibleLayers() === allCount && boldLayers() === 0, '滑出清單後取消加粗');
+hoverCard.dispatchEvent(new window.MouseEvent('mouseover', { bubbles: true }));
 hoverCard.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
 await new Promise((r) => setTimeout(r, 50));
-check(visibleLayers() === hoverCount, '選取後地圖只留該筆');
+const selCount = visibleLayers();
+check(selCount === hoverCount && boldLayers() === selCount, '從清單點選(滑鼠仍在該卡上)地圖只留該筆並加粗');
 $('#list').dispatchEvent(new window.MouseEvent('mouseleave'));
-check(visibleLayers() === hoverCount, '選取中滑出清單,仍只留選取那筆');
+check(visibleLayers() === selCount, '滑出清單後仍只留選取那筆');
+$$('.card')[3].dispatchEvent(new window.MouseEvent('mouseover', { bubbles: true }));
+check(visibleLayers() === allCount && boldLayers() > selCount, '選取中滑過另一筆:暫時全部顯示,兩筆都加粗');
+$('#list').dispatchEvent(new window.MouseEvent('mouseleave'));
+check(visibleLayers() === selCount, '滑出後回到只留選取那筆');
 window.document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape' }));
 await new Promise((r) => setTimeout(r, 50));
 check(visibleLayers() === allCount && !$('.card.is-on'), 'Esc 取消選取並恢復全部');

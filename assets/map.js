@@ -20,6 +20,7 @@ export function createMap(el, { onSelect, formatTime } = {}) {
   const focusGroup = L.layerGroup();
   let byId = new Map(); // id → { layers, bounds }
   let selectedId = null;
+  let hoveredId = null;
   let focusedId = null;
 
   const baseStyle = (color, approx) => ({
@@ -54,6 +55,7 @@ export function createMap(el, { onSelect, formatTime } = {}) {
     group.clearLayers();
     byId = new Map();
     selectedId = null;
+    hoveredId = null;
 
     for (const entry of entries) {
       if (!entry.center) continue;
@@ -97,7 +99,7 @@ export function createMap(el, { onSelect, formatTime } = {}) {
   }
 
   function select(id, { fly = true } = {}) {
-    if (selectedId && selectedId !== id) applyStyle(selectedId, false);
+    if (selectedId && selectedId !== id && selectedId !== hoveredId) applyStyle(selectedId, false);
     selectedId = id;
     if (!id) return;
     applyStyle(id, true);
@@ -137,10 +139,20 @@ export function createMap(el, { onSelect, formatTime } = {}) {
     }
   }
 
+  // 滑過清單時:其他圖層照常顯示,只把該筆加粗並移到最上層
+  function hover(id) {
+    const next = id && byId.has(id) ? id : null;
+    if (next === hoveredId) return;
+    if (hoveredId && hoveredId !== selectedId) applyStyle(hoveredId, false);
+    hoveredId = next;
+    if (next) applyStyle(next, true);
+    else if (selectedId) applyStyle(selectedId, true); // 讓選取那筆回到最上層
+  }
+
   const has = (id) => byId.has(id);
 
   return {
-    map, render, select, focus, fitAll, has,
+    map, render, select, focus, hover, fitAll, has,
     focused: () => focusedId,
     invalidate: () => map.invalidateSize(),
   };

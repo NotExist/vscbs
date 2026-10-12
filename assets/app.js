@@ -336,9 +336,13 @@ const moreObserver = new IntersectionObserver((rows) => {
 /* ---------- 地圖聚焦 ---------- */
 // 滑過的那筆優先,其次是選取的那筆;兩者皆無才顯示全部結果
 let hoveredId = null;
-// 滑過清單一律只留該筆;選取則只有從清單點選時才只留該筆,從地圖點選時保留全部、僅加粗標示
+// 滑過清單與從地圖點選:其他告警照常顯示,只加粗標示該筆。
+// 只有從清單點選時才只留該筆(滑鼠仍停在那張卡片上也一樣);
+// 選取後滑過別張卡片則暫時回到全部顯示,滑出後恢復。
 function syncFocus() {
-  map.focus(hoveredId || (state.selectedFromMap ? null : state.selected));
+  const browsing = hoveredId && hoveredId !== state.selected;
+  map.focus(browsing || state.selectedFromMap ? null : state.selected);
+  map.hover(hoveredId);
 }
 
 /* ---------- 選取 ---------- */
