@@ -1,5 +1,5 @@
 import { parseFeed, parseIndex, setPlaces } from './parse.js';
-import { eventInfo, channelLabel } from './catalog.js';
+import { eventInfo, channelLabel, setAlertTypes } from './catalog.js';
 import { createMap } from './map.js';
 
 const DATA = 'data/';
@@ -76,6 +76,11 @@ async function boot() {
     setPlaces(JSON.parse(await fetchText(DATA + 'places.json')));
   } catch {
     // 沒有地名表也能運作,只是精度退到縣市層級
+  }
+  try {
+    setAlertTypes(JSON.parse(await fetchText(DATA + 'alert-types.json')));
+  } catch {
+    // 沒有官方說明時事件名稱退回 catalog.js 的對照表,詳情不顯示說明與建議
   }
 
   let months = [];
@@ -287,6 +292,9 @@ function detailHTML(e) {
     rows.push(['座標說明',
       `原始訊息未附經緯度，僅給行政區。地圖上以${LEVEL[e.center.level] || '概略位置'}的虛線圈標示，不是實際影響範圍。`]);
   }
+  const official = eventInfo(e.event).official;
+  if (official?.desc) rows.push(['告警說明', `<span class="prose">${esc(official.desc)}</span>`]);
+  if (official?.recommend) rows.push(['應變建議', `<span class="prose">${esc(official.recommend)}</span>`]);
   const link = e.link
     ? `<dt>原始訊息</dt><dd><a href="${esc(e.link)}" target="_blank" rel="noopener">${esc(e.link)}</a></dd>`
     : '';

@@ -11,6 +11,7 @@
 - **清單與地圖雙向連動** — 點清單飛到該筆範圍，點地圖範圍捲到該筆卡片。
 - **篩選** — 事件類型、日期（含每日筆數的長條）、關鍵字（標題／發布單位／內文／區域名）。
 - **可分享的網址** — 月份、篩選、選取的那一筆都寫在 hash 裡。
+- **官方告警說明** — 事件名稱採 cbs.tw 官方告警類型清單；展開一筆時附上該類型的發布條件與應變建議。
 
 ## 資料怎麼進來
 
@@ -29,7 +30,7 @@ headless 瀏覽器。另外 cbs.tw 也擋 HEAD 請求，一律只用 GET。
 
 `.github/workflows/deploy.yml` 每小時執行一次：
 
-1. `npm run mirror` 抓 `list.xml`、`rssatomfeed.xml` 與當月／上月彙整（其餘月份已在版本庫，只補缺漏），共約 4 個請求。
+1. `npm run mirror` 抓 `list.xml`、`rssatomfeed.xml`、官方告警類型說明與當月／上月彙整（其餘月份已在版本庫，只補缺漏），共約 5 個請求。
 2. 補查新地名座標、跑 `npm test`。
 3. **資料有變才** commit 回 `main` 並部署；沒變就結束，不產生空 commit 或空部署。
 
@@ -42,6 +43,19 @@ headless 瀏覽器。另外 cbs.tw 也擋 HEAD 請求，一律只用 GET。
 npm run mirror && npm run geocode && npm test
 git commit -am "更新告警資料" && git push    # push 即觸發部署
 ```
+
+## 官方告警類型說明
+
+[`alertTypesList.json`](https://cbs.tw/public/upload/files/json/alertTypesList.json) 是 cbs.tw 官方的告警類型清單，
+鏡像為 `data/alert-types.json`，與其他來源一起每小時更新。每種類型有中文名稱、發布機關、發布條件（`alertDesc`）
+與應變建議（`alertRecommend`）。
+
+- `alertType` 去掉 `alert_type_` 前綴後，**不分大小寫**對應 CAP 的 eventCode（`alert_type_earthquakeew` ↔ `earthquakeEW`）。
+- 說明欄位是後台編輯器存出的 HTML（含 `xss=removed` 殘留、`<wbr>`、Gmail 轉址連結），`assets/catalog.js` 轉成純文字、
+  保留條列換行，顯示前一律跳脫，不把來源 HTML 直接插入頁面。
+- 官方清單只有 26 種；歷史資料中另有 `earthquake`、`emergSupport`、`AMLPlntDiseas`、`systemTest` 四種已不在清單上，
+  沿用 `catalog.js` 從資料 `<title>` 歸納的名稱。
+- `filename`（類型圖示）目前用不上：試過的路徑都只回網站首頁 HTML，實際位置不明。
 
 ## 地理定位的三種來源
 

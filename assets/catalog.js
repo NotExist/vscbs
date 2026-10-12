@@ -1,5 +1,6 @@
 // 事件類型、發送頻道、行政區代碼的對照。
-// 中文名稱取自資料中該 eventCode 實際出現過的 <title>,不是自行翻譯。
+// 事件中文名以 cbs.tw 官方告警類型說明(data/alert-types.json,見 setAlertTypes)為準;
+// 下表的 label 是官方清單沒有的舊類型(或說明檔載入失敗時)的後備,取自資料中實際出現過的 <title>。
 
 export const EVENTS = {
   debrisFlow:   { label: '土石流及大規模崩塌', color: '#a2601c', short: '土石流' },
@@ -36,8 +37,51 @@ export const EVENTS = {
 
 export const UNKNOWN_EVENT = { label: '其他', color: '#adb5bd', short: '其他' };
 
+// 官方說明以小寫的 eventCode 為鍵(alert_type_earthquakeew ↔ earthquakeEW,大小寫不一致)
+let OFFICIAL = {};
+
+// 讀入 cbs.tw 的 alertTypesList.json。說明與應變建議是後台編輯器存出的 HTML
+// (含 xss=removed 殘留、<wbr>、轉址連結),這裡轉成純文字,前端一律跳脫後才顯示。
+export function setAlertTypes(json) {
+  OFFICIAL = {};
+  for (const t of json?.data || []) {
+    const code = String(t.alertType || '').replace(/^alert_type_/, '').toLowerCase();
+    if (!code) continue;
+    const info = t.alertInfo || {};
+    OFFICIAL[code] = {
+      title: (t.alertTitle || '').trim(),
+      sender: (info.sender_name || '').trim(),
+      messageType: (info.messageType || '').trim(),
+      desc: htmlToText(info.alertDesc),
+      recommend: htmlToText(info.alertRecommend),
+    };
+  }
+}
+
+function htmlToText(html) {
+  if (!html) return '';
+  const doc = new DOMParser().parseFromString(String(html), 'text/html');
+  // 區塊元素前補換行,保住條列結構;<wbr> 只是斷行提示,直接拿掉
+  doc.querySelectorAll('wbr').forEach((n) => n.remove());
+  // 連結文字若不是網址本身(如「更多資訊」),轉成純文字後網址會遺失,補在括號裡
+  doc.querySelectorAll('a[href^="http"]').forEach((a) => {
+    const href = a.getAttribute('href');
+    if (!a.textContent.includes(href.replace(/\/$/, ''))) a.after(doc.createTextNode(`（${href}）`));
+  });
+  doc.querySelectorAll('br, p, div, li, h1, h2, h3, h4, h5, h6')
+    .forEach((n) => n.before(doc.createTextNode('\n')));
+  return doc.body.textContent
+    .split('\n')
+    .map((line) => line.replace(/\s+/g, ' ').trim())
+    .filter(Boolean)
+    .map((line) => line.replace(/^(\d{1,2})(?=[^\d\s.、])/, '$1. ')) // 「1在室內者」→「1. 在室內者」
+    .join('\n');
+}
+
 export function eventInfo(code) {
-  return EVENTS[code] || { ...UNKNOWN_EVENT, label: code || '未分類' };
+  const base = EVENTS[code] || { ...UNKNOWN_EVENT, label: code || '未分類' };
+  const official = OFFICIAL[String(code || '').toLowerCase()];
+  return official?.title ? { ...base, label: official.title, official } : base;
 }
 
 // 只標註公開定義明確的頻道;其餘保留原始代碼,不臆測語意。

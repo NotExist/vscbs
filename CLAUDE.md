@@ -20,4 +20,4 @@
 
 - 無建置步驟：原生 ES modules + 原生 CSS，Leaflet 內嵌在 `vendor/`。改完直接 `npm run serve` 就看得到。
 - 改動前端後跑 `npm test`（jsdom 把整頁跑一遍，會抓到執行期錯誤與連動失效）。
-- 對照表（eventCode 中文名等）以資料中實際出現過的值為準，不自行翻譯，見 `assets/catalog.js`。
+- eventCode 中文名以官方 `data/alert-types.json` 為準；官方沒有的舊類型才用資料中實際出現過的 `<title>`，不自行翻譯，見 `assets/catalog.js`。

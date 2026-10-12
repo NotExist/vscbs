@@ -85,6 +85,12 @@ cards[0].dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
 await new Promise((r) => setTimeout(r, 50));
 check($$('.card.is-on').length === 1, '恰好一張卡片被選取');
 check($('.card.is-on .detail') !== null, '選取後展開詳情');
+{
+  const dts = $$('.card.is-on .detail dt').map((d) => d.textContent);
+  const prose = $('.card.is-on .detail .prose');
+  check(dts.includes('告警說明') || dts.includes('應變建議'), `詳情帶官方說明(欄位:${dts.join('、')})`);
+  check(prose && !/[<>]|xss=/.test(prose.textContent), '官方說明已轉成純文字,無 HTML 殘留');
+}
 check(window.location.hash.includes('id='), `網址帶上 id:${window.location.hash.slice(0, 60)}`);
 
 console.log('\n[地圖聚焦]');

@@ -66,7 +66,7 @@ jobs:
           git status --short data
 
       # 驗證模式:複製一份 data/ 到 _fs/,強制經 FlareSolverr 重抓,檢查三件事:
-      # 1) 內容與 curl_cffi 版本 C14N 相同  2) mirror.py 判定為「沒有變動」(不會造成空 commit)
+      # 1) 內容與 curl_cffi 版本正規化後相同(XML 比 C14N、JSON 比解析結果)  2) mirror.py 判定為「沒有變動」(不會造成空 commit)
       # 3) 前端的 parse.js 解析結果與原版一致
       - name: 驗證 FlareSolverr 後備
         if: inputs.fallback_test == 'compare'
@@ -80,10 +80,12 @@ jobs:
           import sys
           sys.path.insert(0, 'scripts')
           import mirror  # FLARESOLVERR_URL 已由 step env 帶入
-          for name in ['list.xml', 'rssatomfeed.xml', 'atom-202609.xml']:
+          for name in ['list.xml', 'rssatomfeed.xml', 'atom-202609.xml', mirror.ALERT_TYPES_URL]:
               raw, fs = mirror.fetch_cffi(name), mirror.fetch_flaresolverr(name)
-              same_c14n = mirror.canonical(raw) == mirror.canonical(fs)
-              print(f'{name:18s} 位元組相同={raw == fs!s:5s} C14N相同={same_c14n!s:5s} raw={len(raw)}B fs={len(fs)}B')
+              as_json = mirror.is_json(name)
+              same = mirror.canonical(raw, as_json) == mirror.canonical(fs, as_json)
+              label = name.rsplit('/', 1)[-1]
+              print(f'{label:22s} 位元組相同={raw == fs!s:5s} 正規化後相同={same!s:5s} raw={len(raw)}B fs={len(fs)}B')
           PY2
           node --input-type=module -e "
           import { JSDOM } from 'jsdom'; import fs from 'node:fs';
