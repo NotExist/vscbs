@@ -261,6 +261,28 @@ function areaSummary(e) {
   return bits.join('・') || '未提供區域';
 }
 
+const AREA_PREVIEW = 10; // 區域超過這個數量時,其餘折疊
+const LEVEL_SHORT = { village: '村里落點', town: '鄉鎮落點', county: '縣市落點' };
+
+function areaLine(a) {
+  const name = (a.desc || '').replace(/[\s\u3000]+/g, ' ').trim() || '（未命名）';
+  const kind = a.kind === 'polygon' ? '多邊形'
+    : a.kind === 'circle' ? `圓形・半徑 ${Number((a.radiusKm || 0).toFixed(1))} km`
+      : a.approx ? `行政區・${LEVEL_SHORT[a.approx.level] || '概略落點'}` : '行政區・無座標';
+  return `<li>${esc(name)} <span class="area-kind">${esc(kind)}</span></li>`;
+}
+
+function areaListHTML(e) {
+  if (!e.areas.length) return '未提供區域';
+  const head = e.areas.slice(0, AREA_PREVIEW).map(areaLine).join('');
+  const rest = e.areas.slice(AREA_PREVIEW);
+  const more = rest.length
+    ? `<details class="area-more"><summary>其餘 ${rest.length} 個</summary><ul class="areas">${rest.map(areaLine).join('')}</ul></details>`
+    : '';
+  const count = e.areas.length > 1 ? areaSummary(e) : '';
+  return `${count}<ul class="areas">${head}</ul>${more}`;
+}
+
 function cardHTML(e, sameDay) {
   const info = eventInfo(e.event);
   const on = state.selected === e.id;
@@ -290,7 +312,7 @@ function detailHTML(e) {
     ['有效至', e.expires ? fFull.format(new Date(e.expires)) : '—'],
     ['事件類別', `${eventInfo(e.event).label}（${esc(e.event)}）`],
     ['發送頻道', channelLabel(e.channel)],
-    ['發布區域', `${areaSummary(e)}${e.areas[0]?.desc ? `・${esc(e.areas[0].desc)}` : ''}`],
+    ['發布區域', areaListHTML(e)],
   ];
   if (e.center?.approx) {
     rows.push(['座標說明',
@@ -426,7 +448,7 @@ function bindUI() {
 
   el.list.addEventListener('click', (ev) => {
     const card = ev.target.closest('.card');
-    if (!card || ev.target.closest('a')) return;
+    if (!card || ev.target.closest('a, summary')) return; // 連結與「其餘 N 個」不觸發選取
     select(card.dataset.id);
   });
 
@@ -451,7 +473,7 @@ function bindUI() {
   el.list.addEventListener('keydown', (ev) => {
     if (ev.key !== 'Enter' && ev.key !== ' ') return;
     const card = ev.target.closest('.card');
-    if (!card || ev.target.closest('a')) return;
+    if (!card || ev.target.closest('a, summary')) return; // 連結與「其餘 N 個」不觸發選取
     ev.preventDefault();
     select(card.dataset.id);
   });

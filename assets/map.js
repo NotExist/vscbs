@@ -2,10 +2,15 @@
 import { eventInfo } from './catalog.js';
 
 const TAIWAN_VIEW = { center: [23.7, 120.96], zoom: 7 };
+// 可拖曳範圍:本島、澎湖、金馬與東沙。viscosity 0 = 可拖出界,放手後彈回(同 cbs.tw 的設定)
+const MAX_BOUNDS = [[20, 117], [28, 125]];
 
 export function createMap(el, { onSelect, formatTime } = {}) {
   const map = L.map(el, {
     preferCanvas: true, // 上千個 polygon 時 canvas 比 SVG 穩
+    maxBounds: MAX_BOUNDS,
+    maxBoundsViscosity: 0,
+    minZoom: 7,
     zoomControl: true,
     attributionControl: true,
   }).setView(TAIWAN_VIEW.center, TAIWAN_VIEW.zoom);

@@ -213,6 +213,22 @@ await new Promise((r) => setTimeout(r, 60));
 check($('.card.is-on')?.dataset.id === kbCard.dataset.id, 'Enter 鍵可選取卡片');
 check($('.card.is-on').getAttribute('aria-expanded') === 'true', 'aria-expanded 反映展開狀態');
 
+console.log('\n[多區域告警的發布區域清單]');
+window.location.hash = '#m=201804&id=A20180418142332513'; // 臺南 CBS 測試,30 個村里
+window.dispatchEvent(new window.Event('hashchange'));
+await new Promise((r) => setTimeout(r, 1200));
+{
+  const d = $('.card.is-on .detail');
+  const shownAreas = d ? d.querySelectorAll(':scope dd > .areas > li').length : 0;
+  const more = d?.querySelector('.area-more summary');
+  check(shownAreas === 10, `先列出 10 個區域(實際 ${shownAreas})`);
+  check(more?.textContent === '其餘 20 個', `其餘折疊:「${more?.textContent}」`);
+  check(d && !/\u3000/.test(d.textContent), '區域名稱的全形空格已整理');
+  more?.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 50));
+  check($$('.card.is-on').length === 1, '點「其餘 N 個」不會收合卡片');
+}
+
 console.log('\n[全覽]');
 $('#fit-all').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
 await new Promise((r) => setTimeout(r, 60));

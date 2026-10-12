@@ -189,6 +189,10 @@ body {
 .detail dd { margin: 0; word-break: break-word; }
 .detail a { color: var(--accent); }
 .detail .prose { white-space: pre-line; }
+.detail .areas { margin: 2px 0 0; padding-left: 1.2em; }
+.detail .areas li { margin: 1px 0; }
+.detail .area-kind { color: var(--ink-dim); font-size: 11px; }
+.detail .area-more summary { cursor: pointer; color: var(--accent); margin-top: 2px; }
 
 .empty { padding: 40px 16px; text-align: center; color: var(--ink-dim); }
 .more { padding: 12px; text-align: center; color: var(--ink-dim); font-size: 12px; }
