@@ -156,7 +156,9 @@ def main() -> None:
         'mirroredAt': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
         if changed or 'mirroredAt' not in old else old['mirroredAt'],
         'months': [
-            {'id': m, 'bytes': (ARCHIVE / f'atom-{m}.xml').stat().st_size}
+            # entries 供月份選單直接顯示筆數,不必先下載解析該月
+            {'id': m, 'bytes': (ARCHIVE / f'atom-{m}.xml').stat().st_size,
+             'entries': (ARCHIVE / f'atom-{m}.xml').read_bytes().count(b'<entry>')}
             for m in months if (ARCHIVE / f'atom-{m}.xml').exists()
         ],
     }

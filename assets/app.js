@@ -109,9 +109,11 @@ async function boot() {
   }
 
   let months = [];
+  const monthCounts = {};
   try {
     const mirror = JSON.parse(await fetchText(DATA + 'mirror.json'));
     months = mirror.months.map((m) => m.id);
+    for (const m of mirror.months) if (m.entries != null) monthCounts[m.id] = m.entries;
     el.mirrorTime.textContent = `資料更新於 ${fFull.format(new Date(mirror.mirroredAt))}`;
     el.mirrorTime.title = '本站每小時檢查 cbs.tw；此為來源最後一次有變動的時間';
   } catch {
@@ -122,7 +124,8 @@ async function boot() {
   }
 
   el.monthSelect.innerHTML = months
-    .map((id) => `<option value="${id}">${id.slice(0, 4)} 年 ${Number(id.slice(4))} 月</option>`)
+    .map((id) => `<option value="${id}">${id.slice(0, 4)} 年 ${Number(id.slice(4))} 月${
+      monthCounts[id] != null ? `（${monthCounts[id].toLocaleString('zh-TW')} 筆）` : ''}</option>`)
     .join('');
 
   bindUI();

@@ -91,6 +91,8 @@ check($('#mirror-time').textContent.includes('資料更新於'), `資料更新�
   const admins = fetched.filter((u) => /admin\/\d{5}\.json/.test(u));
   check(admins.length > 0 && admins.length < 22, `只載入用得到的縣市行政區檔(${admins.length} 個)`);
 }
+check([...$('#month-select').options].some((o) => /（[\d,]+ 筆）$/.test(o.textContent)),
+  `月份選單附筆數:「${$('#month-select').options[0]?.textContent}」`);
 check($('#month-select').options.length > 100, `月份選單 ${$('#month-select').options.length} 個月`);
 
 console.log('\n[選取一筆]');
