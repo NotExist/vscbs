@@ -27,7 +27,10 @@ const state = {
   q: '',
   selected: null,
   selectedFromMap: false, // 從地圖點選時不聚焦也不飛移,其他告警照常顯示
-  shown: PAGE,
+  // 清單只渲染 view[start, end) 這一段:大月份(2017-06 有 6,528 筆)全部渲染會讓選取卡上好幾秒
+  start: 0,
+  end: PAGE,
+  sameDay: false,
 };
 
 const cache = new Map();
@@ -208,7 +211,10 @@ const haystack = (e) =>
 
 function refresh() {
   state.view = state.entries.filter(matches);
-  state.shown = PAGE;
+  state.start = 0;
+  state.end = PAGE;
+  // 結果全在同一天(或篩到單日)時卡片省略日期,只留時分
+  state.sameDay = !!state.day || new Set(state.view.map((e) => dayKey(e.sentAt))).size === 1;
   renderChips();
   renderDaybar();
   renderList();
@@ -356,28 +362,57 @@ function esc(s) {
   return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 }
 
+const cardsHTML = (from, to) =>
+  state.view.slice(from, to).map((e) => cardHTML(e, state.sameDay)).join('');
+
+const sentinelHTML = (dir, n) => (n > 0
+  ? `<p class="more" data-dir="${dir}">${dir === 'up' ? `往上還有 ${n} 筆` : `再顯示 ${Math.min(n, PAGE)} 筆（共 ${n} 筆未顯示）`}</p>`
+  : '');
+
 function renderList() {
   if (!state.view.length) {
     el.list.innerHTML = '<p class="empty">沒有符合條件的告警</p>';
     return;
   }
-  const slice = state.view.slice(0, state.shown);
-  // 篩到單日時省略日期,只留時分
-  const sameDay = !!state.day || new Set(slice.map((e) => dayKey(e.sentAt))).size === 1;
-  const rest = state.view.length - slice.length;
-  el.list.innerHTML = slice.map((e) => cardHTML(e, sameDay)).join('')
-    + (rest ? `<p class="more" id="more">再顯示 ${Math.min(rest, PAGE)} 筆（共 ${rest} 筆未顯示）</p>` : '');
-  const more = $('#more');
-  if (more) moreObserver.observe(more);
+  state.end = Math.min(state.end, state.view.length);
+  el.list.innerHTML = sentinelHTML('up', state.start)
+    + cardsHTML(state.start, state.end)
+    + sentinelHTML('down', state.view.length - state.end);
+  watchSentinels();
+}
+
+function watchSentinels() {
+  moreObserver.disconnect();
+  el.list.querySelectorAll('.more').forEach((p) => moreObserver.observe(p));
+}
+
+// 捲到兩端時只補一頁,不重建整份清單
+function extend(dir) {
+  if (dir === 'down') {
+    const to = Math.min(state.end + PAGE, state.view.length);
+    el.list.querySelector('.more[data-dir="down"]')?.remove();
+    el.list.insertAdjacentHTML('beforeend', cardsHTML(state.end, to) + sentinelHTML('down', state.view.length - to));
+    state.end = to;
+  } else {
+    const from = Math.max(0, state.start - PAGE);
+    const height = el.list.scrollHeight;
+    el.list.querySelector('.more[data-dir="up"]')?.remove();
+    el.list.insertAdjacentHTML('afterbegin', sentinelHTML('up', from) + cardsHTML(from, state.start));
+    el.list.scrollTop += el.list.scrollHeight - height; // 往上補時維持目前看到的位置
+    state.start = from;
+  }
+  watchSentinels();
+}
+
+// 只重畫一張卡(選取狀態變了),不動其他卡
+function redrawCard(id) {
+  const card = id && [...el.list.querySelectorAll('.card')].find((c) => c.dataset.id === id);
+  const e = card && state.view.find((x) => x.id === id);
+  if (e) card.outerHTML = cardHTML(e, state.sameDay);
 }
 
 const moreObserver = new IntersectionObserver((rows) => {
-  for (const row of rows) {
-    if (!row.isIntersecting) continue;
-    moreObserver.unobserve(row.target);
-    state.shown += PAGE;
-    renderList();
-  }
+  for (const row of rows) if (row.isIntersecting) extend(row.target.dataset.dir);
 }, { root: el.list, rootMargin: '200px' });
 
 /* ---------- 地圖聚焦 ---------- */
@@ -395,25 +430,35 @@ function syncFocus() {
 /* ---------- 選取 ---------- */
 function select(id, { fromMap = false, silent = false } = {}) {
   if (state.selected === id && !fromMap && !silent) id = null; // 再點一次收合
+  const prev = state.selected;
   state.selected = id;
 
+  let jumped = false;
   if (id) {
     const idx = state.view.findIndex((e) => e.id === id);
     if (idx < 0) {
       if (!silent) toast('該筆不在目前的篩選結果中');
       state.selected = null;
-    } else if (idx >= state.shown) {
-      state.shown = Math.ceil((idx + 1) / PAGE) * PAGE; // 展開到它所在的頁
+    } else if (idx < state.start || idx >= state.end) {
+      // 不在目前渲染的區段:改渲染它所在的那一頁,而不是把前面幾千筆全展開
+      state.start = Math.floor(idx / PAGE) * PAGE;
+      state.end = state.start + PAGE;
+      jumped = true;
     }
   }
 
-  renderList();
+  if (jumped) renderList();
+  else {
+    redrawCard(prev);
+    redrawCard(state.selected);
+  }
   state.selectedFromMap = !!state.selected && fromMap;
   map.select(state.selected, { fly: !!state.selected && !fromMap });
   syncFocus();
   if (state.selected) {
     const card = el.list.querySelector('.card.is-on');
-    card?.scrollIntoView({ block: fromMap ? 'center' : 'nearest', behavior: 'smooth' });
+    // 跳到新區段時內容整個換掉,平滑捲動沒有意義,直接定位
+    card?.scrollIntoView({ block: fromMap ? 'center' : 'nearest', behavior: jumped ? 'auto' : 'smooth' });
     if (!map.has(state.selected)) toast('這筆告警沒有可繪製的地理範圍');
   }
   writeHash();
