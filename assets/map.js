@@ -50,7 +50,7 @@ export function createMap(el, { onSelect, formatTime } = {}) {
     const rec = byId.get(id);
     if (!rec) return;
     for (const layer of rec.layers) {
-      layer.setStyle(active ? activeStyle(rec.color) : baseStyle(rec.color, rec.approx));
+      layer.setStyle(active ? activeStyle(rec.color) : baseStyle(rec.color, layer.approx));
       if (active && layer.bringToFront) layer.bringToFront();
     }
   }
@@ -73,6 +73,8 @@ export function createMap(el, { onSelect, formatTime } = {}) {
           layer = L.circle(area.center, { radius: Math.max((area.radiusKm || 0) * 1000, 150) });
         } else if (area.kind === 'polygon') {
           layer = L.polygon(area.ring);
+        } else if (area.kind === 'geocode' && area.shape) {
+          layer = L.polygon(area.shape); // 內政部行政區界,就是發布範圍本身
         } else if (area.kind === 'geocode' && area.approx) {
           // 只有行政區代碼、沒有精確幾何:用虛線圈標出概略位置,不假裝是實際範圍。
           // 圈的大小反映落點精度:對到村里就小,只能對到縣市就大。
@@ -80,7 +82,9 @@ export function createMap(el, { onSelect, formatTime } = {}) {
           layer = L.circleMarker([area.approx.lat, area.approx.lon], { radius });
         }
         if (!layer) continue;
-        layer.setStyle(baseStyle(color, entry.center.approx));
+        // 虛線只給概略落點;同一筆裡實際範圍與概略落點可能並存,逐圖層判斷
+        layer.approx = area.kind === 'geocode' && !area.shape;
+        layer.setStyle(baseStyle(color, layer.approx));
         const time = entry.sentAt && formatTime ? `${formatTime(entry.sentAt)}　` : '';
         // 字串形式的 tooltip 會被當 HTML 插入,來源文字要先跳脫
         layer.bindTooltip(esc(`${time}${entry.title}${area.desc ? ` — ${area.desc}` : ''}`), { sticky: true });
@@ -98,7 +102,7 @@ export function createMap(el, { onSelect, formatTime } = {}) {
         const b = layer.getBounds ? layer.getBounds() : L.latLngBounds([layer.getLatLng(), layer.getLatLng()]);
         bounds = bounds ? bounds.extend(b) : b;
       }
-      byId.set(entry.id, { layers, bounds, color, approx: entry.center.approx });
+      byId.set(entry.id, { layers, bounds, color });
     }
     return byId.size;
   }

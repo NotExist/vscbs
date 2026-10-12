@@ -230,6 +230,8 @@ await new Promise((r) => setTimeout(r, 1200));
   check(shownAreas === 10, `先列出 10 個區域(實際 ${shownAreas})`);
   check(more?.textContent === '其餘 20 個', `其餘折疊:「${more?.textContent}」`);
   check(d && !/\u3000/.test(d.textContent), '區域名稱的全形空格已整理');
+  check(/村里界/.test(d?.textContent) && /範圍說明/.test(d?.textContent), '行政區代碼畫出內政部村里界並說明');
+  check(/鄉鎮落點/.test(d?.textContent), '已整併的舊里代碼退回地名查表的概略落點');
   more?.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
   await new Promise((r) => setTimeout(r, 50));
   check($$('.card.is-on').length === 1, '點「其餘 N 個」不會收合卡片');

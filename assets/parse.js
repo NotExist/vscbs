@@ -81,7 +81,9 @@ function parseAreas(entry) {
             : county
               ? { lat: county.lat, lon: county.lon, name: county.name, level: 'county' }
               : null;
-          areas.push({ kind: 'geocode', desc, code: value, scheme: firstText(el, 'valueName'), approx });
+          // 有內政部界線時附上邊界:行政區代碼的發布範圍就是該行政區本身,畫出來即實際範圍
+          const shape = admin?.[2]?.length ? admin[2] : null;
+          areas.push({ kind: 'geocode', desc, code: value, scheme: firstText(el, 'valueName'), approx, shape });
           break;
         }
       }
@@ -90,7 +92,7 @@ function parseAreas(entry) {
   return areas;
 }
 
-// 精確幾何優先;整筆只有行政區代碼時才退回縣市概略中心。
+// 精確幾何(含有行政區界的 geocode)優先;都沒有時才退回概略落點。
 function centroidOf(areas) {
   let sum = [0, 0];
   let n = 0;
@@ -108,6 +110,10 @@ function centroidOf(areas) {
       }
       sum[0] += la / a.ring.length;
       sum[1] += lo / a.ring.length;
+      n += 1;
+    } else if (a.kind === 'geocode' && a.shape) {
+      sum[0] += a.approx.lat;
+      sum[1] += a.approx.lon;
       n += 1;
     }
   }

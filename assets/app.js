@@ -283,12 +283,14 @@ function areaSummary(e) {
 
 const AREA_PREVIEW = 10; // 區域超過這個數量時,其餘折疊
 const LEVEL_SHORT = { village: '村里落點', town: '鄉鎮落點', county: '縣市落點' };
+const LEVEL_AREA = { village: '村里', town: '鄉鎮市區', county: '縣市' };
 
 function areaLine(a) {
   const name = (a.desc || '').replace(/[\s\u3000]+/g, ' ').trim() || '（未命名）';
   const kind = a.kind === 'polygon' ? '多邊形'
     : a.kind === 'circle' ? `圓形・半徑 ${Number((a.radiusKm || 0).toFixed(1))} km`
-      : a.approx ? `行政區・${LEVEL_SHORT[a.approx.level] || '概略落點'}` : '行政區・無座標';
+      : a.shape ? `${LEVEL_AREA[a.approx.level]}界`
+        : a.approx ? `行政區・${LEVEL_SHORT[a.approx.level] || '概略落點'}` : '行政區・無座標';
   return `<li>${esc(name)} <span class="area-kind">${esc(kind)}</span></li>`;
 }
 
@@ -334,6 +336,9 @@ function detailHTML(e) {
     ['發送頻道', channelLabel(e.channel)],
     ['發布區域', areaListHTML(e)],
   ];
+  if (e.areas.some((a) => a.shape)) {
+    rows.push(['範圍說明', '原始訊息只給行政區代碼，地圖畫的是該行政區的界線（內政部村里／鄉鎮市區界）。']);
+  }
   if (e.center?.approx) {
     rows.push(['座標說明',
       `原始訊息未附經緯度，僅給行政區。地圖上以${LEVEL[e.center.level] || '概略位置'}的虛線圈標示，不是實際影響範圍。`]);
