@@ -176,6 +176,11 @@ check($$('.card').length === before, `回到 ${$$('.card').length} 筆`);
 console.log('\n[切換到歷史回顧]');
 $('#tab-archive').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
 await new Promise((r) => setTimeout(r, 1500));
+// 選單第一個可能是累積中的當月(筆數不定),互動檢查固定用已封存、內容不再變動的 2026-09
+$('#month-select').value = '202609';
+$('#month-select').dispatchEvent(new window.Event('change'));
+await new Promise((r) => setTimeout(r, 1500));
+check($('#month-select').value === '202609', '固定使用已封存的 2026-09 做互動檢查');
 check($$('.card').length > 0, `歷史月份載入 ${$$('.card').length} 張卡片(分頁上限 120)`);
 check(!$('.month-pick').hidden, '月份選單顯示');
 check(!$('#daybar-wrap').hidden && $$('.day').length > 1, `日期條 ${$$('.day').length} 天`);
