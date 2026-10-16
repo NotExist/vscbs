@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
   <id>CBS-Season-Data</id>
   <title>彙整資料</title>
-  <updated>2026-10-05T00:00:02+08:00</updated>
+  <updated>2026-10-15T00:00:01+08:00</updated>
   <author>
     <name>NCDR</name>
   </author>
