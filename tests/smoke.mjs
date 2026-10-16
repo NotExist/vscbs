@@ -243,6 +243,22 @@ await new Promise((r) => setTimeout(r, 1200));
   check($$('.card.is-on').length === 1, '點「其餘 N 個」不會收合卡片');
 }
 
+console.log('\n[即時 feed 累積的當月]');
+{
+  const partial = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/mirror.json'), 'utf8')).months.find((m) => m.partial);
+  if (!partial) {
+    check(true, '目前沒有累積中的月份,略過');
+  } else {
+    const opt = [...$('#month-select').options].find((o) => o.value === partial.id);
+    check(/累積中/.test(opt?.textContent), `選單標示累積中:「${opt?.textContent}」`);
+    window.location.hash = `#m=${partial.id}`;
+    window.dispatchEvent(new window.Event('hashchange'));
+    await new Promise((r) => setTimeout(r, 800));
+    check(fetched.some((u) => u.includes(`current/atom-${partial.id}.xml`)), '從 current/ 載入累積檔');
+    check($$('.card').length === Math.min(partial.entries, 120), `累積月份渲染 ${$$('.card').length} 張卡片(累積 ${partial.entries} 筆)`);
+  }
+}
+
 console.log('\n[即時資料]');
 {
   // 沒有生效中的告警(0 筆)是正常狀態,只要求能解析、不拋錯

@@ -34,9 +34,10 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 function collectKeys() {
   const files = [
     path.join(ROOT, 'data/rssatomfeed.xml'),
-    ...fs.readdirSync(path.join(ROOT, 'data/archive'))
-      .filter((f) => f.endsWith('.xml'))
-      .map((f) => path.join(ROOT, 'data/archive', f)),
+    ...['archive', 'current'].flatMap((dir) => {
+      const d = path.join(ROOT, 'data', dir);
+      return fs.existsSync(d) ? fs.readdirSync(d).filter((f) => f.endsWith('.xml')).map((f) => path.join(d, f)) : [];
+    }),
   ].filter((f) => fs.existsSync(f));
 
   const counts = new Map();

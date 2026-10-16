@@ -113,9 +113,12 @@ async function boot() {
   try {
     const mirror = JSON.parse(await fetchText(DATA + 'mirror.json'));
     months = mirror.months.map((m) => m.id);
-    for (const m of mirror.months) if (m.entries != null) monthCounts[m.id] = m.entries;
+    for (const m of mirror.months) {
+      if (m.entries != null) monthCounts[m.id] = m.entries;
+      if (m.partial) partialMonths.add(m.id);
+    }
     el.mirrorTime.textContent = `資料更新於 ${fFull.format(new Date(mirror.mirroredAt))}`;
-    el.mirrorTime.title = '本站每小時檢查 cbs.tw；此為來源最後一次有變動的時間';
+    el.mirrorTime.title = '本站以 GitHub Actions 排程檢查 cbs.tw（設定每小時，實際常延遲數小時）；此為來源最後一次有變動的時間';
   } catch {
     // 沒有 manifest 就退回讀鏡像的 list.xml
     try {
@@ -125,7 +128,8 @@ async function boot() {
 
   el.monthSelect.innerHTML = months
     .map((id) => `<option value="${id}">${id.slice(0, 4)} 年 ${Number(id.slice(4))} 月${
-      monthCounts[id] != null ? `（${monthCounts[id].toLocaleString('zh-TW')} 筆）` : ''}</option>`)
+      monthCounts[id] != null
+        ? `（${partialMonths.has(id) ? '累積中 ' : ''}${monthCounts[id].toLocaleString('zh-TW')} 筆）` : ''}</option>`)
     .join('');
 
   bindUI();
@@ -173,6 +177,8 @@ async function applyHash() {
   if (h.id) select(h.id, { silent: true });
 }
 
+const partialMonths = new Set(); // mirror.json 標 partial 的月份
+
 async function loadCurrent() {
   try {
     if (state.mode === 'latest') {
@@ -180,7 +186,8 @@ async function loadCurrent() {
     } else {
       const m = state.month || el.monthSelect.value;
       state.month = m;
-      state.entries = await loadFeed(m, `${DATA}archive/atom-${m}.xml`);
+      // 官方月彙整尚未發布的月份讀即時 feed 累積檔
+      state.entries = await loadFeed(m, `${DATA}${partialMonths.has(m) ? 'current' : 'archive'}/atom-${m}.xml`);
     }
   } catch (err) {
     state.entries = [];
