@@ -266,7 +266,7 @@ console.log('\n[即時 feed 累積的當月]');
 
 console.log('\n[即時資料]');
 {
-  // 沒有生效中的告警(0 筆)是正常狀態,只要求能解析、不拋錯
+  // 即時 feed 沒有任何告警(0 筆)是正常狀態,只要求能解析、不拋錯
   const { parseFeed } = await import(path.join(ROOT, 'assets/parse.js'));
   let live = null;
   try { live = parseFeed(fs.readFileSync(path.join(ROOT, 'data/rssatomfeed.xml'), 'utf8')); } catch (e) { errors.push(String(e)); }

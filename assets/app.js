@@ -379,7 +379,7 @@ function renderList() {
     // 最新告警沒有任何一筆是正常狀態(當下沒有災防需求),與「篩選後沒有結果」分開說明
     el.list.innerHTML = state.entries.length || state.mode !== 'latest'
       ? '<p class="empty">沒有符合條件的告警</p>'
-      : '<p class="empty">目前沒有生效中的告警</p>';
+      : '<p class="empty">即時 feed 目前沒有任何告警</p>';
     return;
   }
   el.list.innerHTML = '';

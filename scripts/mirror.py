@@ -12,7 +12,7 @@ curl_cffi 模仿 Chrome 的指紋即可通過,從 GitHub Actions 也一樣。
 (CDATA 變成跳脫文字、空元素寫法等),因此這條路改用 C14N 判斷內容是否有變。
 JSON 則是在 Chrome JSON viewer 的 <pre> 裡,同理改比解析後的內容。
 
-即時 feed 累積:即時 feed 只含當下生效的告警,官方月彙整要到次月初才出現。期間每次抓到的
+即時 feed 累積:即時 feed 只保留最近幾天的告警(過期後仍留數天,觀察到 5–9 天),官方月彙整要到次月初才出現。期間每次抓到的
 告警依發布月份(台北時間)併入 data/current/atom-YYYYMM.xml(與月彙整同格式,entry 原樣保存),
 供歷史回顧先看當月。官方月彙整出現後,先逐筆比對 id 產生對帳報告 data/reconcile/YYYYMM.json
 (累積抓到幾成、漏了哪些),再刪除累積檔改用官方版本。每次取得的即時 feed 原檔留在 git 歷史中。
