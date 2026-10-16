@@ -61,6 +61,29 @@
 2. **觀察排程穩定度**：curl_cffi 的實測只在單一 runner、短時間內做過。若日後 Cloudflare 規則改變導致失敗，
    workflow 會在「抓取 cbs.tw」步驟紅燈（`mirror.py` 抓不到合法 XML 即非零退出），不會靜默停更。
 
+## 暫緩的構想：Web Push 通知
+
+**情境**：有告警（多半不在自己所在範圍）出現時，得到通知再回來看地圖。不要求時效，但使用者通常不會開著網頁，
+所以必須是關閉分頁後仍收得到的 Web Push。2026-10-16 評估後 user 決定先維持現狀。
+
+**技術要件**（RFC 8030 Web Push、RFC 8291 訊息加密、RFC 8292 VAPID）：
+
+- **push service 由瀏覽器決定**：Chrome／Edge → FCM 端點，Firefox → Mozilla autopush，Safari／iOS → Apple Web Push。
+  不需向廠商申請帳號或憑證，只要自行產生一組 VAPID 金鑰（P-256），公鑰給前端訂閱、私鑰留在發送端簽 JWT。
+- **前端**：
+  - HTTPS（GitHub Pages 已滿足）。
+  - 一個 service worker，處理 `push` 事件顯示通知、`notificationclick` 開回地圖。
+  - 在使用者手勢中呼叫 `Notification.requestPermission()`，再以 `pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: VAPID 公鑰 })`
+    取得 subscription：`endpoint` URL 與 `p256dh`／`auth` 金鑰。
+  - iOS 需 16.4 以上，且網站須先「加入主畫面」：要有 Web App Manifest（`display: standalone`）。
+- **後端（目前缺的部分）**：
+  - **收存 subscription**：需要能接 POST 並持久保存的端點；純靜態站做不到。
+    subscription 含個人裝置端點，不宜進公開 repo。
+  - **偵測新告警**：比對前後兩次即時 feed 的 id（`mirror.py` 的累積已有現成的新 id 判斷）。
+  - **發送**：對每個 subscription 以 `p256dh`／`auth` 做 aes128gcm 加密，附 VAPID 簽章的 `Authorization` 標頭與 `TTL`，POST 到 endpoint。
+    回 404／410 時刪除該訂閱。payload 上限約 4 KB，只放標題、時間與連結即可。
+- **可選**：依使用者選的地區或事件類型篩選後才發送，就要在訂閱時一併保存篩選條件。
+
 ## 已知限制
 
 - **多區域告警在月彙整裡常只有一個代表代碼**（全國測試、海嘯分區、地震速報等），地圖範圍比實際小。目前只標「範圍可能不完整」，
