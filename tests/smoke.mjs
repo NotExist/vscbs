@@ -51,10 +51,14 @@ window.L = {
 };
 
 // --- 用檔案系統當 fetch ---
+// 最新告警改讀固定快照:即時 feed 隨災防需求變動,沒有告警時是空的,不能拿來跑互動檢查。
+// 即時 feed 本身另在最後以「能解析、筆數不拘」檢查。
+const FIXTURE_FEED = path.join(ROOT, 'tests/fixtures/rssatomfeed.xml');
 const fetched = [];
 window.fetch = async (url) => {
   fetched.push(String(url));
-  const file = path.join(ROOT, String(url).replace(/^https?:\/\/localhost\//, '').split('?')[0]);
+  const rel = String(url).replace(/^https?:\/\/localhost\//, '').split('?')[0];
+  const file = rel === 'data/rssatomfeed.xml' ? FIXTURE_FEED : path.join(ROOT, rel);
   if (!fs.existsSync(file)) return { ok: false, status: 404, text: async () => '' };
   return { ok: true, status: 200, text: async () => fs.readFileSync(file, 'utf8') };
 };
@@ -237,6 +241,17 @@ await new Promise((r) => setTimeout(r, 1200));
   more?.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
   await new Promise((r) => setTimeout(r, 50));
   check($$('.card.is-on').length === 1, '點「其餘 N 個」不會收合卡片');
+}
+
+console.log('\n[即時資料]');
+{
+  // 沒有生效中的告警(0 筆)是正常狀態,只要求能解析、不拋錯
+  const { parseFeed } = await import(path.join(ROOT, 'assets/parse.js'));
+  let live = null;
+  try { live = parseFeed(fs.readFileSync(path.join(ROOT, 'data/rssatomfeed.xml'), 'utf8')); } catch (e) { errors.push(String(e)); }
+  check(Array.isArray(live), `即時 feed 可解析(${live?.length ?? '失敗'} 筆,0 筆也屬正常)`);
+  const empty = parseFeed('<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom"><title>x</title></feed>');
+  check(Array.isArray(empty) && empty.length === 0, '空 feed 解析為 0 筆、不拋錯');
 }
 
 console.log('\n[全覽]');
