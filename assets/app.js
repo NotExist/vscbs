@@ -1,5 +1,5 @@
 import { parseFeed, parseIndex, setPlaces, addAdmin } from './parse.js';
-import { eventInfo, channelLabel, setAlertTypes, countyCodeOf } from './catalog.js';
+import { eventInfo, channelLabel, setAlertTypes, countyCodeOf, isTest } from './catalog.js';
 import { createMap } from './map.js';
 
 const DATA = 'data/';
@@ -11,7 +11,7 @@ const LEVEL = { village: '村里概略位置', town: '鄉鎮概略位置', count
 
 const $ = (sel) => document.querySelector(sel);
 const el = {
-  list: $('#list'), chips: $('#event-chips'), search: $('#search'), reset: $('#reset'),
+  list: $('#list'), chips: $('#event-chips'), channelChips: $('#channel-chips'), search: $('#search'), reset: $('#reset'),
   summary: $('#summary'), daybar: $('#daybar'), daybarWrap: $('#daybar-wrap'), dayAll: $('#day-all'),
   monthPick: $('.month-pick'), monthSelect: $('#month-select'), mirrorTime: $('#mirror-time'),
   legend: $('#legend'), status: $('#status'), fitAll: $('#fit-all'),
@@ -23,6 +23,8 @@ const state = {
   entries: [],
   view: [],
   events: new Set(),
+  channels: new Set(),
+  tests: false, // 預設隱藏測試性質的訊息
   day: null,
   q: '',
   selected: null,
@@ -144,6 +146,8 @@ function readHash() {
     month: p.get('m'),
     day: p.get('d'),
     events: (p.get('e') || '').split(',').filter(Boolean),
+    channels: (p.get('c') || '').split(',').filter(Boolean),
+    tests: p.get('t') === '1',
     q: p.get('q') || '',
     id: p.get('id') || '',
   };
@@ -154,6 +158,8 @@ function writeHash() {
   if (state.mode === 'archive' && state.month) p.set('m', state.month);
   if (state.day) p.set('d', state.day);
   if (state.events.size) p.set('e', [...state.events].join(','));
+  if (state.channels.size) p.set('c', [...state.channels].join(','));
+  if (state.tests) p.set('t', '1');
   if (state.q) p.set('q', state.q);
   if (state.selected) p.set('id', state.selected);
   const next = '#' + p.toString();
@@ -168,6 +174,8 @@ async function applyHash() {
   state.mode = mode;
   state.month = h.month || state.month;
   state.events = new Set(h.events);
+  state.channels = new Set(h.channels);
+  state.tests = h.tests;
   state.day = h.day || null;
   state.q = h.q;
   el.search.value = h.q;
@@ -207,8 +215,11 @@ function syncModeUI() {
 }
 
 /* ---------- 篩選 ---------- */
-function matches(e) {
-  if (state.events.size && !state.events.has(e.event)) return false;
+// skip:計算某一列篩選鈕的筆數時略過該列本身,否則選了一個之後其他全變 0
+function matches(e, skip = '') {
+  if (!state.tests && isTest(e)) return false;
+  if (skip !== 'event' && state.events.size && !state.events.has(e.event)) return false;
+  if (skip !== 'channel' && state.channels.size && !state.channels.has(e.channel)) return false;
   if (state.day && dayKey(e.sentAt) !== state.day) return false;
   if (state.q && !haystack(e).includes(state.q.toLowerCase())) return false;
   return true;
@@ -218,7 +229,7 @@ const haystack = (e) =>
   `${e.title} ${e.sender} ${e.text} ${e.areas.map((a) => a.desc).join(' ')}`.toLowerCase();
 
 function refresh() {
-  state.view = state.entries.filter(matches);
+  state.view = state.entries.filter((e) => matches(e));
   // 結果全在同一天(或篩到單日)時卡片省略日期,只留時分
   state.sameDay = !!state.day || new Set(state.view.map((e) => dayKey(e.sentAt))).size === 1;
   renderChips();
@@ -231,28 +242,40 @@ function refresh() {
   map.select(state.selected, { fly: false });
   syncFocus();
   const noGeo = state.view.length - drawn;
+  const tests = state.tests ? 0 : state.entries.filter(isTest).length;
   el.summary.textContent = state.entries.length
     ? `${state.view.length} / ${state.entries.length} 筆` + (noGeo ? `・${noGeo} 筆無地理範圍` : '')
+      + (tests ? `・已隱藏 ${tests} 筆測試` : '')
     : '';
   writeHash();
 }
 
 /* ---------- 篩選列 ---------- */
-function renderChips() {
-  // 計數要套用日期與關鍵字,但不套用類型本身,否則選了一個類型後其他類型全變 0
+function countBy(key, skip) {
   const counts = new Map();
-  for (const e of state.entries) {
-    if (state.day && dayKey(e.sentAt) !== state.day) continue;
-    if (state.q && !haystack(e).includes(state.q.toLowerCase())) continue;
-    counts.set(e.event, (counts.get(e.event) || 0) + 1);
-  }
-  const codes = [...counts.entries()].sort((a, b) => b[1] - a[1]);
-  el.chips.innerHTML = codes.map(([code, n]) => {
+  for (const e of state.entries) if (matches(e, skip)) counts.set(e[key], (counts.get(e[key]) || 0) + 1);
+  // 已選的鈕即使在其他條件下變成 0 筆也要留著,才能取消
+  for (const v of skip === 'event' ? state.events : state.channels) if (!counts.has(v)) counts.set(v, 0);
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+function renderChips() {
+  el.chips.innerHTML = countBy('event', 'event').map(([code, n]) => {
     const info = eventInfo(code);
     const on = state.events.has(code) ? ' is-on' : '';
-    return `<button class="chip${on}" data-event="${code}" aria-pressed="${!!on}">
+    return `<button class="chip${on}" data-event="${esc(code)}" aria-pressed="${!!on}">
       <i style="background:${info.color}"></i>${info.label}<b>${n}</b></button>`;
   }).join('');
+
+  const tests = state.entries.filter(isTest).length;
+  const testChip = tests
+    ? `<button class="chip test-chip${state.tests ? ' is-on' : ''}" data-tests aria-pressed="${state.tests}"
+        title="系統測試事件與每月測試頻道(4380/4393)">含測試<b>${tests}</b></button>`
+    : '';
+  el.channelChips.innerHTML = countBy('channel', 'channel').map(([ch, n]) => {
+    const on = state.channels.has(ch) ? ' is-on' : '';
+    return `<button class="chip${on}" data-channel="${esc(ch)}" aria-pressed="${!!on}">${esc(channelLabel(ch))}<b>${n}</b></button>`;
+  }).join('') + testChip;
 }
 
 function renderDaybar() {
@@ -325,6 +348,7 @@ function cardHTML(e, sameDay) {
   if (e.channel && e.channel !== '911') tags.push(`<span class="tag">${channelLabel(e.channel)}</span>`);
   if (e.center?.approx) tags.push(`<span class="tag warn">${LEVEL[e.center.level] || '概略位置'}</span>`);
   if (!e.center) tags.push('<span class="tag warn">無座標</span>');
+  if (e.partialArea) tags.push('<span class="tag warn" title="官方 CAP 可能只列代表區域">範圍可能不完整</span>');
 
   // 用 div 而非 button:詳情裡有 <a>,巢狀互動元素不合法
   return `<div class="card${on ? ' is-on' : ''}" data-id="${e.id}" role="button" tabindex="0"
@@ -350,6 +374,12 @@ function detailHTML(e) {
   ];
   if (e.areas.some((a) => a.shape)) {
     rows.push(['範圍說明', '原始訊息只給行政區代碼，地圖畫的是該行政區的界線（內政部村里／鄉鎮市區界）。']);
+  }
+  if (e.partialArea) {
+    const names = [...new Set(e.areas.map((a) => (a.desc || '').trim()).filter(Boolean))].slice(0, 3);
+    rows.push(['範圍失真', `官方 CAP 的區域名稱（${esc(names.join('、') || '未命名')}）不是行政區名，只附 ${e.areas.length} 個代碼。`
+      + '多區域發布的訊息（全國測試、海嘯分區、地震速報等）在官方 CAP 裡常只留一個代表區域，'
+      + '地圖畫出的範圍可能比實際小；完整範圍請見下方原始訊息頁面。']);
   }
   if (e.center?.approx) {
     rows.push(['座標說明',
@@ -483,6 +513,17 @@ function bindUI() {
     refresh();
   });
 
+  el.channelChips.addEventListener('click', (ev) => {
+    const chip = ev.target.closest('.chip');
+    if (!chip) return;
+    if (chip.hasAttribute('data-tests')) state.tests = !state.tests;
+    else {
+      const ch = chip.dataset.channel;
+      state.channels.has(ch) ? state.channels.delete(ch) : state.channels.add(ch);
+    }
+    refresh();
+  });
+
   el.daybar.addEventListener('click', (ev) => {
     const day = ev.target.closest('.day');
     if (!day) return;
@@ -500,6 +541,8 @@ function bindUI() {
 
   el.reset.addEventListener('click', () => {
     state.events.clear();
+    state.channels.clear();
+    state.tests = false;
     state.day = null;
     state.q = '';
     el.search.value = '';

@@ -248,6 +248,37 @@ await new Promise((r) => setTimeout(r, 1200));
   check($$('.card.is-on').length === 1, '點「其餘 N 個」不會收合卡片');
 }
 
+console.log('\n[頻道篩選與測試訊息]');
+window.location.hash = '#m=202609';
+window.dispatchEvent(new window.Event('hashchange'));
+await new Promise((r) => setTimeout(r, 1200));
+{
+  const all = $('#summary').textContent;
+  check(/已隱藏 \d+ 筆測試/.test(all), `預設隱藏測試訊息:「${all}」`);
+  check(!$$('#event-chips .chip').some((c) => c.dataset.event === 'systemTest'), '事件類型不出現系統測試');
+  const shown = Number(all.match(/^(\d+)/)[1]);
+  const testChip = $('#channel-chips .test-chip');
+  testChip.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 80));
+  const withTests = Number($('#summary').textContent.match(/^(\d+)/)[1]);
+  check(withTests > shown && /t=1/.test(window.location.hash), `含測試後 ${withTests} 筆(原 ${shown} 筆),網址帶 t=1`);
+  testChip.ownerDocument.querySelector('#channel-chips .test-chip')
+    .dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 80));
+  const ch = $('#channel-chips .chip[data-channel="4370"]');
+  check(/國家級警報 \(4370\)/.test(ch?.textContent || ''), `頻道鈕標示官方分類:「${ch?.textContent.trim()}」`);
+  ch?.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 80));
+  check($$('.card').length > 0 && $$('.card').every((c) => /4370/.test(c.textContent)), `篩 4370 後 ${$$('.card').length} 筆皆為該頻道`);
+  $('#reset').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 80));
+  const partial = $$('.card').filter((c) => /範圍可能不完整/.test(c.textContent));
+  check(partial.length > 0, `只有代表區域的告警標示範圍可能不完整(${partial.length} 張)`);
+  partial[0]?.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 80));
+  check(/範圍失真/.test($('.card.is-on .detail')?.textContent || ''), '詳細面板說明範圍失真');
+}
+
 console.log('\n[即時 feed 累積的當月]');
 {
   const partial = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/mirror.json'), 'utf8')).months.find((m) => m.partial);

@@ -84,11 +84,27 @@ export function eventInfo(code) {
   return official?.title ? { ...base, label: official.title, official } : base;
 }
 
-// 只標註公開定義明確的頻道;其餘保留原始代碼,不臆測語意。
-export const CHANNELS = {
-  '4370': '國家級警報',
-  '4371': '緊急警報',
-};
+// CBS 訊息碼(頻道)依 NCDR 規劃、NCC 公告的分類(台灣電信產業發展協會整理:
+// http://www.emfsite.org.tw/PWS/p1-3.html):911/919 警訊通知,4370/4383 國家級警報,
+// 4371–4379/4384–4392 緊急警報,4380/4393 每月測試;後一個碼是英文版。
+// 與 3GPP TS 23.041 一致(4380 = Required Monthly Test)。不在表內的(如早期資料的 0)保留原始代碼。
+const CHANNEL_GROUPS = [
+  ['911', '警訊通知'], ['919', '警訊通知・英文'],
+  ['4370', '國家級警報'], ['4383', '國家級警報・英文'],
+  ...range(4371, 4379).map((c) => [String(c), '緊急警報']),
+  ...range(4384, 4392).map((c) => [String(c), '緊急警報・英文']),
+  ['4380', '每月測試'], ['4393', '每月測試・英文'],
+];
+export const CHANNELS = Object.fromEntries(CHANNEL_GROUPS);
+
+function range(from, to) {
+  return Array.from({ length: to - from + 1 }, (_, i) => from + i);
+}
+
+// 測試訊息只依兩個明確定義判斷:測試頻道(4380/4393),或事件類別為 systemTest。
+// 其他頻道上出現過 systemTest(4370、4371、919 等),不代表那些頻道是測試用,只藏那幾筆。
+const TEST_CHANNELS = new Set(['4380', '4393']);
+export const isTest = (e) => e.event === 'systemTest' || TEST_CHANNELS.has(e.channel);
 
 export function channelLabel(v) {
   return CHANNELS[v] ? `${CHANNELS[v]} (${v})` : `頻道 ${v}`;

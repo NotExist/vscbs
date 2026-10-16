@@ -123,6 +123,17 @@ function centroidOf(areas) {
   return null;
 }
 
+// 行政區名稱的結尾;「東部沿海地區」「地震速報廣播範圍」「Test_Geocode」「發布區域1」都不是
+const ADMIN_NAME = /(縣|市|鄉|鎮|[^地]區|村|里)$/;
+
+// 官方 CAP 對多區域發布的訊息常只留一個代表代碼(全國測試只給金門 09020、海嘯分區只給 1 個代碼),
+// 完整區域只在 cbs.tw 網站上。只有代碼、且區域名稱不是行政區名者,標為範圍可能不完整。
+function isPartialArea(areas) {
+  const geo = areas.filter((a) => a.kind === 'geocode');
+  if (!geo.length || geo.length !== areas.length) return false;
+  return geo.some((a) => !ADMIN_NAME.test(String(a.desc || '').replace(/[\s\u3000]+/g, '')));
+}
+
 function parseEntry(entry) {
   const areas = parseAreas(entry);
   const linkEl = childrenOf(entry, 'link')[0];
@@ -143,6 +154,7 @@ function parseEntry(entry) {
     text: firstText(entry, 'text') || firstText(entry, 'description'),
     link,
     areas,
+    partialArea: isPartialArea(areas),
     center: centroidOf(areas),
   };
 }
