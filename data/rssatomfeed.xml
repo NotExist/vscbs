@@ -3,17 +3,17 @@
   <id>https://alerts.ncdr.nat.gov.tw/RSS.aspx</id>
   <title>NCDR_CAP-</title>
   <link rel="self" href="https://cbs.tw/download/rssatomfeed.xml"/>
-  <updated>2026-10-14T16:00:32+08:00</updated>
+  <updated>2026-10-22T08:00:21+08:00</updated>
   <author>
     <name>NCDR</name>
   </author>
   <entry>
-    <id>A2026101017060236545702060</id>
+    <id>A2026102110542594745862310</id>
     <title>水庫放流</title>
-    <sent>2026-10-11T08:00:05+08:00</sent>
-    <expires>2026-10-11T10:00:00+08:00</expires>
+    <sent>2026-10-22T08:00:03+08:00</sent>
+    <expires>2026-10-22T08:10:00+08:00</expires>
     <sender>
-      <value>台灣電力股份有限公司東部發電廠</value>
+      <value>農業部農田水利署苗栗管理處</value>
     </sender>
     <status>Actual</status>
     <msgType>Alert</msgType>
@@ -22,13 +22,75 @@
     </eventCode>
     <area>
       <areaDesc>發布區域1</areaDesc>
-      <circle>24.327266499086534,121.69016358312786 9.096552874942823</circle>
+      <polygon>24.6309880436986,120.893342857429 24.630319465303,120.896054188108 24.6273186809595,120.898671696985 24.628137484201,120.902561712275 24.628227625589,120.906803119814 24.6301247168885,120.910532994049 24.6283195541005,120.914329288584 24.6218488376165,120.915832490895 24.6219648680321,120.914811958012 24.6217312048838,120.914014887221 24.6222263357779,120.913249205593 24.622897033381,120.913631416277 24.6235672905446,120.913248280206 24.6235952697316,120.911239213779 24.6230692918169,120.90913487802 24.6233307201573,120.907603989815 24.6244076648104,120.904956341544 24.6251937306682,120.903361245299 24.6248135448443,120.901480031131 24.6234397474043,120.895996098503 24.6235555985907,120.894911755702 24.6230300936598,120.893796063124 24.6232335869438,120.89299865287 24.6228242357763,120.891276972161 24.6239322104249,120.891594910961 24.6269637010352,120.891273391635 24.6309880436986,120.893342857429</polygon>
     </area>
     <channel>
       <value>911</value>
     </channel>
-    <link rel="alternate" href="https://cbs.tw/26103cdd5b31"/>
-    <text>[水壩放水警戒] 台電東部電廠南溪壩將排砂放水，自10月11日09時00分起排砂放水至和平溪，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]09:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161</text>
-    <description type="html"><![CDATA[[水壩放水警戒] 台電東部電廠南溪壩將排砂放水，自10月11日09時00分起排砂放水至和平溪，請和平溪下游沿岸附近民眾加強注意並遠離河床，以策安全。[Reservoir discharge]09:00 Heping River level rise.Plz stay away.1911,TAIPOWER(台電公司1911).Taipower03-8350161]]></description>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5b55"/>
+    <text>[水庫放水警戒]劍潭水庫自10月22日09時00分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 09:00 on10/22 Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735</text>
+    <description type="html"><![CDATA[[水庫放水警戒]劍潭水庫自10月22日09時00分進行放水，請南港溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。Jiantan Reservoir will discharge at 09:00 on10/22 Please keep away from Nangang creek.農業部農水署苗栗管理處037-665735]]></description>
+  </entry>
+  <entry>
+    <id>A2026102207521716045886610</id>
+    <title>疏散避難</title>
+    <sent>2026-10-22T08:00:03+08:00</sent>
+    <expires>2026-10-22T20:00:00+08:00</expires>
+    <sender>
+      <value>花蓮縣消防局</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>evacuation</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>23.724973143142883,121.38104309275214 23.71350671895035,121.38258832062847 23.699525742248305,121.49830871936908 23.703453134187136,121.51049885039367 23.719004445407364,121.51307423018758 23.727643261561074,121.50242932703935 23.763763015547827,121.50637824272336 23.767688472040412,121.50260101902563 23.76878757863584,121.48697704827578 23.753242208247116,121.47959429286654 23.736124451369644,121.4751303012237 23.72968507991864,121.44130697993008 23.730784507324497,121.41950209767482 23.727172068167263,121.39495014363933 23.724973143142883,121.38104309275214</polygon>
+    </area>
+    <channel>
+      <value>4371</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5b51"/>
+    <text>[疏散避難]萬里溪堰塞湖目前穩定溢流仍存在有不確定性風險，請勿進入萬里溪堤防周邊及河床等縣府公告警戒區，違者將依災害防救法舉發裁罰。 
+ [Evacuation and Shelter]The Wanli Stream landslide-dammed lake is currently experiencing stable overflow; however, residual uncertainties and potential risks remain. Members of the public are advised not to enter the county government-designated alert zones, including areas surrounding the Wanli Stream embankment and riverbed. Violators will be reported and subject to penalties in accordance with the Disaster Prevention and Protection Act.
+https://www.hl.gov.tw/kra/.花蓮縣災害應變中心(Hualien County EOC)03-8462119</text>
+    <description type="html"><![CDATA[[疏散避難]萬里溪堰塞湖目前穩定溢流仍存在有不確定性風險，請勿進入萬里溪堤防周邊及河床等縣府公告警戒區，違者將依災害防救法舉發裁罰。 
+ [Evacuation and Shelter]The Wanli Stream landslide-dammed lake is currently experiencing stable overflow; however, residual uncertainties and potential risks remain. Members of the public are advised not to enter the county government-designated alert zones, including areas surrounding the Wanli Stream embankment and riverbed. Violators will be reported and subject to penalties in accordance with the Disaster Prevention and Protection Act.
+https://www.hl.gov.tw/kra/.花蓮縣災害應變中心(Hualien County EOC)03-8462119]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_largeSurf_20261022072218_000</id>
+    <title>largeSurf</title>
+    <sent>2026-10-22T07:35:49+08:00</sent>
+    <expires>2026-10-22T09:23:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>largeSurf</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市(共1個鄉鎮),屏東縣(共4個鄉鎮),宜蘭縣(共6個鄉鎮),花蓮縣(共6個鄉鎮),臺東縣(共10個鄉鎮)</areaDesc>
+      <polygon>21.92976,120.729601 21.969218,120.757182 21.931327,120.839286 21.994092,120.835742 22.015176,120.876004 22.089675,120.884139 22.142738,120.881481 22.242197,120.886847 22.325578,120.879629 22.517646,120.950077 22.594358,120.992485 22.661744,121.013917 22.691266,121.058865 22.708894,121.082733 22.725825,121.119683 22.76478,121.168099 22.801041,121.189747 22.854842,121.181232 22.880636,121.228504 22.977867,121.301481 23.09724,121.35831 23.125001,121.392529 23.201653,121.388713 23.227495,121.405503 23.28547,121.426386 23.328146,121.454497 23.430458,121.481981 23.57819,121.511204 23.689142,121.536914 23.746911675100613,121.55749452800274 23.746913,121.5574735 23.967198,121.6002675 24.009732,121.6369175 24.063784,121.6064475 24.139374,121.6351035 24.218794,121.6751635 24.3137,121.7637195 24.31370337698707,121.76374166476947 24.420145,121.784695 24.572175,121.864133 24.643271,121.83508 24.779394,121.804553 24.844537,121.817373 24.896856,121.843965 24.947307,121.880097 24.988157,121.944864 24.983081,121.966036 24.846912,121.836857 24.644663,121.845172 24.5808384,121.9120868 24.3159505,121.7784906 24.134515,121.6637365 24.008949,121.6478955 23.7462124,121.568593 23.490472,121.515992 23.434826,121.496092 23.1253335,121.4241676 22.9742136,121.3116968 22.7421324,121.1694389 22.683494,121.065448 22.485288,120.967005 22.2472641,120.8981404 22.0320139,120.9052039 21.9682282,120.8734189 21.8896671,120.8658986 21.916607,120.798977 21.918348,120.7078289 22.009605,120.692343 22.025432,120.691209 22.04482,120.706622 22.003011,120.710249 21.92976,120.729601</polygon>
+      <areaDesc>臺東縣蘭嶼鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001416</value>
+      </geocode>
+      <areaDesc>臺東縣綠島鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001411</value>
+      </geocode>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5b4d"/>
+    <text>[巨浪告警] 颱風影響，您所在地之沿岸今(22)日將出現危險巨浪。請立即遠離沿岸，勿前往海邊觀浪，並儘速離開海堤、河口、港區及沿岸道路等高風險區域，氣象署；Dangerous waves are expected along the coast today. Stay away from the shore and do not go wave watching. Leave seawalls, harbors, river mouths, and coastal roads immediately. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[[巨浪告警] 颱風影響，您所在地之沿岸今(22)日將出現危險巨浪。請立即遠離沿岸，勿前往海邊觀浪，並儘速離開海堤、河口、港區及沿岸道路等高風險區域，氣象署；Dangerous waves are expected along the coast today. Stay away from the shore and do not go wave watching. Leave seawalls, harbors, river mouths, and coastal roads immediately. CWA 02_2349_1234]]></description>
   </entry>
 </feed>
