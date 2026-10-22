@@ -2,8 +2,186 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:georss="http://www.georss.org/georss">
   <id>202610</id>
   <title>CBS-ATOM(即時 feed 累積)</title>
-  <updated>2026-10-22T15:43:46+08:00</updated>
+  <updated>2026-10-22T21:54:16+08:00</updated>
   <description type="html"><![CDATA[2026年10月 即時 feed 累積,官方月彙整發布前的暫存]]></description>
+  <entry>
+    <id>cwa.gov.tw_HurricFrcWnd_20261022205707_000</id>
+    <title>颱風強風告警</title>
+    <sent>2026-10-22T20:57:19+08:00</sent>
+    <expires>2026-10-22T23:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>HurricFrcWnd</value>
+    </eventCode>
+    <area>
+      <areaDesc>苗栗縣苑裡鎮 臺中市大甲區 臺中市清水區 臺中市沙鹿區 臺中市梧棲區 臺中市外埔區 臺中市大安區 臺中市大肚區 臺中市龍井區 彰化縣鹿港鎮 彰化縣和美鎮 彰化縣線西鄉 彰化縣伸港鄉 彰化縣福興鄉 彰化縣芳苑鄉 彰化縣大城鄉 雲林縣麥寮鄉</areaDesc>
+      <polygon>24.43,120.69 23.78,120.26 23.81,120.21 24.04,120.36 24.06,120.34 24.06,120.38 24.16,120.42 24.19,120.47 24.26,120.5 24.27,120.48 24.38,120.55 24.46,120.62 24.43,120.69</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5bb5"/>
+    <text>[颱風強風告警]颱風與東北季風影響，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe</text>
+    <description type="html"><![CDATA[[颱風強風告警]颱風與東北季風影響，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_HurricFrcWnd_20261022205403_000</id>
+    <title>颱風強風告警</title>
+    <sent>2026-10-22T20:54:17+08:00</sent>
+    <expires>2026-10-22T22:45:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>HurricFrcWnd</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣綠島鄉</areaDesc>
+      <polygon>22.725,121.4 22.725,121.575 22.575,121.575 22.575,121.4 22.725,121.4</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5bb1"/>
+    <text>[颱風強風告警]颱風與東北季風影響，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe</text>
+    <description type="html"><![CDATA[[颱風強風告警]颱風與東北季風影響，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_HurricFrcWnd_20261022205403_001</id>
+    <title>颱風強風告警</title>
+    <sent>2026-10-22T20:54:17+08:00</sent>
+    <expires>2026-10-22T22:45:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>HurricFrcWnd</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺東縣蘭嶼鄉</areaDesc>
+      <polygon>22.2,121.4 22.2,121.7 21.85,121.7 21.85,121.4 22.2,121.4</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5bad"/>
+    <text>[颱風強風告警]颱風與東北季風影響，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe</text>
+    <description type="html"><![CDATA[[颱風強風告警]颱風與東北季風影響，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe]]></description>
+  </entry>
+  <entry>
+    <id>A2026102216554762245934160</id>
+    <title>水庫放流</title>
+    <sent>2026-10-22T19:01:03+08:00</sent>
+    <expires>2026-10-22T19:10:47+08:00</expires>
+    <sender>
+      <value>農業部農田水利署苗栗管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.674621749472,120.966430727285 24.6735231175643,120.969055236863 24.6731651438573,120.971897454562 24.6739503624735,120.974365294851 24.6738388718588,120.977767736872 24.6744386432107,120.982238830669 24.6733191788505,120.984079571633 24.673295220852,120.985238968738 24.6741861073618,120.985449665119 24.6746438380533,120.988453524842 24.6734161530152,120.992669618162 24.6723326924075,120.993170325612 24.6723086525988,120.994013515664 24.6712974302466,120.994856745262 24.6706473267624,120.994487881814 24.671610346843,120.992696074457 24.6705508557748,120.991115178975 24.6694433249122,120.991668587578 24.6687767851816,120.991079061866 24.6633912807729,120.992187560525 24.6610109088295,120.991516174858 24.6622682111417,120.986343122596 24.6616899522791,120.985899019367 24.6606542854555,120.982684779402 24.6609190140589,120.981630851758 24.6640731897256,120.981867520998 24.6658326873189,120.97875982702 24.6660768277616,120.975219788691 24.6651555404929,120.974121012314 24.6638060985714,120.968351110686 24.6677858128374,120.963806213138 24.6710817095945,120.963562072726 24.674621749472,120.966430727285</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ba9"/>
+    <text>[水庫放水警戒]大埔水庫自 10月 22 日20時00分進行調節性放水，請峨眉溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。[Reservoir discharge] Dapu Reservoir will discharge at (時間)20:00 on 10月22日. Please keep away from Emei creek.農業部農水署苗栗管理處037-602145</text>
+    <description type="html"><![CDATA[[水庫放水警戒]大埔水庫自 10月 22 日20時00分進行調節性放水，請峨眉溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。[Reservoir discharge] Dapu Reservoir will discharge at (時間)20:00 on 10月22日. Please keep away from Emei creek.農業部農水署苗栗管理處037-602145]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_largeSurf_20261022182246_000</id>
+    <title>largeSurf</title>
+    <sent>2026-10-22T18:28:22+08:00</sent>
+    <expires>2026-10-22T20:27:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>largeSurf</value>
+    </eventCode>
+    <area>
+      <areaDesc>基隆市(共4個鄉鎮),新北市(共5個鄉鎮),屏東縣(共4個鄉鎮),宜蘭縣(共6個鄉鎮),花蓮縣(共6個鄉鎮),臺東縣(共10個鄉鎮)</areaDesc>
+      <polygon>21.92976,120.729601 21.969218,120.757182 21.931327,120.839286 21.994092,120.835742 22.015176,120.876004 22.089675,120.884139 22.142738,120.881481 22.242197,120.886847 22.325578,120.879629 22.517646,120.950077 22.594358,120.992485 22.661744,121.013917 22.691266,121.058865 22.708894,121.082733 22.725825,121.119683 22.76478,121.168099 22.801041,121.189747 22.854842,121.181232 22.880636,121.228504 22.977867,121.301481 23.09724,121.35831 23.125001,121.392529 23.201653,121.388713 23.227495,121.405503 23.28547,121.426386 23.328146,121.454497 23.430458,121.481981 23.57819,121.511204 23.689142,121.536914 23.746911675100613,121.55749452800274 23.746913,121.5574735 23.967198,121.6002675 24.009732,121.6369175 24.063784,121.6064475 24.139374,121.6351035 24.218794,121.6751635 24.3137,121.7637195 24.31370337698707,121.76374166476947 24.420145,121.784695 24.572175,121.864133 24.643271,121.83508 24.779394,121.804553 24.844537,121.817373 24.896856,121.843965 24.947307,121.880097 24.988157,121.944864 25.007843,121.996052 25.016178,121.975873 25.018517,121.933716 25.110924,121.90256 25.116848,121.821227 25.150471,121.763927 25.155217,121.707643 25.210523,121.645283 25.268014,121.617024 25.287749,121.574071 25.275146,121.515257 25.282423,121.507686 25.291836,121.5087106 25.301388,121.536994 25.2987396,121.5888546 25.147227,121.807808 25.128842,121.926791 24.9998,122.022892 24.983081,121.966036 24.846912,121.836857 24.644663,121.845172 24.5808384,121.9120868 24.3159505,121.7784906 24.134515,121.6637365 24.008949,121.6478955 23.7462124,121.568593 23.490472,121.515992 23.434826,121.496092 23.1253335,121.4241676 22.9742136,121.3116968 22.7421324,121.1694389 22.683494,121.065448 22.485288,120.967005 22.2472641,120.8981404 22.0320139,120.9052039 21.9682282,120.8734189 21.8896671,120.8658986 21.916607,120.798977 21.918348,120.7078289 22.009605,120.692343 22.025432,120.691209 22.04482,120.706622 22.003011,120.710249 21.92976,120.729601</polygon>
+      <areaDesc>臺東縣蘭嶼鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001416</value>
+      </geocode>
+      <areaDesc>臺東縣綠島鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001411</value>
+      </geocode>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ba5"/>
+    <text>[巨浪告警] 颱風影響，您所在地之沿岸今(22日)晚至明(23日)晨將出現危險巨浪。請立即遠離沿岸，勿前往海邊觀浪，並儘速離開海堤、河口、港區及沿岸道路等高風險區域，氣象署；Dangerous waves are expected along the coast from tonight through tomorrow. Stay away from the shore and do not go wave watching. Leave seawalls, harbors, river mouths, and coastal roads immediately. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[[巨浪告警] 颱風影響，您所在地之沿岸今(22日)晚至明(23日)晨將出現危險巨浪。請立即遠離沿岸，勿前往海邊觀浪，並儘速離開海堤、河口、港區及沿岸道路等高風險區域，氣象署；Dangerous waves are expected along the coast from tonight through tomorrow. Stay away from the shore and do not go wave watching. Leave seawalls, harbors, river mouths, and coastal roads immediately. CWA 02_2349_1234]]></description>
+  </entry>
+  <entry>
+    <id>A2026102214354093945917210</id>
+    <title>水庫放流</title>
+    <sent>2026-10-22T15:31:05+08:00</sent>
+    <expires>2026-10-22T15:40:21+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司桂山發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.88978721219292,121.54634078040367 2.847917863088508</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ba1"/>
+    <text>[水庫放水警戒] 桂山壩水庫將於15時30分預防性排放水，請南勢溪下游沿岸附近民眾加強注意並立刻遠離河床，以策安全。[Reservoir discharge] Nanshi River level rise at 15:30. Plz stay away right now. 1911, TAIPOWER.台電公司1911關心您</text>
+    <description type="html"><![CDATA[[水庫放水警戒] 桂山壩水庫將於15時30分預防性排放水，請南勢溪下游沿岸附近民眾加強注意並立刻遠離河床，以策安全。[Reservoir discharge] Nanshi River level rise at 15:30. Plz stay away right now. 1911, TAIPOWER.台電公司1911關心您]]></description>
+  </entry>
+  <entry>
+    <id>A2026102214344660745917160</id>
+    <title>水庫放流</title>
+    <sent>2026-10-22T15:31:05+08:00</sent>
+    <expires>2026-10-22T15:40:18+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司桂山發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <circle>24.860324816122294,121.52966019567671 3.7140866716477996</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5b9d"/>
+    <text>[水庫放水警戒] 羅好壩水庫將於15時30分排放水，請南勢溪下游沿岸附近民眾加強注意並立刻遠離河床，以策安全。[Reservoir discharge] Nanshi River level rise at 15:30. Plz stay away right now. 1911, TAIPOWER.台電公司1911關心您</text>
+    <description type="html"><![CDATA[[水庫放水警戒] 羅好壩水庫將於15時30分排放水，請南勢溪下游沿岸附近民眾加強注意並立刻遠離河床，以策安全。[Reservoir discharge] Nanshi River level rise at 15:30. Plz stay away right now. 1911, TAIPOWER.台電公司1911關心您]]></description>
+  </entry>
   <entry>
     <id>A2026102214382484845917410</id>
     <title>水庫放流</title>
