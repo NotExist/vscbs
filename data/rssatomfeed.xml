@@ -3,10 +3,116 @@
   <id>https://alerts.ncdr.nat.gov.tw/RSS.aspx</id>
   <title>NCDR_CAP-</title>
   <link rel="self" href="https://cbs.tw/download/rssatomfeed.xml"/>
-  <updated>2026-10-23T15:00:29+08:00</updated>
+  <updated>2026-10-23T21:16:25+08:00</updated>
   <author>
     <name>NCDR</name>
   </author>
+  <entry>
+    <id>cwa.gov.tw_HurricFrcWnd_20261023205942_000</id>
+    <title>颱風強風告警</title>
+    <sent>2026-10-23T21:16:06+08:00</sent>
+    <expires>2026-10-24T00:00:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>HurricFrcWnd</value>
+    </eventCode>
+    <area>
+      <areaDesc>基隆市中正區 基隆市仁愛區 基隆市中山區 基隆市安樂區 基隆市信義區 新北市瑞芳區 新北市雙溪區 新北市貢寮區</areaDesc>
+      <polygon>25.17013,121.76628 25.15149,121.79443 25.13533,121.81984 25.12,121.89 25.1,121.9 25.04,121.92 25.15585,121.68114 25.16765,121.7141 25.15896,121.75255 25.17013,121.76628</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5c95"/>
+    <text>[颱風強風告警]颱風中心即將通過附近，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds from typhoon expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe</text>
+    <description type="html"><![CDATA[[颱風強風告警]颱風中心即將通過附近，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds from typhoon expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe]]></description>
+  </entry>
+  <entry>
+    <id>A2026102320073722146025110</id>
+    <title>水庫放流</title>
+    <sent>2026-10-23T21:00:04+08:00</sent>
+    <expires>2026-10-23T21:10:00+08:00</expires>
+    <sender>
+      <value>臺北自來水事業處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.91373,121.52805 24.93546,121.54661 24.94942,121.54992 24.95708,121.54168 24.97051,121.53696 24.98097,121.52614 24.99216,121.53657 25.00383,121.53915 25.01301,121.53529 25.02468,121.52078 25.02639,121.50705 25.02063,121.49658 25.03638,121.49151 25.03729,121.47645 25.00913,121.48503 25.00353,121.49567 25.01318,121.5149 24.99926,121.52426 24.97797,121.51298 24.96635,121.52451 24.95133,121.53018 24.94558,121.51815 24.91373,121.52805</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5c91"/>
+    <text>[水庫放水警戒]北水處直潭壩因上游河川流量增加，自10月23日22時0分進行調節性放流，請直潭壩下游及新店溪沿岸民眾注意並遠離河床，以策安全。Zhitan Dam will discharge at 22:00 on 10/23. Please keep away from Xindian River.臺北自來水事業處02-87335678</text>
+    <description type="html"><![CDATA[[水庫放水警戒]北水處直潭壩因上游河川流量增加，自10月23日22時0分進行調節性放流，請直潭壩下游及新店溪沿岸民眾注意並遠離河床，以策安全。Zhitan Dam will discharge at 22:00 on 10/23. Please keep away from Xindian River.臺北自來水事業處02-87335678]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_largeSurf_20261023182341_000</id>
+    <title>largeSurf</title>
+    <sent>2026-10-23T18:25:48+08:00</sent>
+    <expires>2026-10-23T20:24:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>largeSurf</value>
+    </eventCode>
+    <area>
+      <areaDesc>基隆市(共4個鄉鎮),新北市(共9個鄉鎮),苗栗縣(共4個鄉鎮),臺中市(共5個鄉鎮),彰化縣(共1個鄉鎮),宜蘭縣(共6個鄉鎮),花蓮縣(共6個鄉鎮),臺東縣(共5個鄉鎮)</areaDesc>
+      <polygon>Array</polygon>
+      <areaDesc>臺東縣蘭嶼鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001416</value>
+      </geocode>
+      <areaDesc>臺東縣綠島鄉</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001411</value>
+      </geocode>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5c8d"/>
+    <text>[巨浪告警] 颱風影響，您所在地之沿岸今(23日)晚至明(24日)晨將出現危險巨浪。請立即遠離沿岸，勿前往海邊觀浪，並儘速離開海堤、河口、港區及沿岸道路等高風險區域，氣象署；Dangerous waves are expected along the coast from tonight through tomorrow. Stay away from the shore and do not go wave watching. Leave seawalls, harbors, river mouths, and coastal roads immediately. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[[巨浪告警] 颱風影響，您所在地之沿岸今(23日)晚至明(24日)晨將出現危險巨浪。請立即遠離沿岸，勿前往海邊觀浪，並儘速離開海堤、河口、港區及沿岸道路等高風險區域，氣象署；Dangerous waves are expected along the coast from tonight through tomorrow. Stay away from the shore and do not go wave watching. Leave seawalls, harbors, river mouths, and coastal roads immediately. CWA 02_2349_1234]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_HurricFrcWnd_20261023181305_000</id>
+    <title>颱風強風告警</title>
+    <sent>2026-10-23T18:13:17+08:00</sent>
+    <expires>2026-10-23T22:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>HurricFrcWnd</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市貢寮區 宜蘭縣頭城鎮 宜蘭縣礁溪鄉 宜蘭縣壯圍鄉 宜蘭縣冬山鄉 宜蘭縣蘇澳鎮 宜蘭縣南澳鄉</areaDesc>
+      <polygon>25.04,121.97 25.0,122.02 25.0,121.98 24.96,121.98 24.99,121.95 24.95,121.95 24.97,121.93 24.86,121.84 24.66,121.81 24.61,121.85 24.48,121.85 24.45,121.84 24.43,121.78 24.38,121.76 24.81,121.79 25.04,121.97</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5c89"/>
+    <text>[颱風強風告警]颱風中心即將通過附近，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds from typhoon expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe</text>
+    <description type="html"><![CDATA[[颱風強風告警]颱風中心即將通過附近，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds from typhoon expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe]]></description>
+  </entry>
   <entry>
     <id>A2026102314394035046004810</id>
     <title>道路封閉</title>
