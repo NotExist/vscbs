@@ -3,10 +3,63 @@
   <id>https://alerts.ncdr.nat.gov.tw/RSS.aspx</id>
   <title>NCDR_CAP-</title>
   <link rel="self" href="https://cbs.tw/download/rssatomfeed.xml"/>
-  <updated>2026-10-24T00:44:00+08:00</updated>
+  <updated>2026-10-24T06:11:08+08:00</updated>
   <author>
     <name>NCDR</name>
   </author>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_202610240630_J10003</id>
+    <title>土石流</title>
+    <sent>2026-10-24T06:10:33+08:00</sent>
+    <expires>2026-10-24T12:09:32+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣尖石鄉新樂村</areaDesc>
+      <circle>24.72492,121.26205 3.5</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cb9"/>
+    <text>[土石流及大規模崩塌][紅色警戒]新竹縣尖石鄉新樂村，已發布紅色警戒，請依地方政府指示避難。詳網址  https://246.ardswc.gov.tw/?CTV=J10003 農業部農村水保署0800_246246。
+[Warning]Debris flow Red Alert in this area.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][紅色警戒]新竹縣尖石鄉新樂村，已發布紅色警戒，請依地方政府指示避難。詳網址  https://246.ardswc.gov.tw/?CTV=J10003 農業部農村水保署0800_246246。
+[Warning]Debris flow Red Alert in this area.]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_115007801</id>
+    <title>地震速報</title>
+    <sent>2026-10-24T04:48:37+08:00</sent>
+    <expires>2026-10-24T04:51:36+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>10015</value>
+      </geocode>
+    </area>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cb5"/>
+    <text>[地震速報 Earthquake Alert]10/24 04:48左右東部海域發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ</text>
+    <description type="html"><![CDATA[[地震速報 Earthquake Alert]10/24 04:48左右東部海域發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA 02_2349 1181 避難宣導：https://gov.tw/HmJ]]></description>
+  </entry>
   <entry>
     <id>ardswc.gov.tw_debrisFlowLandSlide_20261024003300_34</id>
     <title>土石流</title>
