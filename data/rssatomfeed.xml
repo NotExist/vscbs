@@ -3,10 +3,184 @@
   <id>https://alerts.ncdr.nat.gov.tw/RSS.aspx</id>
   <title>NCDR_CAP-</title>
   <link rel="self" href="https://cbs.tw/download/rssatomfeed.xml"/>
-  <updated>2026-10-23T21:16:25+08:00</updated>
+  <updated>2026-10-24T00:44:00+08:00</updated>
   <author>
     <name>NCDR</name>
   </author>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024003300_34</id>
+    <title>土石流</title>
+    <sent>2026-10-24T00:43:08+08:00</sent>
+    <expires>2026-10-24T06:33:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣頭城鎮</areaDesc>
+      <circle>24.978784,121.945586 2.0</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cb1"/>
+    <text>[土石流及大規模崩塌][二次災害高風險區提醒]宜蘭縣頭城鎮石城里石城火車站之1小時累積雨量23mm已達注意值，請提高警覺，詳網址 https://gov.tw/3ck 農業部農村水保署0800_246246
+[Warning]Rainfall has reached the cautionary threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][二次災害高風險區提醒]宜蘭縣頭城鎮石城里石城火車站之1小時累積雨量23mm已達注意值，請提高警覺，詳網址 https://gov.tw/3ck 農業部農村水保署0800_246246
+[Warning]Rainfall has reached the cautionary threshold.]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20261024002359_000</id>
+    <title>雷雨</title>
+    <sent>2026-10-24T00:24:53+08:00</sent>
+    <expires>2026-10-24T01:23:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>宜蘭縣及其沿海(共1個鄉鎮)</areaDesc>
+      <polygon>24.8818,121.8162 24.9518,121.893 24.924,121.941 24.8422,121.8651 24.8818,121.8162</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cad"/>
+    <text>[大雷雨即時訊息]您所在地附近已或將有劇烈雷雨或降雨及瞬間強陣風，請注意安全並尋找遮蔽，持續至10/24 01:23。氣象署；Watch out for extremely heavy rain and gusty winds. Take shelter ASAP. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[[大雷雨即時訊息]您所在地附近已或將有劇烈雷雨或降雨及瞬間強陣風，請注意安全並尋找遮蔽，持續至10/24 01:23。氣象署；Watch out for extremely heavy rain and gusty winds. Take shelter ASAP. CWA 02_2349_1234]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_HurricFrcWnd_20261024001226_000</id>
+    <title>颱風強風告警</title>
+    <sent>2026-10-24T00:12:40+08:00</sent>
+    <expires>2026-10-24T03:15:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>HurricFrcWnd</value>
+    </eventCode>
+    <area>
+      <areaDesc>新北市瑞芳區 新北市雙溪區 新北市貢寮區 宜蘭縣宜蘭市 宜蘭縣頭城鎮 宜蘭縣礁溪鄉 宜蘭縣壯圍鄉</areaDesc>
+      <polygon>25.0,122.02 25.0,121.98 24.96,121.98 24.99,121.95 24.95,121.95 24.97,121.93 24.84,121.81 24.72,121.79 24.72,121.77 24.85,121.77 25.02,121.88 25.1,121.82 25.12,121.88 25.0,122.02</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ca9"/>
+    <text>[颱風強風告警]颱風中心即將通過附近，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds from typhoon expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe</text>
+    <description type="html"><![CDATA[[颱風強風告警]颱風中心即將通過附近，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds from typhoon expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe]]></description>
+  </entry>
+  <entry>
+    <id>A2026102400030186946040360</id>
+    <title>水庫放流</title>
+    <sent>2026-10-24T00:04:03+08:00</sent>
+    <expires>2026-10-24T00:12:29+08:00</expires>
+    <sender>
+      <value>經濟部水利署北區水資源分署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.81057838,121.30996611 24.80426021,121.30618834 24.79836053,121.31942725 24.79466399,121.3379818 24.80314949,121.34797116 24.80134076,121.36111647 24.78792616,121.36297527 24.78102405,121.36093594 24.77671384,121.3615912 24.76986575,121.35961205 24.76893079,121.35521245 24.75684849,121.34821856 24.75432259,121.35019771 24.75132302,121.36132375 24.7503272,121.35697764 24.74410919,121.34595858 24.73703461,121.35008404 24.73715,121.35327341 24.74233603,121.35194952 24.74421849,121.35747242 24.74616165,121.36421224 24.75455332,121.36632511 24.75720065,121.35470429 24.75976899,121.3610028 24.76440765,121.35726515 24.76714584,121.3649611 24.77666527,121.36522856 24.78398648,121.36596405 24.79020856,121.37046395 24.79414197,121.37624093 24.80602642,121.36879237 24.8081689,121.36243368 24.80835705,121.3538685 24.81548218,121.34481522 24.804242,121.3349997 24.81057838,121.30996611</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ca5"/>
+    <text>[水庫放水警戒]榮華壩自10月24日01時30分進行放水，請水庫下游大漢溪民眾加強注意並遠離河床，以策安全。(經濟部水利署北區水資源分署0800-200233/台灣電力公司石門發電廠03-4712020#331).經濟部水利署北區水資源分署03-4712001</text>
+    <description type="html"><![CDATA[[水庫放水警戒]榮華壩自10月24日01時30分進行放水，請水庫下游大漢溪民眾加強注意並遠離河床，以策安全。(經濟部水利署北區水資源分署0800-200233/台灣電力公司石門發電廠03-4712020#331).經濟部水利署北區水資源分署03-4712001]]></description>
+  </entry>
+  <entry>
+    <id>A2026102400000969946039960</id>
+    <title>水庫放流</title>
+    <sent>2026-10-24T00:01:04+08:00</sent>
+    <expires>2026-10-24T00:09:39+08:00</expires>
+    <sender>
+      <value>經濟部水利署北區水資源分署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.809844879999574,121.23831189999795 24.82478818999959,121.24767094999795 24.835347809999575,121.25401916999796 24.835373959999586,121.25403475999795 24.849151709999582,121.25626744999794 24.868775839999575,121.26501381999795 24.882033539999576,121.27742179999794 24.890054269999567,121.27989751999796 24.907867119999583,121.29977347999794 24.92858567999958,121.32159526999796 24.93387411999957,121.32820114999795 24.93290290999957,121.33958774999795 24.951640599999575,121.35321643999794 24.969326879999578,121.38588197999793 24.972877229999575,121.41609451999794 24.98473529999958,121.43169092999796 25.010456189999573,121.43539892999796 25.023741829999576,121.43918034999795 25.03372096999957,121.44951593999794 25.040696419999573,121.46247795999794 25.046332549999576,121.47520429999796 25.04927595999957,121.48600333999794 25.059009999999578,121.50027831999795 25.064343569999572,121.50316578999795 25.063219629999576,121.51000676999796 25.05741115999957,121.50948433999795 25.04871372999958,121.50774540999794 25.04078202999956,121.50033479999794 25.03595276999957,121.49039808999794 25.03622989999958,121.48021271999794 25.036230339999577,121.48021228999794 25.02855238999957,121.45906082999795 25.019289339999574,121.44816044999796 24.990702549999583,121.44295735999795 24.97355239999957,121.43922976999795 24.961571469999576,121.41573465999795 24.962286399999577,121.39241554999793 24.955324549999577,121.38116972999796 24.93219051999958,121.35348969999794 24.911486459999566,121.31860290999795 24.895356969999575,121.29982465999795 24.886495519999585,121.28766892999796 24.862900539999572,121.28006199999794 24.837061489999577,121.27187870999795 24.835775309999573,121.26588050999796 24.82263841999958,121.25695033999796 24.822587129999583,121.25692092999795 24.810154919999583,121.24961789999794 24.809844879999574,121.23831189999795</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ca1"/>
+    <text>[水庫放水警戒]石門水庫自10月24日01時30分進行放水，請水庫下游大漢溪、淡水河民眾加強注意並遠離河床，以策安全。(經濟部水利署北區水資源分署0800-200233).
+(Reservoir discharge warning) Shihmen Reservoir will discharge at 10/24 01:30, People should keep away from Dahan River and Tamsui River for safety. (Northern Region Water Resources Branch, Water Resources Agency, Ministry of Economic Affairs. Tel：0800-200233).經濟部水利署北區水資源分署03-4712001</text>
+    <description type="html"><![CDATA[[水庫放水警戒]石門水庫自10月24日01時30分進行放水，請水庫下游大漢溪、淡水河民眾加強注意並遠離河床，以策安全。(經濟部水利署北區水資源分署0800-200233).
+(Reservoir discharge warning) Shihmen Reservoir will discharge at 10/24 01:30, People should keep away from Dahan River and Tamsui River for safety. (Northern Region Water Resources Branch, Water Resources Agency, Ministry of Economic Affairs. Tel：0800-200233).經濟部水利署北區水資源分署03-4712001]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_HurricFrcWnd_20261023232416_000</id>
+    <title>颱風強風告警</title>
+    <sent>2026-10-23T23:24:36+08:00</sent>
+    <expires>2026-10-24T02:30:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>HurricFrcWnd</value>
+    </eventCode>
+    <area>
+      <areaDesc>臺北市士林區 臺北市北投區 新北市金山區 新北市萬里區 新北市汐止區 新北市三芝區 新北市石門區</areaDesc>
+      <polygon>25.28,121.59 25.25,121.63 25.17,121.7 25.12,121.58 25.28,121.47 25.29,121.49 25.29,121.57 25.28,121.59</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5c9d"/>
+    <text>[颱風強風告警]颱風中心即將通過附近，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds from typhoon expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe</text>
+    <description type="html"><![CDATA[[颱風強風告警]颱風中心即將通過附近，您所在地將出現致災強陣風，請注意人車安全並儘速至堅固的室內躲避，氣象署 Destructive winds from typhoon expected. Take shelter ASAP. CWA 02_2349_1234 請參考 https://gov.tw/ewe]]></description>
+  </entry>
+  <entry>
+    <id>A2026102322142263146034060</id>
+    <title>水庫放流</title>
+    <sent>2026-10-23T22:16:03+08:00</sent>
+    <expires>2026-10-23T22:22:01+08:00</expires>
+    <sender>
+      <value>台灣電力股份有限公司石門發電廠</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.81057838,121.30996611 24.80426021,121.30618834 24.79836053,121.31942725 24.79466399,121.3379818 24.80314949,121.34797116 24.80134076,121.36111647 24.78792616,121.36297527 24.78102405,121.36093594 24.77671384,121.3615912 24.76986575,121.35961205 24.76893079,121.35521245 24.75684849,121.34821856 24.75432259,121.35019771 24.75132302,121.36132375 24.7503272,121.35697764 24.74410919,121.34595858 24.73703461,121.35008404 24.73715,121.35327341 24.74233603,121.35194952 24.74421849,121.35747242 24.74616165,121.36421224 24.75455332,121.36632511 24.75720065,121.35470429 24.75976899,121.3610028 24.76440765,121.35726515 24.76714584,121.3649611 24.77666527,121.36522856 24.78398648,121.36596405 24.79020856,121.37046395 24.79414197,121.37624093 24.80602642,121.36879237 24.8081689,121.36243368 24.80835705,121.3538685 24.81548218,121.34481522 24.804242,121.3349997 24.81057838,121.30996611</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5c99"/>
+    <text>榮華壩自10月23日22時進行放水，請水庫下游大漢溪民眾加強注意並遠離河床，以策安全。(經濟部水利署北區水資源分署0800-200233/台灣電力公司石門發電廠03-4712020#301)
+(Reservoir discharge warning) Ronghua Dam will discharge at mm/dd hh:mm, People should keep away from Dahan River for safety. (Northern Region Water Resources Office, Water Resources Agency, Ministry of Economic Affairs. Tel：0800-200233/ Taiwan Power Com-pany Shihmen Hydro Power Plant. Tel：03-4712020 ext 331).Taipower03-4712020分機301</text>
+    <description type="html"><![CDATA[榮華壩自10月23日22時進行放水，請水庫下游大漢溪民眾加強注意並遠離河床，以策安全。(經濟部水利署北區水資源分署0800-200233/台灣電力公司石門發電廠03-4712020#301)
+(Reservoir discharge warning) Ronghua Dam will discharge at mm/dd hh:mm, People should keep away from Dahan River for safety. (Northern Region Water Resources Office, Water Resources Agency, Ministry of Economic Affairs. Tel：0800-200233/ Taiwan Power Com-pany Shihmen Hydro Power Plant. Tel：03-4712020 ext 331).Taipower03-4712020分機301]]></description>
+  </entry>
   <entry>
     <id>cwa.gov.tw_HurricFrcWnd_20261023205942_000</id>
     <title>颱風強風告警</title>
