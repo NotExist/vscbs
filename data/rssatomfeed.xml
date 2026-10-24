@@ -3,10 +3,34 @@
   <id>https://alerts.ncdr.nat.gov.tw/RSS.aspx</id>
   <title>NCDR_CAP-</title>
   <link rel="self" href="https://cbs.tw/download/rssatomfeed.xml"/>
-  <updated>2026-10-24T08:01:21+08:00</updated>
+  <updated>2026-10-24T10:26:24+08:00</updated>
   <author>
     <name>NCDR</name>
   </author>
+  <entry>
+    <id>A2026102410212502746058760</id>
+    <title>水庫放流</title>
+    <sent>2026-10-24T10:26:03+08:00</sent>
+    <expires>2026-10-24T10:30:48+08:00</expires>
+    <sender>
+      <value>農業部農田水利署苗栗管理處</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>ReservoirDis</value>
+    </eventCode>
+    <area>
+      <areaDesc>發布區域1</areaDesc>
+      <polygon>24.6000880037756,120.818570971944 24.6048039637908,120.833712157409 24.6019545772716,120.840652042387 24.6022582510775,120.843838932548 24.6030460361155,120.844715346348 24.6079047067999,120.865220615946 24.6033157618532,120.877888774391 24.58690438684,120.887465320939 24.5535574096927,120.882460620798 24.5544762360035,120.880511357514 24.5527052596372,120.877271275778 24.5526966017545,120.873077160674 24.5529243425857,120.869231450086 24.5511301843747,120.863103458069 24.5518948359639,120.859897007134 24.551272024424,120.852919035697 24.5480694962862,120.849992670238 24.5472755005977,120.844997652339 24.5474942714935,120.840988106577 24.5503210845238,120.836089804263 24.5761104489971,120.84667032746 24.5860097947894,120.845806873487 24.6000880037756,120.818570971944</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cc5"/>
+    <text>[水庫放水警戒]明德水庫自 10月24日12時00分進行放水，請老田寮溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。[Reservoir discharge]Mingde Reservoir will discharge at 12:00 on 10/24. Please keep away from Laotianliao creek.農業部農水署苗栗管理處037-250770</text>
+    <description type="html"><![CDATA[[水庫放水警戒]明德水庫自 10月24日12時00分進行放水，請老田寮溪下游沿岸附近民眾加強注意並儘速遠離河道，以策安全。[Reservoir discharge]Mingde Reservoir will discharge at 12:00 on 10/24. Please keep away from Laotianliao creek.農業部農水署苗栗管理處037-250770]]></description>
+  </entry>
   <entry>
     <id>A2026102407591154546049710</id>
     <title>疏散避難</title>
