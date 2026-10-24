@@ -3,10 +3,298 @@
   <id>https://alerts.ncdr.nat.gov.tw/RSS.aspx</id>
   <title>NCDR_CAP-</title>
   <link rel="self" href="https://cbs.tw/download/rssatomfeed.xml"/>
-  <updated>2026-10-24T10:26:24+08:00</updated>
+  <updated>2026-10-24T21:54:25+08:00</updated>
   <author>
     <name>NCDR</name>
   </author>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_J10002</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:52:31+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣尖石鄉嘉樂村</areaDesc>
+      <circle>24.72324,121.21876 3.0</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cdd"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉嘉樂村，有效累積雨量337.6mm(警戒百分比已達96.5%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉嘉樂村，有效累積雨量337.6mm(警戒百分比已達96.5%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_J10005</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:52:31+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣尖石鄉錦屏村</areaDesc>
+      <circle>24.68012,121.24165 4.5</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cf5"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉錦屏村，有效累積雨量368.7mm(警戒百分比已達105.4%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉錦屏村，有效累積雨量368.7mm(警戒百分比已達105.4%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_J10001</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:52:22+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣尖石鄉義興村</areaDesc>
+      <circle>24.69267,121.1902 3.5</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cd9"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉義興村，有效累積雨量324.2mm(警戒百分比已達92.6%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉義興村，有效累積雨量324.2mm(警戒百分比已達92.6%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_J10003</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:52:14+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣尖石鄉新樂村</areaDesc>
+      <circle>24.72492,121.26205 3.5</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ce5"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉新樂村，有效累積雨量479.5mm(警戒百分比已達137.0%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉新樂村，有效累積雨量479.5mm(警戒百分比已達137.0%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_J11004</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:52:05+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣五峰鄉桃山村</areaDesc>
+      <circle>24.57354,121.09999 3.5</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cc9"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣五峰鄉桃山村，有效累積雨量394.7mm(警戒百分比已達98.7%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣五峰鄉桃山村，有效累積雨量394.7mm(警戒百分比已達98.7%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_J10004</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:52:05+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣尖石鄉梅花村</areaDesc>
+      <polygon>24.64475,121.24693 24.6254,121.25024 24.61508,121.24296 24.6134,121.21236 24.63391,121.18576 24.63804,121.18559 24.64551,121.18985 24.65257,121.18772 24.6601,121.18219 24.66213,121.17025 24.66873,121.16894 24.67449,121.18562 24.67965,121.18888 24.67929,121.19581 24.68507,121.19785 24.6928,121.20991 24.69232,121.21189 24.68567,121.21821 24.68525,121.21604 24.66834,121.20617 24.65635,121.20456 24.65254,121.21982 24.65432,121.22536 24.64916,121.24088 24.64475,121.24693</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cf1"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉梅花村，有效累積雨量324.2mm(警戒百分比已達92.6%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉梅花村，有效累積雨量324.2mm(警戒百分比已達92.6%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_J10006</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:52:05+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>新竹縣尖石鄉玉峰村</areaDesc>
+      <circle>24.65548,121.31292 3.5</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cd1"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉玉峰村，有效累積雨量336.2mm(警戒百分比已達96.1%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]新竹縣尖石鄉玉峰村，有效累積雨量336.2mm(警戒百分比已達96.1%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_H09009</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:52:04+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區羅浮里</areaDesc>
+      <polygon>24.8056,121.39072 24.8051,121.38345 24.80161,121.37865 24.7909,121.37707 24.79394,121.37212 24.7877,121.36422 24.7687,121.36294 24.76522,121.35443 24.76297,121.35402 24.76053,121.35805 24.75748,121.35065 24.75604,121.35354 24.74949,121.35153 24.75033,121.32882 24.76075,121.33136 24.77569,121.34707 24.78711,121.35029 24.80413,121.36342 24.80671,121.36669 24.80523,121.36915 24.80879,121.37621 24.81525,121.38169 24.81494,121.38384 24.8056,121.39072</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ce1"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]桃園市復興區羅浮里，有效累積雨量314.8mm(警戒百分比已達89.9%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]桃園市復興區羅浮里，有效累積雨量314.8mm(警戒百分比已達89.9%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_H09004</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:51:53+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區霞雲里</areaDesc>
+      <circle>24.81199,121.37777 2.5</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ce9"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]桃園市復興區霞雲里，有效累積雨量314.8mm(警戒百分比已達89.9%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]桃園市復興區霞雲里，有效累積雨量314.8mm(警戒百分比已達89.9%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_H09003</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:51:44+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區義盛里</areaDesc>
+      <circle>24.77952,121.37207 4.0</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ccd"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]桃園市復興區義盛里，有效累積雨量314.8mm(警戒百分比已達89.9%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]桃園市復興區義盛里，有效累積雨量314.8mm(警戒百分比已達89.9%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_H09002</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:51:40+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區澤仁里</areaDesc>
+      <circle>24.81052,121.35161 3.0</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5cd5"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]桃園市復興區澤仁里，有效累積雨量314.6mm(警戒百分比已達89.9%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]桃園市復興區澤仁里，有效累積雨量314.6mm(警戒百分比已達89.9%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
+  <entry>
+    <id>ardswc.gov.tw_debrisFlowLandSlide_20261024213000_H09001</id>
+    <title>土石流</title>
+    <sent>2026-10-24T21:51:40+08:00</sent>
+    <expires>2026-10-25T03:30:00+08:00</expires>
+    <sender>
+      <value>農業部農村發展及水土保持署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>debrisFlow</value>
+    </eventCode>
+    <area>
+      <areaDesc>桃園市復興區三民里</areaDesc>
+      <circle>24.82846,121.33973 3.5</circle>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26103cdd5ced"/>
+    <text>[土石流及大規模崩塌][雨量接近警戒值提醒]桃園市復興區三民里，有效累積雨量314.6mm(警戒百分比已達89.9%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.</text>
+    <description type="html"><![CDATA[[土石流及大規模崩塌][雨量接近警戒值提醒]桃園市復興區三民里，有效累積雨量314.6mm(警戒百分比已達89.9%)，請提高警覺，農業部農村水保署0800_246246。[Warning]Rainfall is approaching the warning threshold.]]></description>
+  </entry>
   <entry>
     <id>A2026102410212502746058760</id>
     <title>水庫放流</title>
