@@ -3,10 +3,58 @@
   <id>https://alerts.ncdr.nat.gov.tw/RSS.aspx</id>
   <title>NCDR_CAP-</title>
   <link rel="self" href="https://cbs.tw/download/rssatomfeed.xml"/>
-  <updated>2026-11-13T15:15:22+08:00</updated>
+  <updated>2026-11-14T20:14:03+08:00</updated>
   <author>
     <name>NCDR</name>
   </author>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20261114190224_000</id>
+    <title>雷雨</title>
+    <sent>2026-11-14T19:03:24+08:00</sent>
+    <expires>2026-11-14T20:01:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>屏東縣沿海(共1個鄉鎮)，高雄市及其沿海(共3個鄉鎮)</areaDesc>
+      <polygon>22.5571,120.3551 22.5368,120.3864 22.5305,120.4229 22.4618,120.4171 22.5174,120.319 22.5571,120.3551</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26113cdd5d25"/>
+    <text>[大雷雨即時訊息]您所在地附近已或將有劇烈雷雨或降雨，請注意安全並尋找遮蔽，持續至11/14 20:01。氣象署；Watch out for extremely heavy rain. Take shelter ASAP. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[[大雷雨即時訊息]您所在地附近已或將有劇烈雷雨或降雨，請注意安全並尋找遮蔽，持續至11/14 20:01。氣象署；Watch out for extremely heavy rain. Take shelter ASAP. CWA 02_2349_1234]]></description>
+  </entry>
+  <entry>
+    <id>cwa.gov.tw_thunderstorm_20261114173446_000</id>
+    <title>雷雨</title>
+    <sent>2026-11-14T17:35:45+08:00</sent>
+    <expires>2026-11-14T18:34:00+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>Thunderstorm</value>
+    </eventCode>
+    <area>
+      <areaDesc>高雄市及其沿海(共20個鄉鎮)</areaDesc>
+      <polygon>22.8329,120.0908 22.8346,120.239 22.5072,120.3905 22.5029,120.1921 22.8329,120.0908</polygon>
+    </area>
+    <channel>
+      <value>911</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26113cdd5d29"/>
+    <text>[大雷雨即時訊息]您所在地附近已或將有劇烈雷雨或降雨及瞬間強陣風，請注意安全並尋找遮蔽，持續至11/14 18:34。氣象署；Watch out for extremely heavy rain and gusty winds. Take shelter ASAP. CWA 02_2349_1234</text>
+    <description type="html"><![CDATA[[大雷雨即時訊息]您所在地附近已或將有劇烈雷雨或降雨及瞬間強陣風，請注意安全並尋找遮蔽，持續至11/14 18:34。氣象署；Watch out for extremely heavy rain and gusty winds. Take shelter ASAP. CWA 02_2349_1234]]></description>
+  </entry>
   <entry>
     <id>A2026111315113684246442060</id>
     <title>水庫放流</title>
