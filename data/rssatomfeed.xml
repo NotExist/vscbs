@@ -3,10 +3,109 @@
   <id>https://alerts.ncdr.nat.gov.tw/RSS.aspx</id>
   <title>NCDR_CAP-</title>
   <link rel="self" href="https://cbs.tw/download/rssatomfeed.xml"/>
-  <updated>2026-11-25T11:03:47+08:00</updated>
+  <updated>2026-11-25T16:48:15+08:00</updated>
   <author>
     <name>NCDR</name>
   </author>
+  <entry>
+    <id>cwa.gov.tw_earthquakeEW_115008601</id>
+    <title>地震速報</title>
+    <sent>2026-11-25T16:47:57+08:00</sent>
+    <expires>2026-11-25T16:50:56+08:00</expires>
+    <sender>
+      <value>中央氣象署</value>
+    </sender>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <eventCode>
+      <value>earthquakeEW</value>
+    </eventCode>
+    <area>
+      <areaDesc>地震速報廣播範圍</areaDesc>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001402</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001408</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001503</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001510</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001513</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001401</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001403</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001404</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001405</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001406</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001407</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001412</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001413</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001409</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001410</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001414</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001415</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001411</value>
+      </geocode>
+      <geocode>
+        <valueName>Taiwan_Geocode_103</valueName>
+        <value>1001416</value>
+      </geocode>
+    </area>
+    <channel>
+      <value>4370</value>
+    </channel>
+    <link rel="alternate" href="https://cbs.tw/26113cdd5db5"/>
+    <text>[地震速報 Earthquake Alert]11/25 16:47左右臺東地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA</text>
+    <description type="html"><![CDATA[[地震速報 Earthquake Alert]11/25 16:47左右臺東地區發生顯著有感地震，慎防強烈搖晃，就近避難「趴下、掩護、穩住」，氣象署。Felt earthquake alert. Keep calm and seek cover nearby. CWA]]></description>
+  </entry>
   <entry>
     <id>A2026112421464050446599010</id>
     <title>水庫放流</title>
